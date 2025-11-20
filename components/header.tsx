@@ -1,5 +1,5 @@
 'use client'
-import { BookOpenIcon, InfoIcon, LifeBuoyIcon } from "lucide-react"
+import { Instagram, Linkedin, BookOpen, LifeBuoy, Info } from "lucide-react"
 
 import Logo from "@/components/navbar-components/logo"
 import { cn } from "@/lib/utils"
@@ -18,66 +18,116 @@ import {
   PopoverTrigger,
 } from "@/components/ui/popover"
 
+// Navigation link types
+type SubmenuLink = {
+  label: string
+  submenu: true
+  type: string
+  items: {
+    href: string
+    label: string
+    description?: string
+    icon?: string
+  }[]
+}
+
+type SimpleLink = {
+  label: string
+  submenu: false
+  href: string
+}
+
+type NavigationLink = SubmenuLink | SimpleLink
+
 // Navigation links array to be used in both desktop and mobile menus
-const navigationLinks = [
-  { href: "#", label: "Home" },
+const navigationLinks: NavigationLink[] = [
   {
-    label: "Features",
-    submenu: true,
-    type: "description",
-    items: [
-      {
-        href: "#",
-        label: "Components",
-        description: "Browse all components in the library.",
-      },
-      {
-        href: "#",
-        label: "Documentation",
-        description: "Learn how to use the library.",
-      },
-      {
-        href: "#",
-        label: "Templates",
-        description: "Pre-built layouts for common use cases.",
-      },
-    ],
-  },
-  {
-    label: "Pricing",
+    label: "Our School",
     submenu: true,
     type: "simple",
     items: [
-      { href: "#", label: "Product A" },
-      { href: "#", label: "Product B" },
-      { href: "#", label: "Product C" },
-      { href: "#", label: "Product D" },
+      { href: "/welcome", label: "Welcome from the Heads" },
+      { href: "/missionvisionvalues", label: "Mission, Vision & Values" },
+      { href: "/team", label: "Meet Our Team" },
+      { href: "#", label: "Governance" },
+      { href: "#", label: "Policies" },
+      { href: "#", label: "Press" },
+      { href: "#", label: "Safeguarding" },
+      { href: "#", label: "Work at TGS" },
     ],
   },
   {
-    label: "About",
+    label: "Admissions",
     submenu: true,
-    type: "icon",
+    type: "simple",
     items: [
-      { href: "#", label: "Getting Started", icon: "BookOpenIcon" },
-      { href: "#", label: "Tutorials", icon: "LifeBuoyIcon" },
-      { href: "#", label: "About Us", icon: "InfoIcon" },
+      { href: "#", label: "How to Join" },
+      { href: "#", label: "Open Mornings" },
+      { href: "#", label: "Space Availability" },
+      { href: "#", label: "Parent Testimonials" },
+      { href: "#", label: "Moving to Uruguay" },
+      { href: "#", label: "Tuition & Fees" },
+      { href: "#", label: "Soft Landing" },
+      { href: "#", label: "FAQs" },
+    ],
+  },
+  {
+    label: "Learning",
+    submenu: true,
+    type: "simple",
+    items: [
+      { href: "#", label: "Curriculum" },
+      { href: "#", label: "Inquiry-Based Learning" },
+      { href: "#", label: "Wellbeing & Inclusion" },
+      { href: "#", label: "Translanguaging" },
+      { href: "#", label: "Educating for a Changing World" },
+      { href: "#", label: "Accreditation" },
+    ],
+  },
+  {
+    label: "Campus",
+    submenu: true,
+    type: "simple",
+    items: [
+      { href: "#", label: "Our Learning Village" },
+      { href: "#", label: "Nurtured by Nature" },
+    ],
+  },
+  {
+    label: "Co-Curricular",
+    submenu: true,
+    type: "simple",
+    items: [
+      { href: "#", label: "Pathways" },
+      { href: "#", label: "The Heron" },
+    ],
+  },
+  {
+    label: "School Life",
+    submenu: true,
+    type: "simple",
+    items: [
+      { href: "#", label: "TGS Committees" },
+      { href: "#", label: "Calendar & Term Dates" },
+      { href: "#", label: "School Day" },
+      { href: "#", label: "Multiform" },
+      { href: "#", label: "Nutrition" },
     ],
   },
 ]
 
 export const HeroHeader = () => {
   return (
-    <header className="border-b">
+    <header className="">
       <div className="mx-auto max-w-6xl px-4 md:px-6">
-        <div className="flex h-16 items-center justify-between gap-4">
+        <div className="flex h-24 items-center justify-between gap-4">
         {/* Left side */}
         <div className="flex items-center gap-2">
           {/* Mobile menu trigger */}
           <Popover>
             <PopoverTrigger asChild>
               <Button
-                className="group size-8 md:hidden"
+                className="group size-8 text-white hover:bg-white/10 hover:text-white md:hidden"
                 variant="ghost"
                 size="icon"
               >
@@ -137,17 +187,21 @@ export const HeroHeader = () => {
                         </NavigationMenuLink>
                       )}
                       {/* Add separator between different types of items */}
-                      {index < navigationLinks.length - 1 &&
+                      {(() => {
+                        const nextLink = navigationLinks[index + 1]
+                        if (index >= navigationLinks.length - 1) return false
+
                         // Show separator if:
-                        // 1. One is submenu and one is simple link OR
+                        // 1. One is submenu and one is simple link
+                        if (link.submenu !== nextLink.submenu) return true
+
                         // 2. Both are submenus but with different types
-                        ((!link.submenu &&
-                          navigationLinks[index + 1].submenu) ||
-                          (link.submenu &&
-                            !navigationLinks[index + 1].submenu) ||
-                          (link.submenu &&
-                            navigationLinks[index + 1].submenu &&
-                            link.type !== navigationLinks[index + 1].type)) && (
+                        if (link.submenu && nextLink.submenu) {
+                          return link.type !== nextLink.type
+                        }
+
+                        return false
+                      })() && (
                           <div
                             role="separator"
                             aria-orientation="horizontal"
@@ -158,6 +212,22 @@ export const HeroHeader = () => {
                   ))}
                 </NavigationMenuList>
               </NavigationMenu>
+              {/* Mobile menu actions */}
+              <div className="mt-4 flex items-center justify-center gap-2 border-t pt-4">
+                <Button asChild variant="ghost" size="icon" className="size-8">
+                  <a href="#" aria-label="Instagram">
+                    <Instagram className="size-4" />
+                  </a>
+                </Button>
+                <Button asChild variant="ghost" size="icon" className="size-8">
+                  <a href="#" aria-label="LinkedIn">
+                    <Linkedin className="size-4" />
+                  </a>
+                </Button>
+                <Button asChild size="sm" className="bg-rose-200 text-rose-900 hover:bg-rose-300">
+                  <a href="#">Support TGS</a>
+                </Button>
+              </div>
             </PopoverContent>
           </Popover>
           {/* Main nav */}
@@ -172,7 +242,7 @@ export const HeroHeader = () => {
                   <NavigationMenuItem key={index}>
                     {link.submenu ? (
                       <>
-                        <NavigationMenuTrigger className="bg-transparent px-2 py-1.5 font-medium text-muted-foreground hover:text-primary *:[svg]:-me-0.5 *:[svg]:size-3.5">
+                        <NavigationMenuTrigger className="bg-transparent px-2 py-1.5 font-medium text-white hover:text-white/80 *:[svg]:-me-0.5 *:[svg]:size-3.5">
                           {link.label}
                         </NavigationMenuTrigger>
                         <NavigationMenuContent className="z-50 p-1 data-[motion=from-end]:slide-in-from-right-16! data-[motion=from-start]:slide-in-from-left-16! data-[motion=to-end]:slide-out-to-right-16! data-[motion=to-start]:slide-out-to-left-16!">
@@ -193,21 +263,21 @@ export const HeroHeader = () => {
                                   {link.type === "icon" && "icon" in item && (
                                     <div className="flex items-center gap-2">
                                       {item.icon === "BookOpenIcon" && (
-                                        <BookOpenIcon
+                                        <BookOpen
                                           size={16}
                                           className="text-foreground opacity-60"
                                           aria-hidden="true"
                                         />
                                       )}
                                       {item.icon === "LifeBuoyIcon" && (
-                                        <LifeBuoyIcon
+                                        <LifeBuoy
                                           size={16}
                                           className="text-foreground opacity-60"
                                           aria-hidden="true"
                                         />
                                       )}
                                       {item.icon === "InfoIcon" && (
-                                        <InfoIcon
+                                        <Info
                                           size={16}
                                           className="text-foreground opacity-60"
                                           aria-hidden="true"
@@ -245,7 +315,7 @@ export const HeroHeader = () => {
                     ) : (
                       <NavigationMenuLink
                         href={link.href}
-                        className="py-1.5 font-medium text-muted-foreground hover:text-primary"
+                        className="py-1.5 font-medium text-white hover:text-white/80"
                       >
                         {link.label}
                       </NavigationMenuLink>
@@ -258,11 +328,18 @@ export const HeroHeader = () => {
         </div>
         {/* Right side */}
         <div className="flex items-center gap-2">
-          <Button asChild variant="ghost" size="sm" className="text-sm">
-            <a href="#">Sign In</a>
+          <Button asChild variant="ghost" size="icon" className="size-8 text-white hover:bg-white/10 hover:text-white">
+            <a href="#" aria-label="Instagram">
+              <Instagram className="size-4" />
+            </a>
           </Button>
-          <Button asChild size="sm" className="text-sm">
-            <a href="#">Get Started</a>
+          <Button asChild variant="ghost" size="icon" className="size-8 text-white hover:bg-white/10 hover:text-white">
+            <a href="#" aria-label="LinkedIn">
+              <Linkedin className="size-4" />
+            </a>
+          </Button>
+          <Button asChild size="sm" className="bg-rose-200 text-rose-900 hover:bg-rose-300">
+            <a href="#">Support TGS</a>
           </Button>
         </div>
         </div>

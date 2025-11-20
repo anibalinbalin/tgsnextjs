@@ -1,10 +1,11 @@
 import { Card, CardContent, CardHeader } from '@/components/ui/card'
 import { Globe } from 'lucide-react'
 import { SvgPlaceholder } from './svg-placeholder'
+import DevBadge from './dev-badge'
 
 export default function Features() {
     return (
-        <section className="dark:bg-muted/25 bg-zinc-50 py-16 md:py-32">
+        <section className="relative dark:bg-muted/25 bg-zinc-50 py-16 md:py-32">
             <div className="mx-auto max-w-5xl px-6">
                 <div className="mx-auto grid gap-2 sm:grid-cols-5">
                     <Card className="group overflow-hidden shadow-zinc-950/5 sm:col-span-3 sm:rounded-none sm:rounded-tl-xl">
@@ -88,6 +89,7 @@ export default function Features() {
                     </Card>
                 </div>
             </div>
+            <DevBadge name="features-11" />
         </section>
     )
 }

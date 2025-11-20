@@ -1,12 +1,24 @@
+import { Cpu, Fingerprint, Pencil, Settings2, Sparkles, Zap } from 'lucide-react'
+import DevBadge from './dev-badge'
+
 export default function Features() {
     return (
-        <section className="py-12 md:py-20">
-            <div className="mx-auto max-w-5xl px-6">
-                <div className="relative z-10 mx-auto max-w-xl space-y-6 text-center">
-                    <h2 className="text-balance text-4xl font-medium lg:text-5xl">Explore, Connect, Belong</h2>
-                    <p>On our wild 38-hectare campus, education comes alive through exploration, connection, and a deep sense of belonging. Rooted in diversity and inclusion, we inspire students to grow with purpose, take risks, tackle challenges head-on, and lead with compassion to create real change.</p>
+        <section className="relative py-12 md:py-20">
+            <div className="mx-auto max-w-5xl space-y-8 px-6 md:space-y-16">
+                <div className="relative z-10 mx-auto max-w-xl space-y-6 text-center md:space-y-12">
+                    <h2 className="text-balance text-heading-empowering">Follow our journey on Instagram.</h2>
+                </div>
+
+                <div className="relative mx-auto grid max-w-4xl divide-x divide-y border *:p-12 sm:grid-cols-2 lg:grid-cols-3">
+                    <div className="bg-gradient-to-br from-blue-50 to-indigo-50"></div>
+                    <div className="bg-gradient-to-br from-purple-50 to-pink-50"></div>
+                    <div className="bg-gradient-to-br from-emerald-50 to-teal-50"></div>
+                    <div className="bg-gradient-to-br from-amber-50 to-orange-50"></div>
+                    <div className="bg-gradient-to-br from-rose-50 to-red-50"></div>
+                    <div className="bg-gradient-to-br from-cyan-50 to-sky-50"></div>
                 </div>
             </div>
+            <DevBadge name="features-4" />
         </section>
     )
 }

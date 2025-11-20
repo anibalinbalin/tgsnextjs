@@ -1,7 +1,9 @@
 "use client";
 
-import { ArrowLeft, ArrowRight, ArrowUpRight } from "lucide-react";
+import { ArrowLeft, ArrowRight } from "lucide-react";
 import { useEffect, useState } from "react";
+import Image from "next/image";
+import DevBadge from "../dev-badge";
 
 import { Button } from "@/components/ui/button";
 import {
@@ -31,43 +33,178 @@ const Gallery6 = ({
   items = [
     {
       id: "item-1",
-      title: "Build Modern UIs",
-      summary:
-        "Create stunning user interfaces with our comprehensive design system.",
+      title: "Leona",
+      summary: "Co-Head of School",
       url: "#",
-      image: "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=800&h=600&fit=crop",
+      image: "/assets/0_mainpage/staff/LeonaD.JPG",
     },
     {
       id: "item-2",
-      title: "Computer Vision Technology",
-      summary:
-        "Powerful image recognition and processing capabilities that allow AI systems to analyze, understand, and interpret visual information from the world.",
+      title: "Sam",
+      summary: "Co-Head of School",
       url: "#",
-      image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&h=600&fit=crop",
+      image: "/assets/0_mainpage/staff/SamI.JPG",
     },
     {
       id: "item-3",
-      title: "Machine Learning Automation",
-      summary:
-        "Self-improving algorithms that learn from data patterns to automate complex tasks and make intelligent decisions with minimal human intervention.",
+      title: "Annina",
+      summary: "Lower School Coordinator",
       url: "#",
-      image: "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=800&h=600&fit=crop",
+      image: "/assets/0_mainpage/staff/Annina.JPG",
     },
     {
       id: "item-4",
-      title: "Predictive Analytics",
-      summary:
-        "Advanced forecasting capabilities that analyze historical data to predict future trends and outcomes, helping businesses make data-driven decisions.",
+      title: "Santiago",
+      summary: "Technical Director (Secondary)",
       url: "#",
-      image: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&h=600&fit=crop",
+      image: "/assets/0_mainpage/staff/Santi.JPG",
     },
     {
       id: "item-5",
-      title: "Neural Network Architecture",
-      summary:
-        "Sophisticated AI models inspired by human brain structure, capable of solving complex problems through deep learning and pattern recognition.",
+      title: "Fiorella",
+      summary: "Secondary Educator (Literature)",
       url: "#",
-      image: "https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=800&h=600&fit=crop",
+      image: "/assets/0_mainpage/staff/Fio.JPG",
+    },
+    {
+      id: "item-6",
+      title: "Nicolás",
+      summary: "Secondary Educator (STEM)",
+      url: "#",
+      image: "/assets/0_mainpage/staff/Nicolas.JPG",
+    },
+    {
+      id: "item-7",
+      title: "Otto",
+      summary: "Secondary Educator (Art & Design)",
+      url: "#",
+      image: "/assets/0_mainpage/staff/Otto.JPG",
+    },
+    {
+      id: "item-8",
+      title: "Natalia",
+      summary: "Technical Director (Primary)",
+      url: "#",
+      image: "/assets/0_mainpage/staff/NataliaD.JPG",
+    },
+    {
+      id: "item-9",
+      title: "Camila",
+      summary: "Primary Educator",
+      url: "#",
+      image: "/assets/0_mainpage/staff/CamilaN.JPG",
+    },
+    {
+      id: "item-10",
+      title: "Talia",
+      summary: "Primary Educator",
+      url: "#",
+      image: "/assets/0_mainpage/staff/Talia.JPG",
+    },
+    {
+      id: "item-11",
+      title: "Juan",
+      summary: "Primary Educator",
+      url: "#",
+      image: "/assets/0_mainpage/staff/JuanDF.JPG",
+    },
+    {
+      id: "item-12",
+      title: "Jessica",
+      summary: "Primary Educator",
+      url: "#",
+      image: "/assets/0_mainpage/staff/Jess.JPG",
+    },
+    {
+      id: "item-13",
+      title: "Jimena",
+      summary: "Primary Educator",
+      url: "#",
+      image: "/assets/0_mainpage/staff/Jime.JPG",
+    },
+    {
+      id: "item-14",
+      title: "Lucía",
+      summary: "Early Years Educator",
+      url: "#",
+      image: "/assets/0_mainpage/staff/Lucia.JPG",
+    },
+    {
+      id: "item-15",
+      title: "Ksenia",
+      summary: "Early Years Educator",
+      url: "#",
+      image: "/assets/0_mainpage/staff/Ksenia.JPG",
+    },
+    {
+      id: "item-16",
+      title: "Verónica",
+      summary: "Early Years Educator",
+      url: "#",
+      image: "/assets/0_mainpage/staff/Vero.JPG",
+    },
+    {
+      id: "item-17",
+      title: "Camila",
+      summary: "Early Years Educator",
+      url: "#",
+      image: "/assets/0_mainpage/staff/CamiR.JPG",
+    },
+    {
+      id: "item-18",
+      title: "Catalina",
+      summary: "Educational Psychologist (Primary)",
+      url: "#",
+      image: "/assets/0_mainpage/staff/Catalina.JPG",
+    },
+    {
+      id: "item-19",
+      title: "Agostina",
+      summary: "Educational Psychologist (Secondary)",
+      url: "#",
+      image: "/assets/0_mainpage/staff/Agos.JPG",
+    },
+    {
+      id: "item-20",
+      title: "Ignacio",
+      summary: "Music Specialist (Primary)",
+      url: "#",
+      image: "/assets/0_mainpage/staff/ignacio.jpg",
+    },
+    {
+      id: "item-21",
+      title: "Victoria",
+      summary: "Facilities Supervisor",
+      url: "#",
+      image: "/assets/0_mainpage/staff/vicky.jpg",
+    },
+    {
+      id: "item-22",
+      title: "Gerardo",
+      summary: "Groundskeeper",
+      url: "#",
+      image: "/assets/0_mainpage/staff/Gerardo.JPG",
+    },
+    {
+      id: "item-23",
+      title: "Jacques",
+      summary: "Admissions Officer",
+      url: "#",
+      image: "/assets/0_mainpage/staff/jacques.JPG",
+    },
+    {
+      id: "item-24",
+      title: "Analaura",
+      summary: "Accountant",
+      url: "#",
+      image: "/assets/0_mainpage/staff/Analaura.JPG",
+    },
+    {
+      id: "item-25",
+      title: "Ma. Eugenia",
+      summary: "Co-Curricular Coordinator",
+      url: "#",
+      image: "/assets/0_mainpage/staff/Maru.JPG",
     },
   ],
 }: Gallery6Props) => {
@@ -89,33 +226,7 @@ const Gallery6 = ({
     };
   }, [carouselApi]);
   return (
-    <section className="py-32">
-      <div className="container">
-        <div className="mb-8 flex items-center justify-end gap-2 md:mb-14 lg:mb-16">
-          <Button
-            size="icon"
-            variant="outline"
-            onClick={() => {
-              carouselApi?.scrollPrev();
-            }}
-            disabled={!canScrollPrev}
-            className="disabled:pointer-events-auto"
-          >
-            <ArrowLeft className="size-5" />
-          </Button>
-          <Button
-            size="icon"
-            variant="outline"
-            onClick={() => {
-              carouselApi?.scrollNext();
-            }}
-            disabled={!canScrollNext}
-            className="disabled:pointer-events-auto"
-          >
-            <ArrowRight className="size-5" />
-          </Button>
-        </div>
-      </div>
+    <section className="relative bg-[#D39885] py-16">
       <div className="w-full">
         <Carousel
           setApi={setCarouselApi}
@@ -130,40 +241,65 @@ const Gallery6 = ({
         >
           <CarouselContent className="-mr-4 ml-8 2xl:ml-[max(8rem,calc(50vw-700px+1rem))] 2xl:mr-[max(0rem,calc(50vw-700px-1rem))]">
             {items.map((item) => (
-              <CarouselItem key={item.id} className="pl-4 md:max-w-[452px]">
+              <CarouselItem key={item.id} className="pl-4 md:max-w-[280px]">
                 <a
                   href={item.url}
                   className="group flex flex-col justify-between"
                 >
                   <div>
-                    <div className="flex aspect-[3/2] overflow-clip rounded-xl">
-                      <div className="flex-1">
-                        <div className="relative h-full w-full origin-bottom transition duration-300 group-hover:scale-105">
-                          <img
-                            src={item.image}
-                            alt={item.title}
-                            className="h-full w-full object-cover object-center"
-                          />
-                        </div>
-                      </div>
+                    <div className="relative aspect-[500/667] overflow-clip rounded-xl">
+                      <Image
+                        src={item.image}
+                        alt={item.title}
+                        fill
+                        className="object-cover"
+                      />
                     </div>
                   </div>
-                  <div className="mb-2 line-clamp-3 break-words pt-4 text-lg font-medium md:mb-3 md:pt-4 md:text-xl lg:pt-4 lg:text-2xl">
+                  <div className="mb-2 line-clamp-3 break-words pt-4 text-lg font-medium text-white md:mb-3 md:pt-4 md:text-xl lg:pt-4 lg:text-2xl">
                     {item.title}
                   </div>
-                  <div className="mb-8 line-clamp-2 text-sm text-muted-foreground md:mb-12 md:text-base lg:mb-9">
+                  <div className="mb-8 line-clamp-2 text-sm text-white md:mb-12 md:text-base lg:mb-9">
                     {item.summary}
-                  </div>
-                  <div className="flex items-center text-sm">
-                    Read more{" "}
-                    <ArrowRight className="ml-2 size-5 transition-transform group-hover:translate-x-1" />
                   </div>
                 </a>
               </CarouselItem>
             ))}
           </CarouselContent>
+          <Button
+            size="icon"
+            variant="outline"
+            onClick={() => {
+              carouselApi?.scrollPrev();
+            }}
+            disabled={!canScrollPrev}
+            className="absolute top-[200px] left-8 disabled:pointer-events-auto"
+          >
+            <ArrowLeft className="size-5" />
+          </Button>
+          <Button
+            size="icon"
+            variant="outline"
+            onClick={() => {
+              carouselApi?.scrollNext();
+            }}
+            disabled={!canScrollNext}
+            className="absolute top-[200px] right-8 disabled:pointer-events-auto"
+          >
+            <ArrowRight className="size-5" />
+          </Button>
         </Carousel>
       </div>
+      <div className="w-full mt-6 flex justify-center">
+        <Button
+          variant="outline"
+          size="lg"
+          className="bg-white/90 hover:bg-white text-[#D39885] border-white/50"
+        >
+          Learn more about our team!
+        </Button>
+      </div>
+      <DevBadge name="gallery6" />
     </section>
   );
 };
