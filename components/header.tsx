@@ -1,7 +1,10 @@
 'use client'
-import { Instagram, Linkedin, BookOpen, LifeBuoy, Info } from "lucide-react"
+import { usePathname } from "next/navigation"
+import { Instagram, Linkedin, BookOpen, LifeBuoy, Info, Search } from "lucide-react"
 
 import Logo from "@/components/navbar-components/logo"
+import { useSearch } from "@/lib/search/use-search"
+import { SearchCommand } from "@/components/search-command"
 import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
 import {
@@ -49,11 +52,11 @@ const navigationLinks: NavigationLink[] = [
       { href: "/welcome", label: "Welcome from the Heads" },
       { href: "/missionvisionvalues", label: "Mission, Vision & Values" },
       { href: "/team", label: "Meet Our Team" },
-      { href: "#", label: "Governance" },
-      { href: "#", label: "Policies" },
-      { href: "#", label: "Press" },
-      { href: "#", label: "Safeguarding" },
-      { href: "#", label: "Work at TGS" },
+      { href: "/governance", label: "Governance" },
+      { href: "/policies", label: "Policies" },
+      { href: "/press", label: "Press" },
+      { href: "/safeguarding", label: "Safeguarding" },
+      { href: "/work", label: "Work at TGS" },
     ],
   },
   {
@@ -61,14 +64,14 @@ const navigationLinks: NavigationLink[] = [
     submenu: true,
     type: "simple",
     items: [
-      { href: "#", label: "How to Join" },
-      { href: "#", label: "Open Mornings" },
-      { href: "#", label: "Space Availability" },
-      { href: "#", label: "Parent Testimonials" },
-      { href: "#", label: "Moving to Uruguay" },
-      { href: "#", label: "Tuition & Fees" },
+      { href: "/howtojoin", label: "How to Join" },
+      { href: "/openmornings", label: "Open Mornings" },
+      { href: "/spaces", label: "Space Availability" },
+      { href: "/testimonials", label: "Parent Testimonials" },
+      { href: "/moving-to-uruguay", label: "Moving to Uruguay" },
+      { href: "/fees", label: "Tuition & Fees" },
       { href: "#", label: "Soft Landing" },
-      { href: "#", label: "FAQs" },
+      { href: "/faqs", label: "FAQs" },
     ],
   },
   {
@@ -77,11 +80,11 @@ const navigationLinks: NavigationLink[] = [
     type: "simple",
     items: [
       { href: "#", label: "Curriculum" },
-      { href: "#", label: "Inquiry-Based Learning" },
+      { href: "/inquiry-based-learning", label: "Inquiry-Based Learning" },
       { href: "#", label: "Wellbeing & Inclusion" },
-      { href: "#", label: "Translanguaging" },
-      { href: "#", label: "Educating for a Changing World" },
-      { href: "#", label: "Accreditation" },
+      { href: "/translanguaging", label: "Translanguaging" },
+      { href: "/educating-for-a-changing-world", label: "Educating for a Changing World" },
+      { href: "/accreditation", label: "Accreditation" },
     ],
   },
   {
@@ -89,8 +92,8 @@ const navigationLinks: NavigationLink[] = [
     submenu: true,
     type: "simple",
     items: [
-      { href: "#", label: "Our Learning Village" },
-      { href: "#", label: "Nurtured by Nature" },
+      { href: "/learningvillage", label: "Our Learning Village" },
+      { href: "/nature", label: "Nurtured by Nature" },
     ],
   },
   {
@@ -98,8 +101,8 @@ const navigationLinks: NavigationLink[] = [
     submenu: true,
     type: "simple",
     items: [
-      { href: "#", label: "Pathways" },
-      { href: "#", label: "The Heron" },
+      { href: "/pathways", label: "Pathways" },
+      { href: "/heron", label: "The Heron" },
     ],
   },
   {
@@ -107,16 +110,27 @@ const navigationLinks: NavigationLink[] = [
     submenu: true,
     type: "simple",
     items: [
-      { href: "#", label: "TGS Committees" },
+      { href: "/committees", label: "TGS Committees" },
       { href: "#", label: "Calendar & Term Dates" },
-      { href: "#", label: "School Day" },
-      { href: "#", label: "Multiform" },
-      { href: "#", label: "Nutrition" },
+      { href: "/day", label: "School Day" },
+      { href: "/multiform", label: "Multiform" },
+      { href: "/nutrition", label: "Nutrition" },
     ],
   },
 ]
 
 export const HeroHeader = () => {
+  const pathname = usePathname()
+  const { open, setOpen } = useSearch()
+
+  // Check if any child route matches current path
+  const isParentActive = (items: { href: string }[]) =>
+    items.some(item => item.href !== "#" && pathname === item.href)
+
+  // Check if specific child is active
+  const isChildActive = (href: string) =>
+    href !== "#" && pathname === href
+
   return (
     <header className="">
       <div className="mx-auto max-w-6xl px-4 md:px-6">
@@ -165,7 +179,7 @@ export const HeroHeader = () => {
                     <NavigationMenuItem key={index} className="w-full">
                       {link.submenu ? (
                         <>
-                          <div className="px-2 py-1.5 text-xs font-medium text-muted-foreground">
+                          <div className={cn("px-2 py-1.5 text-xs font-medium text-muted-foreground", isParentActive(link.items) && "underline underline-offset-4")}>
                             {link.label}
                           </div>
                           <ul>
@@ -173,7 +187,7 @@ export const HeroHeader = () => {
                               <li key={itemIndex}>
                                 <NavigationMenuLink
                                   href={item.href}
-                                  className="py-1.5"
+                                  className={cn("py-1.5", isChildActive(item.href) && "underline underline-offset-4")}
                                 >
                                   {item.label}
                                 </NavigationMenuLink>
@@ -214,6 +228,15 @@ export const HeroHeader = () => {
               </NavigationMenu>
               {/* Mobile menu actions */}
               <div className="mt-4 flex items-center justify-center gap-2 border-t pt-4">
+                <Button
+                  variant="ghost"
+                  size="icon"
+                  className="size-8"
+                  onClick={() => setOpen(true)}
+                  aria-label="Search"
+                >
+                  <Search className="size-4" />
+                </Button>
                 <Button asChild variant="ghost" size="icon" className="size-8">
                   <a href="#" aria-label="Instagram">
                     <Instagram className="size-4" />
@@ -225,14 +248,14 @@ export const HeroHeader = () => {
                   </a>
                 </Button>
                 <Button asChild size="sm" className="bg-rose-200 text-rose-900 hover:bg-rose-300">
-                  <a href="#">Support TGS</a>
+                  <a href="/donate">Support TGS</a>
                 </Button>
               </div>
             </PopoverContent>
           </Popover>
           {/* Main nav */}
           <div className="flex items-center gap-6">
-            <a href="#" className="text-primary hover:text-primary/90">
+            <a href="/" className="text-primary hover:text-primary/90">
               <Logo />
             </a>
             {/* Navigation menu */}
@@ -242,7 +265,7 @@ export const HeroHeader = () => {
                   <NavigationMenuItem key={index}>
                     {link.submenu ? (
                       <>
-                        <NavigationMenuTrigger className="bg-transparent px-2 py-1.5 font-medium text-white hover:text-white/80 *:[svg]:-me-0.5 *:[svg]:size-3.5">
+                        <NavigationMenuTrigger className={cn("!bg-transparent hover:!bg-transparent focus:!bg-transparent px-2 py-1.5 font-medium !text-white hover:!text-white focus:!text-white data-[state=open]:!text-white data-[state=open]:!bg-[#D39885]/60 data-[state=open]:rounded-md *:[svg]:-me-0.5 *:[svg]:size-3.5", isParentActive(link.items) && "underline underline-offset-4")}>
                           {link.label}
                         </NavigationMenuTrigger>
                         <NavigationMenuContent className="z-50 p-1 data-[motion=from-end]:slide-in-from-right-16! data-[motion=from-start]:slide-in-from-left-16! data-[motion=to-end]:slide-out-to-right-16! data-[motion=to-start]:slide-out-to-left-16!">
@@ -257,7 +280,7 @@ export const HeroHeader = () => {
                               <li key={itemIndex}>
                                 <NavigationMenuLink
                                   href={item.href}
-                                  className="py-1.5"
+                                  className={cn("py-1.5", isChildActive(item.href) && "underline underline-offset-4")}
                                 >
                                   {/* Display icon if present */}
                                   {link.type === "icon" && "icon" in item && (
@@ -328,6 +351,15 @@ export const HeroHeader = () => {
         </div>
         {/* Right side */}
         <div className="flex items-center gap-2">
+          <Button
+            variant="ghost"
+            size="icon"
+            className="size-8 text-white hover:bg-white/10 hover:text-white"
+            onClick={() => setOpen(true)}
+            aria-label="Search"
+          >
+            <Search className="size-4" />
+          </Button>
           <Button asChild variant="ghost" size="icon" className="size-8 text-white hover:bg-white/10 hover:text-white">
             <a href="#" aria-label="Instagram">
               <Instagram className="size-4" />
@@ -344,6 +376,7 @@ export const HeroHeader = () => {
         </div>
         </div>
       </div>
+      <SearchCommand open={open} onOpenChange={setOpen} />
     </header>
   )
 }

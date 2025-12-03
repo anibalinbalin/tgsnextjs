@@ -1,15 +1,10 @@
-import DevBadge from './dev-badge'
+import ContentBlock from './content-block'
 
 export default function LearnersToLeaders() {
     return (
-        <section className="relative py-16 md:py-32">
-            <div className="mx-auto max-w-5xl px-6">
-                <div className="mx-auto max-w-4xl space-y-6 text-justify">
-                    <h2 className="text-balance text-center text-heading-empowering">From Learners to Leaders</h2>
-                    <p className="text-body-intro">The Garzón School goes beyond education—it's a way of being. We shape thoughtful individuals who build strong relationships, take ownership of their actions, and contribute to their communities. Grounded in joy, integrity, and connection, we empower learners to shape the world on their terms.</p>
-                </div>
-            </div>
-            <DevBadge name="learners-to-leaders" />
-        </section>
+        <ContentBlock name="learners-to-leaders">
+            <h2 className="text-balance text-center text-4xl leading-snug font-medium text-[#C65D3B]">From Learners to Leaders</h2>
+            <p className="text-2xl leading-relaxed font-light">The Garzón School goes beyond education—it<span style={{ fontFamily: 'var(--font-geist-sans), system-ui, sans-serif' }}>'</span>s a way of being. We shape thoughtful individuals who build strong relationships, take ownership of their actions, and contribute to their communities. Grounded in joy, integrity, and connection, we empower learners to shape the world on their terms.</p>
+        </ContentBlock>
     )
 }

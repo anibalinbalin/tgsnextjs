@@ -72,7 +72,7 @@ export default function MissionVisionValuesPage() {
 
     return (
         <>
-            <div className="relative h-[70vh] bg-cover bg-center bg-no-repeat" style={{ backgroundImage: 'url(/assets/ourschool/1_missionvisionvalues/DSC_0215.JPG)' }}>
+            <div className="relative h-[70vh] bg-cover bg-center bg-no-repeat" style={{ backgroundImage: 'url(/assets/1_ourschool/1_missionvisionvalues/DSC_0215.JPG)' }}>
                 <div className="absolute inset-0 bg-black/20 z-0" />
                 <div className="relative z-10">
                     <HeroHeader />
@@ -80,7 +80,7 @@ export default function MissionVisionValuesPage() {
                         <section className="h-[70vh] flex items-center">
                             <div className="relative mx-auto flex max-w-6xl flex-col px-6 lg:block w-full">
                                 <div className="mx-auto max-w-lg text-center lg:ml-0 lg:w-1/2 lg:text-left">
-                                    <h1 className="max-w-2xl font-medium text-white" style={{ fontSize: '99px', lineHeight: '99px' }}>
+                                    <h1 className="max-w-2xl font-medium text-white text-5xl md:text-6xl lg:text-7xl">
                                         Empowering<br />changemakers.
                                     </h1>
                                 </div>
@@ -144,10 +144,10 @@ export default function MissionVisionValuesPage() {
             <section className="relative py-16 md:py-32" style={{ backgroundColor: '#D39885' }}>
                 <div className="mx-auto max-w-5xl px-6">
                     <div className="mx-auto max-w-4xl space-y-6">
-                        <h2 className="text-balance text-center text-white flex items-center justify-center" style={{ fontSize: '35px', lineHeight: '47px', fontWeight: 500 }}>
+                        <h2 className="text-balance text-center text-white flex items-center justify-center text-4xl leading-snug font-medium">
                             Our Values
                         </h2>
-                        <p className="text-white text-justify" style={{ fontSize: '22px', lineHeight: '40px', fontWeight: 300 }}>
+                        <p className="text-white text-justify text-2xl leading-loose font-light">
                             Every journey of change begins with an idea—a spark of curiosity, a moment of inspiration, or the recognition of a challenge that demands action. At The Garzón School, IDEAS (Innovation, Diversity, Ethics, Agency, and Service) form the essential framework that drives our mission to empower changemakers, shaping not just what we do but how we do it—fostering a culture of creativity, inclusivity, integrity, and purpose that prepares learners to make meaningful impacts in their communities and beyond.
                         </p>
 
@@ -155,10 +155,10 @@ export default function MissionVisionValuesPage() {
                             <Accordion type="single" collapsible className="w-full">
                                 {valuesItems.map((item) => (
                                     <AccordionItem key={item.id} value={item.id} className="border-white/40 border-b-2">
-                                        <AccordionTrigger className="relative !justify-center text-center text-white font-medium hover:no-underline !items-center [&>svg]:absolute [&>svg]:right-0 [&>svg]:text-white" style={{ fontSize: '35px', lineHeight: '47px', fontWeight: 500 }}>
+                                        <AccordionTrigger className="relative !justify-center text-center text-white font-medium hover:no-underline !items-center [&>svg]:absolute [&>svg]:right-0 [&>svg]:text-white text-4xl leading-snug">
                                             {item.title}
                                         </AccordionTrigger>
-                                        <AccordionContent className="text-white pb-16" style={{ fontSize: '22px', lineHeight: '40px', fontWeight: 300 }}>
+                                        <AccordionContent className="text-white pb-16 text-2xl leading-loose font-light">
                                             {item.content}
                                         </AccordionContent>
                                     </AccordionItem>
@@ -176,7 +176,7 @@ export default function MissionVisionValuesPage() {
             <section className="relative w-full">
                 <div className="relative w-full h-[60vh] md:h-[70vh]">
                     <Image
-                        src="/assets/ourschool/1_missionvisionvalues/IMG_7646.JPG"
+                        src="/assets/1_ourschool/1_missionvisionvalues/IMG_7646.JPG"
                         alt="The Garzón School"
                         fill
                         className="object-cover"
@@ -189,7 +189,7 @@ export default function MissionVisionValuesPage() {
             <section className="relative py-12 md:py-20" style={{ backgroundColor: '#D39885' }}>
                 <div className="mx-auto max-w-5xl px-6">
                     <div className="relative z-10 mx-auto max-w-4xl space-y-6 text-justify">
-                        <p className="text-white" style={{ fontSize: '22px', lineHeight: '40px', fontWeight: 300 }}>Innovation fuels creative problem-solving. Diversity broadens perspectives and builds empathy. Ethics ensures decisions are made with integrity. Agency empowers ownership and intentionality. Service connects learning with actions that create change. Together, these values form the backbone of our mission, ensuring changemakers emerge equipped to lead with authenticity, integrity, and purpose.</p>
+                        <p className="text-white text-2xl leading-loose font-light">Innovation fuels creative problem-solving. Diversity broadens perspectives and builds empathy. Ethics ensures decisions are made with integrity. Agency empowers ownership and intentionality. Service connects learning with actions that create change. Together, these values form the backbone of our mission, ensuring changemakers emerge equipped to lead with authenticity, integrity, and purpose.</p>
                     </div>
                 </div>
                 <DevBadge name="mvv-ideas-detail" />

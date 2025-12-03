@@ -1,0 +1,9 @@
+import ContentBlock from './content-block'
+
+export default function Changing5() {
+    return (
+        <ContentBlock name="changing-5" className="py-12 md:py-20 bg-white">
+            <p className="text-2xl leading-relaxed font-light text-black">Education is changing fast. Faster than most schools care to admit. While the world debates whether ChatGPT should be banned or embraced, we<span style={{ fontFamily: 'var(--font-geist-sans), system-ui, sans-serif' }}>'</span>ve already moved on to the real question: <span className="font-bold">what kind of education is still worth having?</span> At The Garzón School, we see the rise of technologies such as generative AI not as a threat to traditional learning, but as proof that traditional learning is already out of date. If a chatbot can do the thinking for you, maybe we need to rethink the teaching and learning. We<span style={{ fontFamily: 'var(--font-geist-sans), system-ui, sans-serif' }}>'</span>re not interested in busywork. We<span style={{ fontFamily: 'var(--font-geist-sans), system-ui, sans-serif' }}>'</span>re not preparing learners to fill in blanks or passively absorb information. We<span style={{ fontFamily: 'var(--font-geist-sans), system-ui, sans-serif' }}>'</span>re preparing them to question, challenge, create, collaborate, and lead — because in a world overflowing with fast answers (some right, some wildly wrong), it<span style={{ fontFamily: 'var(--font-geist-sans), system-ui, sans-serif' }}>'</span>s our competencies that matter most. Critical thinking. Ethical judgment. Clear communication. Adaptability. These are the tools that will serve our students in a future we can<span style={{ fontFamily: 'var(--font-geist-sans), system-ui, sans-serif' }}>'</span>t yet predict, but that they<span style={{ fontFamily: 'var(--font-geist-sans), system-ui, sans-serif' }}>'</span>ll be ready to shape.</p>
+        </ContentBlock>
+    )
+}

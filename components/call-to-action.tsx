@@ -7,8 +7,8 @@ export default function CallToAction() {
         <section className="relative py-16 md:py-32">
             <div className="mx-auto max-w-5xl px-6">
                 <div className="text-center">
-                    <h2 className="text-balance text-heading-empowering">Start Building</h2>
-                    <p className="mt-4 text-body-intro">Libero sapiente aliquam quibusdam aspernatur.</p>
+                    <h2 className="text-balance text-4xl leading-snug font-medium text-[#C65D3B]">Start Building</h2>
+                    <p className="mt-4 text-2xl leading-relaxed font-light">Libero sapiente aliquam quibusdam aspernatur.</p>
 
                     <div className="mt-12 flex flex-wrap justify-center gap-4">
                         <Button

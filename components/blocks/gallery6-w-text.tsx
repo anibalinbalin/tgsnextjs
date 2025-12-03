@@ -1,7 +1,8 @@
 "use client";
 
 import { ArrowLeft, ArrowRight, ArrowUpRight } from "lucide-react";
-import { useEffect, useState } from "react";
+import { useState } from "react";
+import { useCarouselNavigation } from "@/lib/hooks/useCarouselNavigation";
 
 import { Button } from "@/components/ui/button";
 import {
@@ -16,7 +17,7 @@ interface GalleryItem {
   title: string;
   role?: string;
   flag?: string;
-  summary: string;
+  summary?: string;
   url: string;
   image: string;
 }
@@ -26,12 +27,18 @@ interface Gallery6Props {
   demoUrl?: string;
   showDemo?: boolean;
   items?: GalleryItem[];
+  showNavigation?: boolean;
+  backgroundColor?: string;
+  textColor?: string;
 }
 
 const Gallery6WithText = ({
   heading = "Gallery",
   demoUrl = "https://www.shadcnblocks.com",
   showDemo = true,
+  showNavigation = true,
+  backgroundColor,
+  textColor,
   items = [
     {
       id: "item-1",
@@ -76,28 +83,13 @@ const Gallery6WithText = ({
   ],
 }: Gallery6Props) => {
   const [carouselApi, setCarouselApi] = useState<CarouselApi>();
-  const [canScrollPrev, setCanScrollPrev] = useState(false);
-  const [canScrollNext, setCanScrollNext] = useState(false);
-  useEffect(() => {
-    if (!carouselApi) {
-      return;
-    }
-    const updateSelection = () => {
-      setCanScrollPrev(carouselApi.canScrollPrev());
-      setCanScrollNext(carouselApi.canScrollNext());
-    };
-    updateSelection();
-    carouselApi.on("select", updateSelection);
-    return () => {
-      carouselApi.off("select", updateSelection);
-    };
-  }, [carouselApi]);
+  const { canScrollPrev, canScrollNext } = useCarouselNavigation(carouselApi);
   return (
-    <section className="py-32">
+    <section className="py-16 md:py-20 lg:py-32" style={backgroundColor ? { backgroundColor } : undefined}>
       <div className="container">
         <div className="relative mb-8 flex flex-col justify-center md:mb-14 md:flex-row md:justify-center md:items-start lg:mb-16">
           <div className="w-full">
-            <h2 className="mb-3 text-center text-3xl font-semibold md:mb-4 md:text-4xl lg:mb-6">
+            <h2 className="mb-3 text-center text-3xl font-semibold md:mb-4 md:text-4xl lg:mb-6" style={textColor ? { color: textColor } : undefined}>
               {heading}
             </h2>
             {showDemo && (
@@ -110,30 +102,32 @@ const Gallery6WithText = ({
               </a>
             )}
           </div>
-          <div className="mt-8 flex shrink-0 items-center justify-start gap-2 md:absolute md:right-0 md:mt-0">
-            <Button
-              size="icon"
-              variant="outline"
-              onClick={() => {
-                carouselApi?.scrollPrev();
-              }}
-              disabled={!canScrollPrev}
-              className="disabled:pointer-events-auto"
-            >
-              <ArrowLeft className="size-5" />
-            </Button>
-            <Button
-              size="icon"
-              variant="outline"
-              onClick={() => {
-                carouselApi?.scrollNext();
-              }}
-              disabled={!canScrollNext}
-              className="disabled:pointer-events-auto"
-            >
-              <ArrowRight className="size-5" />
-            </Button>
-          </div>
+          {showNavigation && (
+            <div className="mt-8 flex shrink-0 items-center justify-start gap-2 md:absolute md:right-0 md:mt-0">
+              <Button
+                size="icon"
+                variant="outline"
+                onClick={() => {
+                  carouselApi?.scrollPrev();
+                }}
+                disabled={!canScrollPrev}
+                className="disabled:pointer-events-auto"
+              >
+                <ArrowLeft className="size-5" />
+              </Button>
+              <Button
+                size="icon"
+                variant="outline"
+                onClick={() => {
+                  carouselApi?.scrollNext();
+                }}
+                disabled={!canScrollNext}
+                className="disabled:pointer-events-auto"
+              >
+                <ArrowRight className="size-5" />
+              </Button>
+            </div>
+          )}
         </div>
       </div>
       <div className="w-full">
@@ -156,7 +150,7 @@ const Gallery6WithText = ({
                   className="group flex flex-col justify-between"
                 >
                   <div>
-                    <div className="flex aspect-[3/4] overflow-clip rounded-xl">
+                    <div className="flex aspect-[3/4] overflow-clip rounded-xl portrait:max-h-[65vh]">
                       <div className="flex-1">
                         <div className="relative h-full w-full">
                           <img
@@ -168,11 +162,11 @@ const Gallery6WithText = ({
                       </div>
                     </div>
                   </div>
-                  <div className="mb-2 line-clamp-3 break-words pt-4 text-lg font-medium md:mb-3 md:pt-4 md:text-xl lg:pt-4 lg:text-2xl">
+                  <div className="mb-2 line-clamp-3 break-words pt-4 text-lg font-medium md:mb-3 md:pt-4 md:text-xl lg:pt-4 lg:text-2xl" style={textColor ? { color: textColor } : undefined}>
                     {item.title}
                   </div>
                   {item.role && (
-                    <div className="mb-4 text-sm font-medium md:text-base">
+                    <div className="mb-4 text-sm font-medium md:text-base" style={textColor ? { color: textColor } : undefined}>
                       {item.role}
                     </div>
                   )}
@@ -181,9 +175,11 @@ const Gallery6WithText = ({
                       {item.flag}
                     </div>
                   )}
-                  <div className="mb-8 text-sm text-muted-foreground md:mb-12 md:text-base lg:mb-9">
-                    {item.summary}
-                  </div>
+                  {item.summary && (
+                    <div className="mb-8 text-sm text-muted-foreground md:mb-12 md:text-base lg:mb-9" style={textColor ? { color: textColor } : undefined}>
+                      {item.summary}
+                    </div>
+                  )}
                 </a>
               </CarouselItem>
             ))}

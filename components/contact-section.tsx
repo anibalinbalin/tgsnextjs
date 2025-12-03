@@ -44,23 +44,23 @@ export function ContactSection({
   }
 
   return (
-    <section className="py-16 md:py-32">
+    <section className="py-16 md:py-32" style={{ backgroundColor: '#95af98' }}>
       <div className="mx-auto max-w-5xl px-6">
         <div className="grid gap-12 lg:grid-cols-2">
           {/* Left Column - Contact Info */}
           <div className="space-y-8">
             <div className="space-y-4">
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold" style={{ color: '#95af98' }}>
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white">
                 {heading}
               </h2>
-              <p className="text-body-intro" style={{ color: '#95af98' }}>
+              <p className="text-2xl leading-relaxed font-light text-white">
                 {description}
               </p>
             </div>
           </div>
 
           {/* Right Column - Form */}
-          <div>
+          <div className="bg-white rounded-2xl p-8 shadow-sm">
             <form onSubmit={handleSubmit} className="space-y-6">
               <div className="space-y-2">
                 <Label htmlFor="name">Name</Label>

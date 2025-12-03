@@ -3,11 +3,12 @@ import { HeroHeader } from '@/components/header'
 import DevBadge from '@/components/dev-badge'
 import { Gallery6WithText } from '@/components/blocks/gallery6-w-text'
 import { ContactSection } from '@/components/contact-section'
+import FooterSection from '@/components/footer'
 
 export default function TeamPage() {
     return (
         <>
-            <div className="relative h-[70vh] bg-cover bg-center bg-no-repeat" style={{ backgroundImage: 'url(/assets/ourschool/2_team/_DSC0443.jpg)' }}>
+            <div className="relative h-[70vh] bg-cover bg-center bg-no-repeat" style={{ backgroundImage: 'url(/assets/1_ourschool/2_team/_DSC0443.jpg)' }}>
                 <div className="absolute inset-0 bg-black/20 z-0" />
                 <div className="relative z-10">
                     <HeroHeader />
@@ -24,7 +25,7 @@ export default function TeamPage() {
             <section className="relative py-16 md:py-32" style={{ backgroundColor: '#95af98' }}>
                 <div className="mx-auto max-w-5xl px-6">
                     <div className="mx-auto max-w-4xl space-y-6 text-justify">
-                        <p className="text-body-intro" style={{ color: 'white' }}>
+                        <p className="text-2xl leading-relaxed font-light" style={{ color: 'white' }}>
                             The competence, professionalism, and human qualities of our team truly set The Garzón School apart. We proudly employ world-class international and local teachers and specialists. With an 8:1 student-to-educator ratio, children benefit from exceptional levels of attention and support. Every team member — whether teacher or administrative staff — is an educator at heart, dedicated to creating a safe, nurturing environment that fosters the inspiring education we are renowned for. From just eight founding dreamers in March 2022, our team has grown into a dynamic group of 29 multidisciplinary professionals as of July 2025. As vibrant and diverse as the students we serve, we represent 10 nationalities and speak as many languages, united by a shared commitment to positive, purposeful learning. It's this blend of expertise, diversity, and heart that makes our school community truly special.
                         </p>
                     </div>
@@ -190,7 +191,7 @@ export default function TeamPage() {
                             flag: "🇺🇾",
                             summary: "Nacho was born in Uruguay and has worked as an educator for nearly a decade. He has a Bachelor's Degree in Musical Therapy from the Cediiap Institute in Montevideo, and is trained as a Music Teacher in the Gordon's Music Learning Theory (MLT). His professional interest lies in using music as a vehicle to advance wellbeing, communication and the acquisition of important values in each child's development. He believes in active listening and providing spaces where children can express themselves naturally, creatively and authentically.",
                             url: "#",
-                            image: "/assets/0_mainpage/staff/IgnacioC.JPG",
+                            image: "/assets/0_mainpage/staff/ignacio.jpg",
                         },
                         {
                             id: "primary-8",
@@ -199,7 +200,7 @@ export default function TeamPage() {
                             flag: "🇺🇾",
                             summary: "Hailing from Rocha, Uruguay, Alejandro is a dynamic Physical Education educator dedicated to integrating movement, teaching, and nature. With a strong academic background in education and sports, he enriches his lessons by connecting them to the environment, fostering curiosity among students. Alejandro has also led significant cultural and educational events in Physical Education. Passionate about candombe, murga, and beach activities, he aspires to pursue advanced studies in Education to inspire others to embrace movement with joy and respect.",
                             url: "#",
-                            image: "/assets/0_mainpage/staff/AlejandroC.JPG",
+                            image: "/images/placeholder/person.svg",
                         },
                         {
                             id: "primary-9",
@@ -217,7 +218,7 @@ export default function TeamPage() {
                             flag: "🇦🇷",
                             summary: "Carolina is an Educational Psychologist with a Bachelor's and a Teaching Degree from Universidad del Salvador in Argentina. She supports learning and development of students at The Garzón School through a holistic, student-centred approach; with the focus on English and Spanish as a second language. Her professional journey includes international experience in Germany and Australia, which has shaped her inclusive and culturally responsive practice. Carolina is deeply committed to fostering each child's emotional and educational growth with empathy and care.",
                             url: "#",
-                            image: "/assets/0_mainpage/staff/CarolinaM.JPG",
+                            image: "/images/placeholder/person.svg",
                         },
                         {
                             id: "primary-11",
@@ -226,7 +227,7 @@ export default function TeamPage() {
                             flag: "🇦🇷",
                             summary: "Eugenia is a psychologist with a strong interest in clinical work, trained at the Catholic University. Her career began in early childhood education, where she discovered the lasting impact of shared learning experiences. She later returned to her alma mater as a lecturer in Psychology, deepening her understanding of families as the primary organizing force of society. In her work with children, she embraces an integrative approach that actively involves families. Within the school, she is dedicated to providing a safe space, guidance, and trusted support, fostering each child's growth and well-being.",
                             url: "#",
-                            image: "/assets/0_mainpage/staff/EugeniaR.JPG",
+                            image: "/images/placeholder/person.svg",
                         },
                     ]}
                 />
@@ -318,7 +319,7 @@ export default function TeamPage() {
                             flag: "🇺🇾",
                             summary: "Bárbara is the friendly voice and welcoming smile behind our school office. With a background in school administration and service-focused industries, she's passionate about making every family's experience smooth and positive. Fluent in Spanish, English, German, Portuguese, and even a little Italian, Bárbara loves connecting with people from all walks of life. Whether she's helping parents or supporting our innovative co-curricular programs, her goal is simple: to ensure every family feels supported, informed, and at home in our community.",
                             url: "#",
-                            image: "/assets/0_mainpage/staff/BarbaraE.JPG",
+                            image: "/images/placeholder/person.svg",
                         },
                         {
                             id: "admin-5",
@@ -336,7 +337,7 @@ export default function TeamPage() {
                             flag: "🇦🇷",
                             summary: "Rodrigo supports the grounds maintenance team, ensuring The Garzón School's outdoor spaces remain beautiful and functional for our learning community.",
                             url: "#",
-                            image: "/assets/0_mainpage/staff/RodrigoG.JPG",
+                            image: "/images/placeholder/person.svg",
                         },
                         {
                             id: "admin-7",
@@ -345,7 +346,7 @@ export default function TeamPage() {
                             flag: "🇺🇾",
                             summary: "Rosario plays a vital role in maintaining the cleanliness and hygiene of our facilities, creating a welcoming environment for students, staff, and families.",
                             url: "#",
-                            image: "/assets/0_mainpage/staff/RosarioF.JPG",
+                            image: "/images/placeholder/person.svg",
                         },
                     ]}
                 />
@@ -353,6 +354,7 @@ export default function TeamPage() {
             </section>
 
             <ContactSection />
+            <FooterSection />
         </>
     )
 }

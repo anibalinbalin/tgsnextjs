@@ -14,7 +14,7 @@ export default function Features() {
 
             <div className="@container relative z-10 mx-auto max-w-5xl px-6">
                 <div className="text-center">
-                    <h2 className="text-balance text-white font-medium" style={{ fontSize: '99px', lineHeight: '99px' }}>Fall in love with learning.</h2>
+                    <h2 className="text-5xl md:text-6xl lg:text-7xl text-balance text-white font-medium">Fall in love with learning.</h2>
                 </div>
             </div>
         </section>
