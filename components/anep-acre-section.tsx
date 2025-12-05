@@ -20,7 +20,7 @@ export default function AnepAcreSection() {
 
                     {/* Text content */}
                     <div>
-                        <h2 className="text-2xl md:text-4xl text-black font-light leading-relaxed">
+                        <h2 className="text-4xl md:text-4xl text-black font-light leading-relaxed">
                             <span className="border-b-2 border-[#D39885]">Accreditation & Standards of Excellence</span>
                         </h2>
                         <p className="mt-6 text-lg md:text-xl text-black/80 font-light leading-relaxed">

@@ -1,29 +1,32 @@
 import Image from 'next/image'
+import { getTranslations } from 'next-intl/server'
 import { Button } from '@/components/ui/button'
 import DevBadge from './dev-badge'
 
-export default function FallInLove() {
+export default async function FallInLove() {
+    const t = await getTranslations('HomePage.fallInLove')
+
     return (
-        <section className="relative h-[50rem] overflow-hidden">
+        <section className="relative h-[60vh] md:h-[50rem] overflow-hidden">
             <Image
                 src="/assets/0_mainpage/fall_in_love.JPG"
-                alt="Fall in love with learning"
+                alt={t('alt')}
                 fill
                 className="object-cover"
                 priority={false}
             />
             <div className="absolute inset-0 bg-black/20 z-0" />
-            <div className="relative z-10 @container mx-auto max-w-5xl px-6 h-full flex items-center justify-end">
-                <div className="text-right space-y-8">
-                    <h2 className="text-5xl md:text-6xl lg:text-7xl text-balance text-white font-medium">Fall in love<br />with learning.</h2>
-                    <p className="text-white text-xl">Apply to join The Garzón School!</p>
-                    <div className="flex justify-end">
+            <div className="relative z-10 @container mx-auto max-w-5xl px-6 h-full flex items-center justify-center md:justify-end">
+                <div className="text-center md:text-right space-y-8">
+                    <h2 className="text-4xl md:text-5xl lg:text-7xl text-balance text-white font-medium">{t('title')}</h2>
+                    <p className="text-white text-lg md:text-xl">{t('description')}</p>
+                    <div className="flex justify-center md:justify-end">
                         <Button
                             variant="outline"
                             size="lg"
                             className="bg-terracotta hover:bg-terracotta/90 text-white border-terracotta"
                         >
-                            Apply
+                            {t('button')}
                         </Button>
                     </div>
                 </div>

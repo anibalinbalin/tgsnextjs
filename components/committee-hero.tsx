@@ -1,8 +1,13 @@
+'use client'
+
 import React from 'react'
+import { useTranslations } from 'next-intl'
 import { HeroHeader } from '@/components/header'
 import DevBadge from '@/components/dev-badge'
 
 export default function CommitteeHero() {
+    const t = useTranslations('CommitteesPage')
+
     return (
         <div className="relative h-[70vh] bg-cover bg-center bg-no-repeat" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1517962123380-eac440fa8120?auto=format&fit=crop&w=2000&q=80)' }}>
             <div className="absolute inset-0 bg-black/20 z-0" />
@@ -14,7 +19,7 @@ export default function CommitteeHero() {
                             <div className="relative mx-auto flex max-w-6xl flex-col px-6 lg:block">
                                 <div className="mx-auto max-w-lg text-center lg:ml-0 lg:w-1/2 lg:text-left">
                                     <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white drop-shadow-lg">
-                                        Where community becomes action.
+                                        {t('hero.title')}
                                     </h1>
                                 </div>
                             </div>

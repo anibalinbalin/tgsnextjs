@@ -1,8 +1,13 @@
+'use client'
+
 import React from 'react'
+import { useTranslations } from 'next-intl'
 import { HeroHeader } from './header'
 import DevBadge from './dev-badge'
 
 export default function TestiHero() {
+    const t = useTranslations('TestimonialsPage')
+
     return (
         <div className="relative h-[70vh] bg-cover bg-center bg-no-repeat" style={{ backgroundImage: 'url(/assets/2_admissions/4-testimonials/8489747c-46c7-4eb6-9be6-98747172942d.JPG)' }}>
             <div className="absolute inset-0 bg-black/30 z-0" />
@@ -13,7 +18,7 @@ export default function TestiHero() {
                     <div className="pb-24 pt-12 md:pb-32 lg:pb-56 lg:pt-44">
                         <div className="relative mx-auto flex max-w-6xl flex-col px-6 lg:block">
                             <div className="mx-auto max-w-3xl text-center lg:ml-0 lg:text-left">
-                                <h1 className="text-5xl md:text-6xl lg:text-7xl mt-8 max-w-2xl font-medium text-white lg:mt-16">What does TGS mean to our community?</h1>
+                                <h1 className="text-5xl md:text-6xl lg:text-7xl mt-8 max-w-2xl font-medium text-white lg:mt-16">{t('hero.title')}</h1>
                             </div>
                         </div>
                     </div>

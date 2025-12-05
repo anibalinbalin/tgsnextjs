@@ -1,0 +1,897 @@
+{
+  "Navigation": {
+    "ourSchool": "Our School",
+    "admissions": "Admissions",
+    "learning": "Learning",
+    "campus": "Campus",
+    "coCurricular": "Co-Curricular",
+    "schoolLife": "School Life",
+    "supportTGS": "Support TGS",
+    "search": "Search",
+    "links": {
+      "welcome": "Welcome from the Heads",
+      "missionVisionValues": "Mission, Vision & Values",
+      "meetOurTeam": "Meet Our Team",
+      "governance": "Governance",
+      "policies": "Policies",
+      "press": "Press",
+      "safeguarding": "Safeguarding",
+      "workAtTGS": "Work at TGS",
+      "howToJoin": "How to Join",
+      "openMornings": "Open Mornings",
+      "spaceAvailability": "Space Availability",
+      "parentTestimonials": "Parent Testimonials",
+      "movingToUruguay": "Moving to Uruguay",
+      "tuitionFees": "Tuition & Fees",
+      "softLanding": "Soft Landing",
+      "faqs": "FAQs",
+      "curriculum": "Curriculum",
+      "inquiryBasedLearning": "Inquiry-Based Learning",
+      "wellbeingInclusion": "Wellbeing & Inclusion",
+      "translanguaging": "Translanguaging",
+      "educatingChangingWorld": "Educating for a Changing World",
+      "accreditation": "Accreditation",
+      "learningVillage": "Our Learning Village",
+      "nurturedByNature": "Nurtured by Nature",
+      "pathways": "Pathways",
+      "theHeron": "The Heron",
+      "committees": "TGS Committees",
+      "calendarTermDates": "Calendar & Term Dates",
+      "schoolDay": "School Day",
+      "multiform": "Multiform",
+      "nutrition": "Nutrition"
+    }
+  },
+  "LanguageSwitcher": {
+    "en": "English",
+    "es": "Español",
+    "changeLanguage": "Change language"
+  },
+  "HomePage": {
+    "hero": {
+      "tagline": "Fall in love with learning."
+    },
+    "empowering": {
+      "title": "Empowering Changemakers",
+      "description": "Welcome to The Garzón School: a bold, transformative learning community where ethics, innovation, and a deep connection to nature empower students to lead with purpose. Through joyful learning, wellbeing, and research-driven teaching, we inspire young people to act with integrity and make a difference — starting today."
+    },
+    "schoolLevels": {
+      "earlyYears": {
+        "title": "Early Years",
+        "description": "A joyful, nature-inspired start to learning for students aged 2-6, nurturing curiosity, creativity, and foundational skills through play and exploration.",
+        "alt": "Early Years - A child reading in a cozy circular reading nook"
+      },
+      "primary": {
+        "title": "Primary School",
+        "description": "Empowering young learners aged 6-12 to grow as ethical thinkers, collaborators, and changemakers through inquiry-based learning and real-world connections.",
+        "alt": "Primary School - Students learning in a modern classroom"
+      },
+      "secondary": {
+        "title": "Secondary School",
+        "description": "Challenging students to lead with purpose, authenticity, and integrity, combining individualised learning paths, nature immersion, and global citizenship.",
+        "alt": "Secondary School - Aerial view of students in a circular outdoor learning space"
+      },
+      "applyButton": "Apply Now"
+    },
+    "explore": {
+      "title": "Explore, Connect, Belong",
+      "description": "On our wild 38-hectare campus, education comes alive through exploration, connection, and a deep sense of belonging. Rooted in diversity and inclusion, we inspire students to grow with purpose, take risks, tackle challenges head-on, and lead with compassion to create real change."
+    },
+    "instagram": {
+      "title": "Follow our journey on Instagram."
+    },
+    "team": {
+      "button": "Learn more about our team!",
+      "roles": {
+        "coHeadOfSchool": "Co-Head of School",
+        "lowerSchoolCoordinator": "Lower School Coordinator",
+        "technicalDirectorSecondary": "Technical Director (Secondary)",
+        "secondaryEducatorLiterature": "Secondary Educator (Literature)",
+        "secondaryEducatorStem": "Secondary Educator (STEM)",
+        "secondaryEducatorArt": "Secondary Educator (Art & Design)",
+        "technicalDirectorPrimary": "Technical Director (Primary)",
+        "primaryEducator": "Primary Educator",
+        "earlyYearsEducator": "Early Years Educator",
+        "educationalPsychologistPrimary": "Educational Psychologist (Primary)",
+        "educationalPsychologistSecondary": "Educational Psychologist (Secondary)",
+        "musicSpecialistPrimary": "Music Specialist (Primary)",
+        "facilitiesSupervisor": "Facilities Supervisor",
+        "groundskeeper": "Groundskeeper",
+        "admissionsOfficer": "Admissions Officer",
+        "accountant": "Accountant",
+        "coCurricularCoordinator": "Co-Curricular Coordinator"
+      }
+    },
+    "learners": {
+      "title": "From Learners to Leaders",
+      "description": "The Garzón School goes beyond education—it's a way of being. We shape thoughtful individuals who build strong relationships, take ownership of their actions, and contribute to their communities. Grounded in joy, integrity, and connection, we empower learners to shape the world on their terms."
+    },
+    "park": {
+      "title": "The school is the park. The park is the school.",
+      "button": "Discover a world-stage campus!",
+      "alt": "Aerial view of school park"
+    },
+    "accreditations": {
+      "title": "Recognised Excellence",
+      "anep": {
+        "name": "ANEP",
+        "description": "The Garzón School is a fully authorized educational institution under Uruguay's Administración Nacional de Educación Pública (ANEP), offering a bilingual program that meets and exceeds national standards across all grade levels."
+      },
+      "neasc": {
+        "name": "NEASC",
+        "description": "In 2025, The Garzón School achieved Eligibility for Accreditation from the New England Association of Schools and Colleges (NEASC) — one of the world's most respected international accreditation bodies."
+      },
+      "learnMore": "Find out more about our accreditation"
+    },
+    "fallInLove": {
+      "title": "Fall in love with learning.",
+      "description": "Apply to join The Garzón School!",
+      "button": "Apply",
+      "alt": "Fall in love with learning"
+    }
+  },
+  "Footer": {
+    "schoolName": "THE GARZÓN SCHOOL",
+    "address": "Ruta 104 KM 13.5, 20000 Manantiales, Maldonado, Uruguay",
+    "anepCeip": "ANEP-CEIP - Colegio Autorizado Nº 1 (Maldonado)",
+    "anepCodicen": "ANEP-CODICEN - Exp. Nº 2023-25-2-001958",
+    "copyright": "The Garzón School",
+    "instagram": "Instagram",
+    "linkedin": "LinkedIn"
+  },
+  "Search": {
+    "title": "Search",
+    "description": "Search pages across The Garzón School website",
+    "placeholder": "Search pages...",
+    "noResults": "No results found."
+  },
+  "FaqsPage": {
+    "hero": {
+      "title": "Frequently Asked Questions"
+    },
+    "intro": "Have questions about The Garzón School? You're not alone! Our FAQs page is here to provide quick and clear answers to the most common queries from prospective and current families. We've got you covered. If you don't find the information you're looking for, feel free to contact us directly—we're here to help!",
+    "faqs": {
+      "entryExams": {
+        "title": "Does TGS have entry examinations?",
+        "content": "Our school is founded on the belief that an individual's potential for success extends far beyond performance on standardised tests. That's why our admissions process considers the unique qualities and experiences that make up each child. When determining the 'best fit,' we evaluate academic, artistic, athletic, and community achievements that showcase exceptional potential to thrive at TGS. Additionally, we value families with a demonstrated, longstanding interest in education."
+      },
+      "tuitionFee": {
+        "title": "What is included in the Tuition Fee?",
+        "content": "Our Tuition Fee covers all curricular activities and learning resources, including books, stationery, and iPads or MacBooks. It also includes compulsory curricular outings, associated transport, and campus maintenance. However, the cost of school lunches and Co-Curricular Clubs is not included in the Tuition Fee."
+      },
+      "secondarySchool": {
+        "title": "When will TGS be opening secondary school?",
+        "content": "We are excited to be opening 7th and 8th Grade at TGS in March 2025. As we continue to grow organically with our oldest cohort, we look forward to celebrating our first 12th Grade TGS graduates in 2029!"
+      },
+      "scholarships": {
+        "title": "Does TGS offer Scholarships and/or Bursaries?",
+        "content": "Currently, 10% of our student body attends The Garzón School on partial or full bursaries, made possible through long-term private donations to the TGS Endowment Fund. We remain deeply committed to growing the Fund as part of our mission to promote broader access to a life-changing TGS education."
+      },
+      "siblingDiscounts": {
+        "title": "Do you offer sibling discounts on the Tuition Fee?",
+        "content": "We are pleased to offer tuition fee discounts for families with multiple children attending The Garzón School. A 10% discount is applied to tuition fees for the second child, 15% for the third child, and 20% for the fourth child and beyond. This initiative reflects our commitment to supporting families and making a TGS education more accessible for siblings."
+      },
+      "academicCalendar": {
+        "title": "Does TGS operate on a northern (September–June) or southern (March–December) academic calendar?",
+        "content": "The Garzón School operates on a southern hemisphere academic year, running from February to December. We start the academic year earlier than most Uruguayan schools, allowing us to evenly distribute terms while offering a longer winter break, which is especially appreciated by our families and staff with northern hemisphere roots. This approach ensures a balanced academic calendar that meets the needs of our diverse community. You can see the current year's calendar by navigating to \"Student Life\" → \"Calendar & Term Dates\" on this website."
+      },
+      "gradePlacement": {
+        "title": "We are moving from a school with a September-June academic calendar; how will TGS decide upon grade placement?",
+        "content": "Several families have successfully transitioned from northern hemisphere schools to join TGS. This process typically involves a midyear entry point in August, with students placed in the cohort they have recently completed. This approach allows learners to acclimate to their new surroundings and adjust linguistically and socially before advancing to the next grade level the following February."
+      }
+    },
+    "contact": {
+      "question": "Still can't find what you're looking for?",
+      "button": "Drop our Admissions Officer a line"
+    }
+  },
+  "FeesPage": {
+    "hero": {
+      "title": "The best investment."
+    },
+    "intro": {
+      "title": "The Best Investment",
+      "description": "Our tuition reflects the exceptional education and care your child will experience at The Garzón School. We are committed to providing an inspiring learning environment, shaped by outstanding educators and enriched by opportunities that prepare students to flourish both within and beyond the classroom. The tuition and fees for 2026 are outlined below."
+    },
+    "tuition": {
+      "description": "Annual tuition is typically paid in full by January of the academic year in which the child will start school, with the option for instalment payments available upon prior agreement with the school office."
+    },
+    "meals": {
+      "title": "School Meals",
+      "description": "The Garzón School strives to minimize additional costs and ensures that most extras are optional. However, the primary non-optional cost outside of the Tuition Fee is our daily meal programme, which includes a morning snack, lunch, and an afternoon snack. These meals are freshly prepared on-site and enjoyed by our students. The cost is UYU $470 per day in 2025. Please note that this rate is subject to review, and any revised pricing will be set by our catering partners, <nutritionLink>Piña Dulce</nutritionLink>. (2nd child discount: 10%; 3rd child discount: 15%)."
+    },
+    "coCurricular": {
+      "title": "Co-Curricular",
+      "description": "Our co-curricular programme offers a rich array of opportunities to enhance learning beyond the classroom. It consists of three core elements: <bold>Pathways</bold>, our signature clubs designed to foster mastery and excellence; <bold>Sports</bold>, which encourage teamwork and physical development; and <bold>W.I.L.D.</bold> (Wilderness Immersion and Leadership Development), an immersive program focused on outdoor education and leadership skills. We are committed to running <bold>W.I.L.D.</bold> run free of charge, while Pathways and Sports activities incur a small additional charge per term."
+    },
+    "scholarship": {
+      "title": "Making a world-class education more accessible—explore our scholarships.",
+      "button": "Inquire Into Our Scholarships"
+    }
+  },
+  "HowToJoinPage": {
+    "hero": {
+      "title1": "Become part of an",
+      "title2": "educational movement."
+    },
+    "intro": {
+      "title": "Choosing a school is like choosing a home; it has to feel right.",
+      "description": "We know that choosing a school is a major, long-term decision for the whole family. That's why we take care to ensure that every prospective family has all the information they need to make the right choice for their child's education. If you can't find what you're looking for here, please contact our \"charming and efficient\" Admissions Officer (yes, that is a genuine parent review), who is available to answer any questions regarding joining TGS."
+    },
+    "faq": {
+      "title": "How to Join",
+      "subtitle": "Our admissions process is carefully designed to ensure a perfect match.",
+      "registerInterest": "Register Interest",
+      "steps": {
+        "step1": {
+          "title": "1. Register Interest",
+          "content": "Let us know that you're keen to explore your child(ren)'s admission, either through our website or directly to our Admissions Officer, Jacques (jacques@thegarzonschool.edu.uy)."
+        },
+        "step2": {
+          "title": "2. Preliminary Information",
+          "content": "Jacques will guide you through the next step of the process, during which we will ask for more detailed information regarding your family's educational objectives and needs."
+        },
+        "step3": {
+          "title": "3. Virtual Appointment",
+          "content": "At this stage you will meet online with our Co-Heads of School to find out more about our School's unique proposition. You will also be able to ask and address those lingering questions."
+        },
+        "step4": {
+          "title": "4. School Tour",
+          "content": "You will be invited to see the School in action, when possible during a regular school day. It is usually recommended that prospective students (especially those of a younger age) do not visit us until a firm commitment to joining has been made."
+        },
+        "step5": {
+          "title": "5. Conditional Offer",
+          "content": "We will make an offer, subject to the prospective family's timely submission of essential documentation, application fee, and a successful Family Appointment (next step)."
+        },
+        "step6": {
+          "title": "6. Family Appointment",
+          "content": "Your child(ren) will be invited in to meet their prospective teachers and engage in some fun learning activities alongside our wonderful Educational Psychologist, Catalina."
+        },
+        "step7": {
+          "title": "7. Unconditional Offer",
+          "content": "Once the School has received all the necessary payments and paperwork, your child's place in the School is locked in. At this point, it's perfectly normal to start counting down the days!"
+        }
+      }
+    }
+  },
+  "MissionVisionValuesPage": {
+    "hero": {
+      "title1": "Empowering",
+      "title2": "changemakers."
+    },
+    "carousel": {
+      "mission": {
+        "text": "We empower changemakers with authenticity, integrity, and purpose, inspired by nature and grounded in real-world learning.",
+        "label": "Our Mission"
+      },
+      "vision": {
+        "text": "We will be a transformative education movement for the region.",
+        "label": "Our Vision"
+      },
+      "prev": "Previous slide",
+      "next": "Next slide"
+    },
+    "values": {
+      "title": "Our Values",
+      "intro": "Every journey of change begins with an idea—a spark of curiosity, a moment of inspiration, or the recognition of a challenge that demands action. At The Garzón School, IDEAS (Innovation, Diversity, Ethics, Agency, and Service) form the essential framework that drives our mission to empower changemakers, shaping not just what we do but how we do it—fostering a culture of creativity, inclusivity, integrity, and purpose that prepares learners to make meaningful impacts in their communities and beyond.",
+      "innovation": {
+        "title": "Innovation",
+        "content": "We emphasise creative problem-solving and forward-thinking, grounded in research, to prepare students to drive purposeful change. Fostering curiosity, agility, and a willingness to challenge conventional ideas equips learners to navigate complexity, seize opportunities, and create meaningful impact in their communities and beyond."
+      },
+      "diversity": {
+        "title": "Diversity",
+        "content": "We celebrate diverse perspectives and foster an inclusive environment that values every individual's unique background, abilities, and contributions. Our commitment to authenticity extends to embracing socioeconomic and learning diversity, ensuring that all members of our community feel respected, supported, and empowered to thrive."
+      },
+      "ethics": {
+        "title": "Ethics",
+        "content": "At the heart of our mission is the cultivation of integrity, where students learn to make responsible choices and act with honesty and respect. By fostering empathy, accountability, and a commitment to doing what is right, we guide students to understand the impact of their decisions on themselves, others, and the world around them."
+      },
+      "agency": {
+        "title": "Agency",
+        "content": "Empowering students to take ownership of their learning and actions is central to developing purpose and confidence as changemakers. We encourage all learners to set meaningful goals, make informed decisions, and embrace challenges with autonomy, advocating for themselves and others as they shape their futures with purpose."
+      },
+      "service": {
+        "title": "Service",
+        "content": "Real-world learning and impact are central to our mission. Service connects students with their communities, fostering empathy, responsibility, and purpose. Through collaborative projects, we learn the value of contributing to something greater than ourselves and gain the skills to make a meaningful difference both locally and globally."
+      }
+    },
+    "ideasDetail": "Innovation fuels creative problem-solving. Diversity broadens perspectives and builds empathy. Ethics ensures decisions are made with integrity. Agency empowers ownership and intentionality. Service connects learning with actions that create change. Together, these values form the backbone of our mission, ensuring changemakers emerge equipped to lead with authenticity, integrity, and purpose.",
+    "fallInLove": "With IDEAS at the heart of everything we do, we nurture a community where students are inspired to see possibilities, embrace challenges, and create a better future for themselves and the world.",
+    "imageAlt": "The Garzón School",
+    "communityAlt": "The Garzón School Community"
+  },
+  "WelcomePage": {
+    "title": "Welcome to The Garzón School!",
+    "p1": "From our world-stage campus on Uruguay's famous golden coast, The Garzón School is proud to provide an education tailored to the needs and abilities of each individual learner. Small class sizes, with streamed lessons for Literacy and Mathematics, guarantee unparalleled individual attention for our learners. Our team strives to design <highlight>joyful learning experiences</highlight>, underpinned by a magical school environment that buzzes with inquiry, collaboration and discovery.",
+    "p2": "Set across 38 hectares of rolling countryside, woodland, and freshwater lakes, our <campusLink>purpose-built campus</campusLink> is a living classroom like no other. Designed to inspire creativity, agency, and a connection to the natural world, every space — from our light-filled studios to our open-air learning decks — has been thoughtfully crafted to spark curiosity and support deep, meaningful learning. Children are free to roam, explore, and engage with their surroundings in ways that cultivate confidence, resilience, and a sense of wonder.",
+    "p3": "With our world changing at a rapid rate, we believe that agile thought, strong communication and advanced problem-solving are key to the leadership of the future. This is why our <highlight>bespoke research-based curriculum</highlight>, designed and directed by our multidisciplinary team of world-class educators, focuses on developing competencies that place our learners on the path to success in life and, ultimately, to making a meaningful contribution to society.",
+    "p4": "Our strong focus on <highlight>wellbeing</highlight>, ethics and social-emotional learning (SEL) creates a 'home from home' in which children can blossom at their own pace, feeling supported and championed as they forge their own paths. We encourage expressions of individuality, and view the growth of each learner holistically. The success of this approach is tied to the robust school-family relationships we nurture, ensuring a two-way dialogue is maintained that is unwaveringly student-centred.",
+    "p5": "Since opening doors in 2022, we have been inspired by the extent to which The Garzón School's mission has resonated with schools, educators and thought leaders in Uruguay and around the world. Indeed, it is what drew us to lead this one-of-a-kind project. We believe that TGS is more than a school; it is an <highlight>educational movement</highlight> for the region. As we continue to grow and build, we will never cease to challenge, create and innovate.",
+    "p6": "We encourage you to <highlight>visit us</highlight> so you can experience first-hand everything that makes The Garzón School such an engaging and wondrous learning environment for children.",
+    "signatureAlt": "Signatures of Sam Irving and Leona Dauphin, Co-Heads of School"
+  },
+  "CurriculumPage": {
+    "hero": {
+      "title": "An innovative curriculum designed by top educators."
+    },
+    "intro": "We have a bespoke, student-centred curriculum based on the best educational practices from around the world. Our concept-based curriculum — designed by our team of educators who enjoy two hours of collaborative planning time daily — places emphasis on the development of TGS competencies, skills and attributes, and promotes both critical and design thinking.",
+    "bannerLearning": {
+      "quote": "'Learning at The Garzón School is a meaningful journey of mutually expansive interaction between our whole selves and our environment.'",
+      "attribution": "— TGS Definition of Learning",
+      "imageAlt": "Learning at The Garzón School"
+    },
+    "concepts": {
+      "title": "TGS Curriculum Concepts",
+      "intro": "Our curriculum explores 8 core concepts, which students traverse through inquiry-based learning on two-year cycles. As young learners develop and flourish, they will return to these same concepts but approach them from an increasingly abstract perspective.",
+      "identity": {
+        "title": "Identity",
+        "content": "Identity encompasses all the characteristics that define individuals, groups, and cultures, as well as how they perceive and express themselves. We study identity not only to promote self-awareness, but also to understand others and build our capacity for empathy."
+      },
+      "expression": {
+        "title": "Expression",
+        "content": "Expression is related to the various ways in which individuals and groups convey ideas, feelings, and attitudes. This includes verbal and nonverbal communication, as well as creative forms of expression such as art, music, and literature. We study expression to understand the messages and meanings conveyed by others, to express ourselves more effectively, and to foster greater understanding and connection between people."
+      },
+      "change": {
+        "title": "Change",
+        "content": "One of life's great inevitabilities, change refers to the process of transformation or transition from one state or condition to another. Change can occur at different levels, such as individual, organisational, societal, or global. We study change to understand the world around us, the concept of cause and effect, and to help us develop strategies for managing and adapting to change."
+      },
+      "function": {
+        "title": "Function",
+        "content": "Function refers to the purpose or role of a particular object, tool, or system in a given context. Functions can be found in different areas of our world such as mathematics, science, engineering, and social sciences. The study of function is essential for understanding how systems work, how they impact us and how we can influence them."
+      },
+      "relationships": {
+        "title": "Relationships",
+        "content": "Relationships refers to connections and interactions between individuals, groups, or systems. They can take different forms, such as friendships, family ties, romantic partnerships or international alliances. Relationships play a crucial role in shaping our social, emotional, and cognitive development, as well as our health and well-being. The study of relationships is essential for understanding the complex dynamics of human interactions, and for fostering healthy and resilient communities."
+      },
+      "responsibility": {
+        "title": "Responsibility",
+        "content": "Responsibility is the state of being accountable for one's actions and decisions. It involves recognising the impact of our behaviour on others and taking steps to ensure that our actions align with ethical standards. The study of responsibility can help us to develop a sense of integrity, reinforce our commitment to ethics and values, and foster trust and credibility in our relationships with others."
+      },
+      "life": {
+        "title": "Life",
+        "content": "Life relates to understanding the complex and dynamic relationships between living organisms and their environment. The biological study of life, which sits alongside more philosophical questions such as what it means to be living, helps us foster a deeper appreciation of the diversity and interconnectedness of life on Earth."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "content": "Innovation focuses on the development and application of new ideas, products, or processes. By fostering a culture of innovation and supporting innovative solutions, we can unlock new opportunities through collaboration and design thinking, and experience how our learning can be used to create positive social impact."
+      }
+    },
+    "bannerTestimonial": {
+      "quote": "'TGS takes a unique approach to education, following the child's interests and curiosity, like breadcrumbs, and developing from there.'",
+      "attribution": "— Aníbal, TGS Parent",
+      "imageAlt": "Learning at The Garzón School"
+    },
+    "assessment": {
+      "title": "ASSESSMENT",
+      "learning": "LEARNING",
+      "forLearning": {
+        "keyword": "FOR",
+        "bullets": [
+          "Enables teachers to use information about students' knowledge, understanding and skills to inform teaching",
+          "Teachers provide feedback to students about their learning and how to improve"
+        ]
+      },
+      "asLearning": {
+        "keyword": "AS",
+        "bullets": [
+          "Involves students in the learning process where they monitor their own progress, ask questions and practise skills",
+          "Students use self-assessment and teacher feedback to reflect on their learning, consolidate their understanding and work towards learning goals."
+        ]
+      },
+      "ofLearning": {
+        "keyword": "OF",
+        "bullets": [
+          "Assists teachers to use evidence of student learning to assess student achievement against learning goals and standards"
+        ]
+      }
+    },
+    "reporting": "Our reporting aims to feed-forward, providing students and their families with well-defined areas for further development as well as actionable next steps to ensure progression. We nurture proactive and trust-based relationships with families, meaning that much of our educators' reporting is direct, effective and less formal. We also prepare formal written reports for each student at the culmination of each term, offering families valuable snapshots of their child(ren)'s development throughout the year.",
+    "cta": {
+      "title": "Fall in love\nwith learning.",
+      "subtitle": "Apply to join The Garzón School!",
+      "button": "Apply",
+      "imageAlt": "Fall in love with learning"
+    }
+  },
+  "NaturePage": {
+    "hero": {
+      "title1": "The school is the park.",
+      "title2": "The park is the school."
+    },
+    "intro": "A growing body of research confirms what we've always known: time in nature transforms children's minds, hearts, and bodies. From sharper cognitive function to greater emotional resilience, increased creativity to improved academic focus, nature-based learning fosters whole-child development in ways that indoor classrooms alone cannot match. Immersing children in green spaces enhances cognitive abilities, emotional wellbeing, academic performance, creativity, and physical health. That's why we see the park and the school as one and the same.",
+    "mindsBlossom": {
+      "title": "Minds That Blossom Outdoors",
+      "content": "Time in nature strengthens attention, memory, and problem-solving skills. Studies show that children with regular access to green spaces demonstrate better working memory and cognitive flexibility (Dadvand et al., 2015). Even a short walk in a park can improve focus and self-control, particularly for children with ADHD (Taylor & Kuo, 2009). Natural environments provide rich, varied stimuli that challenge young minds, encouraging exploration and adaptive thinking. This boost in executive function translates into improved concentration and problem-solving back in the classroom, sharpening the mental tools children need for academic success (Li & Sullivan, 2016)."
+    },
+    "foxQuote": {
+      "text": "TGS' resident foxes remind us: learning is not confined to classrooms—it thrives in the heart of nature.",
+      "imageAlt": "TGS resident fox in natural habitat"
+    },
+    "groundedGrowing": {
+      "title": "Grounded and Growing",
+      "content": "Nature is a natural antidote to stress and anxiety. Research shows that children with regular exposure to green spaces report lower levels of cortisol, the stress hormone (van den Berg et al., 2010). Time spent outdoors reduces symptoms of depression and improves emotional regulation (McCurdy et al., 2010). Being in nature fosters a sense of freedom and peace, helping children build resilience and emotional stability. Studies link green play areas to increased self-esteem and positive social interactions, reinforcing the idea that time in nature supports emotional health and psychological balance (Wells & Evans, 2003)."
+    },
+    "learningInspired": {
+      "title": "Learning Inspired by Nature",
+      "content": "Spending time in nature boosts academic engagement and achievement. Natural settings improve focus, reduce classroom fatigue, and enhance motivation to learn (Li & Sullivan, 2016). Lessons outdoors—whether mapping our forest or measuring our lake's biodiversity—make learning more meaningful and engaging. Forest school models show that students who engage in nature-based learning demonstrate higher motivation and academic progress than peers in traditional classrooms (Gill, 2014). Green environments create a fertile ground for deeper, more effective learning."
+    },
+    "unleashingInnovators": {
+      "title": "Unleashing Young Innovators",
+      "content": "Nature fuels imagination and creative thinking. Open-ended play in green spaces encourages children to invent games, solve problems, and engage in role-play (Chawla, 2015). Studies show that children's play in natural environments is more complex and imaginative than play on structured playgrounds (Fjørtoft, 2001). Logs become pirate ships, sticks become magic wands—nature invites flexible, creative thinking. Exposure to natural textures, sounds, and patterns stimulates sensory integration and creative problem-solving. This boost in creative confidence carries over into other areas, fostering innovation and original thinking in the classroom and beyond (Wilson, 2012)."
+    },
+    "visitUs": {
+      "title": "Visit us",
+      "schoolName": "The Garzón School",
+      "address1": "Ruta 104 — KM 13.5",
+      "address2": "20000 Manantiales",
+      "address3": "Maldonado, Uruguay",
+      "bookTour": "Book a Tour",
+      "mapTitle": "The Garzón School location"
+    },
+    "runFree": {
+      "title": "Run Free, Grow Strong",
+      "content": "Outdoor play enhances strength, coordination, and overall health. Children who play in green spaces demonstrate better motor skills, balance, and agility than those in built environments (Fjørtoft, 2001). Climbing trees, jumping rocks, and balancing on uneven terrain develop physical strength and flexibility. Regular exposure to nature increases physical activity levels and reduces the risk of obesity and related health issues (WHO, 2022). Time outdoors also improves sleep quality and immune function, while natural light exposure helps prevent myopia and supports overall physical development (Straker et al., 2016)."
+    },
+    "forestSchools": {
+      "title": "Learning from Forest Schools",
+      "content": "Forest schools show how nature-based education enhances holistic growth. Studies in the UK reveal that children in forest schools demonstrate greater focus, social confidence, and motor coordination (Knight, 2013). Nature-based learning promotes teamwork, resilience, and self-regulation. Academic performance also benefits: forest school students often outperform peers in problem-solving and creative thinking (Gill, 2014). This hands-on, student-led model fosters independent learning and adaptability, equipping children with life skills beyond the classroom. Nature is not just a setting—it's a powerful teacher. By embedding nature into our educational model, we cultivate resilient, creative, and compassionate learners prepared to make a meaningful impact."
+    }
+  },
+  "AccreditationPage": {
+    "hero": {
+      "title": "Recognised locally. Rising globally."
+    },
+    "anep": {
+      "title": "Accreditation & Standards of Excellence",
+      "description": "The Garzón School is a fully authorized educational institution under Uruguay's Administración Nacional de Educación Pública (ANEP), offering a bilingual program that meets and exceeds national standards across all grade levels. This authorization reflects our commitment to rigorous academic expectations, ethical governance, and compliance with all national education and safety regulations.",
+      "imageAlt": "ANEP Accreditation"
+    },
+    "neasc": {
+      "title": "NEASC",
+      "description": "In 2025, The Garzón School achieved Eligibility for Accreditation from the New England Association of Schools and Colleges (NEASC) — one of the world's most respected international accreditation bodies. Following our Foundation Standards Visit in June 2025, NEASC commended the school for its \"clear and shared commitment to reimagine education in ways that are joyful, meaningful, and rooted in purpose.\" This milestone marks the successful completion of the first phase of NEASC's ACE Learning Pathway, which recognizes schools that demonstrate the structures, leadership, and educational philosophy needed to deliver high-quality, future-ready learning.",
+      "imageAlt": "NEASC Accreditation"
+    },
+    "neascBanner": {
+      "quote": "\"The strength of The Garzón School's mission and the unity among its members are key factors in supporting its continued progress.\"",
+      "attribution": "June 2025 NEASC report"
+    },
+    "commitment": {
+      "title": "Commitment to Continuous Improvement",
+      "description": "For us, the NEASC process is a journey of continuous reflection and improvement. Each stage of accreditation involves rigorous external evaluation, alignment with NEASC's Foundation Standards (Learning, Governance, Health & Safety, Finance, and Ethics), and a culture of transparency and evidence-based practice. Through this ongoing partnership, The Garzón School continues to benchmark itself against the highest international standards, ensuring that every student experiences learning that is authentic, purposeful, and transformative."
+    },
+    "principles": {
+      "title": "Our Guiding Accreditation Principles",
+      "excellence": {
+        "title": "Excellence in Learning:",
+        "content": "A clearly defined curriculum and competency framework that fosters curiosity, agency, and critical thinking."
+      },
+      "integrity": {
+        "title": "Integrity in Governance:",
+        "content": "Transparent, ethical leadership under a non-profit Asociación Civil structure."
+      },
+      "wellbeing": {
+        "title": "Well-being & Safety:",
+        "content": "Robust safeguarding, inclusion, and health protocols aligned with international standards."
+      },
+      "sustainability": {
+        "title": "Sustainability & Innovation:",
+        "content": "A purpose-built, nature-integrated campus that embodies our mission and values."
+      }
+    }
+  },
+  "TeamPage": {
+    "intro": "The competence, professionalism, and human qualities of our team truly set The Garzón School apart. We proudly employ world-class international and local teachers and specialists. With an 8:1 student-to-educator ratio, children benefit from exceptional levels of attention and support. Every team member — whether teacher or administrative staff — is an educator at heart, dedicated to creating a safe, nurturing environment that fosters the inspiring education we are renowned for. From just eight founding dreamers in March 2022, our team has grown into a dynamic group of 29 multidisciplinary professionals as of July 2025. As vibrant and diverse as the students we serve, we represent 10 nationalities and speak as many languages, united by a shared commitment to positive, purposeful learning. It's this blend of expertise, diversity, and heart that makes our school community truly special.",
+    "sections": {
+      "seniorLeadership": "Senior Leadership Team",
+      "secondary": "Secondary School Team",
+      "primary": "Primary School Team",
+      "earlyYears": "Early Years Team",
+      "admin": "Administrative & Support Team"
+    }
+  },
+  "InquiryBasedLearningPage": {
+    "hero": {
+      "title": "Authentic, engaging, exploratory learning."
+    },
+    "intro": "Inquiry-based learning at TGS emphasises student-centred, hands-on exploration and discovery. Our learners are encouraged to take an active role in their own education, which results in greater engagement and motivation. Our units of inquiry foster problem-solving skills and critical thinking, as students ask questions, conduct research, and form their own conclusions to real-world problems and complex challenges.",
+    "attributes": {
+      "title": "TGS Attributes & Dispositions",
+      "knowledgeable": {
+        "title": "Knowledgeable",
+        "content": "Learners at The Garzón School develop a love for acquiring knowledge in an experiential and joyful way. They are comfortable in expressing their curiosity. Children take pleasure while acquiring knowledge in an experiential way."
+      },
+      "creative": {
+        "title": "Creative",
+        "content": "We are an innovative learning community, focusing on imaginative and resourceful ways of expressing ourselves. We communicate with others and apply knowledge by developing ways of thinking to analyze and take responsible action in new and different contexts. Children are encouraged to use the knowledge they acquire to develop new ways of expressing themselves, communicating with others and new ways of thinking and being in the world."
+      },
+      "inquirers": {
+        "title": "Inquirers",
+        "content": "Our community embraces and encourages curiosity. We are motivated to look for answers to our questions through a research oriented approach. We are encouraged to take risks and immerse ourselves in the adventure of creating and sharing new knowledge. Our students feel ready to take risks, go into areas that are not fully researched and adapt new knowledge. We are not afraid of trying something new and taking on the adventure of doing something innovative. Even when we fail in something, we learn from our mistakes."
+      },
+      "collaborative": {
+        "title": "Collaborative",
+        "content": "Being collaborative is so much more than cooperation or teamwork. TGS learners grow with their teachers and from each other. We actively collaborate, share and co-create with the members of our community to effect positive change."
+      },
+      "authentic": {
+        "title": "Authentic",
+        "content": "We learn about ourselves and develop our identity. We embrace diversity and value different perspectives as fundamental attitudes to have a positive impact. We are confident in taking things into our own hands and leading the change we aim for. We are also mindful, reflecting on our emotions and experiences."
+      },
+      "reflective": {
+        "title": "Reflective",
+        "content": "We reflect, we proactively listen to others and self-assess how we learn. In doing so, we understand what we can improve and generate a virtuous cycle for learning. We work to understand our strengths and challenges so we develop as learners."
+      }
+    },
+    "integration": "Inquiry-based learning also allows for the integration of multiple subjects, as students explore issues from multiple perspectives. This style of learning is also flexible and adaptable, making it suitable for students of different abilities and learning styles. These benefits make inquiry-based learning an effective and impactful way to enhance student learning and development.",
+    "cta": {
+      "title": "Fall in love\nwith learning.",
+      "subtitle": "Apply to join The Garzón School!",
+      "button": "Apply",
+      "imageAlt": "Fall in love with learning"
+    }
+  },
+  "WellbeingInclusionPage": {
+    "hero": {
+      "title": "We see the child behind the student."
+    },
+    "intro": "The Garzón School is celebrated for its warm, welcoming, and nurturing environment. Exemplary, individualised care and support are the foundation of everything we do. We understand that wellbeing is a vital component of every child's development, profoundly influencing their health, happiness, and future success. That's why our students' physical, emotional, social, and mental health is central to our practice and guides every decision we make.",
+    "wellbeingFocus": {
+      "intro": "Our focus on wellbeing means creating a safe, supportive and positive learning environment where each student feels valued and respected. We achieve this in a number of different ways:",
+      "items": [
+        "Strong student-teacher relationships which promote positive interactions and provide continued emotional support",
+        "Focus on development of lifelong healthy habits through our schoolwide Wellness & Movement programme",
+        "Social and Emotional Learning (SEL) delivered in-house by experts as a compulsory component of the our curriculum",
+        "Positive peer-to-peer relationships that form the foundation of our interactions, community and sense of belonging",
+        "Guidance for students to reframe challenges as opportunities for growth, building resilience and a positive sense of self"
+      ]
+    },
+    "testimonial": {
+      "name": "Catalina Garat",
+      "subtitle": "TGS Educational Psychologist",
+      "quote": "We promote wellbeing with the intention of ensuring our students are equipped with the skills, attitudes and habits necessary to grow into confident, healthy, happy individuals."
+    },
+    "inclusion": "The Garzón School's fully inclusive environment ensures that every student feels welcome, valued, and supported, regardless of their background, abilities, or differences. Our curriculum is thoughtfully designed to meet the diverse needs of all learners, including those with disabilities, cultural or linguistic differences, and other individual needs. We celebrate diversity by embracing different cultures and perspectives, fostering a sense of belonging. Together, students, teachers, and families create a nurturing community where every child can thrive.",
+    "support": "Our highly qualified educators employ diverse teaching strategies and provide personalised support to address the unique needs of every student. This includes adapting materials, integrating assistive technology, and offering additional support when required. Our positive school climate fosters a strong sense of belonging and connectedness, reinforced by clear behavioral expectations. We promote positive interactions and respond to bullying or discrimination promptly and effectively to ensure a safe and inclusive environment for all.",
+    "cta": {
+      "title": "Fall in love\nwith learning.",
+      "subtitle": "Apply to join The Garzón School!",
+      "button": "Apply",
+      "imageAlt": "Fall in love with learning"
+    }
+  },
+  "TranslanguagingPage": {
+    "hero": {
+      "title": "Valuing learners' full linguistic repertoires."
+    },
+    "intro": "Instruction at The Garzón School is English-Spanish bilingual, albeit moving away from the strict separation of languages that dominates bilingual education today. So that TGS graduates emerge as empathetic global citizens, we promote language equity in our learning spaces: valuing each child's full linguistic and cultural repertoire to enrich and deepen learning. Beyond developing academic proficiency in English and Spanish, TGS encourages and supports the development of mother tongues.",
+    "quote": {
+      "text": "\"Translanguaging refers to both the discourse practices of bilinguals, as well as to pedagogical practices that use the entire complex linguistic repertoire of bilingual students flexibly in order to teach rigorous content and develop language practices for academic use.\"",
+      "highlight": "entire complex linguistic repertoire",
+      "attribution": "— García, 2016"
+    },
+    "classroomApproach": "Every nest has two educators: an English lead and a Spanish lead. Learners work with both educators simultaneously on coherent units of inquiry, with project output carefully balanced between English and Spanish depending on the language profile of each individual. This approach favours language acquisition, fosters engagement, and improves student confidence and sense of identity. To model our approach beyond the classroom, every member of our School's team is fully English-Spanish bilingual.",
+    "testimonial": {
+      "name": "Fiorella Carrazzone",
+      "subtitle": "Literacy Lead",
+      "quote": "The journey of implementing translanguaging has been a continuous process of growth and learning. Our students' intrinsic motivation to engage with both English and Spanish literacy highlights the effectiveness of translanguaging in nurturing language development."
+    },
+    "cta": {
+      "title": "Fall in love\nwith learning.",
+      "subtitle": "Apply to join The Garzón School!",
+      "button": "Apply",
+      "imageAlt": "Fall in love with learning"
+    }
+  },
+  "EducatingChangingWorldPage": {
+    "hero": {
+      "title": "Beyond Grades. Beyond Screens. Beyond the expected."
+    },
+    "intro": "Education is changing fast. Faster than most schools care to admit. While the world debates whether ChatGPT should be banned or embraced, we've already moved on to the real question: what kind of education is still worth having? At The Garzón School, we see the rise of technologies such as generative AI not as a threat to traditional learning, but as proof that traditional learning is already out of date. If a chatbot can do the thinking for you, maybe we need to rethink the teaching and learning. We're not interested in busywork. We're not preparing learners to fill in blanks or passively absorb information. We're preparing them to question, challenge, create, collaborate, and lead — because in a world overflowing with fast answers (some right, some wildly wrong), it's our competencies that matter most. Critical thinking. Ethical judgment. Clear communication. Adaptability. These are the tools that will serve our students in a future we can't yet predict, but that they'll be ready to shape.",
+    "questionHighlight": "what kind of education is still worth having?",
+    "engagedMinds": {
+      "title": "Engaged Minds. Real Purpose. Deep Learning.",
+      "content": "We believe learning should matter to students, not just to teachers or test designers. That's why we build our curriculum around engaged, purposeful learning, not compliance or rote repetition. When students find their spark — be it in science, storytelling, activism, or design — everything changes. They show up. They go deep. They surprise you. And, more importantly, they surprise themselves. Our projects ignite curiosity, hone critical thinking, and foster real-world connection. Whether students are designing escape rooms based on historical events or debating the ethical implications of AI, they're not coasting through school on autopilot. They're learning how to think, not just what to think."
+    },
+    "humansFirst": {
+      "title": "Humans First. Always.",
+      "content": "AI can do a lot. But it can't replace the energy of a classroom buzzing with ideas. It can't replicate the magic of face-to-face collaboration, or the quiet courage it takes to present an idea to a room full of peers. And it certainly can't raise a hand and ask a brilliant, disruptive question. At TGS we lean into judicious use of tech where it helps, but we stay rooted in what makes us human. Relationships. Curiosity. Integrity. Agency. These form the foundation of an education that doesn't just prepare students for the next exam, but for a future we can't yet predict."
+    },
+    "futureWontWait": {
+      "title": "The Future Won't Wait. Neither Will We.",
+      "content": "The world our children will enter is not the one we grew up in. And we think that's exciting; we're not clinging to the past. We're building something bold: an education that's alive, responsive, and radically student-centered. We don't promise all the answers. But we do know this: our graduates won't just be ready for the future, they'll help shape it."
+    },
+    "cta": {
+      "title": "Fall in love\nwith learning.",
+      "subtitle": "Apply to join The Garzón School!",
+      "button": "Apply",
+      "imageAlt": "Fall in love with learning"
+    }
+  },
+  "LearningVillagePage": {
+    "hero": {
+      "title": "Designed to inspire. Built to lead."
+    },
+    "intro": "A world-stage ecosystem for joyful learning, set amidst 38 hectares of untamed Uruguayan countryside above the nation's famous golden coast. Designed in collaboration with Rosan Bosch Studio, our purpose-built campus combines innovative, design-led spaces with a deep connection to nature. It offers students an environment where creativity, curiosity, and collaboration thrive, fostering authentic learning experiences that prepare changemakers for the future. Having opened in March 2025, this campus exemplifies The Garzón School's commitment to high-quality, nature-based education, serving as an inspiring model for schools across Latin America and beyond.",
+    "campusSize": "Our campus is equivalent in size to about 53 football pitches or 1,450 tennis courts. By 2029, it will be the largest K-12 campus in the world. And it's not just a space; it's a boundless canvas for young changemakers. Here, our students are inspired to explore, innovate, and lead, making a meaningful impact on the world.",
+    "rosanBosch": {
+      "title": "Designed by Rosan Bosch",
+      "paragraph1": "We believe that spaces influence how you feel, behave, interact, and ultimately, how you learn. That's why The Garzón School partnered with Rosan Bosch Studio to design and create our purpose-built campus in the beautiful Uruguayan countryside—a space thoughtfully crafted to inspire curiosity, collaboration, and a love of learning.",
+      "paragraph2": "Rosan Bosch Studio designs innovative, playful learning spaces that empower and inspire learners worldwide. For The Garzón School, they have created a truly world-class campus that serves as a beacon of high-quality, design-led, and nature-based education—not only for Latin America but for the global stage.",
+      "projectsButton": "See other projects designed by Rosan Bosch Studio"
+    },
+    "rosanQuote": {
+      "quote": "\"The Garzón School ecosystem is the jewel in the crown of my career.\"",
+      "attribution": "Rosan Bosch"
+    }
+  },
+  "CalendarPage": {
+    "hero": {
+      "title": "A calendar that puts learning first."
+    },
+    "calendar2025": {
+      "title": "2025 Calendar",
+      "subtitle": "Click on any month to view details"
+    },
+    "calendar2026": {
+      "title": "2026 Calendar",
+      "subtitle": "Provisional calendar - Click on any month to view details"
+    },
+    "terms": {
+      "term1": "Term 1",
+      "term2": "Term 2",
+      "term3": "Term 3",
+      "term4": "Term 4"
+    },
+    "weeks": "weeks",
+    "summer": "Summer",
+    "winter": "Winter",
+    "holidays": "Holidays",
+    "hoverTerms": "Hover terms for exact dates",
+    "legend": {
+      "guide": "Guide",
+      "schoolDay": "School Day",
+      "schoolHolidays": "School Holidays",
+      "nationalHoliday": "Uruguayan National Holiday",
+      "professionalDev": "Professional Development Day",
+      "celebration": "Celebration of Learning",
+      "orientationCamp": "Orientation Camp"
+    }
+  },
+  "DayPage": {
+    "hero": {
+      "title": "Time to learn."
+    }
+  },
+  "DonatePage": {
+    "hero": {
+      "title": "Build the future."
+    }
+  },
+  "GovernancePage": {
+    "hero": {
+      "title1": "A school that belongs",
+      "title2": "to its community."
+    },
+    "purpose": {
+      "title": "Purpose of the Asociación Civil",
+      "intro": {
+        "title": "Why the Asociación Civil model matters",
+        "content": "The Garzón School operates as an Asociación Civil — a non-profit, community-governed institution legally structured to serve the collective good rather than private interest. This model is not merely administrative; it reflects a deliberate commitment to transparency, sustainability, and shared ownership. It shapes how decisions are made, how resources are used, and how the school remains accountable to its families, staff, and mission over time."
+      },
+      "safeguard": {
+        "title": "Safeguard the school's mission and ethos",
+        "content": "The Asociación Civil exists first and foremost to protect the school's founding vision: a place where students' needs, learning quality, and wellbeing always come before financial interest. As a non-profit entity, TGS can make long-term educational decisions guided by its mission rather than by shareholders or short-term pressures. This ensures that every dollar the school earns or receives is reinvested directly into its people, its programs, and its purpose."
+      },
+      "transparency": {
+        "title": "Promote transparency and accountability",
+        "content": "The Asociación Civil model demands openness and shared responsibility. Every major institutional decision, from budget approval to leadership appointments, is overseen by a clear governance framework that is reviewed in annual assemblies and supported by public records. This means that families, staff, and the wider community can trust that TGS operates with integrity, that funds are managed responsibly, and that its leadership remains accountable to the collective it serves."
+      },
+      "continuity": {
+        "title": "Guarantee long-term continuity",
+        "content": "Schools that depend on individual owners or private investors often change direction when those individuals move on. As a community-owned, non-profit institution, The Garzón School is protected from that risk. The Asociación Civil structure ensures that the school's philosophy, resources, and leadership transition smoothly across generations, maintaining continuity in purpose and identity while allowing for growth and evolution over time."
+      },
+      "participation": {
+        "title": "Foster community participation",
+        "content": "Perhaps the greatest strength of the Asociación Civil model is that it invites every parent and guardian to play an active role in shaping the school's future. Membership is open, participation is encouraged, and dialogue is constant. Families are not merely clients — they are co-builders of an educational project grounded in shared values and collective trust. This sense of ownership and belonging is what gives The Garzón School its unique energy and resilience."
+      },
+      "impact": {
+        "title": "Ensure social impact and inclusion",
+        "content": "The Asociación Civil model enables The Garzón School to direct resources toward meaningful community impact rather than private profit, supporting our long-term goal of becoming a needs-blind institution where access depends on a student's potential, not a family's finances. By reinvesting surplus funds and mobilizing community support, the school sustains scholarships, outreach initiatives, and partnerships that open doors for talented children from all backgrounds. In this way, governance and social mission work hand in hand: every structural choice reinforces our belief that education should be a force for inclusion, fairness, and opportunity."
+      },
+      "conclusion": "Every year, the school's leadership team and Board report back to members on achievements, challenges, and the allocation of resources. This participatory structure makes The Garzón School stronger, more stable, and more aligned with its purpose."
+    },
+    "banner": {
+      "text": "In a region dominated by edu-businesses, The Garzón School stands apart as a non-profit institution built by and for its community."
+    },
+    "howGovernanceWorks": {
+      "title": "How Governance Works",
+      "intro": "The Asociación Civil is governed by statutes approved by the MEC in <strong>January 2022</strong> and amended by the General Assembly in <strong>March 2025</strong>. Members meet annually to review the school's progress and vote on major decisions. Every three years, members elect the Board of Directors, which provides oversight, sets policy, and safeguards the mission.",
+      "statutes": {
+        "title": "Statutes and Legal Framework",
+        "content": "The Asociación Civil operates under statutes (estatutos) approved by the MEC on <strong>January 3, 2022</strong>, and amended by resolution of the General Assembly in <strong>March 2025</strong>. These statutes establish the rights and responsibilities of members, define governance processes, and regulate the relationship between the Board, leadership, and membership body."
+      },
+      "generalAssembly": {
+        "title": "The General Assembly",
+        "intro": "The General Assembly is the highest decision-making body of the Asociación Civil. It is composed of all members and meets at least once per year to:",
+        "items": [
+          "Review and approve the Annual Report and Financial Statements.",
+          "Discuss the strategic direction and priorities of the school.",
+          "Vote on amendments to the statutes or key institutional matters.",
+          "Elect the Board of Directors every three years."
+        ],
+        "whyMatters": "The General Assembly gives families and community members a direct voice in the school's future. It ensures that TGS remains a transparent, community-owned project rather than a privately held enterprise."
+      },
+      "boardOfDirectors": {
+        "title": "The Board of Directors",
+        "intro": "The Board of Directors (Comisión Directiva) is elected by the General Assembly to serve a three-year term. It provides oversight, strategic direction, and ensures that the school operates in full alignment with its mission and legal obligations.",
+        "responsibilities": "The Board's responsibilities include:",
+        "items": [
+          "Overseeing the financial health and sustainability of the school.",
+          "Approving strategic plans, budgets, and major projects.",
+          "Supporting and supervising the Co-Heads of School in policy and leadership matters.",
+          "Representing the Asociación Civil in legal and institutional contexts."
+        ],
+        "whyMatters": "The Board guarantees ethical governance and long-term continuity. It connects the community's vision to the school's day-to-day leadership, ensuring that decisions reflect both purpose and prudence.",
+        "manual": "A full overview of the Board's role and operating protocols can be found in the Board Manual 2025."
+      }
+    },
+    "schoolBoard": {
+      "title": "Our School Board",
+      "members": {
+        "bruno": {
+          "name": "Bruno Varela",
+          "role": "President of the Board"
+        },
+        "laure": {
+          "name": "Laure de La Baume",
+          "role": "Board Secretary"
+        },
+        "carolina": {
+          "name": "Carolina Pontelli",
+          "role": "Board Treasurer"
+        }
+      }
+    }
+  },
+  "HeronPage": {
+    "hero": {
+      "title": "Bold student-led journalism."
+    }
+  },
+  "CommitteesPage": {
+    "hero": {
+      "title": "Where community becomes action."
+    }
+  },
+  "MovingToUruguayPage": {
+    "hero": {
+      "title": "Latin America's best kept secret."
+    }
+  },
+  "MultiformPage": {
+    "hero": {
+      "title": "Uniform? Not us."
+    }
+  },
+  "NutritionPage": {
+    "hero": {
+      "title": "Meals are more than simply fuel."
+    }
+  },
+  "OpenMorningsPage": {
+    "hero": {
+      "title": "Come along and see for yourself."
+    }
+  },
+  "PathwaysPage": {
+    "hero": {
+      "title": "No limits on personal growth."
+    }
+  },
+  "PoliciesPage": {
+    "hero": {
+      "title": "School Policies"
+    }
+  },
+  "PressPage": {
+    "hero": {
+      "title1": "The Garzón School",
+      "title2": "in the media."
+    }
+  },
+  "SafeguardingPage": {
+    "hero": {
+      "title1": "Safety first.",
+      "title2": "Always."
+    }
+  },
+  "SoftlandingPage": {
+    "hero": {
+      "title": "Success in school starting day one."
+    }
+  },
+  "SpacesPage": {
+    "hero": {
+      "title": "Discover your place."
+    }
+  },
+  "TestimonialsPage": {
+    "hero": {
+      "title": "What does TGS mean to our community?"
+    }
+  },
+  "WorkPage": {
+    "hero": {
+      "title1": "We are recognised as a",
+      "title2": "Great Place to Work®"
+    }
+  },
+  "AccreditationPage": {
+    "hero": {
+      "title": "Recognised locally. Rising globally."
+    }
+  },
+  "CampusPage": {
+    "hero": {
+      "title": "Designed to inspire. Built to lead."
+    }
+  },
+  "InquiryCtaPage": {
+    "hero": {
+      "title": "8:1 Student:Educator Ratio",
+      "description": "We believe in an individualised approach that simply cannot be achieved in a crowded classroom. We can identify and meet each child's own needs and develop bespoke learning paths.",
+      "button": "Meet our team!"
+    }
+  },
+  "InquiryPage": {
+    "hero": {
+      "title": "Authentic, engaging, exploratory learning."
+    }
+  },
+  "TeamCtaPage": {
+    "hero": {
+      "title1": "Our team isn't just valued;",
+      "title2": "they're invaluable.",
+      "button": "Meet our team!"
+    }
+  },
+  "TranslanguagingPage": {
+    "hero": {
+      "title": "Valuing learners' full linguistic repertoires."
+    }
+  },
+  "WellbeingPage": {
+    "hero": {
+      "title": "We see the child behind the student."
+    }
+  },
+  "Testimonial1Page": {
+    "hero": {
+      "title1": "What does TGS mean",
+      "title2": "to our community?"
+    }
+  },
+  "Testimonial2Page": {
+    "hero": {
+      "title1": "What does TGS mean",
+      "title2": "to our community?"
+    }
+  },
+  "Testimonial3Page": {
+    "hero": {
+      "title1": "What does TGS mean",
+      "title2": "to our community?"
+    }
+  },
+  "Testimonial4Page": {
+    "hero": {
+      "title1": "What does TGS mean",
+      "title2": "to our community?"
+    }
+  },
+  "Testimonial5Page": {
+    "hero": {
+      "title1": "What does TGS mean",
+      "title2": "to our community?"
+    }
+  }
+}

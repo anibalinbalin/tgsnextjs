@@ -13,7 +13,7 @@ interface MenuSectionProps {
   headerVariant?: HeaderVariant;
   showFooter?: boolean;
   /** Optional menu data from Google Sheets. Falls back to constants if not provided. */
-  data?: { weekA: WeekData; weekB: WeekData };
+  data?: { weekA: WeekData; weekB: WeekData; term?: string };
 }
 
 export default function MenuSection({
@@ -26,6 +26,7 @@ export default function MenuSection({
   // Use provided data or fall back to constants
   const weekA = data?.weekA ?? WEEK_A;
   const weekB = data?.weekB ?? WEEK_B;
+  const term = data?.term ?? '4';
   const activeData = currentWeek === 'A' ? weekA : weekB;
 
   return (
@@ -37,6 +38,7 @@ export default function MenuSection({
             dates={activeData.dates}
             onToggleWeek={setCurrentWeek}
             variant={headerVariant}
+            term={term}
           />
         )}
 
@@ -47,6 +49,7 @@ export default function MenuSection({
               dates={activeData.dates}
               onToggleWeek={setCurrentWeek}
               variant="full"
+              term={term}
             />
           )}
 

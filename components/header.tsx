@@ -1,8 +1,10 @@
 'use client'
 import { usePathname } from "next/navigation"
+import { useTranslations } from "next-intl"
 import { Instagram, Linkedin, BookOpen, LifeBuoy, Info, Search } from "lucide-react"
 
 import Logo from "@/components/navbar-components/logo"
+import { LanguageSwitcher } from "@/components/language-switcher"
 import { useSearch } from "@/lib/search/use-search"
 import { SearchCommand } from "@/components/search-command"
 import { cn } from "@/lib/utils"
@@ -42,85 +44,86 @@ type SimpleLink = {
 
 type NavigationLink = SubmenuLink | SimpleLink
 
-// Navigation links array to be used in both desktop and mobile menus
-const navigationLinks: NavigationLink[] = [
-  {
-    label: "Our School",
-    submenu: true,
-    type: "simple",
-    items: [
-      { href: "/welcome", label: "Welcome from the Heads" },
-      { href: "/missionvisionvalues", label: "Mission, Vision & Values" },
-      { href: "/team", label: "Meet Our Team" },
-      { href: "/governance", label: "Governance" },
-      { href: "/policies", label: "Policies" },
-      { href: "/press", label: "Press" },
-      { href: "/safeguarding", label: "Safeguarding" },
-      { href: "/work", label: "Work at TGS" },
-    ],
-  },
-  {
-    label: "Admissions",
-    submenu: true,
-    type: "simple",
-    items: [
-      { href: "/howtojoin", label: "How to Join" },
-      { href: "/openmornings", label: "Open Mornings" },
-      { href: "/spaces", label: "Space Availability" },
-      { href: "/testimonials", label: "Parent Testimonials" },
-      { href: "/moving-to-uruguay", label: "Moving to Uruguay" },
-      { href: "/fees", label: "Tuition & Fees" },
-      { href: "#", label: "Soft Landing" },
-      { href: "/faqs", label: "FAQs" },
-    ],
-  },
-  {
-    label: "Learning",
-    submenu: true,
-    type: "simple",
-    items: [
-      { href: "#", label: "Curriculum" },
-      { href: "/inquiry-based-learning", label: "Inquiry-Based Learning" },
-      { href: "#", label: "Wellbeing & Inclusion" },
-      { href: "/translanguaging", label: "Translanguaging" },
-      { href: "/educating-for-a-changing-world", label: "Educating for a Changing World" },
-      { href: "/accreditation", label: "Accreditation" },
-    ],
-  },
-  {
-    label: "Campus",
-    submenu: true,
-    type: "simple",
-    items: [
-      { href: "/learningvillage", label: "Our Learning Village" },
-      { href: "/nature", label: "Nurtured by Nature" },
-    ],
-  },
-  {
-    label: "Co-Curricular",
-    submenu: true,
-    type: "simple",
-    items: [
-      { href: "/pathways", label: "Pathways" },
-      { href: "/heron", label: "The Heron" },
-    ],
-  },
-  {
-    label: "School Life",
-    submenu: true,
-    type: "simple",
-    items: [
-      { href: "/committees", label: "TGS Committees" },
-      { href: "#", label: "Calendar & Term Dates" },
-      { href: "/day", label: "School Day" },
-      { href: "/multiform", label: "Multiform" },
-      { href: "/nutrition", label: "Nutrition" },
-    ],
-  },
-]
-
 export const HeroHeader = () => {
   const pathname = usePathname()
+  const t = useTranslations('Navigation')
+
+  // Navigation links with translated labels
+  const navigationLinks: NavigationLink[] = [
+    {
+      label: t('ourSchool'),
+      submenu: true,
+      type: "simple",
+      items: [
+        { href: "/welcome", label: t('links.welcome') },
+        { href: "/missionvisionvalues", label: t('links.missionVisionValues') },
+        { href: "/team", label: t('links.meetOurTeam') },
+        { href: "/governance", label: t('links.governance') },
+        { href: "/policies", label: t('links.policies') },
+        { href: "/press", label: t('links.press') },
+        { href: "/safeguarding", label: t('links.safeguarding') },
+        { href: "/work", label: t('links.workAtTGS') },
+      ],
+    },
+    {
+      label: t('admissions'),
+      submenu: true,
+      type: "simple",
+      items: [
+        { href: "/howtojoin", label: t('links.howToJoin') },
+        { href: "/openmornings", label: t('links.openMornings') },
+        { href: "/spaces", label: t('links.spaceAvailability') },
+        { href: "/testimonials", label: t('links.parentTestimonials') },
+        { href: "/moving-to-uruguay", label: t('links.movingToUruguay') },
+        { href: "/fees", label: t('links.tuitionFees') },
+        { href: "/softlanding", label: t('links.softLanding') },
+        { href: "/faqs", label: t('links.faqs') },
+      ],
+    },
+    {
+      label: t('learning'),
+      submenu: true,
+      type: "simple",
+      items: [
+        { href: "/curriculum", label: t('links.curriculum') },
+        { href: "/inquiry-based-learning", label: t('links.inquiryBasedLearning') },
+        { href: "/wellbeing-and-inclusion", label: t('links.wellbeingInclusion') },
+        { href: "/translanguaging", label: t('links.translanguaging') },
+        { href: "/educating-for-a-changing-world", label: t('links.educatingChangingWorld') },
+        { href: "/accreditation", label: t('links.accreditation') },
+      ],
+    },
+    {
+      label: t('campus'),
+      submenu: true,
+      type: "simple",
+      items: [
+        { href: "/learningvillage", label: t('links.learningVillage') },
+        { href: "/nature", label: t('links.nurturedByNature') },
+      ],
+    },
+    {
+      label: t('coCurricular'),
+      submenu: true,
+      type: "simple",
+      items: [
+        { href: "/pathways", label: t('links.pathways') },
+        { href: "/heron", label: t('links.theHeron') },
+      ],
+    },
+    {
+      label: t('schoolLife'),
+      submenu: true,
+      type: "simple",
+      items: [
+        { href: "/committees", label: t('links.committees') },
+        { href: "/calendar", label: t('links.calendarTermDates') },
+        { href: "/day", label: t('links.schoolDay') },
+        { href: "/multiform", label: t('links.multiform') },
+        { href: "/nutrition", label: t('links.nutrition') },
+      ],
+    },
+  ]
   const { open, setOpen } = useSearch()
 
   // Check if any child route matches current path
@@ -172,60 +175,51 @@ export const HeroHeader = () => {
                 </svg>
               </Button>
             </PopoverTrigger>
-            <PopoverContent align="start" className="w-64 p-1 md:hidden">
-              <NavigationMenu className="max-w-none *:w-full">
-                <NavigationMenuList className="flex-col items-start gap-0 md:gap-2">
-                  {navigationLinks.map((link, index) => (
-                    <NavigationMenuItem key={index} className="w-full">
-                      {link.submenu ? (
-                        <>
-                          <div className={cn("px-2 py-1.5 text-xs font-medium text-muted-foreground", isParentActive(link.items) && "underline underline-offset-4")}>
+            <PopoverContent align="start" className="w-72 p-0 md:hidden overflow-hidden">
+              <nav>
+                {navigationLinks.map((link, index) => (
+                  <div key={index}>
+                    {link.submenu ? (
+                      <>
+                        <div className={cn(
+                          "px-4 py-3 bg-gray-50/80",
+                          index > 0 && "border-t border-gray-200"
+                        )}>
+                          <span className={cn(
+                            "text-xs font-semibold uppercase tracking-wide text-[#C65D3B]",
+                            isParentActive(link.items) && "underline underline-offset-4"
+                          )}>
                             {link.label}
-                          </div>
-                          <ul>
-                            {link.items.map((item, itemIndex) => (
-                              <li key={itemIndex}>
-                                <NavigationMenuLink
-                                  href={item.href}
-                                  className={cn("py-1.5", isChildActive(item.href) && "underline underline-offset-4")}
-                                >
-                                  {item.label}
-                                </NavigationMenuLink>
-                              </li>
-                            ))}
-                          </ul>
-                        </>
-                      ) : (
-                        <NavigationMenuLink href={link.href} className="py-1.5">
-                          {link.label}
-                        </NavigationMenuLink>
-                      )}
-                      {/* Add separator between different types of items */}
-                      {(() => {
-                        const nextLink = navigationLinks[index + 1]
-                        if (index >= navigationLinks.length - 1) return false
-
-                        // Show separator if:
-                        // 1. One is submenu and one is simple link
-                        if (link.submenu !== nextLink.submenu) return true
-
-                        // 2. Both are submenus but with different types
-                        if (link.submenu && nextLink.submenu) {
-                          return link.type !== nextLink.type
-                        }
-
-                        return false
-                      })() && (
-                          <div
-                            role="separator"
-                            aria-orientation="horizontal"
-                            className="-mx-1 my-1 h-px w-full bg-border"
-                          />
-                        )}
-                    </NavigationMenuItem>
-                  ))}
-                </NavigationMenuList>
-              </NavigationMenu>
+                          </span>
+                        </div>
+                        <ul>
+                          {link.items.map((item, itemIndex) => (
+                            <li key={itemIndex}>
+                              <a
+                                href={item.href}
+                                className={cn(
+                                  "block py-3 px-4 text-[15px] text-gray-700 hover:bg-[#D39885]/5 active:bg-[#D39885]/10 transition-colors",
+                                  itemIndex < link.items.length - 1 && "border-b border-gray-100",
+                                  isChildActive(item.href) && "text-[#C65D3B] font-medium"
+                                )}
+                              >
+                                {item.label}
+                              </a>
+                            </li>
+                          ))}
+                        </ul>
+                      </>
+                    ) : (
+                      <a
+                        href={link.href}
+                        className="block py-3 px-4 text-[15px] text-gray-700 hover:bg-[#D39885]/5 border-b border-gray-100"
+                      >
+                        {link.label}
+                      </a>
+                    )}
+                  </div>
+                ))}
+              </nav>
               {/* Mobile menu actions */}
               <div className="mt-4 flex items-center justify-center gap-2 border-t pt-4">
                 <Button
@@ -237,6 +231,7 @@ export const HeroHeader = () => {
                 >
                   <Search className="size-4" />
                 </Button>
+                <LanguageSwitcher variant="default" />
                 <Button asChild variant="ghost" size="icon" className="size-8">
                   <a href="#" aria-label="Instagram">
                     <Instagram className="size-4" />
@@ -254,8 +249,8 @@ export const HeroHeader = () => {
             </PopoverContent>
           </Popover>
           {/* Main nav */}
-          <div className="flex items-center gap-6">
-            <a href="/" className="text-primary hover:text-primary/90">
+          <div className="flex shrink-0 items-center gap-6">
+            <a href="/" className="shrink-0 text-primary hover:text-primary/90">
               <Logo />
             </a>
             {/* Navigation menu */}
@@ -360,18 +355,19 @@ export const HeroHeader = () => {
           >
             <Search className="size-4" />
           </Button>
-          <Button asChild variant="ghost" size="icon" className="size-8 text-white hover:bg-white/10 hover:text-white">
+          <LanguageSwitcher />
+          <Button asChild variant="ghost" size="icon" className="hidden md:flex size-8 text-white hover:bg-white/10 hover:text-white">
             <a href="#" aria-label="Instagram">
               <Instagram className="size-4" />
             </a>
           </Button>
-          <Button asChild variant="ghost" size="icon" className="size-8 text-white hover:bg-white/10 hover:text-white">
+          <Button asChild variant="ghost" size="icon" className="hidden md:flex size-8 text-white hover:bg-white/10 hover:text-white">
             <a href="#" aria-label="LinkedIn">
               <Linkedin className="size-4" />
             </a>
           </Button>
           <Button asChild size="sm" className="bg-rose-200 text-rose-900 hover:bg-rose-300">
-            <a href="#">Support TGS</a>
+            <a href="/donate">Support TGS</a>
           </Button>
         </div>
         </div>

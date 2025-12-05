@@ -14,7 +14,7 @@ export default function SafeQuote() {
                 <div className="relative z-10 py-24 md:py-40 pt-32 md:pt-44">
                     <div className="mx-auto max-w-5xl px-6">
                         <div className="mx-auto max-w-4xl text-center">
-                            <blockquote className="text-2xl md:text-4xl font-medium text-white leading-relaxed mb-8">
+                            <blockquote className="text-4xl md:text-4xl font-medium text-white leading-relaxed mb-8">
                                 <span style={{ fontFamily: 'var(--font-geist-sans), system-ui, sans-serif' }}>'</span>Safeguarding is not just about protection — it<span style={{ fontFamily: 'var(--font-geist-sans), system-ui, sans-serif' }}>'</span>s about building trust, showing care, and fostering respect so every child feels safe and valued.<span style={{ fontFamily: 'var(--font-geist-sans), system-ui, sans-serif' }}>'</span>
                             </blockquote>
                             <cite className="text-white/80 text-lg not-italic">

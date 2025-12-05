@@ -2,6 +2,7 @@
 
 import { useCallback, useMemo, useState } from 'react'
 import { useRouter } from 'next/navigation'
+import { useTranslations } from 'next-intl'
 import Fuse from 'fuse.js'
 import { FileText } from 'lucide-react'
 
@@ -22,6 +23,7 @@ interface SearchCommandProps {
 
 export function SearchCommand({ open, onOpenChange }: SearchCommandProps) {
   const router = useRouter()
+  const t = useTranslations('Search')
   const [query, setQuery] = useState('')
 
   const fuse = useMemo(
@@ -65,17 +67,17 @@ export function SearchCommand({ open, onOpenChange }: SearchCommandProps) {
     <CommandDialog
       open={open}
       onOpenChange={onOpenChange}
-      title="Search"
-      description="Search pages across The Garzón School website"
+      title={t('title')}
+      description={t('description')}
       showCloseButton={false}
     >
       <CommandInput
-        placeholder="Search pages..."
+        placeholder={t('placeholder')}
         value={query}
         onValueChange={setQuery}
       />
       <CommandList>
-        <CommandEmpty>No results found.</CommandEmpty>
+        <CommandEmpty>{t('noResults')}</CommandEmpty>
         {Object.entries(groupedResults).map(([section, items]) => (
           <CommandGroup
             key={section}

@@ -1,10 +1,12 @@
 'use client'
 
 import React, { useRef, useEffect } from 'react'
+import { useTranslations } from 'next-intl'
 import { HeroHeader } from '@/components/header'
 import DevBadge from '@/components/dev-badge'
 
 export default function NatureHero() {
+    const t = useTranslations('NaturePage')
     const videoRef = useRef<HTMLVideoElement>(null)
 
     useEffect(() => {
@@ -35,10 +37,10 @@ export default function NatureHero() {
                             <div className="relative mx-auto flex max-w-6xl flex-col px-6 lg:block">
                                 <div className="mx-auto max-w-lg text-center lg:ml-0 lg:w-1/2 lg:text-left">
                                     <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white drop-shadow-lg">
-                                        The school is the park.
+                                        {t('hero.title1')}
                                     </h1>
                                     <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white drop-shadow-lg mt-2">
-                                        The park is the school.
+                                        {t('hero.title2')}
                                     </h1>
                                 </div>
                             </div>

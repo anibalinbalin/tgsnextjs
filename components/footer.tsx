@@ -1,17 +1,20 @@
 import Link from 'next/link'
+import { getTranslations } from 'next-intl/server'
 import DevBadge from './dev-badge'
 
-export default function FooterSection() {
+export default async function FooterSection() {
+    const t = await getTranslations('Footer')
+
     return (
         <footer className="relative py-16 md:py-32">
             <div className="mx-auto max-w-5xl px-6">
                 <h2 className="text-center font-medium mb-6" style={{ fontSize: '35px', lineHeight: '47px' }}>
-                    THE GARZÓN SCHOOL
+                    {t('schoolName')}
                 </h2>
 
                 <div className="my-4 text-center space-y-2">
                     <p className="text-sm text-muted-foreground md:text-base">
-                        Ruta 104 KM 13.5, 20000 Manantiales, Maldonado, Uruguay
+                        {t('address')}
                     </p>
                     <p className="text-sm text-muted-foreground md:text-base">
                         <Link
@@ -31,10 +34,10 @@ export default function FooterSection() {
 
                 <div className="my-4 text-center space-y-1">
                     <p className="text-sm text-muted-foreground md:text-base">
-                        ANEP-CEIP - Colegio Autorizado Nº 1 (Maldonado)
+                        {t('anepCeip')}
                     </p>
                     <p className="text-sm text-muted-foreground md:text-base">
-                        ANEP-CODICEN - Exp. Nº 2023-25-2-001958
+                        {t('anepCodicen')}
                     </p>
                 </div>
                 <div className="my-4 flex flex-wrap justify-center gap-6 text-sm">
@@ -42,7 +45,7 @@ export default function FooterSection() {
                         href="https://www.instagram.com/thegarzonschool/"
                         target="_blank"
                         rel="noopener noreferrer"
-                        aria-label="Instagram"
+                        aria-label={t('instagram')}
                         className="text-muted-foreground hover:text-primary block">
                         <svg
                             className="size-6"
@@ -59,7 +62,7 @@ export default function FooterSection() {
                         href="https://www.linkedin.com/company/thegarz%C3%B3nschool/"
                         target="_blank"
                         rel="noopener noreferrer"
-                        aria-label="LinkedIn"
+                        aria-label={t('linkedin')}
                         className="text-muted-foreground hover:text-primary block">
                         <svg
                             className="size-6"
@@ -73,7 +76,7 @@ export default function FooterSection() {
                         </svg>
                     </Link>
                 </div>
-                <span className="text-sm text-muted-foreground md:text-base block text-center">© {new Date().getFullYear()} The Garzón School</span>
+                <span className="text-sm text-muted-foreground md:text-base block text-center">© {new Date().getFullYear()} {t('copyright')}</span>
             </div>
             <DevBadge name="footer" />
         </footer>

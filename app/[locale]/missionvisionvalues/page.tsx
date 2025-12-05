@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from 'react'
 import Image from 'next/image'
+import { useTranslations } from 'next-intl'
 import { HeroHeader } from '@/components/header'
 import DevBadge from '@/components/dev-badge'
 import Footer from '@/components/footer'
@@ -12,6 +13,7 @@ import { ChevronLeft, ChevronRight } from 'lucide-react'
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion'
 
 export default function MissionVisionValuesPage() {
+    const t = useTranslations('MissionVisionValuesPage')
     const [carouselApi, setCarouselApi] = useState<CarouselApi>()
     const [canScrollPrev, setCanScrollPrev] = useState(false)
     const [canScrollNext, setCanScrollNext] = useState(false)
@@ -33,40 +35,40 @@ export default function MissionVisionValuesPage() {
 
     const carouselItems = [
         {
-            text: "We empower changemakers with authenticity, integrity, and purpose, inspired by nature and grounded in real-world learning.",
-            label: "Our Mission"
+            text: t('carousel.mission.text'),
+            label: t('carousel.mission.label')
         },
         {
-            text: "We will be a transformative education movement for the region.",
-            label: "Our Vision"
+            text: t('carousel.vision.text'),
+            label: t('carousel.vision.label')
         }
     ]
 
     const valuesItems = [
         {
             id: "innovation",
-            title: "Innovation",
-            content: "We emphasise creative problem-solving and forward-thinking, grounded in research, to prepare students to drive purposeful change. Fostering curiosity, agility, and a willingness to challenge conventional ideas equips learners to navigate complexity, seize opportunities, and create meaningful impact in their communities and beyond."
+            title: t('values.innovation.title'),
+            content: t('values.innovation.content')
         },
         {
             id: "diversity",
-            title: "Diversity",
-            content: "We celebrate diverse perspectives and foster an inclusive environment that values every individual's unique background, abilities, and contributions. Our commitment to authenticity extends to embracing socioeconomic and learning diversity, ensuring that all members of our community feel respected, supported, and empowered to thrive."
+            title: t('values.diversity.title'),
+            content: t('values.diversity.content')
         },
         {
             id: "ethics",
-            title: "Ethics",
-            content: "At the heart of our mission is the cultivation of integrity, where students learn to make responsible choices and act with honesty and respect. By fostering empathy, accountability, and a commitment to doing what is right, we guide students to understand the impact of their decisions on themselves, others, and the world around them."
+            title: t('values.ethics.title'),
+            content: t('values.ethics.content')
         },
         {
             id: "agency",
-            title: "Agency",
-            content: "Empowering students to take ownership of their learning and actions is central to developing purpose and confidence as changemakers. We encourage all learners to set meaningful goals, make informed decisions, and embrace challenges with autonomy, advocating for themselves and others as they shape their futures with purpose."
+            title: t('values.agency.title'),
+            content: t('values.agency.content')
         },
         {
             id: "service",
-            title: "Service",
-            content: "Real-world learning and impact are central to our mission. Service connects students with their communities, fostering empathy, responsibility, and purpose. Through collaborative projects, we learn the value of contributing to something greater than ourselves and gain the skills to make a meaningful difference both locally and globally."
+            title: t('values.service.title'),
+            content: t('values.service.content')
         }
     ]
 
@@ -81,7 +83,7 @@ export default function MissionVisionValuesPage() {
                             <div className="relative mx-auto flex max-w-6xl flex-col px-6 lg:block w-full">
                                 <div className="mx-auto max-w-lg text-center lg:ml-0 lg:w-1/2 lg:text-left">
                                     <h1 className="max-w-2xl font-medium text-white text-5xl md:text-6xl lg:text-7xl">
-                                        Empowering<br />changemakers.
+                                        {t('hero.title1')}<br />{t('hero.title2')}
                                     </h1>
                                 </div>
                             </div>
@@ -122,7 +124,7 @@ export default function MissionVisionValuesPage() {
                             disabled={!canScrollPrev}
                         >
                             <ChevronLeft className="h-4 w-4" />
-                            <span className="sr-only">Previous slide</span>
+                            <span className="sr-only">{t('carousel.prev')}</span>
                         </Button>
                         <Button
                             variant="outline"
@@ -133,7 +135,7 @@ export default function MissionVisionValuesPage() {
                             disabled={!canScrollNext}
                         >
                             <ChevronRight className="h-4 w-4" />
-                            <span className="sr-only">Next slide</span>
+                            <span className="sr-only">{t('carousel.next')}</span>
                         </Button>
                     </div>
                 </div>
@@ -145,10 +147,10 @@ export default function MissionVisionValuesPage() {
                 <div className="mx-auto max-w-5xl px-6">
                     <div className="mx-auto max-w-4xl space-y-6">
                         <h2 className="text-balance text-center text-white flex items-center justify-center text-4xl leading-snug font-medium">
-                            Our Values
+                            {t('values.title')}
                         </h2>
                         <p className="text-white text-justify text-2xl leading-loose font-light">
-                            Every journey of change begins with an idea—a spark of curiosity, a moment of inspiration, or the recognition of a challenge that demands action. At The Garzón School, IDEAS (Innovation, Diversity, Ethics, Agency, and Service) form the essential framework that drives our mission to empower changemakers, shaping not just what we do but how we do it—fostering a culture of creativity, inclusivity, integrity, and purpose that prepares learners to make meaningful impacts in their communities and beyond.
+                            {t('values.intro')}
                         </p>
 
                         <div className="pt-8">
@@ -177,7 +179,7 @@ export default function MissionVisionValuesPage() {
                 <div className="relative w-full h-[60vh] md:h-[70vh]">
                     <Image
                         src="/assets/1_ourschool/1_missionvisionvalues/IMG_7646.JPG"
-                        alt="The Garzón School"
+                        alt={t('imageAlt')}
                         fill
                         className="object-cover"
                     />
@@ -189,7 +191,7 @@ export default function MissionVisionValuesPage() {
             <section className="relative py-12 md:py-20" style={{ backgroundColor: '#D39885' }}>
                 <div className="mx-auto max-w-5xl px-6">
                     <div className="relative z-10 mx-auto max-w-4xl space-y-6 text-justify">
-                        <p className="text-white text-2xl leading-loose font-light">Innovation fuels creative problem-solving. Diversity broadens perspectives and builds empathy. Ethics ensures decisions are made with integrity. Agency empowers ownership and intentionality. Service connects learning with actions that create change. Together, these values form the backbone of our mission, ensuring changemakers emerge equipped to lead with authenticity, integrity, and purpose.</p>
+                        <p className="text-white text-2xl leading-loose font-light">{t('ideasDetail')}</p>
                     </div>
                 </div>
                 <DevBadge name="mvv-ideas-detail" />
@@ -200,14 +202,14 @@ export default function MissionVisionValuesPage() {
                 <div className="relative w-full h-[60vh] md:h-[70vh]">
                     <Image
                         src="/assets/0_mainpage/fall_in_love.JPG"
-                        alt="The Garzón School Community"
+                        alt={t('communityAlt')}
                         fill
                         className="object-cover"
                     />
                     <div className="absolute inset-0 bg-black/20 z-0" />
                     <div className="relative z-10 h-full flex items-center justify-center">
                         <div className="mx-auto max-w-4xl px-6">
-                            <p className="text-center text-white text-2xl md:text-3xl lg:text-4xl font-light leading-relaxed">With IDEAS at the heart of everything we do, we nurture a community where students are inspired to see possibilities, embrace challenges, and create a better future for themselves and the world.</p>
+                            <p className="text-center text-white text-2xl md:text-3xl lg:text-4xl font-light leading-relaxed">{t('fallInLove')}</p>
                         </div>
                     </div>
                 </div>

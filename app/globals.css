@@ -172,3 +172,17 @@
 .animate-celebration-pulse {
   animation: celebration-pulse 2s ease-in-out infinite;
 }
+
+/* Clip-path for school-levels section */
+.clip-school-levels {
+  /* Mobile - subtle off-center triangle (vertex at 75%) */
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 94%, 75% 100%, 0 94%);
+  clip-path: polygon(0 0, 100% 0, 100% 94%, 75% 100%, 0 94%);
+}
+
+@media (min-width: 768px) {
+  .clip-school-levels {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 75% 100%, 0 85%);
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 75% 100%, 0 85%);
+  }
+}

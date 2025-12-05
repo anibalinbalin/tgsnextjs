@@ -1,12 +1,14 @@
-import { Cpu, Fingerprint, Pencil, Settings2, Sparkles, Zap } from 'lucide-react'
+import { getTranslations } from 'next-intl/server'
 import DevBadge from './dev-badge'
 
-export default function InstagramGrid() {
+export default async function InstagramGrid() {
+    const t = await getTranslations('HomePage.instagram')
+
     return (
         <section className="relative py-12 md:py-20">
             <div className="mx-auto max-w-5xl space-y-8 px-6 md:space-y-16">
                 <div className="relative z-10 mx-auto max-w-xl space-y-6 text-center md:space-y-12">
-                    <h2 className="text-balance text-4xl leading-snug font-medium text-[#C65D3B]">Follow our journey on Instagram.</h2>
+                    <h2 className="text-balance text-4xl leading-snug font-medium text-[#C65D3B]">{t('title')}</h2>
                 </div>
 
                 <div className="relative mx-auto grid max-w-4xl divide-x divide-y border *:p-12 sm:grid-cols-2 lg:grid-cols-3">

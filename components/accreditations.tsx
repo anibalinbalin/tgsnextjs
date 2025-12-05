@@ -1,31 +1,34 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import { getTranslations } from 'next-intl/server'
 import DevBadge from './dev-badge'
 import { Button } from '@/components/ui/button'
 
-const Apos = () => <span style={{ fontFamily: 'var(--font-geist-sans), system-ui, sans-serif' }}>&apos;</span>
+export default async function Accreditations() {
+    const t = await getTranslations('HomePage.accreditations')
 
-const accreditations = [
-    {
-        name: 'ANEP',
-        logo: '/assets/0_mainpage/acreditations_ANEP_alpha.png',
-        description: <>The Garzón School is a fully authorized educational institution under Uruguay<Apos />s Administración Nacional de Educación Pública (ANEP), offering a bilingual program that meets and exceeds national standards across all grade levels.</>
-    },
-    {
-        name: 'NEASC',
-        logo: '/assets/0_mainpage/acreditations_alpha_svg.svg',
-        description: <>In 2025, The Garzón School achieved Eligibility for Accreditation from the New England Association of Schools and Colleges (NEASC) — one of the world<Apos />s most respected international accreditation bodies.</>
-    }
-]
+    const accreditations = [
+        {
+            key: 'anep',
+            name: t('anep.name'),
+            logo: '/assets/0_mainpage/acreditations_ANEP_alpha.png',
+            description: t('anep.description')
+        },
+        {
+            key: 'neasc',
+            name: t('neasc.name'),
+            logo: '/assets/0_mainpage/acreditations_alpha_svg.svg',
+            description: t('neasc.description')
+        }
+    ]
 
-export default function Accreditations() {
     return (
-        <section className="relative bg-terracotta pt-16 md:pt-32 pb-32" style={{ clipPath: 'polygon(0 0, 100% 0, 100% 85%, 75% 100%, 0 85%)' }}>
+        <section className="relative bg-terracotta pt-16 md:pt-32 pb-32" style={{ clipPath: 'polygon(0 0, 100% 0, 100% 92%, 75% 100%, 0 92%)' }}>
             <div className="mx-auto max-w-6xl px-6">
                 {/* Section Heading */}
                 <div className="text-center mb-16">
                     <h2 className="text-4xl md:text-5xl font-light text-white tracking-tight">
-                        Recognised Excellence
+                        {t('title')}
                     </h2>
                     <div className="w-24 h-0.5 bg-white/40 mx-auto mt-4" />
                 </div>
@@ -34,7 +37,7 @@ export default function Accreditations() {
                 <div className="space-y-12">
                     {accreditations.map((acc) => (
                         <div
-                            key={acc.name}
+                            key={acc.key}
                             className="flex flex-col md:flex-row items-center gap-8 md:gap-12"
                         >
                             {/* Logo Container */}
@@ -68,7 +71,7 @@ export default function Accreditations() {
                 <div className="mt-16 flex justify-center">
                     <Button variant="terracotta" size="lg" asChild>
                         <Link href="/accreditation">
-                            Find out more about our accreditation
+                            {t('learnMore')}
                         </Link>
                     </Button>
                 </div>

@@ -1,0 +1,897 @@
+{
+  "Navigation": {
+    "ourSchool": "Nuestro Colegio",
+    "admissions": "Admisiones",
+    "learning": "Aprendizaje",
+    "campus": "Campus",
+    "coCurricular": "Co-Curricular",
+    "schoolLife": "Vida Escolar",
+    "supportTGS": "Apoyar TGS",
+    "search": "Buscar",
+    "links": {
+      "welcome": "Bienvenida de los Directores",
+      "missionVisionValues": "Misión, Visión y Valores",
+      "meetOurTeam": "Conoce a Nuestro Equipo",
+      "governance": "Gobernanza",
+      "policies": "Políticas",
+      "press": "Prensa",
+      "safeguarding": "Protección",
+      "workAtTGS": "Trabaja en TGS",
+      "howToJoin": "Cómo Unirse",
+      "openMornings": "Mañanas Abiertas",
+      "spaceAvailability": "Disponibilidad de Espacios",
+      "parentTestimonials": "Testimonios de Padres",
+      "movingToUruguay": "Mudarse a Uruguay",
+      "tuitionFees": "Matrícula y Aranceles",
+      "softLanding": "Soft Landing",
+      "faqs": "Preguntas Frecuentes",
+      "curriculum": "Currículum",
+      "inquiryBasedLearning": "Aprendizaje Basado en la Indagación",
+      "wellbeingInclusion": "Bienestar e Inclusión",
+      "translanguaging": "Translanguaging",
+      "educatingChangingWorld": "Educando para un Mundo Cambiante",
+      "accreditation": "Acreditación",
+      "learningVillage": "Nuestra Aldea de Aprendizaje",
+      "nurturedByNature": "Nutridos por la Naturaleza",
+      "pathways": "Pathways",
+      "theHeron": "The Heron",
+      "committees": "Comités TGS",
+      "calendarTermDates": "Calendario y Fechas",
+      "schoolDay": "Día Escolar",
+      "multiform": "Multiform",
+      "nutrition": "Nutrición"
+    }
+  },
+  "LanguageSwitcher": {
+    "en": "English",
+    "es": "Español",
+    "changeLanguage": "Cambiar idioma"
+  },
+  "HomePage": {
+    "hero": {
+      "tagline": "Enamórate del aprendizaje."
+    },
+    "empowering": {
+      "title": "Formando Agentes de Cambio",
+      "description": "Bienvenido a The Garzón School: una comunidad de aprendizaje audaz y transformadora donde la ética, la innovación y una profunda conexión con la naturaleza empoderan a los estudiantes para liderar con propósito. A través del aprendizaje alegre, el bienestar y la enseñanza basada en investigación, inspiramos a los jóvenes a actuar con integridad y marcar la diferencia, comenzando hoy."
+    },
+    "schoolLevels": {
+      "earlyYears": {
+        "title": "Primera Infancia",
+        "description": "Un comienzo alegre e inspirado en la naturaleza para estudiantes de 2 a 6 años, nutriendo la curiosidad, la creatividad y las habilidades fundamentales a través del juego y la exploración.",
+        "alt": "Primera Infancia - Un niño leyendo en un acogedor rincón de lectura circular"
+      },
+      "primary": {
+        "title": "Primaria",
+        "description": "Empoderando a jóvenes estudiantes de 6 a 12 años para crecer como pensadores éticos, colaboradores y agentes de cambio a través del aprendizaje basado en la indagación y conexiones con el mundo real.",
+        "alt": "Primaria - Estudiantes aprendiendo en un aula moderna"
+      },
+      "secondary": {
+        "title": "Secundaria",
+        "description": "Desafiando a los estudiantes a liderar con propósito, autenticidad e integridad, combinando trayectorias de aprendizaje individualizadas, inmersión en la naturaleza y ciudadanía global.",
+        "alt": "Secundaria - Vista aérea de estudiantes en un espacio de aprendizaje circular al aire libre"
+      },
+      "applyButton": "Postular Ahora"
+    },
+    "explore": {
+      "title": "Explorar, Conectar, Pertenecer",
+      "description": "En nuestro campus silvestre de 38 hectáreas, la educación cobra vida a través de la exploración, la conexión y un profundo sentido de pertenencia. Arraigados en la diversidad y la inclusión, inspiramos a los estudiantes a crecer con propósito, tomar riesgos, enfrentar desafíos de frente y liderar con compasión para crear un cambio real."
+    },
+    "instagram": {
+      "title": "Sigue nuestro recorrido en Instagram."
+    },
+    "team": {
+      "button": "¡Conoce más sobre nuestro equipo!",
+      "roles": {
+        "coHeadOfSchool": "Co-Director/a",
+        "lowerSchoolCoordinator": "Coordinador/a de Primaria Baja",
+        "technicalDirectorSecondary": "Director/a Técnico/a (Secundaria)",
+        "secondaryEducatorLiterature": "Educador/a de Secundaria (Literatura)",
+        "secondaryEducatorStem": "Educador/a de Secundaria (STEM)",
+        "secondaryEducatorArt": "Educador/a de Secundaria (Arte y Diseño)",
+        "technicalDirectorPrimary": "Director/a Técnico/a (Primaria)",
+        "primaryEducator": "Educador/a de Primaria",
+        "earlyYearsEducator": "Educador/a de Primera Infancia",
+        "educationalPsychologistPrimary": "Psicólogo/a Educacional (Primaria)",
+        "educationalPsychologistSecondary": "Psicólogo/a Educacional (Secundaria)",
+        "musicSpecialistPrimary": "Especialista en Música (Primaria)",
+        "facilitiesSupervisor": "Supervisor/a de Instalaciones",
+        "groundskeeper": "Encargado/a de Mantenimiento",
+        "admissionsOfficer": "Oficial de Admisiones",
+        "accountant": "Contador/a",
+        "coCurricularCoordinator": "Coordinador/a Co-Curricular"
+      }
+    },
+    "learners": {
+      "title": "De Estudiantes a Líderes",
+      "description": "The Garzón School va más allá de la educación: es una forma de ser. Formamos individuos reflexivos que construyen relaciones sólidas, asumen la responsabilidad de sus acciones y contribuyen a sus comunidades. Arraigados en la alegría, la integridad y la conexión, empoderamos a los estudiantes para moldear el mundo en sus propios términos."
+    },
+    "park": {
+      "title": "El colegio es el parque. El parque es el colegio.",
+      "button": "¡Descubre un campus de clase mundial!",
+      "alt": "Vista aérea del parque escolar"
+    },
+    "accreditations": {
+      "title": "Excelencia Reconocida",
+      "anep": {
+        "name": "ANEP",
+        "description": "The Garzón School es una institución educativa completamente autorizada bajo la Administración Nacional de Educación Pública (ANEP) de Uruguay, ofreciendo un programa bilingüe que cumple y supera los estándares nacionales en todos los niveles."
+      },
+      "neasc": {
+        "name": "NEASC",
+        "description": "En 2025, The Garzón School logró la Elegibilidad para Acreditación de la New England Association of Schools and Colleges (NEASC), uno de los organismos de acreditación internacional más respetados del mundo."
+      },
+      "learnMore": "Descubre más sobre nuestra acreditación"
+    },
+    "fallInLove": {
+      "title": "Enamórate del aprendizaje.",
+      "description": "¡Postula para unirte a The Garzón School!",
+      "button": "Postular",
+      "alt": "Enamórate del aprendizaje"
+    }
+  },
+  "Footer": {
+    "schoolName": "THE GARZÓN SCHOOL",
+    "address": "Ruta 104 KM 13.5, 20000 Manantiales, Maldonado, Uruguay",
+    "anepCeip": "ANEP-CEIP - Colegio Autorizado Nº 1 (Maldonado)",
+    "anepCodicen": "ANEP-CODICEN - Exp. Nº 2023-25-2-001958",
+    "copyright": "The Garzón School",
+    "instagram": "Instagram",
+    "linkedin": "LinkedIn"
+  },
+  "Search": {
+    "title": "Buscar",
+    "description": "Buscar páginas en el sitio web de The Garzón School",
+    "placeholder": "Buscar páginas...",
+    "noResults": "No se encontraron resultados."
+  },
+  "FaqsPage": {
+    "hero": {
+      "title": "Preguntas Frecuentes"
+    },
+    "intro": "¿Tiene preguntas sobre The Garzón School? ¡No está solo! Nuestra página de Preguntas Frecuentes está aquí para proporcionar respuestas rápidas y claras a las consultas más comunes de familias prospectivas y actuales. Lo tenemos cubierto. Si no encuentra la información que busca, no dude en contactarnos directamente—¡estamos aquí para ayudar!",
+    "faqs": {
+      "entryExams": {
+        "title": "¿TGS tiene exámenes de ingreso?",
+        "content": "Nuestro colegio se basa en la creencia de que el potencial de éxito de un individuo va mucho más allá del rendimiento en pruebas estandarizadas. Por eso nuestro proceso de admisión considera las cualidades y experiencias únicas que conforman a cada niño. Al determinar la 'mejor compatibilidad', evaluamos logros académicos, artísticos, deportivos y comunitarios que demuestran un potencial excepcional para prosperar en TGS. Además, valoramos a las familias con un interés demostrado y de larga data en la educación."
+      },
+      "tuitionFee": {
+        "title": "¿Qué está incluido en la Matrícula?",
+        "content": "Nuestra Matrícula cubre todas las actividades curriculares y recursos de aprendizaje, incluyendo libros, papelería e iPads o MacBooks. También incluye salidas curriculares obligatorias, transporte asociado y mantenimiento del campus. Sin embargo, el costo de los almuerzos escolares y los Clubes Co-Curriculares no está incluido en la Matrícula."
+      },
+      "secondarySchool": {
+        "title": "¿Cuándo abrirá TGS la secundaria?",
+        "content": "Estamos emocionados de abrir 7° y 8° Grado en TGS en marzo de 2025. A medida que continuamos creciendo orgánicamente con nuestra cohorte más antigua, esperamos celebrar a nuestros primeros graduados de 12° Grado de TGS en 2029!"
+      },
+      "scholarships": {
+        "title": "¿TGS ofrece Becas y/o Ayudas Financieras?",
+        "content": "Actualmente, el 10% de nuestro cuerpo estudiantil asiste a The Garzón School con becas parciales o completas, posibles gracias a donaciones privadas a largo plazo al Fondo de Dotación de TGS. Seguimos profundamente comprometidos con el crecimiento del Fondo como parte de nuestra misión de promover un acceso más amplio a una educación transformadora de TGS."
+      },
+      "siblingDiscounts": {
+        "title": "¿Ofrecen descuentos por hermanos en la Matrícula?",
+        "content": "Nos complace ofrecer descuentos en la matrícula para familias con varios hijos que asisten a The Garzón School. Se aplica un descuento del 10% en la matrícula para el segundo hijo, 15% para el tercero y 20% para el cuarto hijo en adelante. Esta iniciativa refleja nuestro compromiso de apoyar a las familias y hacer que la educación de TGS sea más accesible para los hermanos."
+      },
+      "academicCalendar": {
+        "title": "¿TGS opera con un calendario académico del hemisferio norte (septiembre–junio) o sur (marzo–diciembre)?",
+        "content": "The Garzón School opera con un año académico del hemisferio sur, que va de febrero a diciembre. Comenzamos el año académico antes que la mayoría de los colegios uruguayos, lo que nos permite distribuir uniformemente los trimestres mientras ofrecemos vacaciones de invierno más largas, lo cual es especialmente apreciado por nuestras familias y personal con raíces en el hemisferio norte. Este enfoque asegura un calendario académico equilibrado que satisface las necesidades de nuestra diversa comunidad. Puede ver el calendario del año actual navegando a \"Vida Escolar\" → \"Calendario y Fechas\" en este sitio web."
+      },
+      "gradePlacement": {
+        "title": "Nos mudamos de un colegio con calendario académico de septiembre a junio; ¿cómo decidirá TGS la ubicación de grado?",
+        "content": "Varias familias han hecho la transición exitosamente desde colegios del hemisferio norte para unirse a TGS. Este proceso típicamente implica un punto de entrada a mitad de año en agosto, con estudiantes ubicados en la cohorte que acaban de completar. Este enfoque permite a los estudiantes aclimatarse a su nuevo entorno y ajustarse lingüística y socialmente antes de avanzar al siguiente nivel de grado en febrero siguiente."
+      }
+    },
+    "contact": {
+      "question": "¿Aún no encuentra lo que busca?",
+      "button": "Escriba a nuestro Oficial de Admisiones"
+    }
+  },
+  "FeesPage": {
+    "hero": {
+      "title": "La mejor inversión."
+    },
+    "intro": {
+      "title": "La Mejor Inversión",
+      "description": "Nuestra matrícula refleja la educación y el cuidado excepcionales que su hijo/a experimentará en The Garzón School. Estamos comprometidos a proporcionar un entorno de aprendizaje inspirador, formado por educadores excepcionales y enriquecido con oportunidades que preparan a los estudiantes para prosperar tanto dentro como fuera del aula. La matrícula y los aranceles para 2026 se detallan a continuación."
+    },
+    "tuition": {
+      "description": "La matrícula anual generalmente se paga en su totalidad en enero del año académico en que el niño/a comenzará la escuela, con la opción de pagos en cuotas disponible previo acuerdo con la oficina del colegio."
+    },
+    "meals": {
+      "title": "Comidas Escolares",
+      "description": "The Garzón School se esfuerza por minimizar los costos adicionales y asegura que la mayoría de los extras sean opcionales. Sin embargo, el costo principal no opcional fuera de la matrícula es nuestro programa de comidas diarias, que incluye una merienda matutina, almuerzo y una merienda vespertina. Estas comidas se preparan frescas en el lugar y son disfrutadas por nuestros estudiantes. El costo es de UYU $470 por día en 2025. Tenga en cuenta que esta tarifa está sujeta a revisión, y cualquier precio revisado será establecido por nuestros socios de catering, <nutritionLink>Piña Dulce</nutritionLink>. (Descuento 2º hijo: 10%; descuento 3º hijo: 15%)."
+    },
+    "coCurricular": {
+      "title": "Co-Curricular",
+      "description": "Nuestro programa co-curricular ofrece una rica variedad de oportunidades para mejorar el aprendizaje más allá del aula. Consta de tres elementos principales: <bold>Pathways</bold>, nuestros clubes distintivos diseñados para fomentar la maestría y la excelencia; <bold>Deportes</bold>, que fomentan el trabajo en equipo y el desarrollo físico; y <bold>W.I.L.D.</bold> (Inmersión en la Naturaleza y Desarrollo de Liderazgo), un programa inmersivo enfocado en la educación al aire libre y habilidades de liderazgo. Nos comprometemos a que <bold>W.I.L.D.</bold> sea gratuito, mientras que las actividades de Pathways y Deportes tienen un pequeño cargo adicional por trimestre."
+    },
+    "scholarship": {
+      "title": "Haciendo la educación de clase mundial más accesible—explora nuestras becas.",
+      "button": "Consultar Sobre Nuestras Becas"
+    }
+  },
+  "HowToJoinPage": {
+    "hero": {
+      "title1": "Sé parte de un",
+      "title2": "movimiento educativo."
+    },
+    "intro": {
+      "title": "Elegir un colegio es como elegir un hogar; tiene que sentirse bien.",
+      "description": "Sabemos que elegir un colegio es una decisión importante y a largo plazo para toda la familia. Por eso nos aseguramos de que cada familia prospectiva tenga toda la información que necesita para tomar la decisión correcta para la educación de su hijo/a. Si no encuentra lo que busca aquí, por favor contacte a nuestro \"encantador y eficiente\" Oficial de Admisiones (sí, esa es una reseña real de un padre), quien está disponible para responder cualquier pregunta sobre cómo unirse a TGS."
+    },
+    "faq": {
+      "title": "Cómo Unirse",
+      "subtitle": "Nuestro proceso de admisión está cuidadosamente diseñado para asegurar una compatibilidad perfecta.",
+      "registerInterest": "Registrar Interés",
+      "steps": {
+        "step1": {
+          "title": "1. Registrar Interés",
+          "content": "Háganos saber que está interesado en explorar la admisión de su(s) hijo(s), ya sea a través de nuestro sitio web o directamente con nuestro Oficial de Admisiones, Jacques (jacques@thegarzonschool.edu.uy)."
+        },
+        "step2": {
+          "title": "2. Información Preliminar",
+          "content": "Jacques lo guiará a través del siguiente paso del proceso, durante el cual le pediremos información más detallada sobre los objetivos y necesidades educativas de su familia."
+        },
+        "step3": {
+          "title": "3. Cita Virtual",
+          "content": "En esta etapa se reunirá en línea con nuestros Co-Directores para conocer más sobre la propuesta única de nuestro Colegio. También podrá hacer y abordar esas preguntas pendientes."
+        },
+        "step4": {
+          "title": "4. Visita al Colegio",
+          "content": "Será invitado a ver el Colegio en acción, cuando sea posible durante un día escolar regular. Generalmente se recomienda que los estudiantes prospectivos (especialmente los más jóvenes) no nos visiten hasta que se haya hecho un compromiso firme de unirse."
+        },
+        "step5": {
+          "title": "5. Oferta Condicional",
+          "content": "Haremos una oferta, sujeta a la presentación oportuna por parte de la familia prospectiva de la documentación esencial, la cuota de aplicación y una Cita Familiar exitosa (siguiente paso)."
+        },
+        "step6": {
+          "title": "6. Cita Familiar",
+          "content": "Su(s) hijo(s) será(n) invitado(s) a conocer a sus futuros maestros y participar en actividades de aprendizaje divertidas junto a nuestra maravillosa Psicóloga Educacional, Catalina."
+        },
+        "step7": {
+          "title": "7. Oferta Incondicional",
+          "content": "Una vez que el Colegio haya recibido todos los pagos y documentos necesarios, el lugar de su hijo/a en el Colegio está asegurado. ¡En este punto, es perfectamente normal empezar a contar los días!"
+        }
+      }
+    }
+  },
+  "MissionVisionValuesPage": {
+    "hero": {
+      "title1": "Formando",
+      "title2": "agentes de cambio."
+    },
+    "carousel": {
+      "mission": {
+        "text": "Empoderamos agentes de cambio con autenticidad, integridad y propósito, inspirados por la naturaleza y arraigados en el aprendizaje del mundo real.",
+        "label": "Nuestra Misión"
+      },
+      "vision": {
+        "text": "Seremos un movimiento educativo transformador para la región.",
+        "label": "Nuestra Visión"
+      },
+      "prev": "Diapositiva anterior",
+      "next": "Siguiente diapositiva"
+    },
+    "values": {
+      "title": "Nuestros Valores",
+      "intro": "Todo viaje de cambio comienza con una idea: una chispa de curiosidad, un momento de inspiración o el reconocimiento de un desafío que demanda acción. En The Garzón School, IDEAS (Innovación, Diversidad, Ética, Autonomía y Servicio) forman el marco esencial que impulsa nuestra misión de empoderar agentes de cambio, moldeando no solo lo que hacemos sino cómo lo hacemos—fomentando una cultura de creatividad, inclusión, integridad y propósito que prepara a los estudiantes para generar impactos significativos en sus comunidades y más allá.",
+      "innovation": {
+        "title": "Innovación",
+        "content": "Enfatizamos la resolución creativa de problemas y el pensamiento visionario, fundamentados en la investigación, para preparar a los estudiantes a impulsar cambios con propósito. Fomentar la curiosidad, la agilidad y la disposición a desafiar ideas convencionales equipa a los estudiantes para navegar la complejidad, aprovechar oportunidades y crear un impacto significativo en sus comunidades y más allá."
+      },
+      "diversity": {
+        "title": "Diversidad",
+        "content": "Celebramos las perspectivas diversas y fomentamos un ambiente inclusivo que valora el origen, las habilidades y las contribuciones únicas de cada individuo. Nuestro compromiso con la autenticidad se extiende a abrazar la diversidad socioeconómica y de aprendizaje, asegurando que todos los miembros de nuestra comunidad se sientan respetados, apoyados y empoderados para prosperar."
+      },
+      "ethics": {
+        "title": "Ética",
+        "content": "En el corazón de nuestra misión está el cultivo de la integridad, donde los estudiantes aprenden a tomar decisiones responsables y actuar con honestidad y respeto. Al fomentar la empatía, la responsabilidad y el compromiso de hacer lo correcto, guiamos a los estudiantes a comprender el impacto de sus decisiones en ellos mismos, en los demás y en el mundo que los rodea."
+      },
+      "agency": {
+        "title": "Autonomía",
+        "content": "Empoderar a los estudiantes para que se apropien de su aprendizaje y acciones es fundamental para desarrollar propósito y confianza como agentes de cambio. Animamos a todos los estudiantes a establecer metas significativas, tomar decisiones informadas y abrazar desafíos con autonomía, abogando por sí mismos y por otros mientras forjan sus futuros con propósito."
+      },
+      "service": {
+        "title": "Servicio",
+        "content": "El aprendizaje e impacto en el mundo real son centrales a nuestra misión. El servicio conecta a los estudiantes con sus comunidades, fomentando la empatía, la responsabilidad y el propósito. A través de proyectos colaborativos, aprendemos el valor de contribuir a algo más grande que nosotros mismos y adquirimos las habilidades para hacer una diferencia significativa tanto local como globalmente."
+      }
+    },
+    "ideasDetail": "La innovación impulsa la resolución creativa de problemas. La diversidad amplía perspectivas y construye empatía. La ética asegura que las decisiones se tomen con integridad. La autonomía empodera la apropiación y la intencionalidad. El servicio conecta el aprendizaje con acciones que crean cambio. Juntos, estos valores forman la columna vertebral de nuestra misión, asegurando que los agentes de cambio emerjan equipados para liderar con autenticidad, integridad y propósito.",
+    "fallInLove": "Con IDEAS en el corazón de todo lo que hacemos, cultivamos una comunidad donde los estudiantes se inspiran para ver posibilidades, abrazar desafíos y crear un futuro mejor para ellos y para el mundo.",
+    "imageAlt": "The Garzón School",
+    "communityAlt": "Comunidad de The Garzón School"
+  },
+  "WelcomePage": {
+    "title": "¡Bienvenidos a The Garzón School!",
+    "p1": "Desde nuestro campus de clase mundial en la famosa costa dorada de Uruguay, The Garzón School se enorgullece de brindar una educación adaptada a las necesidades y habilidades de cada estudiante. Los grupos reducidos, con clases diferenciadas para Lengua y Matemáticas, garantizan una atención individual sin igual para nuestros estudiantes. Nuestro equipo se esfuerza por diseñar <highlight>experiencias de aprendizaje alegres</highlight>, respaldadas por un entorno escolar mágico que vibra con indagación, colaboración y descubrimiento.",
+    "p2": "Extendido a lo largo de 38 hectáreas de campo ondulado, bosques y lagos de agua dulce, nuestro <campusLink>campus diseñado a medida</campusLink> es un aula viva como ninguna otra. Diseñado para inspirar creatividad, autonomía y una conexión con el mundo natural, cada espacio — desde nuestros estudios llenos de luz hasta nuestras terrazas de aprendizaje al aire libre — ha sido cuidadosamente creado para despertar la curiosidad y apoyar un aprendizaje profundo y significativo. Los niños son libres de recorrer, explorar e interactuar con su entorno de maneras que cultivan la confianza, la resiliencia y el sentido de asombro.",
+    "p3": "Con nuestro mundo cambiando a un ritmo acelerado, creemos que el pensamiento ágil, la comunicación sólida y la resolución avanzada de problemas son claves para el liderazgo del futuro. Por eso nuestro <highlight>currículo personalizado basado en investigación</highlight>, diseñado y dirigido por nuestro equipo multidisciplinario de educadores de clase mundial, se enfoca en desarrollar competencias que colocan a nuestros estudiantes en el camino hacia el éxito en la vida y, en última instancia, hacia una contribución significativa a la sociedad.",
+    "p4": "Nuestro fuerte enfoque en el <highlight>bienestar</highlight>, la ética y el aprendizaje socioemocional (SEL) crea un 'hogar fuera de casa' en el que los niños pueden florecer a su propio ritmo, sintiéndose apoyados y alentados mientras forjan sus propios caminos. Fomentamos las expresiones de individualidad y vemos el crecimiento de cada estudiante de manera holística. El éxito de este enfoque está ligado a las sólidas relaciones escuela-familia que cultivamos, asegurando que se mantenga un diálogo bidireccional que está firmemente centrado en el estudiante.",
+    "p5": "Desde que abrimos nuestras puertas en 2022, nos ha inspirado el grado en que la misión de The Garzón School ha resonado con escuelas, educadores y líderes de opinión en Uruguay y en todo el mundo. De hecho, es lo que nos atrajo a liderar este proyecto único. Creemos que TGS es más que una escuela; es un <highlight>movimiento educativo</highlight> para la región. A medida que continuamos creciendo y construyendo, nunca dejaremos de desafiar, crear e innovar.",
+    "p6": "Te invitamos a <highlight>visitarnos</highlight> para que puedas experimentar de primera mano todo lo que hace de The Garzón School un entorno de aprendizaje tan atractivo y maravilloso para los niños.",
+    "signatureAlt": "Firmas de Sam Irving y Leona Dauphin, Co-Directores"
+  },
+  "CurriculumPage": {
+    "hero": {
+      "title": "Un currículo innovador diseñado por educadores de excelencia."
+    },
+    "intro": "Tenemos un currículo personalizado y centrado en el estudiante, basado en las mejores prácticas educativas del mundo. Nuestro currículo basado en conceptos — diseñado por nuestro equipo de educadores que disfrutan de dos horas de planificación colaborativa diaria — enfatiza el desarrollo de competencias, habilidades y atributos de TGS, y promueve tanto el pensamiento crítico como el pensamiento de diseño.",
+    "bannerLearning": {
+      "quote": "'El aprendizaje en The Garzón School es un viaje significativo de interacción mutuamente expansiva entre todo nuestro ser y nuestro entorno.'",
+      "attribution": "— Definición de Aprendizaje de TGS",
+      "imageAlt": "Aprendizaje en The Garzón School"
+    },
+    "concepts": {
+      "title": "Conceptos Curriculares de TGS",
+      "intro": "Nuestro currículo explora 8 conceptos fundamentales, que los estudiantes recorren a través del aprendizaje basado en la indagación en ciclos de dos años. A medida que los jóvenes estudiantes se desarrollan y florecen, volverán a estos mismos conceptos pero los abordarán desde una perspectiva cada vez más abstracta.",
+      "identity": {
+        "title": "Identidad",
+        "content": "La identidad abarca todas las características que definen a los individuos, grupos y culturas, así como la forma en que se perciben y expresan a sí mismos. Estudiamos la identidad no solo para promover la autoconciencia, sino también para comprender a los demás y desarrollar nuestra capacidad de empatía."
+      },
+      "expression": {
+        "title": "Expresión",
+        "content": "La expresión está relacionada con las diversas formas en que los individuos y grupos transmiten ideas, sentimientos y actitudes. Esto incluye la comunicación verbal y no verbal, así como formas creativas de expresión como el arte, la música y la literatura. Estudiamos la expresión para comprender los mensajes y significados transmitidos por otros, expresarnos de manera más efectiva y fomentar una mayor comprensión y conexión entre las personas."
+      },
+      "change": {
+        "title": "Cambio",
+        "content": "Una de las grandes inevitabilidades de la vida, el cambio se refiere al proceso de transformación o transición de un estado o condición a otro. El cambio puede ocurrir en diferentes niveles, como individual, organizacional, social o global. Estudiamos el cambio para comprender el mundo que nos rodea, el concepto de causa y efecto, y para ayudarnos a desarrollar estrategias para gestionar y adaptarnos al cambio."
+      },
+      "function": {
+        "title": "Función",
+        "content": "La función se refiere al propósito o rol de un objeto, herramienta o sistema particular en un contexto dado. Las funciones se pueden encontrar en diferentes áreas de nuestro mundo, como matemáticas, ciencias, ingeniería y ciencias sociales. El estudio de la función es esencial para comprender cómo funcionan los sistemas, cómo nos impactan y cómo podemos influir en ellos."
+      },
+      "relationships": {
+        "title": "Relaciones",
+        "content": "Las relaciones se refieren a las conexiones e interacciones entre individuos, grupos o sistemas. Pueden tomar diferentes formas, como amistades, lazos familiares, parejas románticas o alianzas internacionales. Las relaciones juegan un papel crucial en la formación de nuestro desarrollo social, emocional y cognitivo, así como de nuestra salud y bienestar. El estudio de las relaciones es esencial para comprender las complejas dinámicas de las interacciones humanas y para fomentar comunidades saludables y resilientes."
+      },
+      "responsibility": {
+        "title": "Responsabilidad",
+        "content": "La responsabilidad es el estado de ser responsable de las propias acciones y decisiones. Implica reconocer el impacto de nuestro comportamiento en los demás y tomar medidas para asegurar que nuestras acciones se alineen con los estándares éticos. El estudio de la responsabilidad puede ayudarnos a desarrollar un sentido de integridad, reforzar nuestro compromiso con la ética y los valores, y fomentar la confianza y credibilidad en nuestras relaciones con los demás."
+      },
+      "life": {
+        "title": "Vida",
+        "content": "La vida se relaciona con la comprensión de las relaciones complejas y dinámicas entre los organismos vivos y su entorno. El estudio biológico de la vida, que se sitúa junto a preguntas más filosóficas como qué significa estar vivo, nos ayuda a fomentar una apreciación más profunda de la diversidad e interconexión de la vida en la Tierra."
+      },
+      "innovation": {
+        "title": "Innovación",
+        "content": "La innovación se centra en el desarrollo y aplicación de nuevas ideas, productos o procesos. Al fomentar una cultura de innovación y apoyar soluciones innovadoras, podemos desbloquear nuevas oportunidades a través de la colaboración y el pensamiento de diseño, y experimentar cómo nuestro aprendizaje puede utilizarse para crear un impacto social positivo."
+      }
+    },
+    "bannerTestimonial": {
+      "quote": "'TGS tiene un enfoque único de la educación, siguiendo los intereses y la curiosidad del niño, como migas de pan, y desarrollándose a partir de ahí.'",
+      "attribution": "— Aníbal, Padre de TGS",
+      "imageAlt": "Aprendizaje en The Garzón School"
+    },
+    "assessment": {
+      "title": "EVALUACIÓN",
+      "learning": "APRENDIZAJE",
+      "forLearning": {
+        "keyword": "PARA EL",
+        "bullets": [
+          "Permite a los docentes utilizar información sobre los conocimientos, comprensión y habilidades de los estudiantes para informar la enseñanza",
+          "Los docentes proporcionan retroalimentación a los estudiantes sobre su aprendizaje y cómo mejorar"
+        ]
+      },
+      "asLearning": {
+        "keyword": "COMO",
+        "bullets": [
+          "Involucra a los estudiantes en el proceso de aprendizaje donde monitorean su propio progreso, hacen preguntas y practican habilidades",
+          "Los estudiantes utilizan la autoevaluación y la retroalimentación del docente para reflexionar sobre su aprendizaje, consolidar su comprensión y trabajar hacia objetivos de aprendizaje."
+        ]
+      },
+      "ofLearning": {
+        "keyword": "DEL",
+        "bullets": [
+          "Ayuda a los docentes a utilizar evidencia del aprendizaje de los estudiantes para evaluar el logro estudiantil en relación con los objetivos y estándares de aprendizaje"
+        ]
+      }
+    },
+    "reporting": "Nuestros informes tienen como objetivo alimentar hacia adelante, proporcionando a los estudiantes y sus familias áreas bien definidas para un mayor desarrollo, así como próximos pasos accionables para asegurar la progresión. Cultivamos relaciones proactivas y basadas en la confianza con las familias, lo que significa que gran parte de los informes de nuestros educadores son directos, efectivos y menos formales. También preparamos informes escritos formales para cada estudiante al final de cada trimestre, ofreciendo a las familias valiosas instantáneas del desarrollo de su(s) hijo(s) a lo largo del año.",
+    "cta": {
+      "title": "Enamórate\ndel aprendizaje.",
+      "subtitle": "¡Postula para unirte a The Garzón School!",
+      "button": "Postular",
+      "imageAlt": "Enamórate del aprendizaje"
+    }
+  },
+  "NaturePage": {
+    "hero": {
+      "title1": "El colegio es el parque.",
+      "title2": "El parque es el colegio."
+    },
+    "intro": "Un creciente cuerpo de investigación confirma lo que siempre supimos: el tiempo en la naturaleza transforma las mentes, corazones y cuerpos de los niños. Desde una función cognitiva más aguda hasta una mayor resiliencia emocional, de mayor creatividad a un mejor enfoque académico, el aprendizaje basado en la naturaleza fomenta el desarrollo integral del niño de maneras que las aulas interiores por sí solas no pueden igualar. Sumergir a los niños en espacios verdes mejora las habilidades cognitivas, el bienestar emocional, el rendimiento académico, la creatividad y la salud física. Por eso vemos el parque y el colegio como uno solo.",
+    "mindsBlossom": {
+      "title": "Mentes Que Florecen al Aire Libre",
+      "content": "El tiempo en la naturaleza fortalece la atención, la memoria y las habilidades de resolución de problemas. Los estudios muestran que los niños con acceso regular a espacios verdes demuestran mejor memoria de trabajo y flexibilidad cognitiva (Dadvand et al., 2015). Incluso una caminata corta en un parque puede mejorar el enfoque y el autocontrol, particularmente para niños con TDAH (Taylor & Kuo, 2009). Los entornos naturales proporcionan estímulos ricos y variados que desafían las mentes jóvenes, fomentando la exploración y el pensamiento adaptativo. Este impulso en la función ejecutiva se traduce en mejor concentración y resolución de problemas en el aula, afinando las herramientas mentales que los niños necesitan para el éxito académico (Li & Sullivan, 2016)."
+    },
+    "foxQuote": {
+      "text": "Los zorros residentes de TGS nos recuerdan: el aprendizaje no se confina a las aulas—florece en el corazón de la naturaleza.",
+      "imageAlt": "Zorro residente de TGS en su hábitat natural"
+    },
+    "groundedGrowing": {
+      "title": "Arraigados y Creciendo",
+      "content": "La naturaleza es un antídoto natural contra el estrés y la ansiedad. La investigación muestra que los niños con exposición regular a espacios verdes reportan niveles más bajos de cortisol, la hormona del estrés (van den Berg et al., 2010). El tiempo al aire libre reduce los síntomas de depresión y mejora la regulación emocional (McCurdy et al., 2010). Estar en la naturaleza fomenta un sentido de libertad y paz, ayudando a los niños a construir resiliencia y estabilidad emocional. Los estudios vinculan las áreas de juego verdes con mayor autoestima e interacciones sociales positivas, reforzando la idea de que el tiempo en la naturaleza apoya la salud emocional y el equilibrio psicológico (Wells & Evans, 2003)."
+    },
+    "learningInspired": {
+      "title": "Aprendizaje Inspirado por la Naturaleza",
+      "content": "Pasar tiempo en la naturaleza impulsa el compromiso y el logro académico. Los entornos naturales mejoran el enfoque, reducen la fatiga del aula y aumentan la motivación para aprender (Li & Sullivan, 2016). Las lecciones al aire libre—ya sea mapeando nuestro bosque o midiendo la biodiversidad de nuestro lago—hacen que el aprendizaje sea más significativo y atractivo. Los modelos de escuelas forestales muestran que los estudiantes que participan en el aprendizaje basado en la naturaleza demuestran mayor motivación y progreso académico que sus pares en aulas tradicionales (Gill, 2014). Los entornos verdes crean un terreno fértil para un aprendizaje más profundo y efectivo."
+    },
+    "unleashingInnovators": {
+      "title": "Liberando Jóvenes Innovadores",
+      "content": "La naturaleza alimenta la imaginación y el pensamiento creativo. El juego abierto en espacios verdes anima a los niños a inventar juegos, resolver problemas y participar en juegos de roles (Chawla, 2015). Los estudios muestran que el juego de los niños en entornos naturales es más complejo e imaginativo que el juego en parques estructurados (Fjørtoft, 2001). Los troncos se convierten en barcos piratas, los palos se convierten en varitas mágicas—la naturaleza invita al pensamiento flexible y creativo. La exposición a texturas, sonidos y patrones naturales estimula la integración sensorial y la resolución creativa de problemas. Este impulso en la confianza creativa se traslada a otras áreas, fomentando la innovación y el pensamiento original en el aula y más allá (Wilson, 2012)."
+    },
+    "visitUs": {
+      "title": "Visítanos",
+      "schoolName": "The Garzón School",
+      "address1": "Ruta 104 — KM 13.5",
+      "address2": "20000 Manantiales",
+      "address3": "Maldonado, Uruguay",
+      "bookTour": "Reserva una Visita",
+      "mapTitle": "Ubicación de The Garzón School"
+    },
+    "runFree": {
+      "title": "Corre Libre, Crece Fuerte",
+      "content": "El juego al aire libre mejora la fuerza, la coordinación y la salud general. Los niños que juegan en espacios verdes demuestran mejores habilidades motoras, equilibrio y agilidad que aquellos en entornos construidos (Fjørtoft, 2001). Trepar árboles, saltar rocas y equilibrarse en terrenos irregulares desarrollan la fuerza física y la flexibilidad. La exposición regular a la naturaleza aumenta los niveles de actividad física y reduce el riesgo de obesidad y problemas de salud relacionados (OMS, 2022). El tiempo al aire libre también mejora la calidad del sueño y la función inmunológica, mientras que la exposición a la luz natural ayuda a prevenir la miopía y apoya el desarrollo físico general (Straker et al., 2016)."
+    },
+    "forestSchools": {
+      "title": "Aprendiendo de las Escuelas Forestales",
+      "content": "Las escuelas forestales muestran cómo la educación basada en la naturaleza mejora el crecimiento holístico. Los estudios en el Reino Unido revelan que los niños en escuelas forestales demuestran mayor enfoque, confianza social y coordinación motora (Knight, 2013). El aprendizaje basado en la naturaleza promueve el trabajo en equipo, la resiliencia y la autorregulación. El rendimiento académico también se beneficia: los estudiantes de escuelas forestales a menudo superan a sus pares en resolución de problemas y pensamiento creativo (Gill, 2014). Este modelo práctico y dirigido por el estudiante fomenta el aprendizaje independiente y la adaptabilidad, equipando a los niños con habilidades para la vida más allá del aula. La naturaleza no es solo un escenario—es un poderoso maestro. Al incorporar la naturaleza en nuestro modelo educativo, cultivamos aprendices resilientes, creativos y compasivos preparados para generar un impacto significativo."
+    }
+  },
+  "AccreditationPage": {
+    "hero": {
+      "title": "Reconocidos localmente. Creciendo globalmente."
+    },
+    "anep": {
+      "title": "Acreditación y Estándares de Excelencia",
+      "description": "The Garzón School es una institución educativa completamente autorizada bajo la Administración Nacional de Educación Pública (ANEP) de Uruguay, ofreciendo un programa bilingüe que cumple y supera los estándares nacionales en todos los niveles. Esta autorización refleja nuestro compromiso con expectativas académicas rigurosas, gobernanza ética y cumplimiento de todas las regulaciones nacionales de educación y seguridad.",
+      "imageAlt": "Acreditación ANEP"
+    },
+    "neasc": {
+      "title": "NEASC",
+      "description": "En 2025, The Garzón School logró la Elegibilidad para Acreditación de la New England Association of Schools and Colleges (NEASC) — uno de los organismos de acreditación internacional más respetados del mundo. Tras nuestra Visita de Estándares Fundamentales en junio de 2025, NEASC elogió al colegio por su \"compromiso claro y compartido de reimaginar la educación de maneras que son alegres, significativas y arraigadas en propósito.\" Este hito marca la finalización exitosa de la primera fase del ACE Learning Pathway de NEASC, que reconoce a los colegios que demuestran las estructuras, liderazgo y filosofía educativa necesarios para ofrecer un aprendizaje de alta calidad y preparado para el futuro.",
+      "imageAlt": "Acreditación NEASC"
+    },
+    "neascBanner": {
+      "quote": "\"La fortaleza de la misión de The Garzón School y la unidad entre sus miembros son factores clave para apoyar su progreso continuo.\"",
+      "attribution": "Informe NEASC de junio 2025"
+    },
+    "commitment": {
+      "title": "Compromiso con la Mejora Continua",
+      "description": "Para nosotros, el proceso NEASC es un viaje de reflexión y mejora continua. Cada etapa de acreditación implica una evaluación externa rigurosa, alineación con los Estándares Fundamentales de NEASC (Aprendizaje, Gobernanza, Salud y Seguridad, Finanzas y Ética), y una cultura de transparencia y práctica basada en evidencia. A través de esta asociación continua, The Garzón School continúa comparándose con los más altos estándares internacionales, asegurando que cada estudiante experimente un aprendizaje auténtico, con propósito y transformador."
+    },
+    "principles": {
+      "title": "Nuestros Principios Rectores de Acreditación",
+      "excellence": {
+        "title": "Excelencia en el Aprendizaje:",
+        "content": "Un currículo claramente definido y un marco de competencias que fomenta la curiosidad, la autonomía y el pensamiento crítico."
+      },
+      "integrity": {
+        "title": "Integridad en la Gobernanza:",
+        "content": "Liderazgo transparente y ético bajo una estructura de Asociación Civil sin fines de lucro."
+      },
+      "wellbeing": {
+        "title": "Bienestar y Seguridad:",
+        "content": "Protocolos robustos de protección, inclusión y salud alineados con estándares internacionales."
+      },
+      "sustainability": {
+        "title": "Sostenibilidad e Innovación:",
+        "content": "Un campus diseñado a propósito e integrado con la naturaleza que encarna nuestra misión y valores."
+      }
+    }
+  },
+  "TeamPage": {
+    "intro": "La competencia, profesionalismo y cualidades humanas de nuestro equipo realmente distinguen a The Garzón School. Empleamos con orgullo a maestros y especialistas internacionales y locales de clase mundial. Con una proporción de 8:1 estudiantes por educador, los niños se benefician de niveles excepcionales de atención y apoyo. Cada miembro del equipo — ya sea maestro o personal administrativo — es un educador de corazón, dedicado a crear un ambiente seguro y acogedor que fomenta la educación inspiradora por la que somos reconocidos. Desde solo ocho soñadores fundadores en marzo de 2022, nuestro equipo ha crecido hasta convertirse en un grupo dinámico de 29 profesionales multidisciplinarios a julio de 2025. Tan vibrantes y diversos como los estudiantes a quienes servimos, representamos 10 nacionalidades y hablamos tantos idiomas, unidos por un compromiso compartido con el aprendizaje positivo y con propósito. Es esta mezcla de experiencia, diversidad y corazón lo que hace que nuestra comunidad escolar sea verdaderamente especial.",
+    "sections": {
+      "seniorLeadership": "Equipo de Liderazgo Senior",
+      "secondary": "Equipo de Secundaria",
+      "primary": "Equipo de Primaria",
+      "earlyYears": "Equipo de Primera Infancia",
+      "admin": "Equipo Administrativo y de Apoyo"
+    }
+  },
+  "InquiryBasedLearningPage": {
+    "hero": {
+      "title": "Aprendizaje auténtico, atractivo y exploratorio."
+    },
+    "intro": "El aprendizaje basado en la indagación en TGS enfatiza la exploración y el descubrimiento práctico centrado en el estudiante. Se alienta a nuestros estudiantes a tomar un papel activo en su propia educación, lo que resulta en mayor compromiso y motivación. Nuestras unidades de indagación fomentan habilidades de resolución de problemas y pensamiento crítico, mientras los estudiantes hacen preguntas, investigan y forman sus propias conclusiones sobre problemas del mundo real y desafíos complejos.",
+    "attributes": {
+      "title": "Atributos y Disposiciones TGS",
+      "knowledgeable": {
+        "title": "Conocedores",
+        "content": "Los estudiantes de The Garzón School desarrollan amor por adquirir conocimiento de manera experiencial y alegre. Se sienten cómodos expresando su curiosidad. Los niños disfrutan mientras adquieren conocimiento de manera experiencial."
+      },
+      "creative": {
+        "title": "Creativos",
+        "content": "Somos una comunidad de aprendizaje innovadora, enfocada en formas imaginativas y creativas de expresarnos. Nos comunicamos con otros y aplicamos el conocimiento desarrollando formas de pensar para analizar y tomar acciones responsables en contextos nuevos y diferentes. Se alienta a los niños a usar el conocimiento que adquieren para desarrollar nuevas formas de expresarse, comunicarse con otros y nuevas formas de pensar y ser en el mundo."
+      },
+      "inquirers": {
+        "title": "Indagadores",
+        "content": "Nuestra comunidad abraza y fomenta la curiosidad. Estamos motivados a buscar respuestas a nuestras preguntas a través de un enfoque orientado a la investigación. Se nos anima a tomar riesgos y sumergirnos en la aventura de crear y compartir nuevo conocimiento. Nuestros estudiantes se sienten listos para tomar riesgos, entrar en áreas que no están completamente investigadas y adaptar nuevo conocimiento. No tenemos miedo de probar algo nuevo y asumir la aventura de hacer algo innovador. Incluso cuando fallamos en algo, aprendemos de nuestros errores."
+      },
+      "collaborative": {
+        "title": "Colaborativos",
+        "content": "Ser colaborativo es mucho más que cooperación o trabajo en equipo. Los estudiantes de TGS crecen con sus maestros y entre sí. Colaboramos activamente, compartimos y co-creamos con los miembros de nuestra comunidad para generar un cambio positivo."
+      },
+      "authentic": {
+        "title": "Auténticos",
+        "content": "Aprendemos sobre nosotros mismos y desarrollamos nuestra identidad. Abrazamos la diversidad y valoramos las diferentes perspectivas como actitudes fundamentales para tener un impacto positivo. Tenemos confianza en tomar las cosas en nuestras propias manos y liderar el cambio que buscamos. También somos conscientes, reflexionando sobre nuestras emociones y experiencias."
+      },
+      "reflective": {
+        "title": "Reflexivos",
+        "content": "Reflexionamos, escuchamos proactivamente a otros y autoevaluamos cómo aprendemos. Al hacerlo, entendemos qué podemos mejorar y generamos un ciclo virtuoso para el aprendizaje. Trabajamos para entender nuestras fortalezas y desafíos para desarrollarnos como estudiantes."
+      }
+    },
+    "integration": "El aprendizaje basado en la indagación también permite la integración de múltiples materias, mientras los estudiantes exploran temas desde múltiples perspectivas. Este estilo de aprendizaje también es flexible y adaptable, haciéndolo adecuado para estudiantes de diferentes habilidades y estilos de aprendizaje. Estos beneficios hacen del aprendizaje basado en la indagación una forma efectiva e impactante de mejorar el aprendizaje y desarrollo de los estudiantes.",
+    "cta": {
+      "title": "Enamórate\ndel aprendizaje.",
+      "subtitle": "¡Postula para unirte a The Garzón School!",
+      "button": "Postular",
+      "imageAlt": "Enamórate del aprendizaje"
+    }
+  },
+  "WellbeingInclusionPage": {
+    "hero": {
+      "title": "Vemos al niño detrás del estudiante."
+    },
+    "intro": "The Garzón School es reconocido por su ambiente cálido, acogedor y protector. El cuidado y apoyo ejemplar e individualizado son la base de todo lo que hacemos. Entendemos que el bienestar es un componente vital del desarrollo de cada niño, influyendo profundamente en su salud, felicidad y éxito futuro. Por eso, la salud física, emocional, social y mental de nuestros estudiantes es central en nuestra práctica y guía cada decisión que tomamos.",
+    "wellbeingFocus": {
+      "intro": "Nuestro enfoque en el bienestar significa crear un ambiente de aprendizaje seguro, de apoyo y positivo donde cada estudiante se sienta valorado y respetado. Lo logramos de diversas maneras:",
+      "items": [
+        "Fuertes relaciones estudiante-maestro que promueven interacciones positivas y brindan apoyo emocional continuo",
+        "Enfoque en el desarrollo de hábitos saludables para toda la vida a través de nuestro programa escolar de Bienestar y Movimiento",
+        "Aprendizaje Socioemocional (SEL) impartido internamente por expertos como componente obligatorio de nuestro currículo",
+        "Relaciones positivas entre pares que forman la base de nuestras interacciones, comunidad y sentido de pertenencia",
+        "Orientación para que los estudiantes reformulen los desafíos como oportunidades de crecimiento, construyendo resiliencia y un sentido positivo de sí mismos"
+      ]
+    },
+    "testimonial": {
+      "name": "Catalina Garat",
+      "subtitle": "Psicóloga Educacional de TGS",
+      "quote": "Promovemos el bienestar con la intención de asegurar que nuestros estudiantes estén equipados con las habilidades, actitudes y hábitos necesarios para crecer como individuos seguros, saludables y felices."
+    },
+    "inclusion": "El ambiente completamente inclusivo de The Garzón School asegura que cada estudiante se sienta bienvenido, valorado y apoyado, sin importar su origen, habilidades o diferencias. Nuestro currículo está cuidadosamente diseñado para satisfacer las diversas necesidades de todos los estudiantes, incluyendo aquellos con discapacidades, diferencias culturales o lingüísticas, y otras necesidades individuales. Celebramos la diversidad abrazando diferentes culturas y perspectivas, fomentando un sentido de pertenencia. Juntos, estudiantes, maestros y familias crean una comunidad protectora donde cada niño puede prosperar.",
+    "support": "Nuestros educadores altamente calificados emplean diversas estrategias de enseñanza y brindan apoyo personalizado para abordar las necesidades únicas de cada estudiante. Esto incluye adaptar materiales, integrar tecnología de asistencia y ofrecer apoyo adicional cuando sea necesario. Nuestro clima escolar positivo fomenta un fuerte sentido de pertenencia y conexión, reforzado por expectativas de comportamiento claras. Promovemos interacciones positivas y respondemos al acoso o discriminación de manera rápida y efectiva para asegurar un ambiente seguro e inclusivo para todos.",
+    "cta": {
+      "title": "Enamórate\ndel aprendizaje.",
+      "subtitle": "¡Postula para unirte a The Garzón School!",
+      "button": "Postular",
+      "imageAlt": "Enamórate del aprendizaje"
+    }
+  },
+  "TranslanguagingPage": {
+    "hero": {
+      "title": "Valorando el repertorio lingüístico completo de los estudiantes."
+    },
+    "intro": "La instrucción en The Garzón School es bilingüe inglés-español, aunque alejándose de la separación estricta de idiomas que domina la educación bilingüe hoy en día. Para que los graduados de TGS emerjan como ciudadanos globales empáticos, promovemos la equidad lingüística en nuestros espacios de aprendizaje: valorando el repertorio lingüístico y cultural completo de cada niño para enriquecer y profundizar el aprendizaje. Más allá de desarrollar competencia académica en inglés y español, TGS fomenta y apoya el desarrollo de las lenguas maternas.",
+    "quote": {
+      "text": "\"El translanguaging se refiere tanto a las prácticas discursivas de los bilingües, como a las prácticas pedagógicas que utilizan el repertorio lingüístico complejo completo de los estudiantes bilingües de manera flexible para enseñar contenido riguroso y desarrollar prácticas lingüísticas para uso académico.\"",
+      "highlight": "repertorio lingüístico complejo completo",
+      "attribution": "— García, 2016"
+    },
+    "classroomApproach": "Cada nido tiene dos educadores: un líder de inglés y un líder de español. Los estudiantes trabajan con ambos educadores simultáneamente en unidades de indagación coherentes, con el resultado del proyecto cuidadosamente equilibrado entre inglés y español dependiendo del perfil lingüístico de cada individuo. Este enfoque favorece la adquisición del idioma, fomenta el compromiso y mejora la confianza y el sentido de identidad del estudiante. Para modelar nuestro enfoque más allá del aula, cada miembro del equipo de nuestro Colegio es completamente bilingüe inglés-español.",
+    "testimonial": {
+      "name": "Fiorella Carrazzone",
+      "subtitle": "Líder de Alfabetización",
+      "quote": "El camino de implementar el translanguaging ha sido un proceso continuo de crecimiento y aprendizaje. La motivación intrínseca de nuestros estudiantes para involucrarse con la alfabetización en inglés y español destaca la efectividad del translanguaging en nutrir el desarrollo del lenguaje."
+    },
+    "cta": {
+      "title": "Enamórate\ndel aprendizaje.",
+      "subtitle": "¡Postula para unirte a The Garzón School!",
+      "button": "Postular",
+      "imageAlt": "Enamórate del aprendizaje"
+    }
+  },
+  "EducatingChangingWorldPage": {
+    "hero": {
+      "title": "Más allá de las notas. Más allá de las pantallas. Más allá de lo esperado."
+    },
+    "intro": "La educación está cambiando rápido. Más rápido de lo que la mayoría de los colegios admiten. Mientras el mundo debate si ChatGPT debe ser prohibido o adoptado, nosotros ya hemos pasado a la pregunta real: ¿qué tipo de educación todavía vale la pena tener? En The Garzón School, vemos el auge de tecnologías como la IA generativa no como una amenaza al aprendizaje tradicional, sino como prueba de que el aprendizaje tradicional ya está desactualizado. Si un chatbot puede pensar por ti, quizás necesitamos repensar la enseñanza y el aprendizaje. No nos interesa el trabajo sin sentido. No estamos preparando a los estudiantes para llenar espacios en blanco o absorber información pasivamente. Los estamos preparando para cuestionar, desafiar, crear, colaborar y liderar — porque en un mundo desbordante de respuestas rápidas (algunas correctas, algunas tremendamente equivocadas), son nuestras competencias las que más importan. Pensamiento crítico. Juicio ético. Comunicación clara. Adaptabilidad. Estas son las herramientas que servirán a nuestros estudiantes en un futuro que aún no podemos predecir, pero que estarán listos para moldear.",
+    "questionHighlight": "¿qué tipo de educación todavía vale la pena tener?",
+    "engagedMinds": {
+      "title": "Mentes Comprometidas. Propósito Real. Aprendizaje Profundo.",
+      "content": "Creemos que el aprendizaje debe importarle a los estudiantes, no solo a los maestros o diseñadores de exámenes. Por eso construimos nuestro currículo alrededor del aprendizaje comprometido y con propósito, no del cumplimiento o la repetición mecánica. Cuando los estudiantes encuentran su chispa — ya sea en ciencia, narración, activismo o diseño — todo cambia. Se presentan. Profundizan. Te sorprenden. Y, más importante, se sorprenden a sí mismos. Nuestros proyectos encienden la curiosidad, agudizan el pensamiento crítico y fomentan la conexión con el mundo real. Ya sea que los estudiantes estén diseñando escape rooms basados en eventos históricos o debatiendo las implicaciones éticas de la IA, no están pasando por el colegio en piloto automático. Están aprendiendo cómo pensar, no solo qué pensar."
+    },
+    "humansFirst": {
+      "title": "Los Humanos Primero. Siempre.",
+      "content": "La IA puede hacer mucho. Pero no puede reemplazar la energía de un aula vibrante con ideas. No puede replicar la magia de la colaboración cara a cara, o el coraje silencioso que se necesita para presentar una idea ante una sala llena de compañeros. Y ciertamente no puede levantar la mano y hacer una pregunta brillante y disruptiva. En TGS apostamos por el uso prudente de la tecnología donde ayuda, pero nos mantenemos arraigados en lo que nos hace humanos. Relaciones. Curiosidad. Integridad. Autonomía. Estos forman la base de una educación que no solo prepara a los estudiantes para el próximo examen, sino para un futuro que aún no podemos predecir."
+    },
+    "futureWontWait": {
+      "title": "El Futuro No Esperará. Nosotros Tampoco.",
+      "content": "El mundo al que entrarán nuestros hijos no es el mismo en el que crecimos nosotros. Y pensamos que eso es emocionante; no nos aferramos al pasado. Estamos construyendo algo audaz: una educación que está viva, es receptiva y radicalmente centrada en el estudiante. No prometemos todas las respuestas. Pero sí sabemos esto: nuestros graduados no solo estarán listos para el futuro, ayudarán a moldearlo."
+    },
+    "cta": {
+      "title": "Enamórate\ndel aprendizaje.",
+      "subtitle": "¡Postula para unirte a The Garzón School!",
+      "button": "Postular",
+      "imageAlt": "Enamórate del aprendizaje"
+    }
+  },
+  "LearningVillagePage": {
+    "hero": {
+      "title": "Diseñado para inspirar. Construido para liderar."
+    },
+    "intro": "Un ecosistema de clase mundial para el aprendizaje alegre, situado en medio de 38 hectáreas de campo uruguayo virgen sobre la famosa costa dorada del país. Diseñado en colaboración con Rosan Bosch Studio, nuestro campus construido a propósito combina espacios innovadores impulsados por el diseño con una profunda conexión con la naturaleza. Ofrece a los estudiantes un ambiente donde la creatividad, la curiosidad y la colaboración prosperan, fomentando experiencias de aprendizaje auténticas que preparan a los agentes de cambio para el futuro. Habiendo abierto en marzo de 2025, este campus ejemplifica el compromiso de The Garzón School con la educación de alta calidad basada en la naturaleza, sirviendo como un modelo inspirador para colegios en toda Latinoamérica y más allá.",
+    "campusSize": "Nuestro campus es equivalente en tamaño a unas 53 canchas de fútbol o 1,450 canchas de tenis. Para 2029, será el campus K-12 más grande del mundo. Y no es solo un espacio; es un lienzo ilimitado para jóvenes agentes de cambio. Aquí, nuestros estudiantes se inspiran para explorar, innovar y liderar, generando un impacto significativo en el mundo.",
+    "rosanBosch": {
+      "title": "Diseñado por Rosan Bosch",
+      "paragraph1": "Creemos que los espacios influyen en cómo te sientes, te comportas, interactúas y, en última instancia, cómo aprendes. Por eso The Garzón School se asoció con Rosan Bosch Studio para diseñar y crear nuestro campus construido a propósito en el hermoso campo uruguayo—un espacio cuidadosamente creado para inspirar curiosidad, colaboración y amor por el aprendizaje.",
+      "paragraph2": "Rosan Bosch Studio diseña espacios de aprendizaje innovadores y lúdicos que empoderan e inspiran a estudiantes en todo el mundo. Para The Garzón School, han creado un campus verdaderamente de clase mundial que sirve como faro de educación de alta calidad, impulsada por el diseño y basada en la naturaleza—no solo para Latinoamérica sino para el escenario global.",
+      "projectsButton": "Ver otros proyectos diseñados por Rosan Bosch Studio"
+    },
+    "rosanQuote": {
+      "quote": "\"El ecosistema de The Garzón School es la joya de la corona de mi carrera.\"",
+      "attribution": "Rosan Bosch"
+    }
+  },
+  "CalendarPage": {
+    "hero": {
+      "title": "Un calendario que prioriza el aprendizaje."
+    },
+    "calendar2025": {
+      "title": "Calendario 2025",
+      "subtitle": "Haz clic en cualquier mes para ver detalles"
+    },
+    "calendar2026": {
+      "title": "Calendario 2026",
+      "subtitle": "Calendario provisional - Haz clic en cualquier mes para ver detalles"
+    },
+    "terms": {
+      "term1": "Trimestre 1",
+      "term2": "Trimestre 2",
+      "term3": "Trimestre 3",
+      "term4": "Trimestre 4"
+    },
+    "weeks": "semanas",
+    "summer": "Verano",
+    "winter": "Invierno",
+    "holidays": "Vacaciones",
+    "hoverTerms": "Pasa el cursor sobre los trimestres para ver fechas exactas",
+    "legend": {
+      "guide": "Guía",
+      "schoolDay": "Día Escolar",
+      "schoolHolidays": "Vacaciones Escolares",
+      "nationalHoliday": "Feriado Nacional Uruguayo",
+      "professionalDev": "Día de Desarrollo Profesional",
+      "celebration": "Celebración del Aprendizaje",
+      "orientationCamp": "Campamento de Orientación"
+    }
+  },
+  "DayPage": {
+    "hero": {
+      "title": "Tiempo de aprender."
+    }
+  },
+  "DonatePage": {
+    "hero": {
+      "title": "Construye el futuro."
+    }
+  },
+  "GovernancePage": {
+    "hero": {
+      "title1": "Un colegio que pertenece",
+      "title2": "a su comunidad."
+    },
+    "purpose": {
+      "title": "Propósito de la Asociación Civil",
+      "intro": {
+        "title": "Por qué importa el modelo de Asociación Civil",
+        "content": "The Garzón School opera como una Asociación Civil — una institución sin fines de lucro, gobernada por la comunidad, legalmente estructurada para servir al bien colectivo en lugar de intereses privados. Este modelo no es meramente administrativo; refleja un compromiso deliberado con la transparencia, la sostenibilidad y la propiedad compartida. Define cómo se toman las decisiones, cómo se utilizan los recursos y cómo el colegio permanece responsable ante sus familias, personal y misión a lo largo del tiempo."
+      },
+      "safeguard": {
+        "title": "Salvaguardar la misión y el espíritu del colegio",
+        "content": "La Asociación Civil existe ante todo para proteger la visión fundacional del colegio: un lugar donde las necesidades de los estudiantes, la calidad del aprendizaje y el bienestar siempre van antes que los intereses financieros. Como entidad sin fines de lucro, TGS puede tomar decisiones educativas a largo plazo guiadas por su misión en lugar de por accionistas o presiones a corto plazo. Esto asegura que cada dólar que el colegio gana o recibe se reinvierte directamente en su gente, sus programas y su propósito."
+      },
+      "transparency": {
+        "title": "Promover la transparencia y la rendición de cuentas",
+        "content": "El modelo de Asociación Civil exige apertura y responsabilidad compartida. Cada decisión institucional importante, desde la aprobación del presupuesto hasta los nombramientos de liderazgo, es supervisada por un marco de gobernanza claro que se revisa en asambleas anuales y está respaldado por registros públicos. Esto significa que las familias, el personal y la comunidad en general pueden confiar en que TGS opera con integridad, que los fondos se gestionan de manera responsable y que su liderazgo permanece responsable ante el colectivo al que sirve."
+      },
+      "continuity": {
+        "title": "Garantizar la continuidad a largo plazo",
+        "content": "Los colegios que dependen de propietarios individuales o inversores privados a menudo cambian de dirección cuando esas personas se van. Como institución sin fines de lucro, de propiedad comunitaria, The Garzón School está protegido de ese riesgo. La estructura de Asociación Civil asegura que la filosofía, los recursos y el liderazgo del colegio transicionen sin problemas a través de las generaciones, manteniendo la continuidad en propósito e identidad mientras permite el crecimiento y la evolución a lo largo del tiempo."
+      },
+      "participation": {
+        "title": "Fomentar la participación comunitaria",
+        "content": "Quizás la mayor fortaleza del modelo de Asociación Civil es que invita a cada padre y tutor a desempeñar un papel activo en la configuración del futuro del colegio. La membresía está abierta, la participación es fomentada y el diálogo es constante. Las familias no son meramente clientes — son co-constructores de un proyecto educativo fundamentado en valores compartidos y confianza colectiva. Este sentido de propiedad y pertenencia es lo que le da a The Garzón School su energía y resiliencia únicas."
+      },
+      "impact": {
+        "title": "Asegurar el impacto social y la inclusión",
+        "content": "El modelo de Asociación Civil permite a The Garzón School dirigir recursos hacia un impacto comunitario significativo en lugar de ganancias privadas, apoyando nuestro objetivo a largo plazo de convertirnos en una institución ciega a las necesidades donde el acceso depende del potencial de un estudiante, no de las finanzas de una familia. Al reinvertir los fondos excedentes y movilizar el apoyo de la comunidad, el colegio sostiene becas, iniciativas de extensión y asociaciones que abren puertas para niños talentosos de todos los orígenes. De esta manera, la gobernanza y la misión social trabajan de la mano: cada elección estructural refuerza nuestra creencia de que la educación debe ser una fuerza para la inclusión, la equidad y la oportunidad."
+      },
+      "conclusion": "Cada año, el equipo de liderazgo del colegio y la Junta informan a los miembros sobre logros, desafíos y la asignación de recursos. Esta estructura participativa hace que The Garzón School sea más fuerte, más estable y más alineado con su propósito."
+    },
+    "banner": {
+      "text": "En una región dominada por empresas educativas, The Garzón School se distingue como una institución sin fines de lucro construida por y para su comunidad."
+    },
+    "howGovernanceWorks": {
+      "title": "Cómo Funciona la Gobernanza",
+      "intro": "La Asociación Civil se rige por estatutos aprobados por el MEC en <strong>enero de 2022</strong> y enmendados por la Asamblea General en <strong>marzo de 2025</strong>. Los miembros se reúnen anualmente para revisar el progreso del colegio y votar sobre decisiones importantes. Cada tres años, los miembros eligen la Junta Directiva, que proporciona supervisión, establece políticas y salvaguarda la misión.",
+      "statutes": {
+        "title": "Estatutos y Marco Legal",
+        "content": "La Asociación Civil opera bajo estatutos aprobados por el MEC el <strong>3 de enero de 2022</strong>, y enmendados por resolución de la Asamblea General en <strong>marzo de 2025</strong>. Estos estatutos establecen los derechos y responsabilidades de los miembros, definen los procesos de gobernanza y regulan la relación entre la Junta, el liderazgo y el cuerpo de miembros."
+      },
+      "generalAssembly": {
+        "title": "La Asamblea General",
+        "intro": "La Asamblea General es el máximo órgano de decisión de la Asociación Civil. Está compuesta por todos los miembros y se reúne al menos una vez al año para:",
+        "items": [
+          "Revisar y aprobar el Informe Anual y los Estados Financieros.",
+          "Discutir la dirección estratégica y las prioridades del colegio.",
+          "Votar sobre enmiendas a los estatutos o asuntos institucionales clave.",
+          "Elegir la Junta Directiva cada tres años."
+        ],
+        "whyMatters": "La Asamblea General da a las familias y miembros de la comunidad una voz directa en el futuro del colegio. Asegura que TGS permanezca como un proyecto transparente, de propiedad comunitaria, en lugar de una empresa privada."
+      },
+      "boardOfDirectors": {
+        "title": "La Junta Directiva",
+        "intro": "La Junta Directiva (Comisión Directiva) es elegida por la Asamblea General para servir un mandato de tres años. Proporciona supervisión, dirección estratégica y asegura que el colegio opere en plena alineación con su misión y obligaciones legales.",
+        "responsibilities": "Las responsabilidades de la Junta incluyen:",
+        "items": [
+          "Supervisar la salud financiera y sostenibilidad del colegio.",
+          "Aprobar planes estratégicos, presupuestos y proyectos importantes.",
+          "Apoyar y supervisar a los Co-Directores en asuntos de política y liderazgo.",
+          "Representar a la Asociación Civil en contextos legales e institucionales."
+        ],
+        "whyMatters": "La Junta garantiza una gobernanza ética y continuidad a largo plazo. Conecta la visión de la comunidad con el liderazgo diario del colegio, asegurando que las decisiones reflejen tanto propósito como prudencia.",
+        "manual": "Una descripción completa del rol de la Junta y los protocolos operativos se puede encontrar en el Manual de la Junta 2025."
+      }
+    },
+    "schoolBoard": {
+      "title": "Nuestra Junta Directiva",
+      "members": {
+        "bruno": {
+          "name": "Bruno Varela",
+          "role": "Presidente de la Junta"
+        },
+        "laure": {
+          "name": "Laure de La Baume",
+          "role": "Secretaria de la Junta"
+        },
+        "carolina": {
+          "name": "Carolina Pontelli",
+          "role": "Tesorera de la Junta"
+        }
+      }
+    }
+  },
+  "HeronPage": {
+    "hero": {
+      "title": "Periodismo audaz liderado por estudiantes."
+    }
+  },
+  "CommitteesPage": {
+    "hero": {
+      "title": "Donde la comunidad se convierte en acción."
+    }
+  },
+  "MovingToUruguayPage": {
+    "hero": {
+      "title": "El secreto mejor guardado de Latinoamérica."
+    }
+  },
+  "MultiformPage": {
+    "hero": {
+      "title": "¿Uniforme? No es lo nuestro."
+    }
+  },
+  "NutritionPage": {
+    "hero": {
+      "title": "Las comidas son más que simple combustible."
+    }
+  },
+  "OpenMorningsPage": {
+    "hero": {
+      "title": "Ven y compruébalo por ti mismo."
+    }
+  },
+  "PathwaysPage": {
+    "hero": {
+      "title": "Sin límites para el crecimiento personal."
+    }
+  },
+  "PoliciesPage": {
+    "hero": {
+      "title": "Políticas del Colegio"
+    }
+  },
+  "PressPage": {
+    "hero": {
+      "title1": "The Garzón School",
+      "title2": "en los medios."
+    }
+  },
+  "SafeguardingPage": {
+    "hero": {
+      "title1": "La seguridad primero.",
+      "title2": "Siempre."
+    }
+  },
+  "SoftlandingPage": {
+    "hero": {
+      "title": "Éxito en el colegio desde el primer día."
+    }
+  },
+  "SpacesPage": {
+    "hero": {
+      "title": "Descubre tu lugar."
+    }
+  },
+  "TestimonialsPage": {
+    "hero": {
+      "title": "¿Qué significa TGS para nuestra comunidad?"
+    }
+  },
+  "WorkPage": {
+    "hero": {
+      "title1": "Somos reconocidos como un",
+      "title2": "Great Place to Work®"
+    }
+  },
+  "AccreditationPage": {
+    "hero": {
+      "title": "Reconocidos localmente. Creciendo globalmente."
+    }
+  },
+  "CampusPage": {
+    "hero": {
+      "title": "Diseñado para inspirar. Construido para liderar."
+    }
+  },
+  "InquiryCtaPage": {
+    "hero": {
+      "title": "Ratio 8:1 Estudiante:Educador",
+      "description": "Creemos en un enfoque individualizado que simplemente no puede lograrse en un aula saturada. Podemos identificar y satisfacer las necesidades de cada niño y desarrollar rutas de aprendizaje personalizadas.",
+      "button": "¡Conoce a nuestro equipo!"
+    }
+  },
+  "InquiryPage": {
+    "hero": {
+      "title": "Aprendizaje auténtico, atractivo y exploratorio."
+    }
+  },
+  "TeamCtaPage": {
+    "hero": {
+      "title1": "Nuestro equipo no solo es valorado;",
+      "title2": "es invaluable.",
+      "button": "¡Conoce a nuestro equipo!"
+    }
+  },
+  "TranslanguagingPage": {
+    "hero": {
+      "title": "Valorando los repertorios lingüísticos completos de los estudiantes."
+    }
+  },
+  "WellbeingPage": {
+    "hero": {
+      "title": "Vemos al niño detrás del estudiante."
+    }
+  },
+  "Testimonial1Page": {
+    "hero": {
+      "title1": "¿Qué significa TGS",
+      "title2": "para nuestra comunidad?"
+    }
+  },
+  "Testimonial2Page": {
+    "hero": {
+      "title1": "¿Qué significa TGS",
+      "title2": "para nuestra comunidad?"
+    }
+  },
+  "Testimonial3Page": {
+    "hero": {
+      "title1": "¿Qué significa TGS",
+      "title2": "para nuestra comunidad?"
+    }
+  },
+  "Testimonial4Page": {
+    "hero": {
+      "title1": "¿Qué significa TGS",
+      "title2": "para nuestra comunidad?"
+    }
+  },
+  "Testimonial5Page": {
+    "hero": {
+      "title1": "¿Qué significa TGS",
+      "title2": "para nuestra comunidad?"
+    }
+  }
+}

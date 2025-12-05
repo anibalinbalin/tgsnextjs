@@ -18,6 +18,7 @@ interface MenuHeaderProps {
   dates: string[];
   onToggleWeek: (week: WeekType) => void;
   variant?: HeaderVariant;
+  term?: string;
 }
 
 export default function MenuHeader({
@@ -25,6 +26,7 @@ export default function MenuHeader({
   dates,
   onToggleWeek,
   variant = 'full',
+  term = '4',
 }: MenuHeaderProps) {
   if (variant === 'static') {
     return (
@@ -143,9 +145,14 @@ export default function MenuHeader({
   if (variant === 'bottom-toggle') {
     return (
       <div className="mb-8">
-        <h2 className="text-4xl leading-snug font-medium text-[#C65D3B] mb-4">
-          Weekly Menu
-        </h2>
+        <div className="flex items-baseline gap-4 mb-4">
+          <h2 className="text-4xl leading-snug font-medium text-[#C65D3B]">
+            Weekly Menu
+          </h2>
+          <span className="inline-flex items-center justify-center bg-[#D39885] text-white px-4 py-1.5 rounded-full text-lg font-medium tracking-wide leading-none">
+            Term {term}
+          </span>
+        </div>
         <p className="text-2xl leading-relaxed font-light text-black">
           Explore our healthy options for <span className="font-bold text-[#D39885]">Week {currentWeek}</span>.
         </p>
@@ -181,7 +188,7 @@ export default function MenuHeader({
           </div>
           <div>
             <h2 className="text-2xl font-bold tracking-wide uppercase">Piñadulce</h2>
-            <p className="text-xs text-[#D39885] tracking-wider uppercase">Term 4 Menu</p>
+            <p className="text-xs text-[#D39885] tracking-wider uppercase">Term {term} Menu</p>
           </div>
         </div>
 

@@ -1,22 +1,27 @@
+'use client'
+
+import { useTranslations } from 'next-intl'
 import DevBadge from './dev-badge'
 
 export default function VisitMap() {
+    const t = useTranslations('NaturePage')
+
     return (
         <section className="relative flex flex-col md:flex-row h-[500px] bg-white">
             {/* Left side - Text (1/3) */}
             <div className="w-full md:w-1/3 bg-white flex flex-col justify-center items-center text-center px-8 py-12 md:px-12">
-                <h2 className="text-3xl md:text-4xl font-light text-[#8EB096] mb-8">Visit us</h2>
+                <h2 className="text-3xl md:text-4xl font-light text-[#8EB096] mb-8">{t('visitUs.title')}</h2>
                 <div className="text-black text-lg leading-relaxed mb-8">
-                    <p className="font-medium">The Garzón School</p>
-                    <p>Ruta 104 — KM 13.5</p>
-                    <p>20000 Manantiales</p>
-                    <p>Maldonado, Uruguay</p>
+                    <p className="font-medium">{t('visitUs.schoolName')}</p>
+                    <p>{t('visitUs.address1')}</p>
+                    <p>{t('visitUs.address2')}</p>
+                    <p>{t('visitUs.address3')}</p>
                 </div>
                 <a
                     href="/bookatour"
                     className="inline-block bg-[#8EB096] text-white px-6 py-3 font-medium hover:bg-[#8EB096]/90 transition-colors rounded-md"
                 >
-                    Book a Tour
+                    {t('visitUs.bookTour')}
                 </a>
             </div>
 
@@ -30,7 +35,7 @@ export default function VisitMap() {
                     allowFullScreen
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"
-                    title="The Garzón School location"
+                    title={t('visitUs.mapTitle')}
                     className="h-full"
                 />
             </div>

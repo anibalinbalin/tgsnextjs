@@ -43,11 +43,11 @@ export default function TestimonialCard({ name, quote, imageSrc, buttonText, hre
 
                     {/* Quote + button */}
                     <div className={flipped ? 'md:order-1 md:text-right' : ''}>
-                        <blockquote className={`text-2xl md:text-4xl ${textColor} font-light leading-relaxed`}>
+                        <blockquote className={`text-4xl md:text-4xl ${textColor} font-light leading-relaxed`}>
                             "{quote}"
                         </blockquote>
                         {!hideButton && (
-                            <Link href={href || '#'} className={`inline-block mt-8 ${buttonClasses} rounded-md px-6 py-3 text-sm font-medium`}>
+                            <Link href={href || '#'} className={`inline-block mt-8 ${buttonClasses} rounded-md px-6 py-3 text-base font-medium`}>
                                 {buttonText || `Read ${name}'s full testimonial.`}
                             </Link>
                         )}
