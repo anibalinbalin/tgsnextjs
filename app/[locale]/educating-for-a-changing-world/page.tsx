@@ -10,8 +10,11 @@ import Change3Cont5Text from '@/components/change3-cont-5'
 import Change4Cont5 from '@/components/change4-cont5'
 import ChangeFinalCont5 from '@/components/changefinal-cont-5'
 import WellFinalSection from '@/components/well-final-section'
+import { getTranslations } from 'next-intl/server'
 
-export default function EducatingForAChangingWorldPage() {
+export default async function EducatingForAChangingWorldPage() {
+    const t = await getTranslations('EducatingChangingWorldPage')
+
     return (
         <>
             <div className="relative h-[70vh] bg-cover bg-center bg-no-repeat" style={{ backgroundImage: 'url(/assets/3-learning/4-changing/EleazarCuadros.2025_RosanBoshPrevios_56.jpg)' }}>
@@ -24,7 +27,7 @@ export default function EducatingForAChangingWorldPage() {
                             <div className="relative mx-auto flex max-w-6xl flex-col px-6 lg:block">
                                 <div className="mx-auto max-w-lg text-center lg:ml-0 lg:w-1/2 lg:text-left">
                                     <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white drop-shadow-lg">
-                                        Beyond Grades. Beyond Screens. Beyond the expected.
+                                        {t('hero.title')}
                                     </h1>
                                 </div>
                             </div>
