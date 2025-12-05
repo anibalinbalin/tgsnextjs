@@ -1,9 +1,11 @@
+'use client'
+
 import Link from 'next/link'
-import { getTranslations } from 'next-intl/server'
+import { useTranslations } from 'next-intl'
 import DevBadge from './dev-badge'
 
-export default async function FooterSection() {
-    const t = await getTranslations('Footer')
+export default function FooterSection() {
+    const t = useTranslations('Footer')
 
     return (
         <footer className="relative py-16 md:py-32">
