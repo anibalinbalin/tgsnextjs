@@ -1,5 +1,5 @@
 'use client'
-import { usePathname } from "next/navigation"
+import { usePathname } from "@/i18n/navigation"
 import { useTranslations } from "next-intl"
 import { Instagram, Linkedin, BookOpen, LifeBuoy, Info, Search } from "lucide-react"
 
