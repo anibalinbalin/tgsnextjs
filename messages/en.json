@@ -449,7 +449,7 @@
     },
     "intro": "We have a bespoke, student-centred curriculum based on the best educational practices from around the world. Our concept-based curriculum — designed by our team of educators who enjoy two hours of collaborative planning time daily — places emphasis on the development of TGS competencies, skills and attributes, and promotes both critical and design thinking.",
     "bannerLearning": {
-      "quote": "'Learning at The Garzón School is a meaningful journey of mutually expansive interaction between our whole selves and our environment.'",
+      "quote": "\"Learning at The Garzón School is a meaningful journey of mutually expansive interaction between our whole selves and our environment.\"",
       "attribution": "— TGS Definition of Learning",
       "imageAlt": "Learning at The Garzón School"
     },
@@ -573,43 +573,6 @@
   "AccreditationPage": {
     "hero": {
       "title": "Recognised locally. Rising globally."
-    },
-    "anep": {
-      "title": "Accreditation & Standards of Excellence",
-      "description": "The Garzón School is a fully authorized educational institution under Uruguay's Administración Nacional de Educación Pública (ANEP), offering a bilingual program that meets and exceeds national standards across all grade levels. This authorization reflects our commitment to rigorous academic expectations, ethical governance, and compliance with all national education and safety regulations.",
-      "imageAlt": "ANEP Accreditation"
-    },
-    "neasc": {
-      "title": "NEASC",
-      "description": "In 2025, The Garzón School achieved Eligibility for Accreditation from the New England Association of Schools and Colleges (NEASC) — one of the world's most respected international accreditation bodies. Following our Foundation Standards Visit in June 2025, NEASC commended the school for its \"clear and shared commitment to reimagine education in ways that are joyful, meaningful, and rooted in purpose.\" This milestone marks the successful completion of the first phase of NEASC's ACE Learning Pathway, which recognizes schools that demonstrate the structures, leadership, and educational philosophy needed to deliver high-quality, future-ready learning.",
-      "imageAlt": "NEASC Accreditation"
-    },
-    "neascBanner": {
-      "quote": "\"The strength of The Garzón School's mission and the unity among its members are key factors in supporting its continued progress.\"",
-      "attribution": "June 2025 NEASC report"
-    },
-    "commitment": {
-      "title": "Commitment to Continuous Improvement",
-      "description": "For us, the NEASC process is a journey of continuous reflection and improvement. Each stage of accreditation involves rigorous external evaluation, alignment with NEASC's Foundation Standards (Learning, Governance, Health & Safety, Finance, and Ethics), and a culture of transparency and evidence-based practice. Through this ongoing partnership, The Garzón School continues to benchmark itself against the highest international standards, ensuring that every student experiences learning that is authentic, purposeful, and transformative."
-    },
-    "principles": {
-      "title": "Our Guiding Accreditation Principles",
-      "excellence": {
-        "title": "Excellence in Learning:",
-        "content": "A clearly defined curriculum and competency framework that fosters curiosity, agency, and critical thinking."
-      },
-      "integrity": {
-        "title": "Integrity in Governance:",
-        "content": "Transparent, ethical leadership under a non-profit Asociación Civil structure."
-      },
-      "wellbeing": {
-        "title": "Well-being & Safety:",
-        "content": "Robust safeguarding, inclusion, and health protocols aligned with international standards."
-      },
-      "sustainability": {
-        "title": "Sustainability & Innovation:",
-        "content": "A purpose-built, nature-integrated campus that embodies our mission and values."
-      }
     }
   },
   "TeamPage": {
@@ -693,25 +656,29 @@
   },
   "TranslanguagingPage": {
     "hero": {
-      "title": "Valuing learners' full linguistic repertoires."
+      "title": "Translanguaging"
     },
-    "intro": "Instruction at The Garzón School is English-Spanish bilingual, albeit moving away from the strict separation of languages that dominates bilingual education today. So that TGS graduates emerge as empathetic global citizens, we promote language equity in our learning spaces: valuing each child's full linguistic and cultural repertoire to enrich and deepen learning. Beyond developing academic proficiency in English and Spanish, TGS encourages and supports the development of mother tongues.",
+    "content1": {
+      "text": "Instruction at The Garzón School is English-Spanish bilingual, albeit moving away from the strict separation of languages that dominates bilingual education today. So that TGS graduates emerge as empathetic global citizens, we promote language equity in our learning spaces: valuing each child<apostrophe/>s full linguistic and cultural repertoire to enrich and deepen learning. Beyond developing academic proficiency in English and Spanish, TGS encourages and supports the development of mother tongues."
+    },
     "quote": {
-      "text": "\"Translanguaging refers to both the discourse practices of bilinguals, as well as to pedagogical practices that use the entire complex linguistic repertoire of bilingual students flexibly in order to teach rigorous content and develop language practices for academic use.\"",
-      "highlight": "entire complex linguistic repertoire",
-      "attribution": "— García, 2016"
+      "imageAlt": "Translanguaging at The Garzón School",
+      "text": "\"Translanguaging refers to both the discourse practices of bilinguals, as well as to pedagogical practices that use the <highlight>entire complex linguistic repertoire</highlight> of bilingual students flexibly in order to teach rigorous content and develop language practices for academic use.\"",
+      "author": "— García, 2016"
     },
-    "classroomApproach": "Every nest has two educators: an English lead and a Spanish lead. Learners work with both educators simultaneously on coherent units of inquiry, with project output carefully balanced between English and Spanish depending on the language profile of each individual. This approach favours language acquisition, fosters engagement, and improves student confidence and sense of identity. To model our approach beyond the classroom, every member of our School's team is fully English-Spanish bilingual.",
+    "content2": {
+      "text": "Every nest has two educators: an English lead and a Spanish lead. Learners work with both educators simultaneously on coherent units of inquiry, with project output carefully balanced between English and Spanish depending on the language profile of each individual. This approach favours language acquisition, fosters engagement, and improves student confidence and sense of identity. To model our approach beyond the classroom, every member of our School<apostrophe/>s team is fully English-Spanish bilingual."
+    },
     "testimonial": {
       "name": "Fiorella Carrazzone",
       "subtitle": "Literacy Lead",
       "quote": "The journey of implementing translanguaging has been a continuous process of growth and learning. Our students' intrinsic motivation to engage with both English and Spanish literacy highlights the effectiveness of translanguaging in nurturing language development."
     },
-    "cta": {
-      "title": "Fall in love\nwith learning.",
+    "final": {
+      "imageAlt": "Fall in love with learning",
+      "title": "Fall in love<br/>with learning.",
       "subtitle": "Apply to join The Garzón School!",
-      "button": "Apply",
-      "imageAlt": "Fall in love with learning"
+      "button": "Apply"
     }
   },
   "EducatingChangingWorldPage": {
@@ -1003,33 +970,81 @@
     "changemaker": {
       "title": "Changemaker Collective",
       "events": [
-        { "date": "13 September 2025", "title": "Community Clean Up", "location": "Manantiales" },
-        { "date": "21 September 2025", "title": "Pérez Scremini 5K/10K Run", "location": "Punta del Este" },
-        { "date": "October 2025", "title": "Breast Cancer Awareness Month", "location": "The Garzón School" }
+        {
+          "date": "13 September 2025",
+          "title": "Community Clean Up",
+          "location": "Manantiales"
+        },
+        {
+          "date": "21 September 2025",
+          "title": "Pérez Scremini 5K/10K Run",
+          "location": "Punta del Este"
+        },
+        {
+          "date": "October 2025",
+          "title": "Breast Cancer Awareness Month",
+          "location": "The Garzón School"
+        }
       ]
     },
     "outdoors": {
       "title": "Outdoors & Adventure Committee",
       "events": [
-        { "date": "30 August 2025", "title": "Trekking by TGS", "location": "Cañadón de la Palma" },
-        { "date": "3 October 2025", "title": "Campus Camp Out", "location": "The Garzón School" },
-        { "date": "November 2025", "title": "TBC", "location": "TBC" }
+        {
+          "date": "30 August 2025",
+          "title": "Trekking by TGS",
+          "location": "Cañadón de la Palma"
+        },
+        {
+          "date": "3 October 2025",
+          "title": "Campus Camp Out",
+          "location": "The Garzón School"
+        },
+        {
+          "date": "November 2025",
+          "title": "TBC",
+          "location": "TBC"
+        }
       ]
     },
     "library": {
       "title": "Library Committee",
       "events": [
-        { "date": "1 September 2025", "title": "Book Character Dress-Up Day", "location": "The Garzón School" },
-        { "date": "8 September 2025", "title": "International Literacy Day", "location": "The Garzón School" },
-        { "date": "September 2025", "title": "Community Read Alouds", "location": "The Garzón School" }
+        {
+          "date": "1 September 2025",
+          "title": "Book Character Dress-Up Day",
+          "location": "The Garzón School"
+        },
+        {
+          "date": "8 September 2025",
+          "title": "International Literacy Day",
+          "location": "The Garzón School"
+        },
+        {
+          "date": "September 2025",
+          "title": "Community Read Alouds",
+          "location": "The Garzón School"
+        }
       ]
     },
     "arts": {
       "title": "Arts Committee",
       "events": [
-        { "date": "October 2025", "title": "TBC", "location": "TBC" },
-        { "date": "November 2025", "title": "TBC", "location": "TBC" },
-        { "date": "December 2025", "title": "TBC", "location": "TBC" }
+        {
+          "date": "October 2025",
+          "title": "TBC",
+          "location": "TBC"
+        },
+        {
+          "date": "November 2025",
+          "title": "TBC",
+          "location": "TBC"
+        },
+        {
+          "date": "December 2025",
+          "title": "TBC",
+          "location": "TBC"
+        }
       ]
     }
   },
@@ -1303,6 +1318,11 @@
       "title": "Learn how our Inclusion Team helps support student wellbeing.",
       "button": "Wellbeing and Inclusion",
       "imageAlt": "Children at The Garzón School"
+    },
+    "testimonial": {
+      "name": "Leona",
+      "subtitle": "Leona Dauphin, Co-Head of School",
+      "quote": "By providing opportunities for students to interact and connect with one another, our Soft Landing helps to foster a sense of belonging and support. This ultimately leads to improved outcomes for learning as children transition."
     }
   },
   "SpacesPage": {
@@ -1316,6 +1336,37 @@
       "subtitle": "Apply to join The Garzón School!",
       "button": "Apply",
       "imageAlt": "Fall in love with learning"
+    },
+    "table": {
+      "title": "Space Availability for the 2026 Academic Year (Last Updated: 26 November 2025)",
+      "phases": {
+        "earlyYears": "EARLY YEARS",
+        "primary": "PRIMARY",
+        "secondary": "SECONDARY"
+      },
+      "grades": {
+        "k2": "K2",
+        "k3": "K3",
+        "k4": "K4",
+        "k5": "K5",
+        "grade1": "Grade 1",
+        "grade2": "Grade 2",
+        "grade3": "Grade 3",
+        "grade4": "Grade 4",
+        "grade5": "Grade 5",
+        "grade6": "Grade 6",
+        "grade7": "Grade 7",
+        "grade8": "Grade 8",
+        "grade9": "Grade 9",
+        "grade10": "Grade 10",
+        "grade11": "Grade 11",
+        "grade12": "Grade 12"
+      },
+      "status": {
+        "waitingList": "Waiting List Only",
+        "spacesAvailable": "{count} Space(s) Available",
+        "openingDate": "Opening {date}"
+      }
     }
   },
   "TestimonialsPage": {
@@ -1434,11 +1485,6 @@
       }
     }
   },
-  "AccreditationPage": {
-    "hero": {
-      "title": "Recognised locally. Rising globally."
-    }
-  },
   "CampusPage": {
     "hero": {
       "title": "Designed to inspire. Built to lead."
@@ -1454,6 +1500,42 @@
   "InquiryPage": {
     "hero": {
       "title": "Authentic, engaging, exploratory learning."
+    },
+    "content": {
+      "intro": "Inquiry-based learning at TGS emphasises student-centred, hands-on exploration and discovery. Our learners are encouraged to take an active role in their own education, which results in greater engagement and motivation. Our units of inquiry foster problem-solving skills and critical thinking, as students ask questions, conduct research, and form their own conclusions to real-world problems and complex challenges.",
+      "benefits": "Inquiry-based learning also allows for the integration of multiple subjects, as students explore issues from multiple perspectives. This style of learning is also flexible and adaptable, making it suitable for students of different abilities and learning styles. These benefits make inquiry-based learning an effective and impactful way to enhance student learning and development."
+    },
+    "attributes": {
+      "title": "TGS Attributes & Dispositions",
+      "knowledgeable": {
+        "title": "Knowledgeable",
+        "content": "Learners at The Garzón School develop a love for acquiring knowledge in an experiential and joyful way. They are comfortable in expressing their curiosity. Children take pleasure while acquiring knowledge in an experiential way."
+      },
+      "creative": {
+        "title": "Creative",
+        "content": "We are an innovative learning community, focusing on imaginative and resourceful ways of expressing ourselves. We communicate with others and apply knowledge by developing ways of thinking to analyze and take responsible action in new and different contexts. Children are encouraged to use the knowledge they acquire to develop new ways of expressing themselves, communicating with others and new ways of thinking and being in the world."
+      },
+      "inquirers": {
+        "title": "Inquirers",
+        "content": "Our community embraces and encourages curiosity. We are motivated to look for answers to our questions through a research oriented approach. We are encouraged to take risks and immerse ourselves in the adventure of creating and sharing new knowledge. Our students feel ready to take risks, go into areas that are not fully researched and adapt new knowledge. We are not afraid of trying something new and taking on the adventure of doing something innovative. Even when we fail in something, we learn from our mistakes."
+      },
+      "collaborative": {
+        "title": "Collaborative",
+        "content": "Being collaborative is so much more than cooperation or teamwork. TGS learners grow with their teachers and from each other. We actively collaborate, share and co-create with the members of our community to effect positive change."
+      },
+      "authentic": {
+        "title": "Authentic",
+        "content": "We learn about ourselves and develop our identity. We embrace diversity and value different perspectives as fundamental attitudes to have a positive impact. We are confident in taking things into our own hands and leading the change we aim for. We are also mindful, reflecting on our emotions and experiences."
+      },
+      "reflective": {
+        "title": "Reflective",
+        "content": "We reflect, we proactively listen to others and self-assess how we learn. In doing so, we understand what we can improve and generate a virtuous cycle for learning. We work to understand our strengths and challenges so we develop as learners."
+      }
+    },
+    "cta": {
+      "title": "Fall in love with learning.",
+      "subtitle": "Apply to join The Garzón School!",
+      "button": "Apply"
     }
   },
   "TeamCtaPage": {
@@ -1463,14 +1545,31 @@
       "button": "Meet our team!"
     }
   },
-  "TranslanguagingPage": {
-    "hero": {
-      "title": "Valuing learners' full linguistic repertoires."
-    }
-  },
   "WellbeingPage": {
     "hero": {
       "title": "We see the child behind the student."
+    },
+    "intro": "The Garzón School is celebrated for its warm, welcoming, and nurturing environment. Exemplary, individualised care and support are the foundation of everything we do. We understand that wellbeing is a vital component of every child's development, profoundly influencing their health, happiness, and future success. That's why our students' physical, emotional, social, and mental health is central to our practice and guides every decision we make.",
+    "focus": {
+      "intro": "Our focus on wellbeing means creating a safe, supportive and positive learning environment where each student feels valued and respected. We achieve this in a number of different ways:",
+      "items": {
+        "relationships": "Strong <underline>student-teacher relationships</underline> which promote positive interactions and provide continued emotional support",
+        "healthyHabits": "Focus on development of <underline>lifelong healthy habits</underline> through our schoolwide Wellness & Movement programme",
+        "sel": "<underline>Social and Emotional Learning</underline> (SEL) delivered in-house by experts as a compulsory component of the our curriculum",
+        "peerRelationships": "Positive peer-to-peer relationships that form the foundation of our interactions, <underline>community and sense of belonging</underline>",
+        "resilience": "Guidance for students to reframe challenges as opportunities for growth, building resilience and a <underline>positive sense of self</underline>"
+      }
+    },
+    "testimonial": {
+      "subtitle": "TGS Educational Psychologist",
+      "quote": "We promote wellbeing with the intention of ensuring our students are equipped with the skills, attitudes and habits necessary to grow into confident, healthy, happy individuals."
+    },
+    "inclusion": "The Garzón School's fully inclusive environment ensures that every student feels welcome, valued, and supported, regardless of their background, abilities, or differences. Our curriculum is thoughtfully designed to meet the diverse needs of all learners, including those with disabilities, cultural or linguistic differences, and other individual needs. We celebrate diversity by embracing different cultures and perspectives, fostering a sense of belonging. Together, students, teachers, and families create a nurturing community where every child can thrive.",
+    "educators": "Our highly qualified educators employ diverse teaching strategies and provide personalised support to address the unique needs of every student. This includes adapting materials, integrating assistive technology, and offering additional support when required. Our positive school climate fosters a strong sense of belonging and connectedness, reinforced by clear behavioral expectations. We promote positive interactions and respond to bullying or discrimination promptly and effectively to ensure a safe and inclusive environment for all.",
+    "cta": {
+      "title": "Fall in love<br/>with learning.",
+      "subtitle": "Apply to join The Garzón School!",
+      "button": "Apply"
     }
   },
   "Testimonial1Page": {

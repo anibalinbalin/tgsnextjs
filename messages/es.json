@@ -449,7 +449,7 @@
     },
     "intro": "Tenemos un currículo personalizado y centrado en el estudiante, basado en las mejores prácticas educativas del mundo. Nuestro currículo basado en conceptos — diseñado por nuestro equipo de educadores que disfrutan de dos horas de planificación colaborativa diaria — enfatiza el desarrollo de competencias, habilidades y atributos de TGS, y promueve tanto el pensamiento crítico como el pensamiento de diseño.",
     "bannerLearning": {
-      "quote": "'El aprendizaje en The Garzón School es un viaje significativo de interacción mutuamente expansiva entre todo nuestro ser y nuestro entorno.'",
+      "quote": "\"El aprendizaje en The Garzón School es un viaje significativo de interacción mutuamente expansiva entre todo nuestro ser y nuestro entorno.\"",
       "attribution": "— Definición de Aprendizaje de TGS",
       "imageAlt": "Aprendizaje en The Garzón School"
     },
@@ -573,43 +573,6 @@
   "AccreditationPage": {
     "hero": {
       "title": "Reconocidos localmente. Creciendo globalmente."
-    },
-    "anep": {
-      "title": "Acreditación y Estándares de Excelencia",
-      "description": "The Garzón School es una institución educativa completamente autorizada bajo la Administración Nacional de Educación Pública (ANEP) de Uruguay, ofreciendo un programa bilingüe que cumple y supera los estándares nacionales en todos los niveles. Esta autorización refleja nuestro compromiso con expectativas académicas rigurosas, gobernanza ética y cumplimiento de todas las regulaciones nacionales de educación y seguridad.",
-      "imageAlt": "Acreditación ANEP"
-    },
-    "neasc": {
-      "title": "NEASC",
-      "description": "En 2025, The Garzón School logró la Elegibilidad para Acreditación de la New England Association of Schools and Colleges (NEASC) — uno de los organismos de acreditación internacional más respetados del mundo. Tras nuestra Visita de Estándares Fundamentales en junio de 2025, NEASC elogió al colegio por su \"compromiso claro y compartido de reimaginar la educación de maneras que son alegres, significativas y arraigadas en propósito.\" Este hito marca la finalización exitosa de la primera fase del ACE Learning Pathway de NEASC, que reconoce a los colegios que demuestran las estructuras, liderazgo y filosofía educativa necesarios para ofrecer un aprendizaje de alta calidad y preparado para el futuro.",
-      "imageAlt": "Acreditación NEASC"
-    },
-    "neascBanner": {
-      "quote": "\"La fortaleza de la misión de The Garzón School y la unidad entre sus miembros son factores clave para apoyar su progreso continuo.\"",
-      "attribution": "Informe NEASC de junio 2025"
-    },
-    "commitment": {
-      "title": "Compromiso con la Mejora Continua",
-      "description": "Para nosotros, el proceso NEASC es un viaje de reflexión y mejora continua. Cada etapa de acreditación implica una evaluación externa rigurosa, alineación con los Estándares Fundamentales de NEASC (Aprendizaje, Gobernanza, Salud y Seguridad, Finanzas y Ética), y una cultura de transparencia y práctica basada en evidencia. A través de esta asociación continua, The Garzón School continúa comparándose con los más altos estándares internacionales, asegurando que cada estudiante experimente un aprendizaje auténtico, con propósito y transformador."
-    },
-    "principles": {
-      "title": "Nuestros Principios Rectores de Acreditación",
-      "excellence": {
-        "title": "Excelencia en el Aprendizaje:",
-        "content": "Un currículo claramente definido y un marco de competencias que fomenta la curiosidad, la autonomía y el pensamiento crítico."
-      },
-      "integrity": {
-        "title": "Integridad en la Gobernanza:",
-        "content": "Liderazgo transparente y ético bajo una estructura de Asociación Civil sin fines de lucro."
-      },
-      "wellbeing": {
-        "title": "Bienestar y Seguridad:",
-        "content": "Protocolos robustos de protección, inclusión y salud alineados con estándares internacionales."
-      },
-      "sustainability": {
-        "title": "Sostenibilidad e Innovación:",
-        "content": "Un campus diseñado a propósito e integrado con la naturaleza que encarna nuestra misión y valores."
-      }
     }
   },
   "TeamPage": {
@@ -693,25 +656,29 @@
   },
   "TranslanguagingPage": {
     "hero": {
-      "title": "Valorando el repertorio lingüístico completo de los estudiantes."
+      "title": "Translenguaje"
     },
-    "intro": "La instrucción en The Garzón School es bilingüe inglés-español, aunque alejándose de la separación estricta de idiomas que domina la educación bilingüe hoy en día. Para que los graduados de TGS emerjan como ciudadanos globales empáticos, promovemos la equidad lingüística en nuestros espacios de aprendizaje: valorando el repertorio lingüístico y cultural completo de cada niño para enriquecer y profundizar el aprendizaje. Más allá de desarrollar competencia académica en inglés y español, TGS fomenta y apoya el desarrollo de las lenguas maternas.",
+    "content1": {
+      "text": "La instrucción en The Garzón School es bilingüe inglés-español, aunque nos alejamos de la separación estricta de idiomas que domina la educación bilingüe actual. Para que los graduados de TGS emerjan como ciudadanos globales empáticos, promovemos la equidad lingüística en nuestros espacios de aprendizaje: valorando el repertorio lingüístico y cultural completo de cada niño para enriquecer y profundizar el aprendizaje. Más allá de desarrollar competencia académica en inglés y español, TGS alienta y apoya el desarrollo de las lenguas maternas."
+    },
     "quote": {
-      "text": "\"El translanguaging se refiere tanto a las prácticas discursivas de los bilingües, como a las prácticas pedagógicas que utilizan el repertorio lingüístico complejo completo de los estudiantes bilingües de manera flexible para enseñar contenido riguroso y desarrollar prácticas lingüísticas para uso académico.\"",
-      "highlight": "repertorio lingüístico complejo completo",
-      "attribution": "— García, 2016"
+      "imageAlt": "Translenguaje en The Garzón School",
+      "text": "\"El translenguaje se refiere tanto a las prácticas discursivas de los bilingües, como a las prácticas pedagógicas que utilizan el <highlight>repertorio lingüístico complejo completo</highlight> de los estudiantes bilingües de manera flexible para enseñar contenido riguroso y desarrollar prácticas lingüísticas para uso académico.\"",
+      "author": "— García, 2016"
     },
-    "classroomApproach": "Cada nido tiene dos educadores: un líder de inglés y un líder de español. Los estudiantes trabajan con ambos educadores simultáneamente en unidades de indagación coherentes, con el resultado del proyecto cuidadosamente equilibrado entre inglés y español dependiendo del perfil lingüístico de cada individuo. Este enfoque favorece la adquisición del idioma, fomenta el compromiso y mejora la confianza y el sentido de identidad del estudiante. Para modelar nuestro enfoque más allá del aula, cada miembro del equipo de nuestro Colegio es completamente bilingüe inglés-español.",
+    "content2": {
+      "text": "Cada nido tiene dos educadores: un líder de inglés y un líder de español. Los estudiantes trabajan con ambos educadores simultáneamente en unidades de indagación coherentes, con el producto del proyecto cuidadosamente equilibrado entre inglés y español según el perfil lingüístico de cada individuo. Este enfoque favorece la adquisición del lenguaje, fomenta la participación y mejora la confianza y el sentido de identidad del estudiante. Para modelar nuestro enfoque más allá del aula, cada miembro del equipo de nuestra Escuela es completamente bilingüe inglés-español."
+    },
     "testimonial": {
       "name": "Fiorella Carrazzone",
       "subtitle": "Líder de Alfabetización",
-      "quote": "El camino de implementar el translanguaging ha sido un proceso continuo de crecimiento y aprendizaje. La motivación intrínseca de nuestros estudiantes para involucrarse con la alfabetización en inglés y español destaca la efectividad del translanguaging en nutrir el desarrollo del lenguaje."
+      "quote": "El camino de implementar el translenguaje ha sido un proceso continuo de crecimiento y aprendizaje. La motivación intrínseca de nuestros estudiantes para involucrarse con la alfabetización en inglés y español destaca la efectividad del translenguaje en nutrir el desarrollo del lenguaje."
     },
-    "cta": {
-      "title": "Enamórate\ndel aprendizaje.",
+    "final": {
+      "imageAlt": "Enamórate del aprendizaje",
+      "title": "Enamórate<br/>del aprendizaje.",
       "subtitle": "¡Postula para unirte a The Garzón School!",
-      "button": "Postular",
-      "imageAlt": "Enamórate del aprendizaje"
+      "button": "Postular"
     }
   },
   "EducatingChangingWorldPage": {
@@ -1003,33 +970,81 @@
     "changemaker": {
       "title": "Colectivo de Agentes de Cambio",
       "events": [
-        { "date": "13 de septiembre 2025", "title": "Limpieza Comunitaria", "location": "Manantiales" },
-        { "date": "21 de septiembre 2025", "title": "Carrera 5K/10K Pérez Scremini", "location": "Punta del Este" },
-        { "date": "Octubre 2025", "title": "Mes de Concientización sobre el Cáncer de Mama", "location": "The Garzón School" }
+        {
+          "date": "13 de septiembre 2025",
+          "title": "Limpieza Comunitaria",
+          "location": "Manantiales"
+        },
+        {
+          "date": "21 de septiembre 2025",
+          "title": "Carrera 5K/10K Pérez Scremini",
+          "location": "Punta del Este"
+        },
+        {
+          "date": "Octubre 2025",
+          "title": "Mes de Concientización sobre el Cáncer de Mama",
+          "location": "The Garzón School"
+        }
       ]
     },
     "outdoors": {
       "title": "Comité de Aventura al Aire Libre",
       "events": [
-        { "date": "30 de agosto 2025", "title": "Trekking por TGS", "location": "Cañadón de la Palma" },
-        { "date": "3 de octubre 2025", "title": "Campamento en el Campus", "location": "The Garzón School" },
-        { "date": "Noviembre 2025", "title": "Por confirmar", "location": "Por confirmar" }
+        {
+          "date": "30 de agosto 2025",
+          "title": "Trekking por TGS",
+          "location": "Cañadón de la Palma"
+        },
+        {
+          "date": "3 de octubre 2025",
+          "title": "Campamento en el Campus",
+          "location": "The Garzón School"
+        },
+        {
+          "date": "Noviembre 2025",
+          "title": "Por confirmar",
+          "location": "Por confirmar"
+        }
       ]
     },
     "library": {
       "title": "Comité de Biblioteca",
       "events": [
-        { "date": "1 de septiembre 2025", "title": "Día de Disfraces de Personajes de Libros", "location": "The Garzón School" },
-        { "date": "8 de septiembre 2025", "title": "Día Internacional de la Alfabetización", "location": "The Garzón School" },
-        { "date": "Septiembre 2025", "title": "Lecturas en Voz Alta Comunitarias", "location": "The Garzón School" }
+        {
+          "date": "1 de septiembre 2025",
+          "title": "Día de Disfraces de Personajes de Libros",
+          "location": "The Garzón School"
+        },
+        {
+          "date": "8 de septiembre 2025",
+          "title": "Día Internacional de la Alfabetización",
+          "location": "The Garzón School"
+        },
+        {
+          "date": "Septiembre 2025",
+          "title": "Lecturas en Voz Alta Comunitarias",
+          "location": "The Garzón School"
+        }
       ]
     },
     "arts": {
       "title": "Comité de Artes",
       "events": [
-        { "date": "Octubre 2025", "title": "Por confirmar", "location": "Por confirmar" },
-        { "date": "Noviembre 2025", "title": "Por confirmar", "location": "Por confirmar" },
-        { "date": "Diciembre 2025", "title": "Por confirmar", "location": "Por confirmar" }
+        {
+          "date": "Octubre 2025",
+          "title": "Por confirmar",
+          "location": "Por confirmar"
+        },
+        {
+          "date": "Noviembre 2025",
+          "title": "Por confirmar",
+          "location": "Por confirmar"
+        },
+        {
+          "date": "Diciembre 2025",
+          "title": "Por confirmar",
+          "location": "Por confirmar"
+        }
       ]
     }
   },
@@ -1303,6 +1318,11 @@
       "title": "Descubre cómo nuestro Equipo de Inclusión apoya el bienestar estudiantil.",
       "button": "Bienestar e Inclusión",
       "imageAlt": "Niños en The Garzón School"
+    },
+    "testimonial": {
+      "name": "Leona",
+      "subtitle": "Leona Dauphin, Codirectora",
+      "quote": "Al brindar oportunidades para que los estudiantes interactúen y se conecten entre sí, nuestro Soft Landing ayuda a fomentar un sentido de pertenencia y apoyo. Esto finalmente conduce a mejores resultados de aprendizaje a medida que los niños hacen la transición."
     }
   },
   "SpacesPage": {
@@ -1316,6 +1336,37 @@
       "subtitle": "¡Postula para unirte a The Garzón School!",
       "button": "Postular",
       "imageAlt": "Enamórate del aprendizaje"
+    },
+    "table": {
+      "title": "Disponibilidad de Espacios para el Año Académico 2026 (Actualizado: 26 de Noviembre 2025)",
+      "phases": {
+        "earlyYears": "AÑOS TEMPRANOS",
+        "primary": "PRIMARIA",
+        "secondary": "SECUNDARIA"
+      },
+      "grades": {
+        "k2": "K2",
+        "k3": "K3",
+        "k4": "K4",
+        "k5": "K5",
+        "grade1": "Grado 1",
+        "grade2": "Grado 2",
+        "grade3": "Grado 3",
+        "grade4": "Grado 4",
+        "grade5": "Grado 5",
+        "grade6": "Grado 6",
+        "grade7": "Grado 7",
+        "grade8": "Grado 8",
+        "grade9": "Grado 9",
+        "grade10": "Grado 10",
+        "grade11": "Grado 11",
+        "grade12": "Grado 12"
+      },
+      "status": {
+        "waitingList": "Solo Lista de Espera",
+        "spacesAvailable": "{count} Espacio(s) Disponible(s)",
+        "openingDate": "Abre en {date}"
+      }
     }
   },
   "TestimonialsPage": {
@@ -1434,11 +1485,6 @@
       }
     }
   },
-  "AccreditationPage": {
-    "hero": {
-      "title": "Reconocidos localmente. Creciendo globalmente."
-    }
-  },
   "CampusPage": {
     "hero": {
       "title": "Diseñado para inspirar. Construido para liderar."
@@ -1454,6 +1500,42 @@
   "InquiryPage": {
     "hero": {
       "title": "Aprendizaje auténtico, atractivo y exploratorio."
+    },
+    "content": {
+      "intro": "El aprendizaje basado en la indagación en TGS enfatiza la exploración y el descubrimiento centrado en el estudiante y práctico. Animamos a nuestros estudiantes a asumir un rol activo en su propia educación, lo que resulta en mayor compromiso y motivación. Nuestras unidades de indagación fomentan habilidades de resolución de problemas y pensamiento crítico, ya que los estudiantes hacen preguntas, realizan investigaciones y forman sus propias conclusiones sobre problemas del mundo real y desafíos complejos.",
+      "benefits": "El aprendizaje basado en la indagación también permite la integración de múltiples materias, ya que los estudiantes exploran temas desde múltiples perspectivas. Este estilo de aprendizaje también es flexible y adaptable, haciéndolo adecuado para estudiantes con diferentes habilidades y estilos de aprendizaje. Estos beneficios hacen del aprendizaje basado en la indagación una forma efectiva e impactante de mejorar el aprendizaje y desarrollo de los estudiantes."
+    },
+    "attributes": {
+      "title": "Atributos y Disposiciones TGS",
+      "knowledgeable": {
+        "title": "Informados",
+        "content": "Los estudiantes de The Garzón School desarrollan un amor por adquirir conocimiento de manera experiencial y alegre. Se sienten cómodos expresando su curiosidad. Los niños disfrutan mientras adquieren conocimiento de manera experiencial."
+      },
+      "creative": {
+        "title": "Creativos",
+        "content": "Somos una comunidad de aprendizaje innovadora, enfocándonos en formas imaginativas e ingeniosas de expresarnos. Nos comunicamos con otros y aplicamos el conocimiento desarrollando formas de pensar para analizar y tomar acciones responsables en contextos nuevos y diferentes. Se anima a los niños a usar el conocimiento que adquieren para desarrollar nuevas formas de expresarse, comunicarse con otros y nuevas formas de pensar y estar en el mundo."
+      },
+      "inquirers": {
+        "title": "Indagadores",
+        "content": "Nuestra comunidad abraza y fomenta la curiosidad. Estamos motivados a buscar respuestas a nuestras preguntas a través de un enfoque orientado a la investigación. Se nos anima a tomar riesgos y sumergirnos en la aventura de crear y compartir nuevo conocimiento. Nuestros estudiantes se sienten listos para tomar riesgos, adentrarse en áreas que no están completamente investigadas y adaptar nuevo conocimiento. No tenemos miedo de probar algo nuevo y emprender la aventura de hacer algo innovador. Incluso cuando fallamos en algo, aprendemos de nuestros errores."
+      },
+      "collaborative": {
+        "title": "Colaborativos",
+        "content": "Ser colaborativo es mucho más que cooperación o trabajo en equipo. Los estudiantes de TGS crecen con sus maestros y entre ellos. Colaboramos activamente, compartimos y co-creamos con los miembros de nuestra comunidad para efectuar un cambio positivo."
+      },
+      "authentic": {
+        "title": "Auténticos",
+        "content": "Aprendemos sobre nosotros mismos y desarrollamos nuestra identidad. Abrazamos la diversidad y valoramos diferentes perspectivas como actitudes fundamentales para tener un impacto positivo. Somos confiados en tomar las cosas en nuestras propias manos y liderar el cambio que buscamos. También somos conscientes, reflexionando sobre nuestras emociones y experiencias."
+      },
+      "reflective": {
+        "title": "Reflexivos",
+        "content": "Reflexionamos, escuchamos proactivamente a otros y autoevaluamos cómo aprendemos. Al hacerlo, entendemos qué podemos mejorar y generamos un ciclo virtuoso de aprendizaje. Trabajamos para entender nuestras fortalezas y desafíos para desarrollarnos como estudiantes."
+      }
+    },
+    "cta": {
+      "title": "Enamórate del aprendizaje.",
+      "subtitle": "¡Solicita tu ingreso a The Garzón School!",
+      "button": "Aplicar"
     }
   },
   "TeamCtaPage": {
@@ -1463,14 +1545,31 @@
       "button": "¡Conoce a nuestro equipo!"
     }
   },
-  "TranslanguagingPage": {
-    "hero": {
-      "title": "Valorando los repertorios lingüísticos completos de los estudiantes."
-    }
-  },
   "WellbeingPage": {
     "hero": {
       "title": "Vemos al niño detrás del estudiante."
+    },
+    "intro": "The Garzón School es reconocido por su ambiente cálido, acogedor y enriquecedor. El cuidado y apoyo ejemplar e individualizado son la base de todo lo que hacemos. Entendemos que el bienestar es un componente vital del desarrollo de cada niño, influyendo profundamente en su salud, felicidad y éxito futuro. Por eso, la salud física, emocional, social y mental de nuestros estudiantes es central en nuestra práctica y guía cada decisión que tomamos.",
+    "focus": {
+      "intro": "Nuestro enfoque en el bienestar significa crear un ambiente de aprendizaje seguro, solidario y positivo donde cada estudiante se sienta valorado y respetado. Logramos esto de diferentes maneras:",
+      "items": {
+        "relationships": "Fuertes <underline>relaciones estudiante-docente</underline> que promueven interacciones positivas y brindan apoyo emocional continuo",
+        "healthyHabits": "Enfoque en el desarrollo de <underline>hábitos saludables para toda la vida</underline> a través de nuestro programa escolar de Bienestar y Movimiento",
+        "sel": "<underline>Aprendizaje Socioemocional</underline> (SEL) impartido internamente por expertos como componente obligatorio de nuestro currículum",
+        "peerRelationships": "Relaciones positivas entre pares que forman la base de nuestras interacciones, <underline>comunidad y sentido de pertenencia</underline>",
+        "resilience": "Orientación para que los estudiantes reformulen los desafíos como oportunidades de crecimiento, desarrollando resiliencia y un <underline>sentido positivo de sí mismos</underline>"
+      }
+    },
+    "testimonial": {
+      "subtitle": "Psicóloga Educacional de TGS",
+      "quote": "Promovemos el bienestar con la intención de asegurar que nuestros estudiantes estén equipados con las habilidades, actitudes y hábitos necesarios para convertirse en individuos seguros, saludables y felices."
+    },
+    "inclusion": "El ambiente completamente inclusivo de The Garzón School asegura que cada estudiante se sienta bienvenido, valorado y apoyado, independientemente de su origen, habilidades o diferencias. Nuestro currículum está cuidadosamente diseñado para satisfacer las diversas necesidades de todos los estudiantes, incluyendo aquellos con discapacidades, diferencias culturales o lingüísticas, y otras necesidades individuales. Celebramos la diversidad al abrazar diferentes culturas y perspectivas, fomentando un sentido de pertenencia. Juntos, estudiantes, docentes y familias crean una comunidad enriquecedora donde cada niño puede prosperar.",
+    "educators": "Nuestros educadores altamente calificados emplean diversas estrategias de enseñanza y brindan apoyo personalizado para abordar las necesidades únicas de cada estudiante. Esto incluye adaptar materiales, integrar tecnología asistiva y ofrecer apoyo adicional cuando sea necesario. Nuestro clima escolar positivo fomenta un fuerte sentido de pertenencia y conexión, reforzado por expectativas de comportamiento claras. Promovemos interacciones positivas y respondemos al acoso o discriminación de manera rápida y efectiva para asegurar un ambiente seguro e inclusivo para todos.",
+    "cta": {
+      "title": "Enamórate<br/>del aprendizaje.",
+      "subtitle": "¡Postula para unirte a The Garzón School!",
+      "button": "Postular"
     }
   },
   "Testimonial1Page": {
