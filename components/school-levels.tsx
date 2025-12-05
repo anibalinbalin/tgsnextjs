@@ -22,7 +22,7 @@ export default async function SchoolLevels() {
                         </div>
                         <div className="text-center">
                             <h3 className="text-2xl font-semibold text-white mb-3">{t('earlyYears.title')}</h3>
-                            <p className="mb-8 line-clamp-2 text-base text-white md:mb-12 lg:mb-9">{t('earlyYears.description')}</p>
+                            <p className="mb-8 line-clamp-2 text-base md:text-lg text-white md:mb-12 lg:mb-9">{t('earlyYears.description')}</p>
                         </div>
                     </div>
 
@@ -37,7 +37,7 @@ export default async function SchoolLevels() {
                         </div>
                         <div className="text-center">
                             <h3 className="text-2xl font-semibold text-white mb-3">{t('primary.title')}</h3>
-                            <p className="mb-8 line-clamp-2 text-base text-white md:mb-12 lg:mb-9">{t('primary.description')}</p>
+                            <p className="mb-8 line-clamp-2 text-base md:text-lg text-white md:mb-12 lg:mb-9">{t('primary.description')}</p>
                         </div>
                     </div>
 
@@ -52,7 +52,7 @@ export default async function SchoolLevels() {
                         </div>
                         <div className="text-center">
                             <h3 className="text-2xl font-semibold text-white mb-3">{t('secondary.title')}</h3>
-                            <p className="mb-8 line-clamp-2 text-base text-white md:mb-12 lg:mb-9">{t('secondary.description')}</p>
+                            <p className="mb-8 line-clamp-2 text-base md:text-lg text-white md:mb-12 lg:mb-9">{t('secondary.description')}</p>
                         </div>
                     </div>
                 </div>
