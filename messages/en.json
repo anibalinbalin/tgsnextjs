@@ -315,6 +315,76 @@
           "content": "Once the School has received all the necessary payments and paperwork, your child's place in the School is locked in. At this point, it's perfectly normal to start counting down the days!"
         }
       }
+    },
+    "openMorning": {
+      "title": "Come and join us for an Open Morning!",
+      "description": "Come explore our stunning campus on Ruta 104 and meet some of the passionate educators who will be part of your child's learning journey at TGS. Spaces are limited, so please RSVP using the link provided below.",
+      "date1": "Saturday 14 June 2025",
+      "date2": "Saturday 16 August 2025",
+      "date3": "Saturday 8 November 2025",
+      "altDate1": "Open Morning June 2025",
+      "altDate2": "Open Morning August 2025",
+      "altDate3": "Open Morning November 2025",
+      "rsvp": "RSVP (Google Forms)"
+    },
+    "timeline": {
+      "title": "Timeline for 2026 Entry",
+      "description": "We aim to offer a clear and structured admissions timeline to help families plan ahead, and to ensure we select students from a broad and diverse pool of applicants.",
+      "deadlineLabel": "Main Admissions Deadline:",
+      "deadlineDate": "30 September 2025",
+      "decisionText": "Families who submit a complete application (including financial aid or scholarship requests) by this date will receive an admissions decision by <strong>30 October 2025</strong>.",
+      "rollingTitle": "Rolling Admissions Thereafter",
+      "rollingText": "After this point, applications are reviewed on a rolling basis, subject to space availability. We welcome inquiries year-round and will do our best to support late applications where possible.",
+      "relocatingTitle": "Relocating Families",
+      "relocatingText": "We know that many of our families are moving across countries and continents. If you're relocating to Uruguay or considering a mid-year move, we encourage you to reach out early. We're happy to support your transition and discuss availability outside the main admissions cycle.",
+      "applyNow": "Apply Now",
+      "imageAlt": "Children playing at The Garzón School"
+    },
+    "roadmap": {
+      "title": "As we grow organically, check out our Enrolment Roadmap.",
+      "headers": {
+        "educationalPhase": "Educational Phase",
+        "ageRanges": "Age Ranges",
+        "gradeEquivalent": "Grade Equivalent",
+        "tgsNest": "TGS Nest",
+        "status": "Status"
+      },
+      "phases": {
+        "earlyYears": "Early Years",
+        "primarySchool": "Primary School",
+        "secondarySchool": "Secondary School"
+      },
+      "grades": {
+        "grades12": "Grades 1 - 2",
+        "grades34": "Grades 3 - 4",
+        "grades56": "Grades 5 - 6",
+        "grades78": "Grades 7 - 8",
+        "grades910": "Grades 9 - 10",
+        "grades1112": "Grades 11 - 12"
+      },
+      "status": {
+        "open": "Open",
+        "grade9Opening": "Grade 9 opening in Feb 2026",
+        "grade10Opening": "Grade 10 opening in Feb 2027",
+        "grade11Opening": "Grade 11 opening in Feb 2028",
+        "grade12Opening": "Grade 12 opening in Feb 2029"
+      }
+    },
+    "testimonialsCta": {
+      "title": "Read parent testimonials.",
+      "button": "Parent Testimonials",
+      "imageAlt": "Children at The Garzón School"
+    },
+    "contactForm": {
+      "title": "COUNT US IN!",
+      "name": "NAME",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "EMAIL",
+      "subject": "SUBJECT",
+      "message": "MESSAGE",
+      "submit": "Submit",
+      "imageAlt": "The Garzón School"
     }
   },
   "MissionVisionValuesPage": {

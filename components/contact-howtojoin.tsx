@@ -7,8 +7,10 @@ import { Textarea } from '@/components/ui/textarea'
 import { Label } from '@/components/ui/label'
 import Image from 'next/image'
 import DevBadge from './dev-badge'
+import { useTranslations } from 'next-intl'
 
 export default function ContactHowtojoin() {
+    const t = useTranslations('HowToJoinPage')
     const [formData, setFormData] = useState({
         firstName: '',
         lastName: '',
@@ -38,7 +40,7 @@ export default function ContactHowtojoin() {
                         {/* Heading Banner */}
                         <div className="bg-[#D39885] py-12 px-6 mb-8">
                             <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white">
-                                COUNT US IN!
+                                {t('contactForm.title')}
                             </h2>
                         </div>
                         {/* Form */}
@@ -47,7 +49,7 @@ export default function ContactHowtojoin() {
                             <div className="space-y-6 flex-1">
                                 <div className="space-y-2">
                                     <Label htmlFor="name" className="text-sm font-medium text-gray-700">
-                                        NAME <span className="text-red-500">*</span>
+                                        {t('contactForm.name')} <span className="text-red-500">*</span>
                                     </Label>
                                     <div className="grid grid-cols-2 gap-4">
                                         <div>
@@ -60,7 +62,7 @@ export default function ContactHowtojoin() {
                                                 onChange={handleChange}
                                                 className="border-gray-300"
                                             />
-                                            <span className="text-xs text-gray-500 mt-1 block">First Name</span>
+                                            <span className="text-xs text-gray-500 mt-1 block">{t('contactForm.firstName')}</span>
                                         </div>
                                         <div>
                                             <Input
@@ -72,14 +74,14 @@ export default function ContactHowtojoin() {
                                                 onChange={handleChange}
                                                 className="border-gray-300"
                                             />
-                                            <span className="text-xs text-gray-500 mt-1 block">Last Name</span>
+                                            <span className="text-xs text-gray-500 mt-1 block">{t('contactForm.lastName')}</span>
                                         </div>
                                     </div>
                                 </div>
 
                                 <div className="space-y-2">
                                     <Label htmlFor="email" className="text-sm font-medium text-gray-700">
-                                        EMAIL <span className="text-red-500">*</span>
+                                        {t('contactForm.email')} <span className="text-red-500">*</span>
                                     </Label>
                                     <Input
                                         id="email"
@@ -95,7 +97,7 @@ export default function ContactHowtojoin() {
 
                                 <div className="space-y-2">
                                     <Label htmlFor="subject" className="text-sm font-medium text-gray-700">
-                                        SUBJECT
+                                        {t('contactForm.subject')}
                                     </Label>
                                     <Input
                                         id="subject"
@@ -109,7 +111,7 @@ export default function ContactHowtojoin() {
 
                                 <div className="space-y-2">
                                     <Label htmlFor="message" className="text-sm font-medium text-gray-700">
-                                        MESSAGE <span className="text-red-500">*</span>
+                                        {t('contactForm.message')} <span className="text-red-500">*</span>
                                     </Label>
                                     <Textarea
                                         id="message"
@@ -130,7 +132,7 @@ export default function ContactHowtojoin() {
                                     size="lg"
                                     className="bg-[#D39885] hover:bg-[#C65D3B] text-white px-8"
                                 >
-                                    Submit
+                                    {t('contactForm.submit')}
                                 </Button>
                             </div>
                         </form>
@@ -140,7 +142,7 @@ export default function ContactHowtojoin() {
                     <div className="relative h-full min-h-[500px]">
                         <Image
                             src="/assets/2_admissions/1-joinus/EleazarCuadros._2025_RosanBosh_9.jpeg"
-                            alt="The Garzón School"
+                            alt={t('contactForm.imageAlt')}
                             fill
                             className="object-cover rounded-lg"
                         />

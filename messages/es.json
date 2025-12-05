@@ -315,6 +315,76 @@
           "content": "Una vez que el Colegio haya recibido todos los pagos y documentos necesarios, el lugar de su hijo/a en el Colegio está asegurado. ¡En este punto, es perfectamente normal empezar a contar los días!"
         }
       }
+    },
+    "openMorning": {
+      "title": "¡Acompáñanos a una Jornada de Puertas Abiertas!",
+      "description": "Ven a explorar nuestro hermoso campus en Ruta 104 y conoce a algunos de los apasionados educadores que serán parte del recorrido de aprendizaje de tu hijo/a en TGS. Los espacios son limitados, así que por favor confirma tu asistencia usando el enlace a continuación.",
+      "date1": "Sábado 14 de Junio 2025",
+      "date2": "Sábado 16 de Agosto 2025",
+      "date3": "Sábado 8 de Noviembre 2025",
+      "altDate1": "Jornada de Puertas Abiertas Junio 2025",
+      "altDate2": "Jornada de Puertas Abiertas Agosto 2025",
+      "altDate3": "Jornada de Puertas Abiertas Noviembre 2025",
+      "rsvp": "Confirmar Asistencia"
+    },
+    "timeline": {
+      "title": "Cronograma para Ingreso 2026",
+      "description": "Nos proponemos ofrecer un cronograma de admisiones claro y estructurado para ayudar a las familias a planificar, y para asegurar que seleccionamos estudiantes de un grupo amplio y diverso de candidatos.",
+      "deadlineLabel": "Fecha Límite Principal de Admisiones:",
+      "deadlineDate": "30 de Septiembre 2025",
+      "decisionText": "Las familias que presenten una solicitud completa (incluyendo solicitudes de ayuda financiera o becas) antes de esta fecha recibirán una decisión de admisión antes del <strong>30 de Octubre 2025</strong>.",
+      "rollingTitle": "Admisiones Continuas Posteriormente",
+      "rollingText": "Después de esta fecha, las solicitudes se revisan de forma continua, sujeto a disponibilidad de espacios. Recibimos consultas durante todo el año y haremos nuestro mejor esfuerzo para apoyar solicitudes tardías cuando sea posible.",
+      "relocatingTitle": "Familias en Proceso de Mudanza",
+      "relocatingText": "Sabemos que muchas de nuestras familias se están mudando entre países y continentes. Si te estás mudando a Uruguay o considerando una mudanza a mitad de año, te animamos a contactarnos temprano. Estamos encantados de apoyar tu transición y discutir disponibilidad fuera del ciclo principal de admisiones.",
+      "applyNow": "Aplicar Ahora",
+      "imageAlt": "Niños jugando en The Garzón School"
+    },
+    "roadmap": {
+      "title": "A medida que crecemos orgánicamente, consulta nuestra Hoja de Ruta de Inscripciones.",
+      "headers": {
+        "educationalPhase": "Fase Educativa",
+        "ageRanges": "Rangos de Edad",
+        "gradeEquivalent": "Grado Equivalente",
+        "tgsNest": "Nido TGS",
+        "status": "Estado"
+      },
+      "phases": {
+        "earlyYears": "Primera Infancia",
+        "primarySchool": "Primaria",
+        "secondarySchool": "Secundaria"
+      },
+      "grades": {
+        "grades12": "Grados 1 - 2",
+        "grades34": "Grados 3 - 4",
+        "grades56": "Grados 5 - 6",
+        "grades78": "Grados 7 - 8",
+        "grades910": "Grados 9 - 10",
+        "grades1112": "Grados 11 - 12"
+      },
+      "status": {
+        "open": "Abierto",
+        "grade9Opening": "Grado 9 abre en Feb 2026",
+        "grade10Opening": "Grado 10 abre en Feb 2027",
+        "grade11Opening": "Grado 11 abre en Feb 2028",
+        "grade12Opening": "Grado 12 abre en Feb 2029"
+      }
+    },
+    "testimonialsCta": {
+      "title": "Lee los testimonios de padres.",
+      "button": "Testimonios de Padres",
+      "imageAlt": "Niños en The Garzón School"
+    },
+    "contactForm": {
+      "title": "¡CUENTEN CON NOSOTROS!",
+      "name": "NOMBRE",
+      "firstName": "Nombre",
+      "lastName": "Apellido",
+      "email": "CORREO ELECTRÓNICO",
+      "subject": "ASUNTO",
+      "message": "MENSAJE",
+      "submit": "Enviar",
+      "imageAlt": "The Garzón School"
     }
   },
   "MissionVisionValuesPage": {

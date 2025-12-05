@@ -1,5 +1,8 @@
+'use client'
+
 import React from 'react'
 import DevBadge from './dev-badge'
+import { useTranslations } from 'next-intl'
 
 // Theme colors matching the design
 const THEME_COLORS = {
@@ -42,100 +45,108 @@ interface CurriculumPhase {
     rows: CurriculumRow[]
 }
 
-const CURRICULUM_DATA: CurriculumPhase[] = [
-    {
-        id: 'early-years',
-        title: 'Early Years',
-        themeColor: THEME_COLORS.early,
-        rows: [
-            {
-                id: 'ey-1',
-                age: '2 - 4',
-                grade: 'K2 - K3',
-                nest: 'Penguins',
-                status: {
-                    text: ['Open'],
-                    rowSpan: 5,
-                    textColor: 'text-[#1a4a35]',
+function getCurriculumData(t: ReturnType<typeof useTranslations>): CurriculumPhase[] {
+    return [
+        {
+            id: 'early-years',
+            title: t('roadmap.phases.earlyYears'),
+            themeColor: THEME_COLORS.early,
+            rows: [
+                {
+                    id: 'ey-1',
+                    age: '2 - 4',
+                    grade: 'K2 - K3',
+                    nest: 'Penguins',
+                    status: {
+                        text: [t('roadmap.status.open')],
+                        rowSpan: 5,
+                        textColor: 'text-[#1a4a35]',
+                    },
                 },
-            },
-            {
-                id: 'ey-2',
-                age: '4 - 6',
-                grade: 'K4 - K5',
-                nest: 'Jays',
-            },
-        ],
-    },
-    {
-        id: 'primary-school',
-        title: 'Primary School',
-        themeColor: THEME_COLORS.primary,
-        rows: [
-            {
-                id: 'ps-1',
-                age: '6 - 8',
-                grade: 'Grades 1 - 2',
-                nest: 'Owls',
-            },
-            {
-                id: 'ps-2',
-                age: '8 - 10',
-                grade: 'Grades 3 - 4',
-                nest: 'Robins',
-            },
-            {
-                id: 'ps-3',
-                age: '10 - 12',
-                grade: 'Grades 5 - 6',
-                nest: 'Falcons',
-            },
-        ],
-    },
-    {
-        id: 'secondary-school',
-        title: 'Secondary School',
-        themeColor: THEME_COLORS.secondary,
-        rows: [
-            {
-                id: 'ss-1',
-                age: '12 - 14',
-                grade: 'Grades 7 - 8',
-                nest: 'Bosque',
-                status: {
-                    isEmpty: true,
-                    rowSpan: 1,
+                {
+                    id: 'ey-2',
+                    age: '4 - 6',
+                    grade: 'K4 - K5',
+                    nest: 'Jays',
                 },
-            },
-            {
-                id: 'ss-2',
-                age: '14 - 16',
-                grade: 'Grades 9 - 10',
-                nest: 'Río',
-                status: {
-                    text: ['Grade 9 opening in Feb 2026', 'Grade 10 opening in Feb 2027'],
-                    rowSpan: 1,
-                    textColor: 'text-[#b8823e]',
+            ],
+        },
+        {
+            id: 'primary-school',
+            title: t('roadmap.phases.primarySchool'),
+            themeColor: THEME_COLORS.primary,
+            rows: [
+                {
+                    id: 'ps-1',
+                    age: '6 - 8',
+                    grade: t('roadmap.grades.grades12'),
+                    nest: 'Owls',
                 },
-            },
-            {
-                id: 'ss-3',
-                age: '16 - 18',
-                grade: 'Grades 11 - 12',
-                nest: 'Sierra',
-                status: {
-                    text: ['Grade 11 opening in Feb 2028', 'Grade 12 opening in Feb 2029'],
-                    rowSpan: 1,
-                    textColor: 'text-[#b8823e]',
+                {
+                    id: 'ps-2',
+                    age: '8 - 10',
+                    grade: t('roadmap.grades.grades34'),
+                    nest: 'Robins',
                 },
-            },
-        ],
-    },
-]
+                {
+                    id: 'ps-3',
+                    age: '10 - 12',
+                    grade: t('roadmap.grades.grades56'),
+                    nest: 'Falcons',
+                },
+            ],
+        },
+        {
+            id: 'secondary-school',
+            title: t('roadmap.phases.secondarySchool'),
+            themeColor: THEME_COLORS.secondary,
+            rows: [
+                {
+                    id: 'ss-1',
+                    age: '12 - 14',
+                    grade: t('roadmap.grades.grades78'),
+                    nest: 'Bosque',
+                    status: {
+                        isEmpty: true,
+                        rowSpan: 1,
+                    },
+                },
+                {
+                    id: 'ss-2',
+                    age: '14 - 16',
+                    grade: t('roadmap.grades.grades910'),
+                    nest: 'Río',
+                    status: {
+                        text: [t('roadmap.status.grade9Opening'), t('roadmap.status.grade10Opening')],
+                        rowSpan: 1,
+                        textColor: 'text-[#b8823e]',
+                    },
+                },
+                {
+                    id: 'ss-3',
+                    age: '16 - 18',
+                    grade: t('roadmap.grades.grades1112'),
+                    nest: 'Sierra',
+                    status: {
+                        text: [t('roadmap.status.grade11Opening'), t('roadmap.status.grade12Opening')],
+                        rowSpan: 1,
+                        textColor: 'text-[#b8823e]',
+                    },
+                },
+            ],
+        },
+    ]
+}
 
-const TABLE_HEADERS = ['Educational Phase', 'Age Ranges', 'Grade Equivalent', 'TGS Nest', 'Status']
-
-function CurriculumTable() {
+function CurriculumTable({ t }: { t: ReturnType<typeof useTranslations> }) {
+    const CURRICULUM_DATA = getCurriculumData(t)
+    const TABLE_HEADERS = [
+        t('roadmap.headers.educationalPhase'),
+        t('roadmap.headers.ageRanges'),
+        t('roadmap.headers.gradeEquivalent'),
+        t('roadmap.headers.tgsNest'),
+        t('roadmap.headers.status')
+    ]
     return (
         <div className="w-full overflow-x-auto pb-4">
             <table className="min-w-[700px] w-full border-separate border-spacing-1">
@@ -201,7 +212,7 @@ function CurriculumTable() {
                                                             <span
                                                                 key={i}
                                                                 className={
-                                                                    line === 'Open'
+                                                                    line === t('roadmap.status.open')
                                                                         ? 'text-xl font-medium'
                                                                         : 'text-xs font-semibold'
                                                                 }
@@ -225,6 +236,7 @@ function CurriculumTable() {
 }
 
 export default function EnrolmentRoadmap() {
+    const t = useTranslations('HowToJoinPage')
     return (
         <section className="relative bg-white py-16 md:py-24">
             <div className="mx-auto max-w-6xl px-6">
@@ -232,13 +244,13 @@ export default function EnrolmentRoadmap() {
                     {/* Left: Text (1/3) */}
                     <div>
                         <h2 className="text-4xl leading-snug font-medium text-[#C65D3B] !text-[#D39885]">
-                            As we grow organically, check out our Enrolment Roadmap.
+                            {t('roadmap.title')}
                         </h2>
                     </div>
 
                     {/* Right: Table (2/3) */}
                     <div className="md:col-span-2">
-                        <CurriculumTable />
+                        <CurriculumTable t={t} />
                     </div>
                 </div>
             </div>
