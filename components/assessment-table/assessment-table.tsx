@@ -21,7 +21,7 @@ export default function AssessmentTable() {
           {assessmentTypes.map((assessmentType) => {
             const bullets = t.raw(`assessment.${assessmentType}.bullets`) as string[];
             return (
-              <div key={assessmentType} className="flex flex-col">
+              <div key={assessmentType} className="flex flex-col h-full">
                 {/* Header */}
                 <div
                   className={`${colorMap[assessmentType].header} py-6 px-4 text-center`}
@@ -47,7 +47,7 @@ export default function AssessmentTable() {
                         key={index}
                         className="flex items-start gap-3 text-white text-base md:text-lg font-light leading-relaxed"
                       >
-                        <span className="mt-2 w-2 h-2 rounded-full bg-white flex-shrink-0" />
+                        <span className="mt-[0.5em] w-2 h-2 rounded-full bg-white flex-shrink-0" />
                         <span>{bullet}</span>
                       </li>
                     ))}

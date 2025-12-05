@@ -1,4 +1,7 @@
+'use client'
+
 import React from 'react'
+import { useTranslations } from 'next-intl'
 import { HeroHeader } from '@/components/header'
 import DevBadge from '@/components/dev-badge'
 import { Gallery6WithText } from '@/components/blocks/gallery6-w-text'
@@ -6,6 +9,8 @@ import { ContactSection } from '@/components/contact-section'
 import FooterSection from '@/components/footer'
 
 export default function TeamPage() {
+    const t = useTranslations('TeamPage')
+
     return (
         <>
             <div className="relative h-[70vh] bg-cover bg-center bg-no-repeat" style={{ backgroundImage: 'url(/assets/1_ourschool/2_team/_DSC0443.jpg)' }}>
@@ -26,7 +31,7 @@ export default function TeamPage() {
                 <div className="mx-auto max-w-5xl px-6">
                     <div className="mx-auto max-w-4xl space-y-6 text-justify">
                         <p className="text-2xl leading-relaxed font-light" style={{ color: 'white' }}>
-                            The competence, professionalism, and human qualities of our team truly set The Garzón School apart. We proudly employ world-class international and local teachers and specialists. With an 8:1 student-to-educator ratio, children benefit from exceptional levels of attention and support. Every team member — whether teacher or administrative staff — is an educator at heart, dedicated to creating a safe, nurturing environment that fosters the inspiring education we are renowned for. From just eight founding dreamers in March 2022, our team has grown into a dynamic group of 29 multidisciplinary professionals as of July 2025. As vibrant and diverse as the students we serve, we represent 10 nationalities and speak as many languages, united by a shared commitment to positive, purposeful learning. It's this blend of expertise, diversity, and heart that makes our school community truly special.
+                            {t('intro')}
                         </p>
                     </div>
                 </div>
@@ -35,7 +40,7 @@ export default function TeamPage() {
 
             <section className="relative">
                 <Gallery6WithText
-                    heading="Senior Leadership Team"
+                    heading={t('sections.seniorLeadership')}
                     showDemo={false}
                     items={[
                         {
@@ -72,7 +77,7 @@ export default function TeamPage() {
 
             <section className="relative">
                 <Gallery6WithText
-                    heading="Secondary School Team"
+                    heading={t('sections.secondary')}
                     showDemo={false}
                     items={[
                         {
@@ -127,7 +132,7 @@ export default function TeamPage() {
 
             <section className="relative">
                 <Gallery6WithText
-                    heading="Primary School Team"
+                    heading={t('sections.primary')}
                     showDemo={false}
                     items={[
                         {
@@ -236,7 +241,7 @@ export default function TeamPage() {
 
             <section className="relative">
                 <Gallery6WithText
-                    heading="Early Years Team"
+                    heading={t('sections.earlyYears')}
                     showDemo={false}
                     items={[
                         {
@@ -282,7 +287,7 @@ export default function TeamPage() {
 
             <section className="relative">
                 <Gallery6WithText
-                    heading="Administrative & Support Team"
+                    heading={t('sections.admin')}
                     showDemo={false}
                     items={[
                         {

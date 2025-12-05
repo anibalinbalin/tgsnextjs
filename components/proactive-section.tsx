@@ -13,8 +13,8 @@ export default function ProactiveSection() {
     return (
         <section className="relative pt-6 md:pt-12 pb-32 bg-[#D39885]" style={{ clipPath: 'polygon(0 0, 100% 0, 100% 85%, 75% 100%, 0 85%)' }}>
             <div className="mx-auto max-w-6xl px-6">
-                <div className="grid md:grid-cols-3 gap-6 items-center">
-                    <div className="relative aspect-[3/4] overflow-hidden rounded-lg">
+                <div className="grid md:grid-cols-3 gap-6 items-stretch">
+                    <div className="relative h-full min-h-[300px] overflow-hidden rounded-lg">
                         <Image
                             src="/assets/1_ourschool/6-safeguarding/IMG_07072.JPG"
                             alt={t('proactive.imageAlt')}

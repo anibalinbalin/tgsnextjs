@@ -152,7 +152,7 @@ export default function PressFeatures() {
             <div className="mx-auto max-w-6xl px-6">
                 <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
                     {pressItems.map((item, index) => (
-                        <Card key={index} className="group shadow-zinc-950/5 flex flex-col h-full text-center bg-white overflow-hidden pt-0">
+                        <Card key={index} className="group shadow-zinc-950/5 flex flex-col h-full text-center bg-white overflow-hidden pt-0 border-0">
                             <div className="relative w-full h-56">
                                 <Image
                                     src={item.image}

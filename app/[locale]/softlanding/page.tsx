@@ -6,8 +6,10 @@ import SoftFinal from "@/components/soft-final";
 import FallinloveFinalSection from "@/components/fallinlove-final-section";
 import NondiscDetail from "@/components/nondisc-detail";
 import Footer from "@/components/footer";
+import { useTranslations } from "next-intl";
 
 export default function SoftlandingPage() {
+  const t = useTranslations("SoftlandingPage");
   return (
     <>
       <SoftlandingHero />
@@ -15,9 +17,9 @@ export default function SoftlandingPage() {
       <SoftLandingFaq />
       <SoftFinal />
       <TestimonialCard
-        name="Leona"
-        subtitle="Leona Dauphin, Co-Head of School"
-        quote="By providing opportunities for students to interact and connect with one another, our Soft Landing helps to foster a sense of belonging and support. This ultimately leads to improved outcomes for learning as children transition."
+        name={t("testimonial.name")}
+        subtitle={t("testimonial.subtitle")}
+        quote={t("testimonial.quote")}
         imageSrc="/assets/2_admissions/7-soft-landing/Leona.jpg"
         hideButton
         inverted

@@ -145,11 +145,11 @@ export default function MenuHeader({
   if (variant === 'bottom-toggle') {
     return (
       <div className="mb-8">
-        <div className="flex items-baseline gap-4 mb-4">
+        <div className="flex items-center gap-4 mb-4">
           <h2 className="text-4xl leading-snug font-medium text-[#C65D3B]">
             Weekly Menu
           </h2>
-          <span className="inline-flex items-center justify-center bg-[#D39885] text-white px-4 py-1.5 rounded-full text-lg font-medium tracking-wide leading-none">
+          <span className="inline-flex items-center justify-center bg-[#D39885] text-white px-4 py-1.5 rounded-full text-lg font-medium tracking-wide">
             Term {term}
           </span>
         </div>

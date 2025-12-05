@@ -1,7 +1,5 @@
 import { PhaseData } from './types';
 
-export const TABLE_TITLE = "Space Availability for the 2026 Academic Year (Last Updated: 26 November 2025)";
-
 export const THEME_COLORS = {
   header: 'bg-[#b8823e]',
   early: {
