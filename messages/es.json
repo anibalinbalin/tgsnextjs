@@ -573,6 +573,44 @@
   "AccreditationPage": {
     "hero": {
       "title": "Reconocidos localmente. Creciendo globalmente."
+    },
+    "anep": {
+      "title": "Acreditación y Estándares de Excelencia",
+      "content": "The Garzón School es una institución educativa plenamente autorizada bajo la <bold>Administración Nacional de Educación Pública (ANEP)</bold> de Uruguay, ofreciendo un programa bilingüe que cumple y supera los estándares nacionales en todos los niveles. Esta autorización refleja nuestro compromiso con expectativas académicas rigurosas, gobernanza ética y cumplimiento de todas las regulaciones nacionales de educación y seguridad.",
+      "imageAlt": "Acreditación ANEP"
+    },
+    "neasc": {
+      "title": "NEASC",
+      "content": "En 2025, The Garzón School logró la <bold>Elegibilidad para Acreditación</bold> de la <bold>New England Association of Schools and Colleges (NEASC)</bold> — uno de los organismos de acreditación internacional más respetados del mundo. Tras nuestra <bold>Visita de Estándares Fundamentales</bold> en junio de 2025, NEASC elogió al colegio por su \"compromiso claro y compartido de reimaginar la educación de maneras que son alegres, significativas y arraigadas en el propósito.\" Este hito marca la finalización exitosa de la primera fase del <bold>ACE Learning Pathway</bold> de NEASC, que reconoce a los colegios que demuestran las estructuras, liderazgo y filosofía educativa necesarios para ofrecer un aprendizaje de alta calidad preparado para el futuro.",
+      "imageAlt": "Acreditación NEASC"
+    },
+    "neascBanner": {
+      "quote": "\"La fortaleza de la misión de The Garzón School y la unidad entre sus miembros son factores clave que respaldan su progreso continuo.\"",
+      "attribution": "Informe NEASC de junio 2025",
+      "imageAlt": "Acreditación NEASC"
+    },
+    "commitment": {
+      "title": "Compromiso con la Mejora Continua",
+      "content": "Para nosotros, el proceso NEASC es un viaje de reflexión y mejora continua. Cada etapa de acreditación implica una evaluación externa rigurosa, alineación con los Estándares Fundamentales de NEASC (Aprendizaje, Gobernanza, Salud y Seguridad, Finanzas y Ética), y una cultura de transparencia y práctica basada en evidencia. A través de esta asociación continua, The Garzón School sigue comparándose con los más altos estándares internacionales, asegurando que cada estudiante experimente un aprendizaje auténtico, con propósito y transformador."
+    },
+    "guidingPrinciples": {
+      "title": "Nuestros Principios Rectores de Acreditación",
+      "excellence": {
+        "title": "Excelencia en el Aprendizaje:",
+        "content": "Un currículo claramente definido y un marco de competencias que fomenta la curiosidad, la autonomía y el pensamiento crítico."
+      },
+      "integrity": {
+        "title": "Integridad en la Gobernanza:",
+        "content": "Liderazgo transparente y ético bajo una estructura de Asociación Civil sin fines de lucro."
+      },
+      "wellbeing": {
+        "title": "Bienestar y Seguridad:",
+        "content": "Protocolos robustos de protección, inclusión y salud alineados con estándares internacionales."
+      },
+      "sustainability": {
+        "title": "Sustentabilidad e Innovación:",
+        "content": "Un campus construido a propósito e integrado con la naturaleza que encarna nuestra misión y valores."
+      }
     }
   },
   "TeamPage": {

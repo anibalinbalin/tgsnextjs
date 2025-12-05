@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState, useMemo } from 'react';
+import { useTranslations } from 'next-intl';
 import { generateYearData } from './utils';
 import { MonthData } from './types';
 import MonthGrid from './MonthGrid';
@@ -10,25 +11,26 @@ import DevBadge from '@/components/dev-badge';
 
 const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 
-const TERMS_TIMELINE_2025 = [
-  { name: 'Term 1', dates: 'March 5th - April 30th', startMonth: 2, endMonth: 3.97, color: '#8EB096', weeks: 8 },
-  { name: 'Term 2', dates: 'May 12th - July 4th', startMonth: 4.4, endMonth: 6.13, color: '#5B8BA0', weeks: 8 },
-  { name: 'Term 3', dates: 'August 4th - October 10th', startMonth: 7.13, endMonth: 9.33, color: '#D39885', weeks: 10 },
-  { name: 'Term 4', dates: 'October 20th - December 12th', startMonth: 9.67, endMonth: 11.4, color: '#802E3A', weeks: 8 },
-];
-
-const TERMS_TIMELINE_2026 = [
-  { name: 'Term 1', dates: 'Feb 18th - April 23rd', startMonth: 1.6, endMonth: 3.77, color: '#8EB096', weeks: 9 },
-  { name: 'Term 2', dates: 'May 4th - July 2nd', startMonth: 4.13, endMonth: 6.07, color: '#5B8BA0', weeks: 9 },
-  { name: 'Term 3', dates: 'August 3rd - October 8th', startMonth: 7.1, endMonth: 9.27, color: '#D39885', weeks: 10 },
-  { name: 'Term 4', dates: 'October 19th - December 11th', startMonth: 9.6, endMonth: 11.37, color: '#802E3A', weeks: 8 },
-];
-
 const SchoolCalendar: React.FC = () => {
+  const t = useTranslations('CalendarPage');
   const [selectedMonth, setSelectedMonth] = useState<MonthData | null>(null);
 
   const calendarData2025 = useMemo(() => generateYearData(2025), []);
   const calendarData2026 = useMemo(() => generateYearData(2026), []);
+
+  const TERMS_TIMELINE_2025 = [
+    { name: t('terms.term1'), dates: 'March 5th - April 30th', startMonth: 2, endMonth: 3.97, color: '#8EB096', weeks: 8 },
+    { name: t('terms.term2'), dates: 'May 12th - July 4th', startMonth: 4.4, endMonth: 6.13, color: '#5B8BA0', weeks: 8 },
+    { name: t('terms.term3'), dates: 'August 4th - October 10th', startMonth: 7.13, endMonth: 9.33, color: '#D39885', weeks: 10 },
+    { name: t('terms.term4'), dates: 'October 20th - December 12th', startMonth: 9.67, endMonth: 11.4, color: '#802E3A', weeks: 8 },
+  ];
+
+  const TERMS_TIMELINE_2026 = [
+    { name: t('terms.term1'), dates: 'Feb 18th - April 23rd', startMonth: 1.6, endMonth: 3.77, color: '#8EB096', weeks: 9 },
+    { name: t('terms.term2'), dates: 'May 4th - July 2nd', startMonth: 4.13, endMonth: 6.07, color: '#5B8BA0', weeks: 9 },
+    { name: t('terms.term3'), dates: 'August 3rd - October 8th', startMonth: 7.1, endMonth: 9.27, color: '#D39885', weeks: 10 },
+    { name: t('terms.term4'), dates: 'October 19th - December 11th', startMonth: 9.6, endMonth: 11.37, color: '#802E3A', weeks: 8 },
+  ];
 
   return (
     <section className="relative py-16 md:py-32 bg-white">
@@ -38,9 +40,9 @@ const SchoolCalendar: React.FC = () => {
         <header className="mb-16">
           <div className="text-center mb-12">
             <h2 className="text-[#D39885] mb-4 text-6xl leading-tight font-medium">
-              2025 Calendar
+              {t('calendar2025.title')}
             </h2>
-            <p className="text-stone-600 text-lg">Click on any month to view details</p>
+            <p className="text-stone-600 text-lg">{t('calendar2025.subtitle')}</p>
           </div>
 
           {/* Horizontal Timeline - V4: All combined (taller + contrast + grid) */}
@@ -72,7 +74,7 @@ const SchoolCalendar: React.FC = () => {
                   className="absolute h-full bg-stone-300 flex items-center justify-center"
                   style={{ left: '0%', width: '16.66%' }}
                 >
-                  <span className="text-sm text-stone-700 font-semibold hidden sm:block">Summer</span>
+                  <span className="text-sm text-stone-700 font-semibold hidden sm:block">{t('summer')}</span>
                 </div>
 
                 {/* Holiday gaps - darker */}
@@ -85,7 +87,7 @@ const SchoolCalendar: React.FC = () => {
                   className="absolute h-full bg-stone-300 flex items-center justify-center"
                   style={{ left: `${(6.13 / 12) * 100}%`, width: `${(1 / 12) * 100}%` }}
                 >
-                  <span className="text-xs text-stone-700 font-semibold hidden md:block">Winter</span>
+                  <span className="text-xs text-stone-700 font-semibold hidden md:block">{t('winter')}</span>
                 </div>
                 <div
                   className="absolute h-full bg-stone-300"
@@ -129,7 +131,7 @@ const SchoolCalendar: React.FC = () => {
                   >
                     <div className="text-center relative z-10">
                       <div className="text-sm font-semibold">{term.name}</div>
-                      <div className="text-xs opacity-90">{term.weeks} weeks</div>
+                      <div className="text-xs opacity-90">{term.weeks} {t('weeks')}</div>
                     </div>
 
                     {/* Tooltip */}
@@ -147,10 +149,10 @@ const SchoolCalendar: React.FC = () => {
             <div className="mt-4 flex items-center justify-center gap-4 text-sm text-stone-700">
               <div className="flex items-center gap-1.5">
                 <div className="w-3 h-3 bg-stone-300 rounded"></div>
-                <span className="font-medium">Holidays</span>
+                <span className="font-medium">{t('holidays')}</span>
               </div>
               <span className="text-stone-400">|</span>
-              <span className="text-stone-500">Hover terms for exact dates</span>
+              <span className="text-stone-500">{t('hoverTerms')}</span>
             </div>
           </div>
         </header>
@@ -180,9 +182,9 @@ const SchoolCalendar: React.FC = () => {
           <header className="mb-16">
             <div className="text-center mb-12">
               <h2 className="text-[#D39885] mb-4 text-6xl leading-tight font-medium">
-                2026 Calendar
+                {t('calendar2026.title')}
               </h2>
-              <p className="text-stone-600 text-lg">Provisional calendar - Click on any month to view details</p>
+              <p className="text-stone-600 text-lg">{t('calendar2026.subtitle')}</p>
             </div>
 
             {/* 2026 Timeline */}
@@ -210,7 +212,7 @@ const SchoolCalendar: React.FC = () => {
                     className="absolute h-full bg-stone-300 flex items-center justify-center"
                     style={{ left: '0%', width: `${(1.6 / 12) * 100}%` }}
                   >
-                    <span className="text-sm text-stone-700 font-semibold hidden sm:block">Summer</span>
+                    <span className="text-sm text-stone-700 font-semibold hidden sm:block">{t('summer')}</span>
                   </div>
 
                   {/* Autumn Break: Apr 24 - May 3 (3.77 to 4.13) */}
@@ -224,7 +226,7 @@ const SchoolCalendar: React.FC = () => {
                     className="absolute h-full bg-stone-300 flex items-center justify-center"
                     style={{ left: `${(6.07 / 12) * 100}%`, width: `${((7.1 - 6.07) / 12) * 100}%` }}
                   >
-                    <span className="text-xs text-stone-700 font-semibold hidden md:block">Winter</span>
+                    <span className="text-xs text-stone-700 font-semibold hidden md:block">{t('winter')}</span>
                   </div>
 
                   {/* Spring Break: Oct 9 - Oct 18 (9.27 to 9.6) */}
@@ -276,7 +278,7 @@ const SchoolCalendar: React.FC = () => {
                     >
                       <div className="text-center relative z-10">
                         <div className="text-sm font-semibold">{term.name}</div>
-                        <div className="text-xs opacity-90">{term.weeks} weeks</div>
+                        <div className="text-xs opacity-90">{term.weeks} {t('weeks')}</div>
                       </div>
 
                       <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-3 py-2 bg-stone-800 text-white text-xs rounded-lg opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-200 pointer-events-none whitespace-nowrap z-50 shadow-lg">
@@ -292,10 +294,10 @@ const SchoolCalendar: React.FC = () => {
               <div className="mt-4 flex items-center justify-center gap-4 text-sm text-stone-700">
                 <div className="flex items-center gap-1.5">
                   <div className="w-3 h-3 bg-stone-300 rounded"></div>
-                  <span className="font-medium">Holidays</span>
+                  <span className="font-medium">{t('holidays')}</span>
                 </div>
                 <span className="text-stone-400">|</span>
-                <span className="text-stone-500">Hover terms for exact dates</span>
+                <span className="text-stone-500">{t('hoverTerms')}</span>
               </div>
             </div>
           </header>

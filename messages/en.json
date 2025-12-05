@@ -573,6 +573,44 @@
   "AccreditationPage": {
     "hero": {
       "title": "Recognised locally. Rising globally."
+    },
+    "anep": {
+      "title": "Accreditation & Standards of Excellence",
+      "content": "The Garzón School is a fully authorized educational institution under Uruguay's <bold>Administración Nacional de Educación Pública (ANEP)</bold>, offering a bilingual program that meets and exceeds national standards across all grade levels. This authorization reflects our commitment to rigorous academic expectations, ethical governance, and compliance with all national education and safety regulations.",
+      "imageAlt": "ANEP Accreditation"
+    },
+    "neasc": {
+      "title": "NEASC",
+      "content": "In 2025, The Garzón School achieved <bold>Eligibility for Accreditation</bold> from the <bold>New England Association of Schools and Colleges (NEASC)</bold> — one of the world's most respected international accreditation bodies. Following our <bold>Foundation Standards Visit</bold> in June 2025, NEASC commended the school for its \"clear and shared commitment to reimagine education in ways that are joyful, meaningful, and rooted in purpose.\" This milestone marks the successful completion of the first phase of NEASC's <bold>ACE Learning Pathway</bold>, which recognizes schools that demonstrate the structures, leadership, and educational philosophy needed to deliver high-quality, future-ready learning.",
+      "imageAlt": "NEASC Accreditation"
+    },
+    "neascBanner": {
+      "quote": "\"The strength of The Garzón School's mission and the unity among its members are key factors in supporting its continued progress.\"",
+      "attribution": "June 2025 NEASC report",
+      "imageAlt": "NEASC Accreditation"
+    },
+    "commitment": {
+      "title": "Commitment to Continuous Improvement",
+      "content": "For us, the NEASC process is a journey of continuous reflection and improvement. Each stage of accreditation involves rigorous external evaluation, alignment with NEASC's Foundation Standards (Learning, Governance, Health & Safety, Finance, and Ethics), and a culture of transparency and evidence-based practice. Through this ongoing partnership, The Garzón School continues to benchmark itself against the highest international standards, ensuring that every student experiences learning that is authentic, purposeful, and transformative."
+    },
+    "guidingPrinciples": {
+      "title": "Our Guiding Accreditation Principles",
+      "excellence": {
+        "title": "Excellence in Learning:",
+        "content": "A clearly defined curriculum and competency framework that fosters curiosity, agency, and critical thinking."
+      },
+      "integrity": {
+        "title": "Integrity in Governance:",
+        "content": "Transparent, ethical leadership under a non-profit Asociación Civil structure."
+      },
+      "wellbeing": {
+        "title": "Well-being & Safety:",
+        "content": "Robust safeguarding, inclusion, and health protocols aligned with international standards."
+      },
+      "sustainability": {
+        "title": "Sustainability & Innovation:",
+        "content": "A purpose-built, nature-integrated campus that embodies our mission and values."
+      }
     }
   },
   "TeamPage": {
