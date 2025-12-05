@@ -1,7 +1,8 @@
 'use client';
 
 import React from 'react';
-import { tuitionData, TABLE_HEADERS, THEME_COLORS } from './constants';
+import { useTranslations } from 'next-intl';
+import { tuitionData, THEME_COLORS } from './constants';
 
 const formatCurrency = (amount: number) => {
   return new Intl.NumberFormat('en-US', {
@@ -12,6 +13,8 @@ const formatCurrency = (amount: number) => {
 };
 
 export default function TuitionTable() {
+  const t = useTranslations('FeesPage');
+
   return (
     <div className="w-full overflow-x-auto">
       <table className={`w-full min-w-[600px] border-collapse border-2 border-black text-center ${THEME_COLORS.text}`}>
@@ -21,18 +24,19 @@ export default function TuitionTable() {
               colSpan={3}
               className={`${THEME_COLORS.headerBg} border-2 border-black py-4 px-6 text-lg md:text-xl font-bold uppercase tracking-wide`}
             >
-              {TABLE_HEADERS.title}
+              {t('table.tuitionTitle')}
             </th>
           </tr>
           <tr className={THEME_COLORS.headerBg}>
-            {TABLE_HEADERS.columns.map((col) => (
-              <th
-                key={col}
-                className="border-2 border-black py-3 px-4 font-bold uppercase text-sm md:text-base"
-              >
-                {col}
-              </th>
-            ))}
+            <th className="border-2 border-black py-3 px-4 font-bold uppercase text-sm md:text-base">
+              {t('table.columns.grade')}
+            </th>
+            <th className="border-2 border-black py-3 px-4 font-bold uppercase text-sm md:text-base">
+              {t('table.columns.nest')}
+            </th>
+            <th className="border-2 border-black py-3 px-4 font-bold uppercase text-sm md:text-base">
+              {t('table.columns.annualTuition')}
+            </th>
           </tr>
         </thead>
         <tbody className="bg-white font-medium">
@@ -84,7 +88,7 @@ export default function TuitionTable() {
         </tbody>
       </table>
       <p className="mt-3 text-sm text-gray-500 text-center">
-        * Tuition fees are subject to annual review.
+        {t('table.footnote')}
       </p>
     </div>
   );

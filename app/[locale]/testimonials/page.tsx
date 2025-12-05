@@ -1,3 +1,6 @@
+'use client'
+
+import { useTranslations } from 'next-intl'
 import TestiHero from '@/components/testi-hero'
 import ParentIdeasDetail from '@/components/parent-ideas-detail'
 import TestimonialCard from '@/components/testimonial-card'
@@ -5,43 +8,50 @@ import FallinloveFinalSection from '@/components/fallinlove-final-section'
 import FooterSection from '@/components/footer'
 
 export default function TestimonialsPage() {
+    const t = useTranslations('TestimonialsPage')
+
     return (
         <main>
             <TestiHero />
             <ParentIdeasDetail />
             <TestimonialCard
                 name="Aníbal"
-                quote="TGS takes a unique approach to education. I couldn't be happier that we attend [a school] where education is all about exploration, growth, and following the child's natural curiosity."
+                quote={t('testimonials.anibal.quote')}
                 imageSrc="/assets/2_admissions/4-testimonials/_DSC2772.jpg"
                 href="/testimonial1"
+                buttonText={t('testimonials.anibal.readMore')}
             />
             <TestimonialCard
                 name="Hannah"
-                quote="[Our children] have such a thirst for learning, they are so engaged in everything they do, not just at school but at home now too. The change has been huge. Passion oozes through the school walls."
+                quote={t('testimonials.hannah.quote')}
                 imageSrc="/assets/2_admissions/4-testimonials/_DSC2716.jpg"
                 href="/testimonial2"
+                buttonText={t('testimonials.hannah.readMore')}
                 flipped
                 inverted
             />
             <TestimonialCard
                 name="Adam"
-                quote="The development of the School is mirrored in our daughter's growth; we see her curiosity and creativity, driving her towards a desire for knowledge. As parents, the teachers make us feel that our daughter is in the best hands."
+                quote={t('testimonials.adam.quote')}
                 imageSrc="/assets/2_admissions/4-testimonials/TGS-11.jpg"
                 href="/testimonial3"
+                buttonText={t('testimonials.adam.readMore')}
             />
             <TestimonialCard
                 name="Isabella"
-                quote="The most poignant shift we observed in our daughter in her first year at TGS was that she slowly but surely gained more confidence in herself. She truly began to understand that making mistakes is a healthy part of the learning process."
+                quote={t('testimonials.isabella.quote')}
                 imageSrc="/placeholder.svg"
                 href="/testimonial4"
+                buttonText={t('testimonials.isabella.readMore')}
                 flipped
                 inverted
             />
             <TestimonialCard
                 name="David"
-                quote="Our son has shown a new appreciation for learning, especially in math and science. The Co-Curricular Clubs have also had a profound impact, as he is now excelling in many activities that he previously found intimidating."
+                quote={t('testimonials.david.quote')}
                 imageSrc="/placeholder.svg"
                 href="/testimonial5"
+                buttonText={t('testimonials.david.readMore')}
             />
             <FallinloveFinalSection />
             <FooterSection />

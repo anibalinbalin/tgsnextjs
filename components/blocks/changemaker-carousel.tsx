@@ -3,6 +3,7 @@
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import { useState } from "react";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 import DevBadge from "../dev-badge";
 import { useCarouselNavigation } from "@/lib/hooks/useCarouselNavigation";
 
@@ -14,14 +15,17 @@ import {
   CarouselItem,
 } from "@/components/ui/carousel";
 
+type RoleKey = 'student' | 'educator' | 'parent'
+
 interface MemberItem {
   id: string;
   name: string;
-  role: string;
+  roleKey: RoleKey;
   image: string;
 }
 
 const ChangemakerCarousel = () => {
+  const t = useTranslations('CommitteesPage')
   const [carouselApi, setCarouselApi] = useState<CarouselApi>();
   const { canScrollPrev, canScrollNext } = useCarouselNavigation(carouselApi);
 
@@ -29,49 +33,49 @@ const ChangemakerCarousel = () => {
     {
       id: "member-1",
       name: "Balthazar",
-      role: "Student",
+      roleKey: "student",
       image: "/assets/6-school_life/1-tgs_committees/balthazar.JPG",
     },
     {
       id: "member-2",
       name: "Milo",
-      role: "Student",
+      roleKey: "student",
       image: "/assets/6-school_life/1-tgs_committees/milo.JPG",
     },
     {
       id: "member-3",
       name: "Nicolás",
-      role: "Educator",
+      roleKey: "educator",
       image: "/assets/6-school_life/1-tgs_committees/nicolas.JPG",
     },
     {
       id: "member-4",
       name: "Sam",
-      role: "Educator",
+      roleKey: "educator",
       image: "/assets/6-school_life/1-tgs_committees/sam.jpg",
     },
     {
       id: "member-5",
       name: "Natalie",
-      role: "Parent",
+      roleKey: "parent",
       image: "/assets/6-school_life/1-tgs_committees/natalie.jpg",
     },
     {
       id: "member-6",
       name: "Hannah",
-      role: "Parent",
+      roleKey: "parent",
       image: "/assets/6-school_life/1-tgs_committees/hannah.JPG",
     },
     {
       id: "member-7",
       name: "David",
-      role: "Parent",
+      roleKey: "parent",
       image: "/assets/6-school_life/1-tgs_committees/Portrait_Placeholder.png",
     },
     {
       id: "member-8",
       name: "Camila",
-      role: "Parent",
+      roleKey: "parent",
       image: "/assets/6-school_life/1-tgs_committees/Portrait_Placeholder.png",
     },
   ];
@@ -80,7 +84,7 @@ const ChangemakerCarousel = () => {
     <section className="relative bg-terracotta py-16">
       <div className="w-full">
         <h2 className="text-center text-3xl md:text-4xl font-light text-white mb-12 px-6">
-          Changemaker Collective
+          {t('changemaker.title')}
         </h2>
         <Carousel
           setApi={setCarouselApi}
@@ -110,7 +114,7 @@ const ChangemakerCarousel = () => {
                       {member.name}
                     </div>
                     <div className="text-sm md:text-base text-white/80">
-                      {member.role}
+                      {t(`roles.${member.roleKey}`)}
                     </div>
                   </div>
                 </div>

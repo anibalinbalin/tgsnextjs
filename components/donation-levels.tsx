@@ -1,7 +1,12 @@
+'use client'
+
 import Image from 'next/image'
+import { useTranslations } from 'next-intl'
 import DevBadge from './dev-badge'
 
 export default function DonationLevels() {
+    const t = useTranslations('DonatePage')
+
     return (
         <section className="relative bg-terracotta pb-32" style={{ clipPath: 'polygon(0 0, 100% 0, 100% 85%, 75% 100%, 0 85%)' }}>
             <div className="@container mx-auto max-w-7xl px-6 pt-12">
@@ -10,7 +15,7 @@ export default function DonationLevels() {
                         <div className="overflow-hidden relative aspect-[3/4] rounded-lg">
                             <Image
                                 src="/assets/7-donate/EleazarCuadrosRosanBoshPrevios_33.jpg"
-                                alt="Students at The Garzón School"
+                                alt={t('gallery.alt1')}
                                 fill
                                 className="object-cover"
                             />
@@ -21,7 +26,7 @@ export default function DonationLevels() {
                         <div className="overflow-hidden relative aspect-[3/4] rounded-lg">
                             <Image
                                 src="/assets/7-donate/2025_RosanBoshPrevios_13.jpg.webp"
-                                alt="Learning at The Garzón School"
+                                alt={t('gallery.alt2')}
                                 fill
                                 className="object-cover"
                             />
@@ -32,7 +37,7 @@ export default function DonationLevels() {
                         <div className="overflow-hidden relative aspect-[3/4] rounded-lg">
                             <Image
                                 src="/assets/7-donate/EleazarCuadros_RosanBosh_3.jpg"
-                                alt="Community at The Garzón School"
+                                alt={t('gallery.alt3')}
                                 fill
                                 className="object-cover"
                             />

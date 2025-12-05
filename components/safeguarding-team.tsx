@@ -1,32 +1,39 @@
+'use client'
+
 import Image from 'next/image'
 import Link from 'next/link'
+import { useTranslations } from 'next-intl'
 import { Button } from '@/components/ui/button'
 import DevBadge from './dev-badge'
 
-const teamMembers = [
+type RoleKey = 'dsl' | 'ddsl'
+
+const teamMembers: Array<{ name: string; roleKey: RoleKey; image: string }> = [
     {
         name: 'Catalina Garat',
-        role: 'Designated Safeguarding Lead',
+        roleKey: 'dsl',
         image: '/assets/1_ourschool/6-safeguarding/stuff/IMG_1815catalina.jpeg',
     },
     {
         name: 'Leona Dauphin',
-        role: 'Deputy Designated Safeguarding Lead',
+        roleKey: 'ddsl',
         image: '/assets/1_ourschool/6-safeguarding/stuff/Leona.jpg',
     },
     {
         name: 'Sam Irving',
-        role: 'Deputy Designated Safeguarding Lead',
+        roleKey: 'ddsl',
         image: '/assets/1_ourschool/6-safeguarding/stuff/Sam.JPG',
     },
 ]
 
 export default function SafeguardingTeam() {
+    const t = useTranslations('SafeguardingPage')
+
     return (
         <section className="relative pt-6 md:pt-12 pb-16 md:pb-24 bg-white">
             <div className="mx-auto max-w-5xl px-6">
                 <h2 className="text-4xl leading-snug font-medium text-[#C65D3B] text-center mb-12 md:mb-16">
-                    Our Safeguarding Team
+                    {t('team.title')}
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 mb-12">
                     {teamMembers.map((member) => (
@@ -43,15 +50,15 @@ export default function SafeguardingTeam() {
                                 {member.name}
                             </h3>
                             <p className="text-gray-600">
-                                {member.role}
+                                {t(`team.roles.${member.roleKey}`)}
                             </p>
                         </div>
                     ))}
                 </div>
                 <div className="flex justify-center">
-                    <Button asChild className="bg-[#D39885] hover:bg-[#C65D3B] text-white px-8 py-3 h-auto text-center">
+                    <Button asChild className="bg-[#D39885] hover:bg-[#C65D3B] text-white px-8 py-3 h-auto text-center whitespace-pre-line">
                         <Link href="mailto:catalina@thegarzonschool.edu.uy?subject=Safeguarding%20Incident">
-                            Report an Incident to our<br />Designated Safeguarding Lead
+                            {t('team.reportButton')}
                         </Link>
                     </Button>
                 </div>

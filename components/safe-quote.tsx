@@ -1,6 +1,11 @@
+'use client'
+
+import { useTranslations } from 'next-intl'
 import DevBadge from './dev-badge'
 
 export default function SafeQuote() {
+    const t = useTranslations('SafeguardingPage')
+
     return (
         <div className="bg-[#D39885]">
             <section
@@ -15,10 +20,10 @@ export default function SafeQuote() {
                     <div className="mx-auto max-w-5xl px-6">
                         <div className="mx-auto max-w-4xl text-center">
                             <blockquote className="text-4xl md:text-4xl font-medium text-white leading-relaxed mb-8">
-                                <span style={{ fontFamily: 'var(--font-geist-sans), system-ui, sans-serif' }}>'</span>Safeguarding is not just about protection — it<span style={{ fontFamily: 'var(--font-geist-sans), system-ui, sans-serif' }}>'</span>s about building trust, showing care, and fostering respect so every child feels safe and valued.<span style={{ fontFamily: 'var(--font-geist-sans), system-ui, sans-serif' }}>'</span>
+                                <span style={{ fontFamily: 'var(--font-geist-sans), system-ui, sans-serif' }}>'</span>{t('quote.text')}<span style={{ fontFamily: 'var(--font-geist-sans), system-ui, sans-serif' }}>'</span>
                             </blockquote>
                             <cite className="text-white/80 text-lg not-italic">
-                                — Catalina Garat, TGS Designated Safeguarding Lead
+                                — {t('quote.author')}
                             </cite>
                         </div>
                     </div>

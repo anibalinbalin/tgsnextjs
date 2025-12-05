@@ -252,6 +252,24 @@
     "scholarship": {
       "title": "Making a world-class education more accessible—explore our scholarships.",
       "button": "Inquire Into Our Scholarships"
+    },
+    "table": {
+      "tuitionTitle": "TUITION FEE (ANUALIDAD)",
+      "columns": {
+        "grade": "GRADE",
+        "nest": "NEST",
+        "annualTuition": "ANNUAL TUITION (USD)"
+      },
+      "footnote": "* Tuition fees are subject to annual review.",
+      "applicationFee": "APPLICATION FEE (USD) **",
+      "enrolmentFee": "ENROLMENT FEE (USD) (INSCRIPCIÓN) **",
+      "siblingDiscounts": "SIBLING DISCOUNTS",
+      "tuitionFee": "TUITION FEE",
+      "enrolmentFeeCol": "ENROLMENT FEE",
+      "child2": "2nd child",
+      "child3": "3rd child",
+      "child4": "4th child",
+      "newFamiliesNote": "** Applies only to new families starting in 2026"
     }
   },
   "HowToJoinPage": {
@@ -704,11 +722,49 @@
   "DayPage": {
     "hero": {
       "title": "Time to learn."
+    },
+    "intro": "Our thoughtfully designed school schedules are tailored to suit each age group, promoting optimal concentration and engagement during class. This approach creates a balanced routine that supports both academic success and opportunities for after-school activities. Our efficient and effective curriculum focuses on nurturing critical thinking, problem-solving, and creativity, ensuring students thrive both in and out of the classroom.",
+    "hours": {
+      "k2k3": {
+        "title": "K2-K3",
+        "curricular": "Curricular Hours:",
+        "time": "09:00–12:30",
+        "nap": "(Optional nap time until 15:00)"
+      },
+      "k4s2": {
+        "title": "K4-S2",
+        "curricular": "Curricular Hours:",
+        "time": "09:00–15:00",
+        "coCurricular": "Co-Curricular Clubs:",
+        "coCurricularTime": "15:15–16:30"
+      }
     }
   },
   "DonatePage": {
     "hero": {
       "title": "Build the future."
+    },
+    "buildFuture": {
+      "title": "Help Us Build the Future",
+      "content": "We're not owned by a corporation. We don't have shareholders waiting on a return. We're proud to be a non-profit, independently run school with a single focus: impact. Every dollar that comes into The Garzón School goes back into what really matters — building a community where students thrive, teachers love to teach, and education becomes a force for transformation. No business interests. Just learning that lasts and changes lives."
+    },
+    "gallery": {
+      "alt1": "Students at The Garzón School",
+      "alt2": "Learning at The Garzón School",
+      "alt3": "Community at The Garzón School"
+    },
+    "schoolLike": {
+      "title": "A School Like No Other",
+      "content": "We're building something bold here; a new kind of school for South America. One that's rooted in nature, powered by purpose, and grounded in the belief that real change starts with education. As we grow our campus and bring world-stage facilities to life on Uruguay's golden coast, every donation helps lay the physical and philosophical foundations of that vision. This isn't charity. It's a vote of confidence in the future."
+    },
+    "nextChapter": {
+      "title": "Join the Next Chapter",
+      "content": "Our growth depends on generosity. Many of our founding families gave with heart and vision to help us reach this point, and we'll always be grateful. But to keep going, to keep building, and to keep offering scholarships to students with the potential to change the world, we need others to step in too. If you (or someone you know) believe in the power of education to change a life — or perhaps even a continent — we'd love to hear from you."
+    },
+    "cta": {
+      "title": "Ready to take the leap?",
+      "button": "Become a TGS Donor",
+      "imageAlt": "Students at The Garzón School"
     }
   },
   "GovernancePage": {
@@ -795,79 +851,517 @@
           "role": "Board Treasurer"
         }
       }
+    },
+    "intro": "The Garzón School is governed by the Asociación Civil The Garzón School, a non-profit foundation recognized by Uruguay's Ministry of Education and Culture (MEC). This model ensures that our school is community-led, mission-driven, and fully reinvests its resources in students, teachers, and the long-term impact of education in Uruguay. In contrast with the for-profit education models common across the region, the Asociación Civil model means there are no shareholders and no external owners. Every decision made and every dollar spent serves a single purpose: to deliver the best possible education for our students and to contribute positively to society.",
+    "membership": {
+      "title": "Membership: Joining the Asociación Civil",
+      "openTo": "Membership of the Asociación Civil is <strong>open to all parents and guardians</strong> of currently enrolled students, as well as individuals who wish to support the mission of the school.",
+      "byBecoming": "By becoming a member, you:",
+      "benefits": [
+        "Gain the right to <strong>vote</strong> at the General Assembly.",
+        "Help <strong>elect the Board of Directors.</strong>",
+        "Contribute to discussions and decisions that shape the school's future."
+      ],
+      "requirementsTitle": "Membership Requirements:",
+      "requirements": [
+        "Request a membership form from the School Office (TGS Campus).",
+        "Return the completed form to the School Office with a copy of your ID.",
+        "Renew your membership annually by confirming your participation at the General Assembly."
+      ],
+      "whyJoinLabel": "Why join:",
+      "whyJoin": "The Asociación Civil is not just an administrative structure — it is the living expression of our school's values: community, transparency, and shared purpose. Joining means taking part in building an institution that belongs to all of us and will serve generations to come."
+    },
+    "commitment": {
+      "title": "Our Commitment",
+      "text": "We believe that governance should model the same values we aim to instill in our students: <strong>agency, integrity, and collaboration</strong>. The Asociación Civil model empowers us to do just that, by making The Garzón School a non-profit, community-driven institution that serves the common good.",
+      "contact": "For questions about governance or membership, please contact:"
     }
   },
   "HeronPage": {
     "hero": {
       "title": "Bold student-led journalism."
+    },
+    "intro": {
+      "title": "Student Journalism Without Ceilings",
+      "p1": "At The Garzón School, we believe there should be no ceiling to what young people can achieve. That philosophy drives The Heron — our student-led newspaper, launched in 2023 — where learners don't just parrot existing stories, they make them. From exclusive interviews with Nobel Prize winners and world record holders to conversations with globally renowned artists and pop icons, our students prove that age is no barrier to excellence, access, or impact. Here, journalism is more than a subject — it's a platform for voice, agency, originality and world-class storytelling.",
+      "p2": "Scroll down to find the latest edition of The Heron, featuring original reporting, interviews, and student perspectives.",
+      "imageAlt": "The Heron student journalism"
+    }
+  },
+  "Common": {
+    "applyCta": {
+      "title": "Fall in love\nwith learning.",
+      "subtitle": "Apply to join The Garzón School!",
+      "button": "Apply",
+      "imageAlt": "Fall in love with learning"
     }
   },
   "CommitteesPage": {
     "hero": {
       "title": "Where community becomes action."
+    },
+    "intro": "At The Garzón School, our energetic Committees reflect who we are: a community that listens, includes, and acts together. Each committee brings parents, educators, and students to the same table — because student voice matters, and our learners sit on every committee. This collaborative spirit is more than a structure; it's a culture. By gathering in ways that strengthen bonds and foster shared purpose, we not only pursue excellence inside the classroom but also shape meaningful experiences beyond it, living our mission of empowering changemakers.",
+    "faq": {
+      "intro": "Find out more about the work of our active committees…",
+      "changemaker": {
+        "title": "Changemaker Collective",
+        "content": "Turn purpose into action through bold projects rooted in empathy, responsibility, and inclusion, sparking connections that begin in Maldonado and ripple out to the world."
+      },
+      "outdoors": {
+        "title": "Outdoors & Adventure Committee",
+        "content": "Promote learning beyond the classroom with experiences that build resilience, confidence, and a deep connection to the natural world."
+      },
+      "library": {
+        "title": "Library Committee",
+        "content": "Foster curiosity and literacy by developing our library into a vibrant hub for resources, inquiry, creativity, and community learning."
+      },
+      "events": {
+        "title": "Events Committee",
+        "content": "Support the School with community, educational, and fundraising events, including our flagship TGS Talks programme."
+      },
+      "arts": {
+        "title": "Arts Committee",
+        "content": "Promote the arts at TGS through workshops, guest artists, exhibitions, performances, and more."
+      }
+    },
+    "roles": {
+      "student": "Student",
+      "educator": "Educator",
+      "parent": "Parent"
+    },
+    "upcomingEvents": "Upcoming Events",
+    "changemaker": {
+      "title": "Changemaker Collective",
+      "events": [
+        { "date": "13 September 2025", "title": "Community Clean Up", "location": "Manantiales" },
+        { "date": "21 September 2025", "title": "Pérez Scremini 5K/10K Run", "location": "Punta del Este" },
+        { "date": "October 2025", "title": "Breast Cancer Awareness Month", "location": "The Garzón School" }
+      ]
+    },
+    "outdoors": {
+      "title": "Outdoors & Adventure Committee",
+      "events": [
+        { "date": "30 August 2025", "title": "Trekking by TGS", "location": "Cañadón de la Palma" },
+        { "date": "3 October 2025", "title": "Campus Camp Out", "location": "The Garzón School" },
+        { "date": "November 2025", "title": "TBC", "location": "TBC" }
+      ]
+    },
+    "library": {
+      "title": "Library Committee",
+      "events": [
+        { "date": "1 September 2025", "title": "Book Character Dress-Up Day", "location": "The Garzón School" },
+        { "date": "8 September 2025", "title": "International Literacy Day", "location": "The Garzón School" },
+        { "date": "September 2025", "title": "Community Read Alouds", "location": "The Garzón School" }
+      ]
+    },
+    "arts": {
+      "title": "Arts Committee",
+      "events": [
+        { "date": "October 2025", "title": "TBC", "location": "TBC" },
+        { "date": "November 2025", "title": "TBC", "location": "TBC" },
+        { "date": "December 2025", "title": "TBC", "location": "TBC" }
+      ]
     }
   },
   "MovingToUruguayPage": {
     "hero": {
       "title": "Latin America's best kept secret."
+    },
+    "intro": "A beacon of freedom, equality, democracy, and quality of life, Uruguay offers an exceptional environment for families seeking to relocate. In an increasingly unstable world, it remains the highest-ranked South American country in the <link>2024 World Happiness Report</link>. If your family is considering a move to Uruguay, The Garzón School is here to support you every step of the way—starting long before your child's first day of school.",
+    "softlanding": {
+      "title": "Our 'soft landing' programme sets relocating students up for success.",
+      "button": "Learn about our Soft Landing",
+      "imageAlt": "Children at The Garzón School"
+    },
+    "quality": {
+      "title": "Quality of Life",
+      "content": "Uruguay consistently ranks among the top countries on international quality of life indices, including the Human Development Index. The nation boasts public healthcare, a well-developed education system, and a vibrant culture of civic engagement. With its strong social welfare programs, political stability, low crime rates, and robust economic development, Uruguay offers an ideal environment for families."
+    },
+    "community": {
+      "title": "Community",
+      "content": "Uruguay's welcoming culture and friendly people are often highlighted as key reasons for choosing to live in the country. Renowned for their hospitality, warmth, and inclusiveness, Uruguayans create an inviting environment for families seeking a supportive community. In this nation of just 3.4 million, a strong sense of social contract is deeply rooted in the values of rights and freedoms."
+    },
+    "outdoors": {
+      "title": "Outdoors",
+      "content": "Uruguay's natural beauty is a significant draw for families considering international relocation. From pristine beaches to rolling sierras, the country boasts a diverse landscape teeming with wildlife and natural wonders. Many are drawn to the slower pace of life and the opportunity to embrace an outdoor-centric lifestyle, with endless possibilities to explore Uruguay's scenic beauty and enjoy a variety of nature-based activities."
+    },
+    "environment": {
+      "title": "Environment",
+      "content": "Uruguay's commitment to environmental sustainability is evident in its impressive ecological performance. According to the Global Footprint Network, if everyone lived like the average Uruguayan, Earth Overshoot Day would fall on December 17, 2025, making it one of the latest dates globally. This reflects Uruguay's lower ecological footprint compared to many other nations. The country's policies prioritise preserving its unique biodiversity and natural heritage, while ambitious targets focus on reducing greenhouse gas emissions and expanding renewable energy use."
+    },
+    "testimonial": {
+      "quote": "Some of us were born here, many of us were drawn here — either way we're all privileged to call Uruguay home. Our students, staff and families share a deep-rooted love and respect for this proudly enterprising and progressive country.",
+      "subtitle": "Sam Irving, Co-Head of School"
     }
   },
   "MultiformPage": {
     "hero": {
       "title": "Uniform? Not us."
+    },
+    "content": "We celebrate individuality, and this extends to our school multiform. At TGS, we don't believe in educating uniform children, so it makes sense that we wouldn't dress them uniformly either. That's why we created a TGS multiform as unique as the students who wear it. Children can mix and match a variety of pieces, styles, and colours to express their tastes and personalities.",
+    "gallery": {
+      "alt1": "Students in uniform",
+      "alt2": "Student in uniform outdoors",
+      "alt3": "Student activity"
     }
   },
   "NutritionPage": {
     "hero": {
       "title": "Meals are more than simply fuel."
-    }
+    },
+    "intro": "We believe that mealtime is more than just eating — it's an opportunity to nourish the body, strengthen the mind, and foster a sense of community. Our approach to food reflects our values of health, sustainability, and education. We aim to provide balanced, nutritious meals that support students' academic performance and emotional well-being. Each meal is thoughtfully prepared to offer the right combination of proteins, carbohydrates, and healthy fats, using fresh, local, and seasonal ingredients wherever possible. This ensures that students are not only eating well but also learning to make positive choices about food that will serve them for life.",
+    "pina": {
+      "title": "Fresh, Flavourful, and Made with Love",
+      "description": "Our catering partner, Piña Dulce, was founded by Verónica and Facundo, who have nearly 20 years of experience in the culinary industry. Piña Dulce brings a creative and health-focused approach to school meals. Their team of five is onsite daily, ensuring that every meal meets our high standards for taste and nutrition. Their menus will feature a wide variety of vibrant and appealing options, from hearty main courses to colourful salads and wholesome snacks.",
+      "imageAlt": "Verónica and Facundo from Piña Dulce"
+    },
+    "mealtime": "Mealtime at The Garzón School is designed to be an enjoyable and social experience. Students have the opportunity to select from different meal options, served in an inviting and communal setting. Fresh, seasonal ingredients are always part of the menu, ensuring that meals are both nutritious and packed with flavour. Our students will be the first to testify that Piña Dulce's commitment to quality and variety transforms school dining into a highlight of the day.",
+    "policyButton": "Read our Nutrition Policy",
+    "menuIntro": "Our menu was thoughtfully crafted in collaboration with professional chefs, restaurant owners, and a child nutritionist. It adheres to the highest international nutrition standards. By clicking the button below, you'll find our morning snack, buffet lunch and afternoon snack offerings for the current term:"
   },
   "OpenMorningsPage": {
     "hero": {
       "title": "Come along and see for yourself."
+    },
+    "discover": {
+      "title": "Discover The Garzón School in person!",
+      "description": "Our Open Mornings are a chance for prospective families to experience the spirit of TGS firsthand. Set against the backdrop of our stunning 94-acre campus on Ruta 104, these mornings offer guided tours, opportunities to meet members of our teaching and leadership team, and time to ask questions about our learning philosophy, community, and admissions process. Whether you're relocating or exploring local options, we warmly invite you to come see what makes The Garzón School such a unique place to grow and learn."
+    },
+    "events": {
+      "june": {
+        "date": "Saturday 14 June 2025",
+        "imageAlt": "Open Morning June 2025"
+      },
+      "august": {
+        "date": "Saturday 16 August 2025",
+        "imageAlt": "Open Morning August 2025"
+      },
+      "november": {
+        "date": "Saturday 8 November 2025",
+        "imageAlt": "Open Morning November 2025"
+      },
+      "rsvp": "RSVP (Google Forms)"
     }
   },
   "PathwaysPage": {
     "hero": {
       "title": "No limits on personal growth."
+    },
+    "intro": "As part of our commitment to educating and developing the whole child, we recognise the importance of providing a wide range of co-curricular activities. We offer a huge variety of after-school clubs. There really is something for everyone. Our Co-Curricular programme allows our learners to try something new, have fun and pursue their interests, from ballet to book club.",
+    "clubs": {
+      "title": "Co-Curricular Clubs 2025",
+      "wild": {
+        "title": "W.I.L.D",
+        "subtitle": "Wilderness, Immersion, Leadership & Development",
+        "content": "— Outdoors Exploration"
+      },
+      "pathway": {
+        "title": "PATHWAY",
+        "content": "Pathway Club Tier at The Garzón School are designed for students who are dedicated to long-term skill development in a specific area. These clubs follow a structured progression, allowing students to build expertise over time through consistent participation. With clear learning milestones, expert guidance, and a commitment to mastery, Pathway Clubs provide a deeper, more immersive experience. They are ideal for students who want to refine their talents, take on new challenges, and achieve meaningful growth in their chosen field.\n\n— Culinary Arts\n— Media & Communications\n— Visual Arts"
+      },
+      "sports": {
+        "title": "SPORTS",
+        "content": "— Football\n— Horse Riding\n— Skateboarding\n— Surfing"
+      }
+    },
+    "develop": "Our energetic and varied programme of Co-Curricular Clubs seeks to build learners' confidence by exposing them to a broad range of physical, intellectual and service pursuits in the hours immediately preceding or after School. We strive to make the most of our beautiful coastal location, as well as local expertise.",
+    "holistic": {
+      "p1": "We regard Co-Curricular Clubs as vital in the holistic development of our students. Research has time and again evidenced that learners' gains, from socialisation and team skills, all the way through to stress management and improved mental health.",
+      "p2": "Co-Curricular Clubs give every child the opportunity to build self-confidence by honing a talent. The variety we offer gives every child endless possibilities to uncover skills and hobbies that can last a lifetime.",
+      "imageAlt": "Co-curricular activities"
+    },
+    "learnMore": {
+      "text": "To learn more about our Co-Curricular offering, or to inquire into becoming an external Co-Curricular Club leader yourself, drop our Coordinator an email. We'd be delighted to hear from you!",
+      "button": "Write to our Co-Curricular Coordinator"
+    },
+    "cta": {
+      "title": "Fall in love\nwith learning.",
+      "subtitle": "Apply to join The Garzón School!",
+      "button": "Apply",
+      "imageAlt": "Fall in love with learning"
     }
   },
   "PoliciesPage": {
     "hero": {
       "title": "School Policies"
+    },
+    "readButton": "Read the full Policy",
+    "nondisc": {
+      "title": "Non-Discrimination Statement",
+      "content": "The Asociación Civil The Garzón School admits students of any race, colour and national or ethnic origin."
+    },
+    "policies": {
+      "admissions": {
+        "title": "Admissions & Re-enrolment",
+        "description": "It is the Admissions Team's mission to support student recruitment, enrolment and retention, ensuring that prospective and returning families understand the TGS ethos. Visits to the School campus are scheduled on an individual appointment basis and are highly encouraged."
+      },
+      "attendance": {
+        "title": "Attendance & Punctuality",
+        "description": "The Garzón School acknowledges the importance of all students attending school regularly and on time. For students to enjoy a complete and fulfilling academic, social and co-curricular life at The Garzón School, we encourage exemplary attendance and punctuality."
+      },
+      "conduct": {
+        "title": "Code of Conduct",
+        "description": "At The Garzón School, we place great importance on the social capital as a driving force for learning. \"Social capital\" refers to the valuable resources embedded in human relationships, such as those that connect administrators, teachers, students, and families."
+      },
+      "complaints": {
+        "title": "Complaints Procedure",
+        "description": "The Garzón School's students, parents, families, carers, or other adults who have concerns or complaints should feel that these can be voiced and be confident that they will be considered seriously in a sympathetic, efficient manner and at the appropriate level."
+      },
+      "health": {
+        "title": "Health & Safety",
+        "description": "The Garzón School will always work towards being fully compliant with all health and safety rules and regulations as established by the Administración Nacional de Educación Pública (ANEP), setting exemplary standards across all School activities."
+      },
+      "nondiscrimination": {
+        "title": "Non-Discrimination Policy",
+        "description": "The Garzón School embraces diversity and values the integrity of the individual. Individual differences of religion, culture, socioeconomic status, national origin, race, ethnicity, sexual orientation, physical appearance, and ability are acknowledged and respected."
+      },
+      "nutrition": {
+        "title": "Nutrition",
+        "description": "Good nutrition is vital to children's overall development and well-being. To provide the best possible nutrition for our students and staff, The Garzón School implements the following policies to encourage the development of healthy and balanced eating habits."
+      },
+      "safeguarding": {
+        "title": "Safeguarding",
+        "description": "Safeguarding is defined as all measures, steps and actions that must be taken to protect children from risks that may cause harm or injury. All activities organized by The Garzón School require all safeguarding procedures to be followed at all times."
+      },
+      "scholarship": {
+        "title": "Scholarship & Financial Aid",
+        "description": "This policy outlines how The Garzón School provides both needs-based financial aid and merit-based Changemaker Scholarships to support equitable access and celebrate student excellence. It details eligibility, application processes, renewal timelines, and funding structures, with a focus on diversity, inclusion, and alignment with the school's strategic priorities."
+      },
+      "teaching": {
+        "title": "Teaching & Learning",
+        "description": "At The Garzón School, we believe that high-quality and high-impact teaching and learning occur when students are equipped to become independent learners and are empowered to become active participants in their learning journey."
+      },
+      "technology": {
+        "title": "Technology",
+        "description": "This policy outlines The Garzón School's approach to integrating technology in ways that enhance learning, foster creativity, and promote responsible digital citizenship. It covers device provision, acceptable use, online safety, data protection, and family engagement, all grounded in principles of equity, ethics, and purposeful tech use."
+      },
+      "tuition": {
+        "title": "Tuition & Fee Payments",
+        "description": "The Garzón School has a transparent fee structure. Up-to-date tuition fees will be outlined in the annual re-enrolment letter and shared with parents. Tuition Fees are an essential source of revenue for the school to attract and retain the best teachers and leaders, and provide students with an outstanding education and facilities."
+      },
+      "wellbeing": {
+        "title": "Wellbeing & Inclusion",
+        "description": "The Garzón School increases access and engagement in learning for all students by identifying and removing barriers and providing a safe and caring environment. We provide all students with the opportunity to achieve their best academically, emotionally and socially."
+      }
     }
   },
   "PressPage": {
     "hero": {
       "title1": "The Garzón School",
       "title2": "in the media."
+    },
+    "readHere": "Read Here",
+    "signUpRequired": "[Sign-Up Required]",
+    "countries": {
+      "unitedStates": "United States",
+      "chile": "Chile",
+      "italy": "Italy",
+      "uruguay": "Uruguay",
+      "unitedKingdom": "United Kingdom",
+      "argentina": "Argentina",
+      "denmark": "Denmark"
     }
   },
   "SafeguardingPage": {
     "hero": {
       "title1": "Safety first.",
       "title2": "Always."
+    },
+    "intro": "At The Garzón School, we believe that every child deserves to feel safe, supported, and understood. While no two childhoods are the same, every student needs a trusted network to lean on, especially in moments of challenge. As a diverse and inclusive community welcoming students from Uruguay and beyond, we are committed to providing a secure and nurturing environment where every individual can thrive. Our dedicated Safeguarding Team, led by a Designated Safeguarding Lead and supported by School Leadership, works collaboratively across the school to ensure the well-being of all our students.",
+    "partner": {
+      "title": "Partnerships that protect.",
+      "content": "Far from operating in isolation, the Safeguarding Team is central to our pastoral mission, working closely with educators, families, and external partners to provide guidance, support, and intervention when needed. At The Garzón School, safeguarding is not just a responsibility—it's a promise to our students and their families."
+    },
+    "quote": {
+      "text": "Safeguarding is not just about protection — it's about building trust, showing care, and fostering respect so every child feels safe and valued.",
+      "author": "Catalina Garat, TGS Designated Safeguarding Lead"
+    },
+    "proactive": {
+      "title1": "Proactive care.",
+      "title2": "Educating for safety.",
+      "content": "Much of the Safeguarding Team's work is proactive and educational, fostering awareness and sharing best practices in areas such as online safety, healthy relationships, and emotional well-being. Our team is dedicated to equipping students, families, and staff with the knowledge and tools they need to create and maintain a safe, respectful, and supportive community. These efforts are guided by The Garzón School's comprehensive Safeguarding Policy, ensuring a clear framework for safeguarding excellence.",
+      "button": "Read the policy",
+      "imageAlt": "Students learning about safety"
+    },
+    "team": {
+      "title": "Our Safeguarding Team",
+      "roles": {
+        "dsl": "Designated Safeguarding Lead",
+        "ddsl": "Deputy Designated Safeguarding Lead"
+      },
+      "reportButton": "Report an Incident to our\nDesignated Safeguarding Lead"
+    },
+    "childSafeguarding": {
+      "logoAlt": "ChildSafeguarding.com",
+      "content": "At The Garzón School, safeguarding is a shared responsibility embraced by every member of our community. All staff, whether in teaching or non-teaching roles, are required to undertake regular child safeguarding training through ChildSafeguarding.com, ensuring they are equipped to protect and support our students. This commitment goes beyond the annual police checks mandated by law in Uruguay, reflecting our dedication to maintaining the highest standards of care and vigilance."
     }
   },
   "SoftlandingPage": {
     "hero": {
       "title": "Success in school starting day one."
+    },
+    "intro": "Transitioning to a new school can be a challenging experience, even for the most confident children. It's completely natural to feel apprehensive about making new friends, adjusting to unfamiliar teachers, adapting to a different culture, or learning in a second language. That's why we've developed a dedicated process—our Soft Landing—designed to ease anxiety and make settling in as smooth and stress-free as possible.",
+    "faq": {
+      "title": "Soft Landing",
+      "subtitle": "Proactive and positive student and family onboarding experiences set our learners up for success from day one.",
+      "teachers": {
+        "title": "Meet the Teachers",
+        "content": "As a standard part of our admissions process, we ensure that your child has time to meet their new teachers. Giving children the opportunity to get acquainted with their teachers can help them to feel more prepared and confident as they enter TGS."
+      },
+      "clubs": {
+        "title": "Join our Co-Curricular Clubs",
+        "content": "The perceived formality and sense of expectation can make a first engagement with a school stressful for children. During the term prior to your child's enrolment at TGS, we open up all our Co-Curricular Clubs for them to participate in. Whether they choose to make new friends through surfing, community service, or learning Italian, meeting future classmates in a fun, low-pressure environment makes that first day a breeze!"
+      },
+      "playdates": {
+        "title": "Play Dates with TGS Families",
+        "content": "Families who relocate internationally to join TGS tend to do so during our winter break (June-July), after the academic year in the northern hemisphere has concluded. As we do not run Co-Curricular Clubs (above) during the holidays, we set up 'play dates' for both children and families to meet before the relocating child(ren)'s first day of school."
+      },
+      "camp": {
+        "title": "Summer Camp Experiences",
+        "content": "Summer Camp experiences in December and February provide fun-packed bookends to the academic year at TGS. We extend invitations to all current students, as well as those set to join the School in the near future, to share in the thrill of outdoor activities."
+      },
+      "workshops": {
+        "title": "Workshops for Parents",
+        "content": "A successful onboarding doesn't end with a successful first day. Throughout the year, the Educational and Inclusion teams run workshops for parents designed to ensure alignment between home and school, and share strategies for supporting your child."
+      },
+      "events": {
+        "title": "Open Days & Events",
+        "content": "We pride ourselves on being a School with porous walls — one in which best practice is shared across the community. We organise termly Open Days for prospective families to visit and get to know TGS, as well as occasional events for the wider community."
+      }
+    },
+    "wellbeing": {
+      "title": "Learn how our Inclusion Team helps support student wellbeing.",
+      "button": "Wellbeing and Inclusion",
+      "imageAlt": "Children at The Garzón School"
     }
   },
   "SpacesPage": {
     "hero": {
       "title": "Discover your place."
+    },
+    "intro": "We are proud to offer a dynamic, engaging learning environment tailored to inspire learners at every stage of their educational journey. Our Space Availability page provides prospective families with an up-to-the-minute overview of the current enrolment status across all age groups and nests in 2026, helping you plan your child's future with us.",
+    "bottom": "Even if your nest of interest is full, enrolment is dynamic and spaces may become available — contact our Admissions Office to explore potential openings! Please note that application submission is not a guarantee of admission. We encourage a careful review of all the information on our website before applying. For further questions about space availability or the admissions process, don't hesitate to reach out to our team.",
+    "cta": {
+      "title": "Fall in love\nwith learning.",
+      "subtitle": "Apply to join The Garzón School!",
+      "button": "Apply",
+      "imageAlt": "Fall in love with learning"
     }
   },
   "TestimonialsPage": {
     "hero": {
       "title": "What does TGS mean to our community?"
+    },
+    "intro": "We're enormously grateful and proud that our reputation has spread around the world by word of mouth. Scroll down to find out what current TGS parents are saying about our School.",
+    "testimonials": {
+      "anibal": {
+        "quote": "TGS takes a unique approach to education. I couldn't be happier that we attend [a school] where education is all about exploration, growth, and following the child's natural curiosity.",
+        "readMore": "Read Aníbal's full testimonial."
+      },
+      "hannah": {
+        "quote": "[Our children] have such a thirst for learning, they are so engaged in everything they do, not just at school but at home now too. The change has been huge. Passion oozes through the school walls.",
+        "readMore": "Read Hannah's full testimonial."
+      },
+      "adam": {
+        "quote": "The development of the School is mirrored in our daughter's growth; we see her curiosity and creativity, driving her towards a desire for knowledge. As parents, the teachers make us feel that our daughter is in the best hands.",
+        "readMore": "Read Adam's full testimonial."
+      },
+      "isabella": {
+        "quote": "The most poignant shift we observed in our daughter in her first year at TGS was that she slowly but surely gained more confidence in herself. She truly began to understand that making mistakes is a healthy part of the learning process.",
+        "readMore": "Read Isabella's full testimonial."
+      },
+      "david": {
+        "quote": "Our son has shown a new appreciation for learning, especially in math and science. The Co-Curricular Clubs have also had a profound impact, as he is now excelling in many activities that he previously found intimidating.",
+        "readMore": "Read David's full testimonial."
+      }
+    },
+    "cta": {
+      "title": "Fall in love\nwith learning.",
+      "subtitle": "Apply to join The Garzón School!",
+      "button": "Apply",
+      "imageAlt": "Fall in love with learning"
     }
   },
   "WorkPage": {
     "hero": {
       "title1": "We are recognised as a",
       "title2": "Great Place to Work®"
+    },
+    "intro": "We believe that a thriving educational community starts with a strong, happy, and motivated team. As a <link>Great Place to Work®</link> certified school, we're proud to foster a workplace where innovation, collaboration, and a shared passion for education thrive. Our commitment to team wellbeing is woven into our culture, because we know that when educators and staff feel valued, inspired, and supported, they bring out the best in themselves and our students. Whether you're a teacher shaping young minds or a professional contributing behind the scenes, working at TGS means being part of a team united by purpose, creativity, and care.",
+    "content5": "A positive, collaborative workplace fosters creativity, resilience, and a sense of belonging, which are essential for both personal and professional growth. By investing in the wellbeing of our team, we are creating a school community where everyone can flourish, ensuring that our students receive the highest quality of education in a nurturing and dynamic environment.",
+    "culture": {
+      "title": "Our Culture in Numbers",
+      "badgeAlt": "Great Place to Work Certified Badge",
+      "camaraderie": {
+        "title": "Camaraderie",
+        "percentage": "99%",
+        "content": "of our team reports a deep sense of enjoyment in the workplace, freedom to express themselves, and a strong bond and mutual affection across the team."
+      },
+      "leadership": {
+        "title": "Leadership",
+        "percentage": "98%",
+        "content": "of our team has a positive view of School Leadership, viewing their behaviours as consistently resonating with the organisation's strategy and values."
+      },
+      "pride": {
+        "title": "Pride",
+        "percentage": "97%",
+        "content": "of our team reports feeling a sense of pride in their work, as well as positively regarding both their jobs and the School."
+      },
+      "engagement": {
+        "title": "Engagement",
+        "percentage": "96%",
+        "content": "of our team reports being tuned into their work, happily giving more of themselves or their talents than is required."
+      },
+      "integrity": {
+        "title": "Integrity",
+        "percentage": "95%",
+        "content": "of our team reports that School Leadership is committed to high principled standards and evidences their ability to take actions on these standards."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "percentage": "94%",
+        "content": "of our team reports that The Garzón School takes measures to continuously improve, adapt quickly, and generate game-changing opportunities."
+      },
+      "support": {
+        "title": "Support",
+        "percentage": "94%",
+        "content": "of our team reports ample professional development opportunities, resources and equipment, as well as frequent acknowledgment of achievements."
+      },
+      "collaboration": {
+        "title": "Collaboration",
+        "percentage": "93%",
+        "content": "of our team reports a strong willingness from School Leadership to engage employees in collective efforts."
+      }
+    },
+    "talentpool": {
+      "title": "Join Our Teacher Talentpool",
+      "p1": "We are always looking for passionate educators dedicated to shaping the changemakers of today and tomorrow. If you have excellent subject knowledge, positivity, and energy, we'd love to hear from you.",
+      "p2": "To join our candidate database for future teaching opportunities, please fill in the 'Work With Us' form by clicking on the button below.",
+      "button": "Join our Teacher Talentpool",
+      "imageAlt": "Modern classroom with students learning in creative spaces"
+    },
+    "whyWork": {
+      "title": "Why work for The Garzón School?",
+      "pedagogical": {
+        "title": "You will be developing a unique pedagogical approach",
+        "content": "At The Garzón School, we are dedicated to innovative, research-driven, and personalised education. Our educators enjoy two hours of collaborative planning time daily to design a bespoke, student-centred curriculum. Our concept-based curriculum emphasises competencies like 'Think, Act, Relate, Communicate,' fostering critical and design thinking. The integration of High Nature and High Tech, and our world-stage Roman Bosch campus proposition, creates a unique learning environment that inspires and challenges young learners."
+      },
+      "valued": {
+        "title": "You will be valued and rewarded as a professional",
+        "content": "We recognise that the success of our School is a direct reflection of the competence and passion of our team. To show our appreciation, we offer internationally benchmarked remuneration to our staff. Personal professional development allowances are provided to encourage continuous learning and growth. Additionally, we make the workday more enjoyable with perks like catered lunches and complimentary coffee."
+      },
+      "development": {
+        "title": "You will get world-class professional development",
+        "content": "Professional growth is at the heart of our mission. We offer allowances for personal professional development, encouraging our staff to continually evolve, learn, and lead in their respective fields. Collaboration is integral to our approach, and our team enjoys regular opportunities for shared planning and innovation. Our horizontal working structure also fosters peer learning, promoting a collaborative and enriching work environment that enhances growth and satisfaction. Working at The Garzón School means being part of an environment that nurtures talent and fosters educational leadership."
+      },
+      "environment": {
+        "title": "You will be part of a vibrant work environment",
+        "content": "At The Garzón School, you will be part of a community grounded in respect and care for others, where diversity and inclusion are embraced. You'll enjoy working in a nurturing environment that prioritises well-being and ethics. With a 8:1 student-to-educator ratio, you'll have the opportunity to provide unparalleled individual attention to learners, building strong relationships and contributing to a transformative educational movement for the region. Plus, you'll get to enjoy our famous golden coast location, making it not just a workplace but a place of inspiration and joy."
+      },
+      "coast": {
+        "title": "You will get to live on Uruguay's golden coast",
+        "content": "Beyond the professional rewards, working at The Garzón School comes with lifestyle perks that extend to living in Uruguay itself. Known for its high quality of life, beautiful landscapes, and friendly communities, Uruguay offers an enriching and balanced lifestyle. Our campus, in La Barra above Uruguay's famous golden coast, is a beautiful place to work, inspiring creativity and connection with nature. Together with competitive salaries and opportunities for personal growth, The Garzón School and Uruguay provide a fulfilling and enriching work experience unlike any other."
+      }
     }
   },
   "AccreditationPage": {

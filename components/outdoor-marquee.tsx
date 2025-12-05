@@ -1,24 +1,13 @@
 "use client"
 
+import { useTranslations } from 'next-intl'
 import DevBadge from './dev-badge'
 
-const events = [
-    {
-        date: "30 August 2025",
-        title: "Trekking by TGS",
-        location: "Cañadón de la Palma"
-    },
-    {
-        date: "3 October 2025",
-        title: "Campus Camp Out",
-        location: "The Garzón School"
-    },
-    {
-        date: "November 2025",
-        title: "TBC",
-        location: "TBC"
-    }
-]
+interface EventItem {
+    date: string
+    title: string
+    location: string
+}
 
 const WavySeparator = () => (
     <svg width="40" height="20" viewBox="0 0 40 20" fill="none" className="mx-6 inline-block">
@@ -27,6 +16,9 @@ const WavySeparator = () => (
 )
 
 export default function OutdoorMarquee() {
+    const t = useTranslations('CommitteesPage')
+    const events = t.raw('outdoors.events') as EventItem[]
+
     return (
         <section className="relative bg-[#8EB096] overflow-hidden">
             {/* Marquee */}
@@ -34,7 +26,7 @@ export default function OutdoorMarquee() {
                 <div className="flex animate-marquee whitespace-nowrap">
                     {[...Array(6)].map((_, i) => (
                         <span key={i} className="flex items-center text-black text-3xl md:text-4xl font-light">
-                            Upcoming Events <WavySeparator />
+                            {t('upcomingEvents')} <WavySeparator />
                         </span>
                     ))}
                 </div>

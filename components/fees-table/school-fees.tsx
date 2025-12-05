@@ -1,10 +1,17 @@
 'use client';
 
 import React from 'react';
-import { feeData, THEME_COLORS } from './constants';
+import { useTranslations } from 'next-intl';
+import { THEME_COLORS } from './constants';
+
+const discountRows = [
+  { id: '1', key: 'child2', tuitionDiscount: '10%', enrolmentDiscount: '40%' },
+  { id: '2', key: 'child3', tuitionDiscount: '15%', enrolmentDiscount: '50%' },
+  { id: '3', key: 'child4', tuitionDiscount: '20%', enrolmentDiscount: '60%' },
+];
 
 export default function SchoolFeesTable() {
-  const { applicationFee, enrolmentFee, siblingDiscounts, footnote } = feeData;
+  const t = useTranslations('FeesPage');
 
   return (
     <div className={`w-full ${THEME_COLORS.text}`}>
@@ -13,20 +20,20 @@ export default function SchoolFeesTable() {
         {/* Application Fee Section */}
         <div className="flex flex-col">
           <div className={`${THEME_COLORS.headerBg} p-3 text-center border-b-2 border-black font-bold text-lg md:text-xl uppercase tracking-wide`}>
-            {applicationFee.title}
+            {t('table.applicationFee')}
           </div>
           <div className="p-4 text-center font-bold text-xl md:text-2xl border-b-2 border-black">
-            {applicationFee.amount}
+            $300
           </div>
         </div>
 
         {/* Enrolment Fee Section */}
         <div className="flex flex-col">
           <div className={`${THEME_COLORS.headerBg} p-3 text-center border-b-2 border-black font-bold text-lg md:text-xl uppercase tracking-wide`}>
-            {enrolmentFee.title}
+            {t('table.enrolmentFee')}
           </div>
           <div className="p-4 text-center font-bold text-xl md:text-2xl border-b-2 border-black">
-            {enrolmentFee.amount}
+            $9500
           </div>
         </div>
 
@@ -35,7 +42,7 @@ export default function SchoolFeesTable() {
           {/* Header Row */}
           <div className="hidden sm:block bg-white border-b-2 border-r-2 border-black"></div>
           <div className={`col-span-1 sm:col-span-2 ${THEME_COLORS.headerBg} p-3 text-center border-b-2 border-black font-bold text-lg uppercase tracking-wide sm:border-l-2`}>
-            {siblingDiscounts.title}
+            {t('table.siblingDiscounts')}
           </div>
         </div>
 
@@ -43,19 +50,19 @@ export default function SchoolFeesTable() {
           {/* Column Headers */}
           <div className="bg-white border-b-2 border-black sm:border-r-2"></div>
           <div className={`${THEME_COLORS.headerBg} p-2 text-center border-b-2 border-l-2 border-black font-bold uppercase text-sm md:text-base`}>
-            {siblingDiscounts.columns.tuition}
+            {t('table.tuitionFee')}
           </div>
           <div className={`${THEME_COLORS.headerBg} p-2 text-center border-b-2 border-l-2 border-black font-bold uppercase text-sm md:text-base`}>
-            {siblingDiscounts.columns.enrolment}
+            {t('table.enrolmentFeeCol')}
           </div>
 
           {/* Discount Rows */}
-          {siblingDiscounts.rows.map((row, index) => {
-            const isLastRow = index === siblingDiscounts.rows.length - 1;
+          {discountRows.map((row, index) => {
+            const isLastRow = index === discountRows.length - 1;
             return (
               <React.Fragment key={row.id}>
                 <div className={`p-3 font-bold text-base md:text-lg text-center sm:text-right sm:pr-8 flex items-center justify-center sm:justify-end sm:border-r-2 border-black ${!isLastRow ? 'border-b-2' : ''}`}>
-                  {row.label}
+                  {t(`table.${row.key}`)}
                 </div>
                 <div className={`p-3 text-center font-bold text-base md:text-lg flex items-center justify-center bg-gray-50 border-l-2 border-black ${!isLastRow ? 'border-b-2' : ''}`}>
                   {row.tuitionDiscount}
@@ -71,7 +78,7 @@ export default function SchoolFeesTable() {
 
       {/* Footnote */}
       <div className="mt-4 text-center font-bold text-sm md:text-base uppercase tracking-wide">
-        {footnote}
+        {t('table.newFamiliesNote')}
       </div>
     </div>
   );

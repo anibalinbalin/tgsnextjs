@@ -252,6 +252,24 @@
     "scholarship": {
       "title": "Haciendo la educación de clase mundial más accesible—explora nuestras becas.",
       "button": "Consultar Sobre Nuestras Becas"
+    },
+    "table": {
+      "tuitionTitle": "ANUALIDAD",
+      "columns": {
+        "grade": "GRADO",
+        "nest": "NEST",
+        "annualTuition": "ANUALIDAD (USD)"
+      },
+      "footnote": "* Las tarifas están sujetas a revisión anual.",
+      "applicationFee": "TARIFA DE SOLICITUD (USD) **",
+      "enrolmentFee": "INSCRIPCIÓN (USD) **",
+      "siblingDiscounts": "DESCUENTOS POR HERMANOS",
+      "tuitionFee": "ANUALIDAD",
+      "enrolmentFeeCol": "INSCRIPCIÓN",
+      "child2": "2do hijo/a",
+      "child3": "3er hijo/a",
+      "child4": "4to hijo/a",
+      "newFamiliesNote": "** Aplica solo a familias nuevas desde 2026"
     }
   },
   "HowToJoinPage": {
@@ -704,11 +722,49 @@
   "DayPage": {
     "hero": {
       "title": "Tiempo de aprender."
+    },
+    "intro": "Nuestros horarios escolares están cuidadosamente diseñados para adaptarse a cada grupo de edad, promoviendo una concentración y participación óptimas durante la clase. Este enfoque crea una rutina equilibrada que apoya tanto el éxito académico como las oportunidades para actividades extracurriculares. Nuestro currículo eficiente y efectivo se enfoca en fomentar el pensamiento crítico, la resolución de problemas y la creatividad, asegurando que los estudiantes prosperen tanto dentro como fuera del aula.",
+    "hours": {
+      "k2k3": {
+        "title": "K2-K3",
+        "curricular": "Horario Curricular:",
+        "time": "09:00–12:30",
+        "nap": "(Siesta opcional hasta las 15:00)"
+      },
+      "k4s2": {
+        "title": "K4-S2",
+        "curricular": "Horario Curricular:",
+        "time": "09:00–15:00",
+        "coCurricular": "Clubes Co-Curriculares:",
+        "coCurricularTime": "15:15–16:30"
+      }
     }
   },
   "DonatePage": {
     "hero": {
       "title": "Construye el futuro."
+    },
+    "buildFuture": {
+      "title": "Ayúdanos a Construir el Futuro",
+      "content": "No somos propiedad de una corporación. No tenemos accionistas esperando un retorno. Estamos orgullosos de ser un colegio sin fines de lucro, administrado de manera independiente con un solo enfoque: el impacto. Cada dólar que ingresa a The Garzón School se reinvierte en lo que realmente importa — construir una comunidad donde los estudiantes prosperen, los profesores amen enseñar y la educación se convierta en una fuerza de transformación. Sin intereses comerciales. Solo aprendizaje que perdura y cambia vidas."
+    },
+    "gallery": {
+      "alt1": "Estudiantes en The Garzón School",
+      "alt2": "Aprendizaje en The Garzón School",
+      "alt3": "Comunidad en The Garzón School"
+    },
+    "schoolLike": {
+      "title": "Un Colegio Como Ningún Otro",
+      "content": "Estamos construyendo algo audaz aquí; un nuevo tipo de escuela para Sudamérica. Una que está arraigada en la naturaleza, impulsada por un propósito y fundamentada en la creencia de que el cambio real comienza con la educación. A medida que expandimos nuestro campus y damos vida a instalaciones de primer nivel mundial en la costa dorada de Uruguay, cada donación ayuda a sentar las bases físicas y filosóficas de esa visión. Esto no es caridad. Es un voto de confianza en el futuro."
+    },
+    "nextChapter": {
+      "title": "Únete al Próximo Capítulo",
+      "content": "Nuestro crecimiento depende de la generosidad. Muchas de nuestras familias fundadoras dieron con corazón y visión para ayudarnos a llegar a este punto, y siempre estaremos agradecidos. Pero para seguir adelante, seguir construyendo y seguir ofreciendo becas a estudiantes con el potencial de cambiar el mundo, necesitamos que otros también den un paso adelante. Si tú (o alguien que conoces) cree en el poder de la educación para cambiar una vida — o quizás incluso un continente — nos encantaría saber de ti."
+    },
+    "cta": {
+      "title": "¿Listo para dar el salto?",
+      "button": "Conviértete en Donante de TGS",
+      "imageAlt": "Estudiantes en The Garzón School"
     }
   },
   "GovernancePage": {
@@ -795,79 +851,517 @@
           "role": "Tesorera de la Junta"
         }
       }
+    },
+    "intro": "The Garzón School está gobernado por la Asociación Civil The Garzón School, una fundación sin fines de lucro reconocida por el Ministerio de Educación y Cultura (MEC) de Uruguay. Este modelo asegura que nuestro colegio sea liderado por la comunidad, orientado por su misión, y reinvierta completamente sus recursos en estudiantes, docentes y el impacto a largo plazo de la educación en Uruguay. A diferencia de los modelos educativos con fines de lucro comunes en la región, el modelo de Asociación Civil significa que no hay accionistas ni propietarios externos. Cada decisión tomada y cada dólar gastado sirve un único propósito: brindar la mejor educación posible para nuestros estudiantes y contribuir positivamente a la sociedad.",
+    "membership": {
+      "title": "Membresía: Unirse a la Asociación Civil",
+      "openTo": "La membresía de la Asociación Civil está <strong>abierta a todos los padres y tutores</strong> de estudiantes actualmente matriculados, así como a personas que deseen apoyar la misión del colegio.",
+      "byBecoming": "Al convertirse en miembro, usted:",
+      "benefits": [
+        "Obtiene el derecho a <strong>votar</strong> en la Asamblea General.",
+        "Ayuda a <strong>elegir la Junta Directiva.</strong>",
+        "Contribuye a discusiones y decisiones que dan forma al futuro del colegio."
+      ],
+      "requirementsTitle": "Requisitos de Membresía:",
+      "requirements": [
+        "Solicite un formulario de membresía en la Oficina del Colegio (Campus TGS).",
+        "Devuelva el formulario completado a la Oficina del Colegio con una copia de su identificación.",
+        "Renueve su membresía anualmente confirmando su participación en la Asamblea General."
+      ],
+      "whyJoinLabel": "Por qué unirse:",
+      "whyJoin": "La Asociación Civil no es solo una estructura administrativa — es la expresión viva de los valores de nuestro colegio: comunidad, transparencia y propósito compartido. Unirse significa participar en la construcción de una institución que nos pertenece a todos y servirá a las generaciones venideras."
+    },
+    "commitment": {
+      "title": "Nuestro Compromiso",
+      "text": "Creemos que la gobernanza debe modelar los mismos valores que buscamos inculcar en nuestros estudiantes: <strong>autonomía, integridad y colaboración</strong>. El modelo de Asociación Civil nos empodera para hacer exactamente eso, haciendo de The Garzón School una institución sin fines de lucro, impulsada por la comunidad, que sirve al bien común.",
+      "contact": "Para preguntas sobre gobernanza o membresía, por favor contacte:"
     }
   },
   "HeronPage": {
     "hero": {
       "title": "Periodismo audaz liderado por estudiantes."
+    },
+    "intro": {
+      "title": "Periodismo Estudiantil Sin Límites",
+      "p1": "En The Garzón School, creemos que no debería haber límites para lo que los jóvenes pueden lograr. Esa filosofía impulsa The Heron — nuestro periódico liderado por estudiantes, lanzado en 2023 — donde los estudiantes no solo repiten historias existentes, las crean. Desde entrevistas exclusivas con ganadores del Premio Nobel y poseedores de récords mundiales hasta conversaciones con artistas de renombre mundial e íconos del pop, nuestros estudiantes demuestran que la edad no es una barrera para la excelencia, el acceso o el impacto. Aquí, el periodismo es más que una materia — es una plataforma para la voz, la agencia, la originalidad y el relato de primer nivel mundial.",
+      "p2": "Desplázate hacia abajo para encontrar la última edición de The Heron, con reportajes originales, entrevistas y perspectivas estudiantiles.",
+      "imageAlt": "Periodismo estudiantil The Heron"
+    }
+  },
+  "Common": {
+    "applyCta": {
+      "title": "Enamórate\ndel aprendizaje.",
+      "subtitle": "¡Postula a The Garzón School!",
+      "button": "Postular",
+      "imageAlt": "Enamórate del aprendizaje"
     }
   },
   "CommitteesPage": {
     "hero": {
       "title": "Donde la comunidad se convierte en acción."
+    },
+    "intro": "En The Garzón School, nuestros enérgicos Comités reflejan quiénes somos: una comunidad que escucha, incluye y actúa unida. Cada comité reúne a padres, educadores y estudiantes en la misma mesa — porque la voz de los estudiantes importa, y nuestros alumnos participan en cada comité. Este espíritu colaborativo es más que una estructura; es una cultura. Al reunirnos de maneras que fortalecen vínculos y fomentan un propósito compartido, no solo perseguimos la excelencia dentro del aula sino que también damos forma a experiencias significativas más allá de ella, viviendo nuestra misión de empoderar agentes de cambio.",
+    "faq": {
+      "intro": "Descubre más sobre el trabajo de nuestros comités activos…",
+      "changemaker": {
+        "title": "Colectivo de Agentes de Cambio",
+        "content": "Convertir el propósito en acción a través de proyectos audaces arraigados en la empatía, la responsabilidad y la inclusión, generando conexiones que comienzan en Maldonado y se extienden al mundo."
+      },
+      "outdoors": {
+        "title": "Comité de Aventura al Aire Libre",
+        "content": "Promover el aprendizaje más allá del aula con experiencias que desarrollan resiliencia, confianza y una profunda conexión con el mundo natural."
+      },
+      "library": {
+        "title": "Comité de Biblioteca",
+        "content": "Fomentar la curiosidad y la alfabetización desarrollando nuestra biblioteca como un centro vibrante de recursos, investigación, creatividad y aprendizaje comunitario."
+      },
+      "events": {
+        "title": "Comité de Eventos",
+        "content": "Apoyar al Colegio con eventos comunitarios, educativos y de recaudación de fondos, incluyendo nuestro programa insignia TGS Talks."
+      },
+      "arts": {
+        "title": "Comité de Artes",
+        "content": "Promover las artes en TGS a través de talleres, artistas invitados, exposiciones, presentaciones y más."
+      }
+    },
+    "roles": {
+      "student": "Estudiante",
+      "educator": "Educador",
+      "parent": "Padre/Madre"
+    },
+    "upcomingEvents": "Próximos Eventos",
+    "changemaker": {
+      "title": "Colectivo de Agentes de Cambio",
+      "events": [
+        { "date": "13 de septiembre 2025", "title": "Limpieza Comunitaria", "location": "Manantiales" },
+        { "date": "21 de septiembre 2025", "title": "Carrera 5K/10K Pérez Scremini", "location": "Punta del Este" },
+        { "date": "Octubre 2025", "title": "Mes de Concientización sobre el Cáncer de Mama", "location": "The Garzón School" }
+      ]
+    },
+    "outdoors": {
+      "title": "Comité de Aventura al Aire Libre",
+      "events": [
+        { "date": "30 de agosto 2025", "title": "Trekking por TGS", "location": "Cañadón de la Palma" },
+        { "date": "3 de octubre 2025", "title": "Campamento en el Campus", "location": "The Garzón School" },
+        { "date": "Noviembre 2025", "title": "Por confirmar", "location": "Por confirmar" }
+      ]
+    },
+    "library": {
+      "title": "Comité de Biblioteca",
+      "events": [
+        { "date": "1 de septiembre 2025", "title": "Día de Disfraces de Personajes de Libros", "location": "The Garzón School" },
+        { "date": "8 de septiembre 2025", "title": "Día Internacional de la Alfabetización", "location": "The Garzón School" },
+        { "date": "Septiembre 2025", "title": "Lecturas en Voz Alta Comunitarias", "location": "The Garzón School" }
+      ]
+    },
+    "arts": {
+      "title": "Comité de Artes",
+      "events": [
+        { "date": "Octubre 2025", "title": "Por confirmar", "location": "Por confirmar" },
+        { "date": "Noviembre 2025", "title": "Por confirmar", "location": "Por confirmar" },
+        { "date": "Diciembre 2025", "title": "Por confirmar", "location": "Por confirmar" }
+      ]
     }
   },
   "MovingToUruguayPage": {
     "hero": {
       "title": "El secreto mejor guardado de Latinoamérica."
+    },
+    "intro": "Uruguay es un faro de libertad, igualdad, democracia y calidad de vida, ofreciendo un entorno excepcional para las familias que buscan reubicarse. En un mundo cada vez más inestable, sigue siendo el país sudamericano mejor clasificado en el <link>Informe Mundial de la Felicidad 2024</link>. Si su familia está considerando mudarse a Uruguay, The Garzón School está aquí para apoyarlos en cada paso del camino, comenzando mucho antes del primer día de clases de su hijo.",
+    "softlanding": {
+      "title": "Nuestro programa de 'aterrizaje suave' prepara a los estudiantes que se reubican para el éxito.",
+      "button": "Conozca nuestro Aterrizaje Suave",
+      "imageAlt": "Niños en The Garzón School"
+    },
+    "quality": {
+      "title": "Calidad de Vida",
+      "content": "Uruguay se ubica constantemente entre los principales países en los índices internacionales de calidad de vida, incluido el Índice de Desarrollo Humano. La nación cuenta con atención médica pública, un sistema educativo bien desarrollado y una vibrante cultura de participación cívica. Con sus sólidos programas de bienestar social, estabilidad política, bajas tasas de criminalidad y un robusto desarrollo económico, Uruguay ofrece un entorno ideal para las familias."
+    },
+    "community": {
+      "title": "Comunidad",
+      "content": "La cultura acogedora de Uruguay y su gente amable a menudo se destacan como razones clave para elegir vivir en el país. Reconocidos por su hospitalidad, calidez e inclusividad, los uruguayos crean un ambiente acogedor para las familias que buscan una comunidad de apoyo. En esta nación de solo 3,4 millones de habitantes, un fuerte sentido de contrato social está profundamente arraigado en los valores de derechos y libertades."
+    },
+    "outdoors": {
+      "title": "Vida al Aire Libre",
+      "content": "La belleza natural de Uruguay es un atractivo significativo para las familias que consideran la reubicación internacional. Desde playas prístinas hasta sierras ondulantes, el país cuenta con un paisaje diverso repleto de vida silvestre y maravillas naturales. Muchos se sienten atraídos por el ritmo de vida más lento y la oportunidad de adoptar un estilo de vida centrado en el aire libre, con infinitas posibilidades para explorar la belleza escénica de Uruguay y disfrutar de una variedad de actividades en la naturaleza."
+    },
+    "environment": {
+      "title": "Medio Ambiente",
+      "content": "El compromiso de Uruguay con la sostenibilidad ambiental es evidente en su impresionante desempeño ecológico. Según la Global Footprint Network, si todos vivieran como el uruguayo promedio, el Día del Sobregiro de la Tierra caería el 17 de diciembre de 2025, convirtiéndolo en una de las fechas más tardías a nivel mundial. Esto refleja la menor huella ecológica de Uruguay en comparación con muchas otras naciones. Las políticas del país priorizan preservar su biodiversidad única y patrimonio natural, mientras que objetivos ambiciosos se enfocan en reducir las emisiones de gases de efecto invernadero y expandir el uso de energía renovable."
+    },
+    "testimonial": {
+      "quote": "Algunos de nosotros nacimos aquí, muchos fuimos atraídos aquí — de cualquier manera, todos tenemos el privilegio de llamar a Uruguay nuestro hogar. Nuestros estudiantes, personal y familias comparten un amor y respeto profundamente arraigados por este país orgullosamente emprendedor y progresista.",
+      "subtitle": "Sam Irving, Co-Director del Colegio"
     }
   },
   "MultiformPage": {
     "hero": {
       "title": "¿Uniforme? No es lo nuestro."
+    },
+    "content": "Celebramos la individualidad, y esto se extiende a nuestro multiforme escolar. En TGS, no creemos en educar niños uniformes, así que tiene sentido que tampoco los vistamos de manera uniforme. Por eso creamos un multiforme TGS tan único como los estudiantes que lo usan. Los niños pueden mezclar y combinar una variedad de piezas, estilos y colores para expresar sus gustos y personalidades.",
+    "gallery": {
+      "alt1": "Estudiantes con uniforme",
+      "alt2": "Estudiante con uniforme al aire libre",
+      "alt3": "Actividad estudiantil"
     }
   },
   "NutritionPage": {
     "hero": {
       "title": "Las comidas son más que simple combustible."
-    }
+    },
+    "intro": "Creemos que la hora de comer es más que solo alimentarse — es una oportunidad para nutrir el cuerpo, fortalecer la mente y fomentar un sentido de comunidad. Nuestro enfoque hacia la comida refleja nuestros valores de salud, sostenibilidad y educación. Buscamos proporcionar comidas balanceadas y nutritivas que apoyen el rendimiento académico y el bienestar emocional de los estudiantes. Cada comida se prepara cuidadosamente para ofrecer la combinación correcta de proteínas, carbohidratos y grasas saludables, utilizando ingredientes frescos, locales y de temporada siempre que sea posible. Esto asegura que los estudiantes no solo estén comiendo bien, sino también aprendiendo a tomar decisiones positivas sobre la alimentación que les servirán para toda la vida.",
+    "pina": {
+      "title": "Fresco, Sabroso y Hecho con Amor",
+      "description": "Nuestro socio de catering, Piña Dulce, fue fundado por Verónica y Facundo, quienes tienen casi 20 años de experiencia en la industria culinaria. Piña Dulce aporta un enfoque creativo y centrado en la salud a las comidas escolares. Su equipo de cinco personas está presente a diario, asegurando que cada comida cumpla con nuestros altos estándares de sabor y nutrición. Sus menús presentan una amplia variedad de opciones vibrantes y atractivas, desde platos principales sustanciosos hasta ensaladas coloridas y snacks saludables.",
+      "imageAlt": "Verónica y Facundo de Piña Dulce"
+    },
+    "mealtime": "La hora de comer en The Garzón School está diseñada para ser una experiencia agradable y social. Los estudiantes tienen la oportunidad de seleccionar entre diferentes opciones de comida, servidas en un ambiente acogedor y comunitario. Los ingredientes frescos y de temporada siempre son parte del menú, asegurando que las comidas sean tanto nutritivas como llenas de sabor. Nuestros estudiantes serán los primeros en atestiguar que el compromiso de Piña Dulce con la calidad y variedad transforma el comedor escolar en uno de los momentos más esperados del día.",
+    "policyButton": "Lee nuestra Política de Nutrición",
+    "menuIntro": "Nuestro menú fue cuidadosamente elaborado en colaboración con chefs profesionales, propietarios de restaurantes y un nutricionista infantil. Cumple con los más altos estándares internacionales de nutrición. Al hacer clic en el botón a continuación, encontrarás nuestra merienda de la mañana, almuerzo buffet y merienda de la tarde para el período actual:"
   },
   "OpenMorningsPage": {
     "hero": {
       "title": "Ven y compruébalo por ti mismo."
+    },
+    "discover": {
+      "title": "¡Descubre The Garzón School en persona!",
+      "description": "Nuestras Mañanas Abiertas son una oportunidad para que las familias prospectivas experimenten el espíritu de TGS de primera mano. Ambientadas en nuestro impresionante campus de 38 hectáreas en Ruta 104, estas mañanas ofrecen visitas guiadas, oportunidades para conocer a miembros de nuestro equipo docente y de liderazgo, y tiempo para hacer preguntas sobre nuestra filosofía de aprendizaje, comunidad y proceso de admisión. Ya sea que se esté reubicando o explorando opciones locales, lo invitamos cordialmente a venir a ver qué hace de The Garzón School un lugar tan único para crecer y aprender."
+    },
+    "events": {
+      "june": {
+        "date": "Sábado 14 de junio de 2025",
+        "imageAlt": "Mañana Abierta junio 2025"
+      },
+      "august": {
+        "date": "Sábado 16 de agosto de 2025",
+        "imageAlt": "Mañana Abierta agosto 2025"
+      },
+      "november": {
+        "date": "Sábado 8 de noviembre de 2025",
+        "imageAlt": "Mañana Abierta noviembre 2025"
+      },
+      "rsvp": "RSVP (Google Forms)"
     }
   },
   "PathwaysPage": {
     "hero": {
       "title": "Sin límites para el crecimiento personal."
+    },
+    "intro": "Como parte de nuestro compromiso con la educación y el desarrollo integral del niño, reconocemos la importancia de proporcionar una amplia gama de actividades co-curriculares. Ofrecemos una gran variedad de clubes después de clases. Realmente hay algo para todos. Nuestro programa Co-Curricular permite a nuestros estudiantes probar algo nuevo, divertirse y perseguir sus intereses, desde ballet hasta club de lectura.",
+    "clubs": {
+      "title": "Clubes Co-Curriculares 2025",
+      "wild": {
+        "title": "W.I.L.D",
+        "subtitle": "Naturaleza, Inmersión, Liderazgo y Desarrollo",
+        "content": "— Exploración al Aire Libre"
+      },
+      "pathway": {
+        "title": "PATHWAY",
+        "content": "Los Clubes Pathway en The Garzón School están diseñados para estudiantes dedicados al desarrollo de habilidades a largo plazo en un área específica. Estos clubes siguen una progresión estructurada, permitiendo a los estudiantes desarrollar experiencia a través de la participación constante. Con hitos de aprendizaje claros, orientación experta y un compromiso con la maestría, los Clubes Pathway brindan una experiencia más profunda e inmersiva. Son ideales para estudiantes que desean perfeccionar sus talentos, asumir nuevos desafíos y lograr un crecimiento significativo en su campo elegido.\n\n— Artes Culinarias\n— Medios y Comunicaciones\n— Artes Visuales"
+      },
+      "sports": {
+        "title": "DEPORTES",
+        "content": "— Fútbol\n— Equitación\n— Skateboarding\n— Surf"
+      }
+    },
+    "develop": "Nuestro programa energético y variado de Clubes Co-Curriculares busca desarrollar la confianza de los estudiantes exponiéndolos a una amplia gama de actividades físicas, intelectuales y de servicio en las horas inmediatamente antes o después del colegio. Nos esforzamos por aprovechar al máximo nuestra hermosa ubicación costera, así como la experiencia local.",
+    "holistic": {
+      "p1": "Consideramos que los Clubes Co-Curriculares son vitales en el desarrollo integral de nuestros estudiantes. La investigación ha evidenciado una y otra vez los beneficios para los estudiantes, desde la socialización y las habilidades de equipo, hasta el manejo del estrés y la mejora de la salud mental.",
+      "p2": "Los Clubes Co-Curriculares dan a cada niño la oportunidad de desarrollar autoconfianza perfeccionando un talento. La variedad que ofrecemos brinda a cada niño infinitas posibilidades para descubrir habilidades y pasatiempos que pueden durar toda la vida.",
+      "imageAlt": "Actividades co-curriculares"
+    },
+    "learnMore": {
+      "text": "Para saber más sobre nuestra oferta Co-Curricular, o para consultar sobre convertirse en líder externo de un Club Co-Curricular, envíe un correo electrónico a nuestro Coordinador. ¡Estaremos encantados de saber de usted!",
+      "button": "Escribir a nuestro Coordinador Co-Curricular"
+    },
+    "cta": {
+      "title": "Enamórate\ndel aprendizaje.",
+      "subtitle": "¡Postula para unirte a The Garzón School!",
+      "button": "Postular",
+      "imageAlt": "Enamórate del aprendizaje"
     }
   },
   "PoliciesPage": {
     "hero": {
       "title": "Políticas del Colegio"
+    },
+    "readButton": "Leer la Política completa",
+    "nondisc": {
+      "title": "Declaración de No Discriminación",
+      "content": "La Asociación Civil The Garzón School admite estudiantes de cualquier raza, color y origen nacional o étnico."
+    },
+    "policies": {
+      "admissions": {
+        "title": "Admisiones y Re-inscripción",
+        "description": "La misión del Equipo de Admisiones es apoyar el reclutamiento, inscripción y retención de estudiantes, asegurando que las familias prospectivas y actuales comprendan el ethos de TGS. Las visitas al campus del Colegio se programan de manera individual y son altamente recomendadas."
+      },
+      "attendance": {
+        "title": "Asistencia y Puntualidad",
+        "description": "The Garzón School reconoce la importancia de que todos los estudiantes asistan a la escuela regularmente y a tiempo. Para que los estudiantes disfruten de una vida académica, social y co-curricular completa y satisfactoria en The Garzón School, fomentamos una asistencia y puntualidad ejemplares."
+      },
+      "conduct": {
+        "title": "Código de Conducta",
+        "description": "En The Garzón School, damos gran importancia al capital social como fuerza impulsora del aprendizaje. El \"capital social\" se refiere a los valiosos recursos integrados en las relaciones humanas, como aquellos que conectan a administradores, maestros, estudiantes y familias."
+      },
+      "complaints": {
+        "title": "Procedimiento de Quejas",
+        "description": "Los estudiantes, padres, familias, cuidadores u otros adultos de The Garzón School que tengan inquietudes o quejas deben sentir que pueden expresarlas y confiar en que serán consideradas seriamente de manera comprensiva, eficiente y al nivel apropiado."
+      },
+      "health": {
+        "title": "Salud y Seguridad",
+        "description": "The Garzón School siempre trabajará para cumplir plenamente con todas las reglas y regulaciones de salud y seguridad establecidas por la Administración Nacional de Educación Pública (ANEP), estableciendo estándares ejemplares en todas las actividades del Colegio."
+      },
+      "nondiscrimination": {
+        "title": "Política de No Discriminación",
+        "description": "The Garzón School abraza la diversidad y valora la integridad del individuo. Las diferencias individuales de religión, cultura, estatus socioeconómico, origen nacional, raza, etnia, orientación sexual, apariencia física y capacidad son reconocidas y respetadas."
+      },
+      "nutrition": {
+        "title": "Nutrición",
+        "description": "Una buena nutrición es vital para el desarrollo y bienestar general de los niños. Para proporcionar la mejor nutrición posible a nuestros estudiantes y personal, The Garzón School implementa las siguientes políticas para fomentar el desarrollo de hábitos alimenticios saludables y equilibrados."
+      },
+      "safeguarding": {
+        "title": "Protección Infantil",
+        "description": "La protección infantil se define como todas las medidas, pasos y acciones que deben tomarse para proteger a los niños de riesgos que puedan causar daño o lesiones. Todas las actividades organizadas por The Garzón School requieren que se sigan todos los procedimientos de protección en todo momento."
+      },
+      "scholarship": {
+        "title": "Becas y Ayuda Financiera",
+        "description": "Esta política describe cómo The Garzón School proporciona tanto ayuda financiera basada en necesidades como Becas Changemaker basadas en mérito para apoyar el acceso equitativo y celebrar la excelencia estudiantil. Detalla elegibilidad, procesos de solicitud, plazos de renovación y estructuras de financiamiento, con enfoque en diversidad, inclusión y alineación con las prioridades estratégicas del colegio."
+      },
+      "teaching": {
+        "title": "Enseñanza y Aprendizaje",
+        "description": "En The Garzón School, creemos que la enseñanza y el aprendizaje de alta calidad y alto impacto ocurren cuando los estudiantes están equipados para convertirse en aprendices independientes y están empoderados para ser participantes activos en su viaje de aprendizaje."
+      },
+      "technology": {
+        "title": "Tecnología",
+        "description": "Esta política describe el enfoque de The Garzón School para integrar la tecnología de maneras que mejoren el aprendizaje, fomenten la creatividad y promuevan la ciudadanía digital responsable. Cubre provisión de dispositivos, uso aceptable, seguridad en línea, protección de datos y participación familiar, todo fundamentado en principios de equidad, ética y uso tecnológico con propósito."
+      },
+      "tuition": {
+        "title": "Pagos de Matrícula y Cuotas",
+        "description": "The Garzón School tiene una estructura de tarifas transparente. Las cuotas de matrícula actualizadas se detallarán en la carta anual de re-inscripción y se compartirán con los padres. Las Cuotas de Matrícula son una fuente esencial de ingresos para que el colegio atraiga y retenga a los mejores maestros y líderes, y brinde a los estudiantes una educación e instalaciones sobresalientes."
+      },
+      "wellbeing": {
+        "title": "Bienestar e Inclusión",
+        "description": "The Garzón School aumenta el acceso y la participación en el aprendizaje para todos los estudiantes identificando y eliminando barreras y proporcionando un ambiente seguro y acogedor. Brindamos a todos los estudiantes la oportunidad de alcanzar lo mejor de sí mismos académica, emocional y socialmente."
+      }
     }
   },
   "PressPage": {
     "hero": {
       "title1": "The Garzón School",
       "title2": "en los medios."
+    },
+    "readHere": "Leer Aquí",
+    "signUpRequired": "[Requiere Registro]",
+    "countries": {
+      "unitedStates": "Estados Unidos",
+      "chile": "Chile",
+      "italy": "Italia",
+      "uruguay": "Uruguay",
+      "unitedKingdom": "Reino Unido",
+      "argentina": "Argentina",
+      "denmark": "Dinamarca"
     }
   },
   "SafeguardingPage": {
     "hero": {
       "title1": "La seguridad primero.",
       "title2": "Siempre."
+    },
+    "intro": "En The Garzón School, creemos que cada niño merece sentirse seguro, apoyado y comprendido. Si bien no hay dos infancias iguales, cada estudiante necesita una red de confianza en la cual apoyarse, especialmente en momentos de desafío. Como una comunidad diversa e inclusiva que recibe estudiantes de Uruguay y del mundo, estamos comprometidos a proporcionar un entorno seguro y acogedor donde cada individuo pueda prosperar. Nuestro dedicado Equipo de Protección, liderado por un Responsable de Protección Designado y apoyado por la Dirección del Colegio, trabaja colaborativamente en toda la escuela para garantizar el bienestar de todos nuestros estudiantes.",
+    "partner": {
+      "title": "Alianzas que protegen.",
+      "content": "Lejos de operar de forma aislada, el Equipo de Protección es central en nuestra misión pastoral, trabajando estrechamente con educadores, familias y socios externos para brindar orientación, apoyo e intervención cuando sea necesario. En The Garzón School, la protección no es solo una responsabilidad—es una promesa a nuestros estudiantes y sus familias."
+    },
+    "quote": {
+      "text": "La protección no se trata solo de seguridad — se trata de construir confianza, mostrar cuidado y fomentar el respeto para que cada niño se sienta seguro y valorado.",
+      "author": "Catalina Garat, Responsable de Protección Designada de TGS"
+    },
+    "proactive": {
+      "title1": "Cuidado proactivo.",
+      "title2": "Educando para la seguridad.",
+      "content": "Gran parte del trabajo del Equipo de Protección es proactivo y educativo, fomentando la conciencia y compartiendo las mejores prácticas en áreas como seguridad en línea, relaciones saludables y bienestar emocional. Nuestro equipo se dedica a equipar a los estudiantes, las familias y el personal con el conocimiento y las herramientas que necesitan para crear y mantener una comunidad segura, respetuosa y solidaria. Estos esfuerzos están guiados por la Política de Protección integral de The Garzón School, asegurando un marco claro para la excelencia en protección.",
+      "button": "Leer la política",
+      "imageAlt": "Estudiantes aprendiendo sobre seguridad"
+    },
+    "team": {
+      "title": "Nuestro Equipo de Protección",
+      "roles": {
+        "dsl": "Responsable de Protección Designada",
+        "ddsl": "Responsable de Protección Designada Adjunta"
+      },
+      "reportButton": "Reportar un Incidente a nuestra\nResponsable de Protección Designada"
+    },
+    "childSafeguarding": {
+      "logoAlt": "ChildSafeguarding.com",
+      "content": "En The Garzón School, la protección es una responsabilidad compartida asumida por cada miembro de nuestra comunidad. Todo el personal, ya sea en roles docentes o no docentes, debe realizar capacitaciones regulares en protección infantil a través de ChildSafeguarding.com, asegurando que estén equipados para proteger y apoyar a nuestros estudiantes. Este compromiso va más allá de las verificaciones policiales anuales exigidas por ley en Uruguay, reflejando nuestra dedicación a mantener los más altos estándares de cuidado y vigilancia."
     }
   },
   "SoftlandingPage": {
     "hero": {
       "title": "Éxito en el colegio desde el primer día."
+    },
+    "intro": "La transición a un nuevo colegio puede ser una experiencia desafiante, incluso para los niños más seguros. Es completamente natural sentir aprensión por hacer nuevos amigos, adaptarse a profesores desconocidos, ajustarse a una cultura diferente o aprender en un segundo idioma. Por eso hemos desarrollado un proceso dedicado—nuestro Soft Landing—diseñado para aliviar la ansiedad y hacer que la adaptación sea lo más fluida y libre de estrés posible.",
+    "faq": {
+      "title": "Soft Landing",
+      "subtitle": "Experiencias proactivas y positivas de integración para estudiantes y familias preparan a nuestros alumnos para el éxito desde el primer día.",
+      "teachers": {
+        "title": "Conoce a los Profesores",
+        "content": "Como parte estándar de nuestro proceso de admisión, nos aseguramos de que tu hijo/a tenga tiempo para conocer a sus nuevos profesores. Dar a los niños la oportunidad de familiarizarse con sus profesores puede ayudarles a sentirse más preparados y seguros al ingresar a TGS."
+      },
+      "clubs": {
+        "title": "Únete a nuestros Clubes Co-Curriculares",
+        "content": "La formalidad percibida y la sensación de expectativa pueden hacer que un primer acercamiento a un colegio sea estresante para los niños. Durante el período previo a la inscripción de tu hijo/a en TGS, abrimos todos nuestros Clubes Co-Curriculares para que participen. Ya sea que elijan hacer nuevos amigos a través del surf, servicio comunitario o aprendiendo italiano, conocer a futuros compañeros en un ambiente divertido y de baja presión hace que el primer día sea muy fácil."
+      },
+      "playdates": {
+        "title": "Encuentros con Familias TGS",
+        "content": "Las familias que se trasladan internacionalmente para unirse a TGS tienden a hacerlo durante nuestras vacaciones de invierno (junio-julio), después de que el año académico en el hemisferio norte ha concluido. Como no realizamos Clubes Co-Curriculares durante las vacaciones, organizamos encuentros para que tanto niños como familias se conozcan antes del primer día de clases del niño/a que se traslada."
+      },
+      "camp": {
+        "title": "Experiencias de Campamento de Verano",
+        "content": "Las experiencias de Campamento de Verano en diciembre y febrero proporcionan divertidos cierres al año académico en TGS. Extendemos invitaciones a todos los estudiantes actuales, así como a aquellos que se unirán al Colegio en el futuro cercano, para compartir la emoción de las actividades al aire libre."
+      },
+      "workshops": {
+        "title": "Talleres para Padres",
+        "content": "Una integración exitosa no termina con un primer día exitoso. A lo largo del año, los equipos de Educación e Inclusión realizan talleres para padres diseñados para asegurar la alineación entre el hogar y el colegio, y compartir estrategias para apoyar a tu hijo/a."
+      },
+      "events": {
+        "title": "Días Abiertos y Eventos",
+        "content": "Nos enorgullecemos de ser un Colegio con paredes porosas — uno en el cual las mejores prácticas se comparten a través de la comunidad. Organizamos Días Abiertos trimestrales para que las familias prospectivas visiten y conozcan TGS, así como eventos ocasionales para la comunidad en general."
+      }
+    },
+    "wellbeing": {
+      "title": "Descubre cómo nuestro Equipo de Inclusión apoya el bienestar estudiantil.",
+      "button": "Bienestar e Inclusión",
+      "imageAlt": "Niños en The Garzón School"
     }
   },
   "SpacesPage": {
     "hero": {
       "title": "Descubre tu lugar."
+    },
+    "intro": "Estamos orgullosos de ofrecer un entorno de aprendizaje dinámico y atractivo diseñado para inspirar a los estudiantes en cada etapa de su trayectoria educativa. Nuestra página de Disponibilidad de Espacios proporciona a las familias prospectivas una visión actualizada del estado de inscripción actual en todos los grupos de edad y nests en 2026, ayudándole a planificar el futuro de su hijo/a con nosotros.",
+    "bottom": "Incluso si el nest de su interés está lleno, la inscripción es dinámica y pueden surgir espacios — ¡contacte a nuestra Oficina de Admisiones para explorar posibles vacantes! Por favor, tenga en cuenta que la presentación de una solicitud no garantiza la admisión. Le animamos a revisar cuidadosamente toda la información en nuestro sitio web antes de postular. Para más preguntas sobre la disponibilidad de espacios o el proceso de admisión, no dude en comunicarse con nuestro equipo.",
+    "cta": {
+      "title": "Enamórate\ndel aprendizaje.",
+      "subtitle": "¡Postula para unirte a The Garzón School!",
+      "button": "Postular",
+      "imageAlt": "Enamórate del aprendizaje"
     }
   },
   "TestimonialsPage": {
     "hero": {
       "title": "¿Qué significa TGS para nuestra comunidad?"
+    },
+    "intro": "Estamos enormemente agradecidos y orgullosos de que nuestra reputación se haya extendido por todo el mundo de boca en boca. Desplázate hacia abajo para descubrir lo que dicen los padres actuales de TGS sobre nuestro Colegio.",
+    "testimonials": {
+      "anibal": {
+        "quote": "TGS tiene un enfoque único hacia la educación. No podría estar más feliz de que asistamos a [un colegio] donde la educación se trata de exploración, crecimiento y seguir la curiosidad natural del niño.",
+        "readMore": "Leer el testimonio completo de Aníbal."
+      },
+      "hannah": {
+        "quote": "[Nuestros hijos] tienen tanta sed de aprender, están tan comprometidos con todo lo que hacen, no solo en el colegio sino ahora también en casa. El cambio ha sido enorme. La pasión rezuma por las paredes del colegio.",
+        "readMore": "Leer el testimonio completo de Hannah."
+      },
+      "adam": {
+        "quote": "El desarrollo del Colegio se refleja en el crecimiento de nuestra hija; vemos su curiosidad y creatividad, impulsándola hacia un deseo de conocimiento. Como padres, los maestros nos hacen sentir que nuestra hija está en las mejores manos.",
+        "readMore": "Leer el testimonio completo de Adam."
+      },
+      "isabella": {
+        "quote": "El cambio más conmovedor que observamos en nuestra hija en su primer año en TGS fue que lenta pero seguramente ganó más confianza en sí misma. Realmente comenzó a entender que cometer errores es una parte saludable del proceso de aprendizaje.",
+        "readMore": "Leer el testimonio completo de Isabella."
+      },
+      "david": {
+        "quote": "Nuestro hijo ha mostrado una nueva apreciación por el aprendizaje, especialmente en matemáticas y ciencias. Los Clubes Co-Curriculares también han tenido un impacto profundo, ya que ahora está sobresaliendo en muchas actividades que antes le resultaban intimidantes.",
+        "readMore": "Leer el testimonio completo de David."
+      }
+    },
+    "cta": {
+      "title": "Enamórate\ndel aprendizaje.",
+      "subtitle": "¡Postula para unirte a The Garzón School!",
+      "button": "Postular",
+      "imageAlt": "Enamórate del aprendizaje"
     }
   },
   "WorkPage": {
     "hero": {
       "title1": "Somos reconocidos como un",
       "title2": "Great Place to Work®"
+    },
+    "intro": "Creemos que una comunidad educativa próspera comienza con un equipo fuerte, feliz y motivado. Como colegio certificado <link>Great Place to Work®</link>, estamos orgullosos de fomentar un lugar de trabajo donde la innovación, la colaboración y una pasión compartida por la educación prosperan. Nuestro compromiso con el bienestar del equipo está entretejido en nuestra cultura, porque sabemos que cuando los educadores y el personal se sienten valorados, inspirados y apoyados, sacan lo mejor de sí mismos y de nuestros estudiantes. Ya seas un maestro formando mentes jóvenes o un profesional contribuyendo tras bambalinas, trabajar en TGS significa ser parte de un equipo unido por el propósito, la creatividad y el cuidado.",
+    "content5": "Un lugar de trabajo positivo y colaborativo fomenta la creatividad, la resiliencia y un sentido de pertenencia, que son esenciales tanto para el crecimiento personal como profesional. Al invertir en el bienestar de nuestro equipo, estamos creando una comunidad escolar donde todos pueden florecer, asegurando que nuestros estudiantes reciban educación de la más alta calidad en un entorno enriquecedor y dinámico.",
+    "culture": {
+      "title": "Nuestra Cultura en Números",
+      "badgeAlt": "Insignia de Certificación Great Place to Work",
+      "camaraderie": {
+        "title": "Camaradería",
+        "percentage": "99%",
+        "content": "de nuestro equipo reporta un profundo sentido de disfrute en el lugar de trabajo, libertad para expresarse y un fuerte vínculo y afecto mutuo en todo el equipo."
+      },
+      "leadership": {
+        "title": "Liderazgo",
+        "percentage": "98%",
+        "content": "de nuestro equipo tiene una visión positiva del Liderazgo del Colegio, viendo sus comportamientos como consistentemente alineados con la estrategia y valores de la organización."
+      },
+      "pride": {
+        "title": "Orgullo",
+        "percentage": "97%",
+        "content": "de nuestro equipo reporta sentir orgullo en su trabajo, así como una visión positiva tanto de sus trabajos como del Colegio."
+      },
+      "engagement": {
+        "title": "Compromiso",
+        "percentage": "96%",
+        "content": "de nuestro equipo reporta estar sintonizado con su trabajo, dando felizmente más de sí mismos o sus talentos de lo requerido."
+      },
+      "integrity": {
+        "title": "Integridad",
+        "percentage": "95%",
+        "content": "de nuestro equipo reporta que el Liderazgo del Colegio está comprometido con altos estándares de principios y demuestra su capacidad para actuar según estos estándares."
+      },
+      "innovation": {
+        "title": "Innovación",
+        "percentage": "94%",
+        "content": "de nuestro equipo reporta que The Garzón School toma medidas para mejorar continuamente, adaptarse rápidamente y generar oportunidades transformadoras."
+      },
+      "support": {
+        "title": "Apoyo",
+        "percentage": "94%",
+        "content": "de nuestro equipo reporta amplias oportunidades de desarrollo profesional, recursos y equipamiento, así como reconocimiento frecuente de logros."
+      },
+      "collaboration": {
+        "title": "Colaboración",
+        "percentage": "93%",
+        "content": "de nuestro equipo reporta una fuerte disposición del Liderazgo del Colegio para involucrar a los empleados en esfuerzos colectivos."
+      }
+    },
+    "talentpool": {
+      "title": "Únete a Nuestro Pool de Talento Docente",
+      "p1": "Siempre estamos buscando educadores apasionados dedicados a formar a los agentes de cambio de hoy y mañana. Si tienes excelente conocimiento de tu materia, positividad y energía, nos encantaría saber de ti.",
+      "p2": "Para unirte a nuestra base de datos de candidatos para futuras oportunidades docentes, por favor completa el formulario 'Trabaja Con Nosotros' haciendo clic en el botón a continuación.",
+      "button": "Únete a nuestro Pool de Talento Docente",
+      "imageAlt": "Aula moderna con estudiantes aprendiendo en espacios creativos"
+    },
+    "whyWork": {
+      "title": "¿Por qué trabajar en The Garzón School?",
+      "pedagogical": {
+        "title": "Desarrollarás un enfoque pedagógico único",
+        "content": "En The Garzón School, nos dedicamos a una educación innovadora, basada en investigación y personalizada. Nuestros educadores disfrutan de dos horas de tiempo de planificación colaborativa diaria para diseñar un currículo a medida y centrado en el estudiante. Nuestro currículo basado en conceptos enfatiza competencias como 'Pensar, Actuar, Relacionarse, Comunicar', fomentando el pensamiento crítico y de diseño. La integración de Alta Naturaleza y Alta Tecnología, y nuestra propuesta de campus de clase mundial Roman Bosch, crea un entorno de aprendizaje único que inspira y desafía a los jóvenes estudiantes."
+      },
+      "valued": {
+        "title": "Serás valorado y recompensado como profesional",
+        "content": "Reconocemos que el éxito de nuestro Colegio es un reflejo directo de la competencia y pasión de nuestro equipo. Para mostrar nuestro agradecimiento, ofrecemos remuneración con referencia internacional a nuestro personal. Se proporcionan asignaciones para desarrollo profesional personal para fomentar el aprendizaje y crecimiento continuo. Además, hacemos la jornada laboral más agradable con beneficios como almuerzos incluidos y café de cortesía."
+      },
+      "development": {
+        "title": "Obtendrás desarrollo profesional de clase mundial",
+        "content": "El crecimiento profesional está en el corazón de nuestra misión. Ofrecemos asignaciones para desarrollo profesional personal, alentando a nuestro personal a evolucionar, aprender y liderar continuamente en sus respectivos campos. La colaboración es integral a nuestro enfoque, y nuestro equipo disfruta de oportunidades regulares para planificación compartida e innovación. Nuestra estructura de trabajo horizontal también fomenta el aprendizaje entre pares, promoviendo un ambiente de trabajo colaborativo y enriquecedor que mejora el crecimiento y la satisfacción. Trabajar en The Garzón School significa ser parte de un ambiente que nutre el talento y fomenta el liderazgo educativo."
+      },
+      "environment": {
+        "title": "Serás parte de un ambiente de trabajo vibrante",
+        "content": "En The Garzón School, serás parte de una comunidad fundamentada en el respeto y el cuidado por los demás, donde la diversidad y la inclusión son abrazadas. Disfrutarás trabajando en un ambiente enriquecedor que prioriza el bienestar y la ética. Con una proporción de 8:1 estudiantes por educador, tendrás la oportunidad de proporcionar atención individual incomparable a los estudiantes, construyendo relaciones sólidas y contribuyendo a un movimiento educativo transformador para la región. Además, podrás disfrutar de nuestra famosa ubicación en la costa dorada, haciendo de este no solo un lugar de trabajo sino un lugar de inspiración y alegría."
+      },
+      "coast": {
+        "title": "Vivirás en la costa dorada de Uruguay",
+        "content": "Más allá de las recompensas profesionales, trabajar en The Garzón School viene con beneficios de estilo de vida que se extienden a vivir en Uruguay mismo. Conocido por su alta calidad de vida, hermosos paisajes y comunidades amigables, Uruguay ofrece un estilo de vida enriquecedor y equilibrado. Nuestro campus, en La Barra sobre la famosa costa dorada de Uruguay, es un lugar hermoso para trabajar, inspirando creatividad y conexión con la naturaleza. Junto con salarios competitivos y oportunidades de crecimiento personal, The Garzón School y Uruguay proporcionan una experiencia laboral gratificante y enriquecedora sin igual."
+      }
     }
   },
   "AccreditationPage": {

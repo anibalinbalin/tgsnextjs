@@ -1,6 +1,11 @@
+'use client'
+
 import Image from "next/image"
+import { useTranslations } from 'next-intl'
 
 export default function GalleryUniform() {
+  const t = useTranslations('MultiformPage')
+
   return (
     <section className="relative w-full bg-[#D39885] py-16 md:py-24 overflow-hidden">
       <div className="container mx-auto px-4">
@@ -10,7 +15,7 @@ export default function GalleryUniform() {
             <div className="relative aspect-[4/3] rounded-2xl overflow-hidden ">
               <Image
                 src="/assets/6-school_life/4-uniform/_DSC2118.JPG"
-                alt="Students in uniform"
+                alt={t('gallery.alt1')}
                 fill
                 className="object-cover"
               />
@@ -22,7 +27,7 @@ export default function GalleryUniform() {
             <div className="relative aspect-[3/4] rounded-2xl overflow-hidden ">
               <Image
                 src="/assets/6-school_life/4-uniform/DSC_9695.jpg"
-                alt="Student in uniform outdoors"
+                alt={t('gallery.alt2')}
                 fill
                 className="object-cover"
               />
@@ -34,7 +39,7 @@ export default function GalleryUniform() {
             <div className="relative aspect-[4/3] rounded-2xl overflow-hidden ">
               <Image
                 src="/assets/6-school_life/4-uniform/TGS-93_2.JPG"
-                alt="Student activity"
+                alt={t('gallery.alt3')}
                 fill
                 className="object-cover"
               />

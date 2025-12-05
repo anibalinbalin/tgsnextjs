@@ -3,6 +3,7 @@
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import { useState } from "react";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 import DevBadge from "../dev-badge";
 import { useCarouselNavigation } from "@/lib/hooks/useCarouselNavigation";
 
@@ -14,14 +15,17 @@ import {
   CarouselItem,
 } from "@/components/ui/carousel";
 
+type RoleKey = 'student' | 'educator' | 'parent'
+
 interface MemberItem {
   id: string;
   name: string;
-  role: string;
+  roleKey: RoleKey;
   image: string;
 }
 
 const OutdoorCarousel = () => {
+  const t = useTranslations('CommitteesPage')
   const [carouselApi, setCarouselApi] = useState<CarouselApi>();
   const { canScrollPrev, canScrollNext } = useCarouselNavigation(carouselApi);
 
@@ -29,49 +33,49 @@ const OutdoorCarousel = () => {
     {
       id: "member-1",
       name: "Luca",
-      role: "Student",
+      roleKey: "student",
       image: "/assets/6-school_life/1-tgs_committees/Portrait_Placeholder.png",
     },
     {
       id: "member-2",
       name: "Jose",
-      role: "Student",
+      roleKey: "student",
       image: "/assets/6-school_life/1-tgs_committees/jose.JPG",
     },
     {
       id: "member-3",
       name: "Juan",
-      role: "Educator",
+      roleKey: "educator",
       image: "/assets/6-school_life/1-tgs_committees/juan.JPG",
     },
     {
       id: "member-4",
       name: "Santiago",
-      role: "Educator",
+      roleKey: "educator",
       image: "/assets/6-school_life/1-tgs_committees/santiago.JPG",
     },
     {
       id: "member-5",
       name: "Ignacio",
-      role: "Parent",
+      roleKey: "parent",
       image: "/assets/6-school_life/1-tgs_committees/Portrait_Placeholder.png",
     },
     {
       id: "member-6",
       name: "Pedro",
-      role: "Parent",
+      roleKey: "parent",
       image: "/assets/6-school_life/1-tgs_committees/Portrait_Placeholder.png",
     },
     {
       id: "member-7",
       name: "Ilona",
-      role: "Parent",
+      roleKey: "parent",
       image: "/assets/6-school_life/1-tgs_committees/Portrait_Placeholder.png",
     },
     {
       id: "member-8",
       name: "Adam",
-      role: "Parent",
+      roleKey: "parent",
       image: "/assets/6-school_life/1-tgs_committees/Portrait_Placeholder.png",
     },
   ];
@@ -80,7 +84,7 @@ const OutdoorCarousel = () => {
     <section className="relative bg-[#8EB096] py-16">
       <div className="w-full">
         <h2 className="text-center text-3xl md:text-4xl font-light text-black mb-12 px-6">
-          Outdoors & Adventure Committee
+          {t('outdoors.title')}
         </h2>
         <Carousel
           setApi={setCarouselApi}
@@ -110,7 +114,7 @@ const OutdoorCarousel = () => {
                       {member.name}
                     </div>
                     <div className="text-sm md:text-base text-black/70">
-                      {member.role}
+                      {t(`roles.${member.roleKey}`)}
                     </div>
                   </div>
                 </div>

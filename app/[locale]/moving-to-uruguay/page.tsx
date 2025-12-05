@@ -1,3 +1,6 @@
+'use client'
+
+import { useTranslations } from 'next-intl'
 import MovingHero from '@/components/moving-hero'
 import MovingIntroDetail from '@/components/moving-intro-detail'
 import SoftlandingIntro from '@/components/softlanding-intro'
@@ -11,6 +14,8 @@ import NondiscDetail from '@/components/nondisc-detail'
 import Footer from '@/components/footer'
 
 export default function MovingToUruguayPage() {
+    const t = useTranslations('MovingToUruguayPage')
+
     return (
         <>
             <MovingHero />
@@ -22,9 +27,9 @@ export default function MovingToUruguayPage() {
             <Environment5Join />
             <TestimonialCard
                 name="Sam"
-                quote="Some of us were born here, many of us were drawn here — either way we're all privileged to call Uruguay home. Our students, staff and families share a deep-rooted love and respect for this proudly enterprising and progressive country."
+                quote={t('testimonial.quote')}
                 imageSrc="/assets/2_admissions/5-moving/Sam.JPG"
-                subtitle="Sam Irving, Co-Head of School"
+                subtitle={t('testimonial.subtitle')}
                 hideButton
             />
             <FallinloveFinalSection />

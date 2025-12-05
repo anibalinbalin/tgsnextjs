@@ -1,6 +1,11 @@
+'use client'
+
+import { useTranslations } from 'next-intl'
 import DevBadge from '@/components/dev-badge'
 
 export default function SchoolHoursSection() {
+    const t = useTranslations('DayPage')
+
     return (
         <section className="relative py-16 md:py-24 bg-white">
             <div className="mx-auto max-w-5xl px-6">
@@ -8,26 +13,26 @@ export default function SchoolHoursSection() {
                     {/* K2-K3 Card */}
                     <div className="bg-[#8EB096] rounded-lg p-8 md:p-12 text-center">
                         <h3 className="text-4xl md:text-5xl font-bold text-black mb-6">
-                            K2-K3
+                            {t('hours.k2k3.title')}
                         </h3>
                         <p className="text-lg md:text-xl text-black">
-                            <span className="font-semibold">Curricular Hours:</span> 09:00–12:30
+                            <span className="font-semibold">{t('hours.k2k3.curricular')}</span> {t('hours.k2k3.time')}
                         </p>
                         <p className="text-lg md:text-xl text-black mt-2">
-                            (Optional nap time until 15:00)
+                            {t('hours.k2k3.nap')}
                         </p>
                     </div>
 
                     {/* K4-S2 Card */}
                     <div className="bg-[#8EB096] rounded-lg p-8 md:p-12 text-center">
                         <h3 className="text-4xl md:text-5xl font-bold text-black mb-6">
-                            K4-S2
+                            {t('hours.k4s2.title')}
                         </h3>
                         <p className="text-lg md:text-xl text-black">
-                            <span className="font-semibold">Curricular Hours:</span> 09:00–15:00
+                            <span className="font-semibold">{t('hours.k4s2.curricular')}</span> {t('hours.k4s2.time')}
                         </p>
                         <p className="text-lg md:text-xl text-black mt-2">
-                            <span className="font-semibold">Co-Curricular Clubs:</span> 15:15–16:30
+                            <span className="font-semibold">{t('hours.k4s2.coCurricular')}</span> {t('hours.k4s2.coCurricularTime')}
                         </p>
                     </div>
                 </div>
