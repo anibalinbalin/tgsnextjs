@@ -1432,5 +1432,12 @@
       "title1": "What does TGS mean",
       "title2": "to our community?"
     }
+  },
+  "Announcement": {
+    "summerCamp": {
+      "message": "2025 Summer Learning Camp — Dec 15-19",
+      "linkText": "Sign up now",
+      "new": "New"
+    }
   }
 }

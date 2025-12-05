@@ -1,3 +1,4 @@
+import { getTranslations } from "next-intl/server";
 import HeroSection from "@/components/hero-section";
 import ContentSection from "@/components/content-5";
 import SchoolLevels from "@/components/school-levels";
@@ -11,13 +12,16 @@ import FallInLove from "@/components/fall-in-love";
 import Footer from "@/components/footer";
 import { AnnouncementBar } from "@/components/announcement-bar";
 
-export default function Home() {
+export default async function Home() {
+  const t = await getTranslations("Announcement.summerCamp");
+
   return (
     <>
       <AnnouncementBar
         id="summer-camp-2025"
-        message="2025 Summer Learning Camp — Dec 15-19"
-        linkText="Sign up now"
+        message={t("message")}
+        linkText={t("linkText")}
+        newLabel={t("new")}
         linkHref="https://forms.gle/3yATAgKbr4B727jX6"
         variant="terracotta"
       />

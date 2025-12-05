@@ -9,6 +9,7 @@ interface AnnouncementBarProps {
   message: string
   linkText?: string
   linkHref?: string
+  newLabel?: string
   variant?: 'terracotta' | 'sage' | 'wine' | 'gradient'
   className?: string
 }
@@ -18,6 +19,7 @@ export function AnnouncementBar({
   message,
   linkText,
   linkHref,
+  newLabel = 'New',
   variant = 'terracotta',
   className,
 }: AnnouncementBarProps) {
@@ -53,7 +55,7 @@ export function AnnouncementBar({
       <div className="mx-auto max-w-6xl flex items-center justify-center gap-2">
         <span className="flex items-center gap-2">
           <span className="inline-flex items-center gap-1.5 rounded-full bg-white/20 px-2 py-0.5 text-xs font-semibold uppercase tracking-wide">
-            New
+            {newLabel}
           </span>
           <span>{message}</span>
         </span>

@@ -1432,5 +1432,12 @@
       "title1": "¿Qué significa TGS",
       "title2": "para nuestra comunidad?"
     }
+  },
+  "Announcement": {
+    "summerCamp": {
+      "message": "Campamento de Verano 2025 — 15-19 Dic",
+      "linkText": "Inscríbete ahora",
+      "new": "Nuevo"
+    }
   }
 }
