@@ -26,30 +26,39 @@ export function SearchCommand({ open, onOpenChange }: SearchCommandProps) {
   const t = useTranslations('Search')
   const [query, setQuery] = useState('')
 
+  // Get translated titles for search
+  const translatedSearchData = useMemo(() => {
+    return searchData.map(item => ({
+      ...item,
+      title: t(`pages.${item.titleKey}`),
+      section: t(`sections.${item.sectionKey}`)
+    }))
+  }, [t])
+
   const fuse = useMemo(
     () =>
-      new Fuse(searchData, {
+      new Fuse(translatedSearchData, {
         keys: ['title', 'content'],
         threshold: 0.6,
         ignoreLocation: true,
         includeScore: true,
       }),
-    []
+    [translatedSearchData]
   )
 
   const results = useMemo(() => {
-    if (!query) return searchData
+    if (!query) return translatedSearchData
     return fuse.search(query).map((result) => result.item)
-  }, [query, fuse])
+  }, [query, fuse, translatedSearchData])
 
   // Group results by section
   const groupedResults = useMemo(() => {
-    const groups: Record<string, SearchItem[]> = {}
+    const groups: Record<string, (SearchItem & { title: string; section: string })[]> = {}
     for (const item of results) {
-      if (!groups[item.section]) {
-        groups[item.section] = []
+      if (!groups[item.sectionKey]) {
+        groups[item.sectionKey] = []
       }
-      groups[item.section].push(item)
+      groups[item.sectionKey].push(item)
     }
     return groups
   }, [results])
@@ -78,10 +87,10 @@ export function SearchCommand({ open, onOpenChange }: SearchCommandProps) {
       />
       <CommandList>
         <CommandEmpty>{t('noResults')}</CommandEmpty>
-        {Object.entries(groupedResults).map(([section, items]) => (
+        {Object.entries(groupedResults).map(([sectionKey, items]) => (
           <CommandGroup
-            key={section}
-            heading={section}
+            key={sectionKey}
+            heading={t(`sections.${sectionKey}`)}
             className="[&_[cmdk-group-heading]]:text-[#D39885]"
           >
             {items.map((item) => (

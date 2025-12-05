@@ -1,220 +1,222 @@
 export interface SearchItem {
   href: string
-  title: string
+  titleKey: string
   content: string
-  section: string
+  sectionKey: string
 }
 
 export const searchData: SearchItem[] = [
-  // Our School
+  // Home
   {
     href: "/",
-    title: "Home",
+    titleKey: "home",
     content: "The Garzón School homepage international school Uruguay education",
-    section: "Home"
+    sectionKey: "home"
   },
+
+  // Our School
   {
     href: "/welcome",
-    title: "Welcome from the Heads",
+    titleKey: "welcome",
     content: "Sam Leona Co-Head School welcome message leadership international education Uruguay",
-    section: "Our School"
+    sectionKey: "ourSchool"
   },
   {
     href: "/missionvisionvalues",
-    title: "Mission, Vision & Values",
+    titleKey: "missionVisionValues",
     content: "mission vision values education philosophy learning community purpose",
-    section: "Our School"
+    sectionKey: "ourSchool"
   },
   {
     href: "/team",
-    title: "Meet Our Team",
+    titleKey: "meetOurTeam",
     content: "Sam Leona Co-Head Annina Lower School Coordinator Finland Santiago Santi Technical Director Fiorella Fio Language Literacy Literature Agostina Educational Psychologist Nicolás Nico STEM Geology Otto Art Design Talia Primary Educator Jessica Jess South Africa team faculty staff teachers educators leadership",
-    section: "Our School"
+    sectionKey: "ourSchool"
   },
   {
     href: "/governance",
-    title: "Governance",
+    titleKey: "governance",
     content: "governance board directors leadership administration management",
-    section: "Our School"
+    sectionKey: "ourSchool"
   },
   {
     href: "/policies",
-    title: "Policies",
+    titleKey: "policies",
     content: "policies school rules guidelines regulations",
-    section: "Our School"
+    sectionKey: "ourSchool"
   },
   {
     href: "/press",
-    title: "Press",
+    titleKey: "press",
     content: "press news media coverage articles",
-    section: "Our School"
+    sectionKey: "ourSchool"
   },
   {
     href: "/safeguarding",
-    title: "Safeguarding",
+    titleKey: "safeguarding",
     content: "safeguarding child protection safety wellbeing security",
-    section: "Our School"
+    sectionKey: "ourSchool"
   },
   {
     href: "/work",
-    title: "Work at TGS",
+    titleKey: "workAtTGS",
     content: "work jobs careers employment opportunities positions vacancies teaching",
-    section: "Our School"
+    sectionKey: "ourSchool"
   },
 
   // Admissions
   {
     href: "/howtojoin",
-    title: "How to Join",
+    titleKey: "howToJoin",
     content: "admissions enrollment enroll join application apply process",
-    section: "Admissions"
+    sectionKey: "admissions"
   },
   {
     href: "/openmornings",
-    title: "Open Mornings",
+    titleKey: "openMornings",
     content: "open mornings visit tour campus schedule book",
-    section: "Admissions"
+    sectionKey: "admissions"
   },
   {
     href: "/spaces",
-    title: "Space Availability",
+    titleKey: "spaceAvailability",
     content: "spaces availability places spots openings class size capacity",
-    section: "Admissions"
+    sectionKey: "admissions"
   },
   {
     href: "/testimonials",
-    title: "Parent Testimonials",
+    titleKey: "parentTestimonials",
     content: "testimonials parents families reviews feedback experience stories",
-    section: "Admissions"
+    sectionKey: "admissions"
   },
   {
     href: "/moving-to-uruguay",
-    title: "Moving to Uruguay",
+    titleKey: "movingToUruguay",
     content: "moving Uruguay relocation expat expatriate visa residency",
-    section: "Admissions"
+    sectionKey: "admissions"
   },
   {
     href: "/fees",
-    title: "Tuition & Fees",
+    titleKey: "tuitionFees",
     content: "tuition fees cost pricing payment schedule financial sibling discount bursary scholarship",
-    section: "Admissions"
+    sectionKey: "admissions"
   },
   {
     href: "/softlanding",
-    title: "Soft Landing",
+    titleKey: "softLanding",
     content: "soft landing program transition integration settling",
-    section: "Admissions"
+    sectionKey: "admissions"
   },
   {
     href: "/faqs",
-    title: "FAQs",
+    titleKey: "faqs",
     content: "FAQ frequently asked questions entry exams tuition fee secondary school scholarships bursaries sibling discount academic calendar grade placement",
-    section: "Admissions"
+    sectionKey: "admissions"
   },
 
   // Learning
   {
     href: "/curriculum",
-    title: "Curriculum",
+    titleKey: "curriculum",
     content: "curriculum academics program subjects courses learning",
-    section: "Learning"
+    sectionKey: "learning"
   },
   {
     href: "/inquiry-based-learning",
-    title: "Inquiry-Based Learning",
+    titleKey: "inquiryBasedLearning",
     content: "inquiry based learning pedagogy teaching method exploration discovery",
-    section: "Learning"
+    sectionKey: "learning"
   },
   {
     href: "/wellbeing-and-inclusion",
-    title: "Wellbeing & Inclusion",
+    titleKey: "wellbeingInclusion",
     content: "wellbeing inclusion mental health support diversity equity",
-    section: "Learning"
+    sectionKey: "learning"
   },
   {
     href: "/translanguaging",
-    title: "Translanguaging",
+    titleKey: "translanguaging",
     content: "translanguaging bilingual multilingual language Spanish English",
-    section: "Learning"
+    sectionKey: "learning"
   },
   {
     href: "/educating-for-a-changing-world",
-    title: "Educating for a Changing World",
+    titleKey: "educatingChangingWorld",
     content: "educating changing world future skills innovation adaptability",
-    section: "Learning"
+    sectionKey: "learning"
   },
   {
     href: "/accreditation",
-    title: "Accreditation",
+    titleKey: "accreditation",
     content: "accreditation NEASC ANEP certification standards quality assurance",
-    section: "Learning"
+    sectionKey: "learning"
   },
 
   // Campus
   {
     href: "/learningvillage",
-    title: "Our Learning Village",
+    titleKey: "learningVillage",
     content: "learning village campus facilities buildings architecture Rosan Bosch design spaces",
-    section: "Campus"
+    sectionKey: "campus"
   },
   {
     href: "/nature",
-    title: "Nurtured by Nature",
+    titleKey: "nurturedByNature",
     content: "nature outdoors environment sustainability garden farm animals",
-    section: "Campus"
+    sectionKey: "campus"
   },
 
   // Co-Curricular
   {
     href: "/pathways",
-    title: "Pathways",
+    titleKey: "pathways",
     content: "pathways co-curricular activities clubs enrichment",
-    section: "Co-Curricular"
+    sectionKey: "coCurricular"
   },
   {
     href: "/heron",
-    title: "The Heron",
+    titleKey: "theHeron",
     content: "heron student publication newspaper magazine writing journalism",
-    section: "Co-Curricular"
+    sectionKey: "coCurricular"
   },
 
   // School Life
   {
     href: "/committees",
-    title: "TGS Committees",
+    titleKey: "committees",
     content: "committees student council parent association community involvement",
-    section: "School Life"
+    sectionKey: "schoolLife"
   },
   {
     href: "/calendar",
-    title: "Calendar & Term Dates",
+    titleKey: "calendarTermDates",
     content: "calendar term dates schedule academic year holidays breaks",
-    section: "School Life"
+    sectionKey: "schoolLife"
   },
   {
     href: "/day",
-    title: "School Day",
+    titleKey: "schoolDay",
     content: "school day schedule hours timetable routine",
-    section: "School Life"
+    sectionKey: "schoolLife"
   },
   {
     href: "/multiform",
-    title: "Multiform",
+    titleKey: "multiform",
     content: "multiform uniform dress code clothing",
-    section: "School Life"
+    sectionKey: "schoolLife"
   },
   {
     href: "/nutrition",
-    title: "Nutrition",
+    titleKey: "nutrition",
     content: "nutrition lunch meals food menu cafeteria healthy eating",
-    section: "School Life"
+    sectionKey: "schoolLife"
   },
 
-  // Donate
+  // Support
   {
     href: "/donate",
-    title: "Support TGS",
+    titleKey: "supportTGS",
     content: "donate support giving contribution endowment fund philanthropy",
-    section: "Support"
+    sectionKey: "support"
   },
 ]
