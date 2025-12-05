@@ -78,7 +78,7 @@ const TeamCarousel = ({
           }}
           className="relative left-[-1rem]"
         >
-          <CarouselContent className="-mr-4 ml-8 2xl:ml-[max(8rem,calc(50vw-700px+1rem))] 2xl:mr-[max(0rem,calc(50vw-700px-1rem))]">
+          <CarouselContent className="-mr-4 ml-8">
             {items.map((item) => (
               <CarouselItem key={item.id} className="pl-4 md:max-w-[280px]">
                 <a
